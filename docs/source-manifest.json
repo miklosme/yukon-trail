@@ -1,0 +1,32 @@
+{
+  "manifest_version": 1,
+  "inspected_on": "2026-10-04",
+  "game": "The Yukon Trail",
+  "observed_version": "1.1",
+  "provenance": {
+    "reported_source": "Internet Archive",
+    "item_url": null,
+    "download_date": null,
+    "note": "Source reported by project owner. Item metadata and separate audio-track availability have not been verified."
+  },
+  "files": [
+    {
+      "role": "source_disc_image",
+      "local_path": "original/iso/YUKONCD.ISO",
+      "size_bytes": 370939904,
+      "sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8"
+    },
+    {
+      "role": "windows_executable",
+      "path_in_iso9660": "YUKON.EXE",
+      "size_bytes": 404272,
+      "sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06"
+    },
+    {
+      "role": "resource_archive",
+      "path_in_iso9660": "YUKONRES",
+      "size_bytes": 87911322,
+      "sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6"
+    }
+  ]
+}

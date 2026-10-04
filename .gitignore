@@ -1,0 +1,24 @@
+# Supplied media and extracted proprietary content. Keep only source guidance.
+/original/*
+!/original/README.md
+*.[iI][sS][oO]
+
+# Machine-local analysis, reference runtime, captures, and generated assets.
+/local/
+/generated/
+/public/game-assets/
+
+# Build/dependency outputs if introduced by the selected runtime.
+/node_modules/
+/dist/
+/build/
+/coverage/
+__pycache__/
+*.py[cod]
+/.venv/
+
+# Local environment and operating-system files.
+.DS_Store
+.env
+.env.*
+!.env.example
