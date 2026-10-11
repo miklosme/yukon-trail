@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-04",
+  "purpose": "Local original-game opening reference; reconstructed hardware choices do not establish historical hardware or full fidelity.",
+  "host": {
+    "architecture": "arm64",
+    "os": "macOS 14.8.3 (23J220)",
+    "ui_driver": "CUA native-app control",
+    "emulator_display_launch": "Approved unsandboxed GUI launch needed for WindowServer; initial sandbox launch aborted before UI. No host security changes."
+  },
+  "emulator": {
+    "name": "DOSBox-X",
+    "version": "2026.10.01 Commit b6abbd5",
+    "variant": "ARM SDL2 64-bit",
+    "sdl_version": "2.32.10",
+    "video_backend": "cocoa/OpenGL 2.1 Metal 88.1",
+    "audio_backend": "coreaudio",
+    "source_url": "https://github.com/joncampbell123/dosbox-x/releases/tag/dosbox-x-v2026.10.01",
+    "executable": {
+      "path": "local/tools/dosbox-x/dosbox-x-sdl2/dosbox-x.app/Contents/MacOS/dosbox-x",
+      "size_bytes": 21623104,
+      "sha256": "bad60deaa4cfbe9ce3ed391f3ebc30e3d62f1008abf4cc7663d0143ba60d8f37"
+    }
+  },
+  "config": {
+    "path": "local/emulator/win31.conf",
+    "size_bytes": 708,
+    "sha256": "a7944c47ac090d8a6081135d40f6988ed145628f10faede957422e626db22792",
+    "text": "[sdl]\nautolock=false\nshowmenu=true\nmouse emulation=integration\n\n[dosbox]\ntitle=Yukon Trail reference\nmachine=svga_s3\nmemsize=16\ncaptures=/Users/miklosme/github/yukon-trail/local/evidence/reference\n\n[cpu]\ncore=normal\ncputype=pentium\ncycles=fixed 20000\nintegration device=true\n\n[sblaster]\nsbtype=sb16\nsbbase=220\nirq=7\ndma=1\nhdma=5\n\n[midi]\nmididevice=none\n\n[autoexec]\n@ECHO OFF\nMOUNT C /Users/miklosme/github/yukon-trail/local/emulator/windows\nIMGMOUNT D /Users/miklosme/github/yukon-trail/original/iso/YUKONCD.ISO -t iso\nC:\nSET BLASTER=A220 I7 D1 H5 P330 T6\nSET SOUND=C:\\SB16\nSET MIDI=SYNTH:1 MAP:E\nC:\\SB16\\DIAGNOSE /S\nC:\\SB16\\MIXERSET /P /Q\nSET PATH=%PATH%;C:\\WINDOWS\nSET TEMP=C:\\WINDOWS\\TEMP\nCD \\WINDOWS\nWIN\n",
+    "settings": {
+      "machine": "svga_s3",
+      "ram_mb": 16,
+      "cpu_type": "pentium",
+      "core": "normal",
+      "cycles": "fixed 20000",
+      "c_drive": "mounted ignored host directory local/emulator/windows",
+      "d_drive": "original/iso/YUKONCD.ISO mounted ISO before Windows",
+      "network": "No guest networking configured",
+      "external_midi": "none",
+      "mouse": "DOSBox-X pointer integration"
+    }
+  },
+  "sources": [
+    {
+      "path": "local/emulator/media/windows31-oem.rar",
+      "size_bytes": 7010750,
+      "sha256": "87d428c0378733f85d672efe964b5dd3153813791d389c8ce49d90804e6e81e6",
+      "landing_url": "https://archive.org/details/win31-oem",
+      "download_url": "https://archive.org/download/win31-oem/Windows%203.1%20%28OEM%29.rar",
+      "published": {
+        "size_bytes": 7010750,
+        "md5": "4cbaf3978500e1ba1c0a857ef5664a12",
+        "sha1": "77f11ee55650d93e6be6942639f13d1a4fe79f37",
+        "crc32": "9694bef6"
+      },
+      "published_values_matched": true,
+      "published_digest_available": true,
+      "metadata": {
+        "path": "local/evidence/reference/windows31-oem.metadata.json",
+        "size_bytes": 2910,
+        "sha256": "b10090769e49adfafa90028bdf0ac4b8ecd63a5d401394793e2ecd5db40bf089"
+      }
+    },
+    {
+      "path": "local/emulator/media/s3-trio64-win31.zip",
+      "size_bytes": 626292,
+      "sha256": "a0e347d092e71f1c05aab8abd4a796731ccdc9a508bbffe112b560483f3f90c3",
+      "landing_url": "https://vogonsdrivers.com/getfile.php?fileid=275&menustate=0",
+      "download_url": "https://vogonsdrivers.com/files/downloader.php?fileid=275",
+      "published": {
+        "size_bytes": 626292
+      },
+      "published_values_matched": true,
+      "published_digest_available": false
+    },
+    {
+      "path": "local/emulator/media/sb16awe.zip",
+      "size_bytes": 6266851,
+      "sha256": "2c8e51eb0fc080d6c7ceef1b84f8570223afec9ac7ed2cdd170302e6f4ba9844",
+      "landing_url": "https://archive.org/details/creativelabssoundblaster16awe",
+      "download_url": "https://archive.org/download/creativelabssoundblaster16awe/Creative%20Labs%20Sound%20Blaster%2016AWE.zip",
+      "published": {
+        "size_bytes": 6266851,
+        "md5": "48ad11ff657179afeb49d84a09ac57b8",
+        "sha1": "5bb0b0bbe491abc909dfe9fb684f0cb32fe12b84",
+        "crc32": "8d1cfd0f"
+      },
+      "published_values_matched": true,
+      "published_digest_available": true,
+      "metadata": {
+        "path": "local/evidence/reference/sb16awe.metadata.json",
+        "size_bytes": 4442,
+        "sha256": "62ba38ecb28e913e15a6f0d52d36da8f93636ad56ba3ec208488832186dc801d"
+      }
+    },
+    {
+      "path": "local/emulator/media/doslib-20250729-binary.tar.xz",
+      "size_bytes": 221904008,
+      "sha256": "9b58757c3de68fd72c9ce13aeb4694c8f6e07e866548acb7178e276cf1704759",
+      "landing_url": "https://github.com/joncampbell123/doslib/releases/tag/doslib-20250729",
+      "download_url": "https://github.com/joncampbell123/doslib/releases/download/doslib-20250729/doslib-20250729-110756-commit-473980b3f58d2dc4a6e614b843aba1cec4c03df1-binary.tar.xz",
+      "published": {
+        "size_bytes": 221904008,
+        "sha256": "9b58757c3de68fd72c9ce13aeb4694c8f6e07e866548acb7178e276cf1704759"
+      },
+      "published_values_matched": true,
+      "published_digest_available": true,
+      "metadata": {
+        "path": "local/evidence/reference/doslib-release.json",
+        "size_bytes": 4504,
+        "sha256": "7b72a93ab926bb7295f545ac481fa29052e40a6abeaf1cfa459dc75ef95b2049"
+      }
+    }
+  ],
+  "windows": {
+    "edition_from_archive": "English Windows 3.1 OEM, six 3.5-inch 1.44 MB floppies",
+    "observed_winver": "386 Enhanced Mode Windows Version 3.10",
+    "install": {
+      "windows_install_directory": "C:\\WINDOWS",
+      "installation_method": "Express",
+      "installation_name": "Yukon Reference",
+      "printer": "No Printer Attached",
+      "tutorial": "Skipped"
+    },
+    "source_images": [
+      {
+        "path": "local/emulator/media/windows31-images/Disk01.img",
+        "sha256": "201e2b3076d37fab145676c1afdeaec86302ade2c1dee13b04bd71d9c594d779",
+        "size_bytes": 1474560
+      },
+      {
+        "path": "local/emulator/media/windows31-images/Disk02.img",
+        "sha256": "d27b63053dc47dda05eaea8fa436fb4e7ed67517769426fe8e383ccaedffcea0",
+        "size_bytes": 1474560
+      },
+      {
+        "path": "local/emulator/media/windows31-images/Disk03.img",
+        "sha256": "9f47180d073bad3967d53beb89fcbc1bbc16aed59672de7fe7f505a94f1b188a",
+        "size_bytes": 1474560
+      },
+      {
+        "path": "local/emulator/media/windows31-images/Disk04.img",
+        "sha256": "a62f2a647a3d5cfb715612cf64a54f8028dc9fecfca26fed4ec9317a8d1a35da",
+        "size_bytes": 1474560
+      },
+      {
+        "path": "local/emulator/media/windows31-images/Disk05.img",
+        "sha256": "e5967aa2e511b44f1db6cca2f16ecce4bb3e4a8a555bd3d3fd3ed6cca85e4124",
+        "size_bytes": 1474560
+      },
+      {
+        "path": "local/emulator/media/windows31-images/Disk06.img",
+        "sha256": "755e7782e6a5c7c435ab0c457a6ee3404b1e18f38a580a8d43f315c0c11875a4",
+        "size_bytes": 1474560
+      }
+    ],
+    "floppy_copy_method": "IMGMOUNT A /absolute/path/DiskNN.img -t floppy; COPY A:\\*.* C:\\INSTALL; IMGMOUNT A -U; repeat all six, SETUP from C:\\INSTALL",
+    "extraction": "Portable official RARLAB UNRAR 7.23 test and extraction succeeded for all six images. bsdtar extraction failed on RAR filters; its incomplete output was not used."
+  },
+  "drivers": {
+    "display": {
+      "observed_selection": "S3 Trio64V 1.70.04 640x480 256",
+      "file": {
+        "path": "local/emulator/windows/WINDOWS/SYSTEM/S3TRIO.DRV",
+        "size_bytes": 237728,
+        "sha256": "ce9ae6047ddcd4e61a29cbf5a0b2f7303ef5fc4dc0d49e2485754746950ca2f0"
+      },
+      "system_ini": {
+        "display.drv": "s3trio.drv",
+        "display": "vdds3764.386",
+        "screen-size": "640",
+        "color-format": "8"
+      }
+    },
+    "sound": {
+      "package_identity": "Sound Blaster Basic Disk for DOS/Windows 3.1, SDR-31STD-1-US (Revision 1), SBBASIC.EXE release",
+      "installation": "DOS INSTALL from C:\\DRIVERS\\SB16; C:\\SB16 and explicit Windows path C:\\WINDOWS; backup existing MIDIMAP.CFG",
+      "ports": {
+        "sbbase": "220",
+        "midiport": "330",
+        "irq": 7,
+        "dma": 1,
+        "hdma": 5
+      },
+      "system_ini": {
+        "Midi": "sb16fm.drv",
+        "Midi1": "sb16snd.drv",
+        "Wave": "sb16snd.drv",
+        "Aux": "sb16snd.drv",
+        "Mixer": "sb16snd.drv"
+      },
+      "midi_mapper": "SB16 Ext Synth",
+      "midi_routing": "Creative Music Synthesizer channels1\u201310;11\u201316None",
+      "external_midi": "mididevice=none; OPL3 chosen for this reference, not established as original hardware"
+    },
+    "mouse": {
+      "package": "doslib-20250729",
+      "commit": "473980b3f58d2dc4a6e614b843aba1cec4c03df1",
+      "reason": "Standard Win3.1 relative driver left CUA and guest pointers misaligned; official DOSBox-X integration driver installed to operate controls. Guide labels it experimental.",
+      "system_ini": {
+        "mouse.drv": "dboxmpi.drv",
+        "mouse": "*vmd"
+      },
+      "selected_files": [
+        {
+          "path": "local/emulator/windows/DRIVERS/MOUSE/DBOXMPI.DRV",
+          "size_bytes": 1470,
+          "sha256": "b14b4a116567e0f780a6548dedd0cb30f8e32e62a056f2ab3594cf27a9f76b18"
+        },
+        {
+          "path": "local/emulator/windows/DRIVERS/MOUSE/OEMSETUP.INF",
+          "size_bytes": 331,
+          "sha256": "41467f488c88185ac58e22e9a108d290bd418812e9b84bccf1b6b9ed7f1a17e5"
+        }
+      ]
+    }
+  },
+  "game": {
+    "iso": {
+      "path": "original/iso/YUKONCD.ISO",
+      "size_bytes": 370939904,
+      "sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8"
+    },
+    "installer": "Program Manager File > Run D:\\SETUP.EXE",
+    "installer_choices": {
+      "directory": "C:\\MECC\\YUKON",
+      "copy_executable": true,
+      "program_group": "MECC",
+      "install_font": true,
+      "sound_card": true
+    },
+    "restart": "Windows exited cleanly and DOSBox restarted after installer reminder",
+    "installed_exe": {
+      "path": "local/emulator/windows/MECC/YUKON/YUKON.EXE",
+      "size_bytes": 404272,
+      "sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06"
+    },
+    "installed_exe_matches_original_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "resource_location": "YUKONRES was not copied to C:; original game resources remain on mounted D: ISO. No explicit resource path appears in YUKON.INI.",
+    "ini_capture": {
+      "path": "local/evidence/reference/yukon-installed.ini",
+      "size_bytes": 288,
+      "sha256": "2c2456a07ce1f39cdf00c727078e033f6bbec96a2e088c8db15016b7eee26f72"
+    },
+    "initial_ini_text": "[Game Configuration]\nAllow music=1\nAllow sound=1\nAllow voice=1\nGame Dir=C:\\MECC\\YUKON\n\n[High Score List]\nEntries=5\nName0=The Berrys\nScore0=140000\nName1=T.S. Lippy\nScore1=65000\nName2=Timothy Bell\nScore2=31000\nName3=William Kulju\nScore3=17000\nName4=Albert Fox\nScore4=5100\n",
+    "repeat_actions": [
+      "Exit game with Alt+F4; exit Windows via Alt+F4/confirm; close DOSBox at DOS prompt",
+      "Install exact guest mouse integration driver from DOS Windows SETUP; close emulator",
+      "Fresh launch final708-byte config; Enter selected MECC/The Yukon Trail icon",
+      "Observe animated title/introduction; one click within introduction (skip effect unknown)",
+      "Observe blank name prompt (previous reference name not persisted); enter lowercase reference and confirm Return",
+      "Observe journal date August23,1897, Seattle, food0 pounds, cash$350; click Done",
+      "Observe first Seattle Wharf scene with animated Dyea/Skagway/Pioneer Outfitters characters and Downtown Seattle sign; stop"
+    ],
+    "last_live_state": "DOSBox-X remains open at first playable Seattle Wharf for owner review. Native recordings stopped. No travel/purchases/further decisions/save requested."
+  },
+  "baselines": [
+    {
+      "path": "local/emulator/baselines/windows31-drivers.tar.gz",
+      "size_bytes": 14524222,
+      "sha256": "fb8014e93cba8ea69cc024512dd5b7977a6dbd84626ee5f3c51a16df53d0225a",
+      "scope": "After S3/SB16 install, before first Windows boot; no game",
+      "config": {
+        "path": "local/emulator/baselines/windows31-drivers.conf",
+        "size_bytes": 656,
+        "sha256": "55fcf291ee1909f28f639892c10e13f0a51fcfc98b0e76dc50547ba79e868032"
+      },
+      "restore_boot_tested": false
+    },
+    {
+      "path": "local/emulator/baselines/windows31-clean-pregame.tar.gz",
+      "size_bytes": 14525095,
+      "sha256": "a556a4ad8f15db8ac3225c4b01fca68e55a8bd1d0893e05c8bc2a881a0ac7623",
+      "scope": "After clean Windows boot, WINVER/TADA/MIDI Mapper inspection; before game installation, standard relative mouse",
+      "config": {
+        "path": "local/emulator/baselines/windows31-clean-pregame.conf",
+        "size_bytes": 656,
+        "sha256": "55fcf291ee1909f28f639892c10e13f0a51fcfc98b0e76dc50547ba79e868032"
+      },
+      "restore_boot_tested": false
+    },
+    {
+      "path": "local/emulator/baselines/yukon-installed-prelaunch.tar.gz",
+      "size_bytes": 14751714,
+      "sha256": "08fe352acfe5f703463e82b076a5b067c8605fbd87e2cb1477cc01f4bf8b7ef0",
+      "scope": "After original game installation and clean Windows exit, before first game launch; standard relative mouse",
+      "config": {
+        "path": "local/emulator/baselines/yukon-installed-prelaunch.conf",
+        "size_bytes": 656,
+        "sha256": "55fcf291ee1909f28f639892c10e13f0a51fcfc98b0e76dc50547ba79e868032"
+      },
+      "restore_boot_tested": false
+    },
+    {
+      "path": "local/emulator/baselines/yukon-mouse-integrated-pre-relaunch.tar.gz",
+      "size_bytes": 14752406,
+      "sha256": "86a7b6ffcbd0e09353b4a6a29efefa54a084c2ce479a17add7724e288019e6dd",
+      "scope": "After first opening/name/journal run and integration-driver installation, before fresh relaunch; no game save requested",
+      "config": {
+        "path": "local/emulator/baselines/yukon-mouse-integrated-pre-relaunch.conf",
+        "size_bytes": 708,
+        "sha256": "a7944c47ac090d8a6081135d40f6988ed145628f10faede957422e626db22792"
+      },
+      "restore_boot_tested": false
+    }
+  ],
+  "captures": [
+    {
+      "path": "local/evidence/reference/krnl386_000.png",
+      "size_bytes": 4862,
+      "sha256": "103e632539b90c2ef45a53a89390df684d8db4e4db8b8c15ba9f7f4d00737470",
+      "scope": "Windows WINVER Enhanced Mode 3.10",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_001.png",
+      "size_bytes": 6525,
+      "sha256": "aade17950ea638b0fc7db6eedc77870d5c74b8e71b974eee7685f4391e67f45b",
+      "scope": "MIDI Mapper selection",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_002.png",
+      "size_bytes": 147863,
+      "sha256": "5c91d7eb9f4841f84708f8a7dff61d3324e52bdeda2392b25542a2da06785fe3",
+      "scope": "First launch initial journal; before mouse integration",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_003.png",
+      "size_bytes": 290647,
+      "sha256": "ba8853112d153b04a0dbaaea0baf80536b780d5bd2a737669d3cc68c449fd565",
+      "scope": "Repeat launch animated opening frame",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_000.wav",
+      "size_bytes": 7077356,
+      "sha256": "fd1bb5155f9c4a1c6ff227a5f8d7e9deb4ac66d3f85eabe9f0b47019f3bc44a5",
+      "scope": "Windows TADA.WAV test",
+      "method": "DOSBox-X Capture > Record audio to WAV",
+      "pcm": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate_hz": 48000,
+        "frames": 1769328,
+        "duration_seconds": 36.861,
+        "peak_abs_sample": 4583
+      },
+      "audible_listening_performed": false
+    },
+    {
+      "path": "local/evidence/reference/krnl386_001.wav",
+      "size_bytes": 60417832,
+      "sha256": "3b98b0a5620e14dc1d7a32d95c03fa5d6fc885061681dd98a319395388cb71c8",
+      "scope": "First original-game opening/name/journal; before mouse integration",
+      "method": "DOSBox-X Capture > Record audio to WAV",
+      "pcm": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate_hz": 48000,
+        "frames": 15104447,
+        "duration_seconds": 314.67597916666665,
+        "peak_abs_sample": 8243
+      },
+      "audible_listening_performed": false
+    },
+    {
+      "path": "local/evidence/reference/krnl386_000.avi",
+      "size_bytes": 72977222,
+      "sha256": "17b8af6d30b6319d1296c5d333be2509cc98c17864ce19a05a68d22fb314e8e8",
+      "scope": "First original-game launch/opening/name/journal; before mouse integration",
+      "method": "DOSBox-X Capture > Record video to AVI; ZMBV + PCM"
+    },
+    {
+      "path": "local/evidence/reference/krnl386_004.png",
+      "size_bytes": 164747,
+      "sha256": "1b78fe7576a058f718d70207fb00bfea3b3322148fae7e82abcd0badc4f0b528",
+      "scope": "Fresh repeat launch blank Enter Your Name prompt",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_005.png",
+      "size_bytes": 147819,
+      "sha256": "a775440014ad7c06ed5f47aa58ba62b85886118b567650bc9afb509276cfbdef",
+      "scope": "Fresh repeat launch initial reference journal",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_006.png",
+      "size_bytes": 204053,
+      "sha256": "01ace7b331d5d32f43b12d79fea88adcb4d8ca68d58817638d72a06fc60864eb",
+      "scope": "First playable Seattle Wharf after journal Done; integration driver active",
+      "method": "DOSBox-X Capture > Take screenshot, native guest PNG",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "path": "local/evidence/reference/krnl386_001.avi",
+      "size_bytes": 83664466,
+      "sha256": "c008e97af585126fe7d25739e017e6f19a0b66a45295d9d7a58c54e7269897b9",
+      "scope": "Fresh process with integrated mouse: original opening, name, journal, Done and first playable Wharf",
+      "method": "DOSBox-X Capture > Record video to AVI; ZMBV + PCM",
+      "full_decode_check": "FFmpeg 8.1.2 completed with exit 0/no diagnostics; independent-repeat-capture-review.json"
+    },
+    {
+      "path": "local/evidence/reference/krnl386_002.wav",
+      "size_bytes": 69637672,
+      "sha256": "81bfcdef97d61dcdf124004f0c5783c48697666e62f9b3e60dbbb778365523b2",
+      "scope": "Fresh integrated-mouse opening run through name/journal/Wharf",
+      "method": "DOSBox-X Capture > Record audio to WAV",
+      "audible_listening_performed": false,
+      "pcm": {
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "sample_rate_hz": 48000,
+        "frames": 17409407,
+        "duration_seconds": 362.6959791666667,
+        "peak_abs_sample": 8243
+      }
+    }
+  ],
+  "validation": {
+    "observed": [
+      "Windows Enhanced Mode 3.10 boot",
+      "S3 640x480/256 driver selection",
+      "SB16 driver settings matching emulator",
+      "Windows TADA.WAV native capture with nonzero PCM",
+      "Original Yukon launch, Seattle Wharf name dialog and initial journal",
+      "Fresh Windows/DOSBox process relaunch reproduces blank name prompt and journal values",
+      "Integrated guest pointer aligns; journal Done returns to first playable Seattle Wharf",
+      "First and repeated original-game AVI captures fully decode without FFmpeg errors",
+      "Second original-game native WAV contains nonzero PCM"
+    ],
+    "unverified": [
+      "Full playthrough, saves/load, scoring, random seeds, historical hardware/timing fidelity",
+      "Host audible listening and identification of music/voice/sound in captured mix",
+      "Individual PSND resource-to-PCM comparisons",
+      "Restoration and boot of baseline tar archives"
+    ]
+  },
+  "independent_reviews": [
+    "local/evidence/reference/independent-media-review.json",
+    "local/evidence/reference/independent-preboot-baseline-review.json",
+    "local/evidence/reference/independent-audio-review.json",
+    "local/evidence/reference/independent-game-audio-review.json",
+    "local/evidence/reference/independent-game-video-review.json",
+    "local/evidence/reference/independent-repeat-capture-review.json",
+    "local/evidence/reference/independent-environment-manifest-review.json"
+  ],
+  "portable_extractor": {
+    "version": "UNRAR 7.23 arm64",
+    "source_url": "https://www.rarlab.com/rar/rarmacos-arm-723.tar.gz",
+    "archive": {
+      "path": "local/tools/unrar/rarmacos-arm-723.tar.gz",
+      "size_bytes": 670401,
+      "sha256": "68b393c000758d477fde43c955ff7542f12f76f3f5e87cdda923152fc791bd4d"
+    },
+    "host_installation": false
+  },
+  "guest_file_snapshots": [
+    {
+      "path": "local/emulator/windows/WINDOWS/SYSTEM/DBOXMPI.DRV",
+      "size_bytes": 1470,
+      "sha256": "b14b4a116567e0f780a6548dedd0cb30f8e32e62a056f2ab3594cf27a9f76b18"
+    },
+    {
+      "path": "local/emulator/windows/WINDOWS/SYSTEM/SB16SND.DRV",
+      "size_bytes": 90048,
+      "sha256": "bd4cd8a266e8950b810b55029af1ef5d7f562594846bda8d86a297d79e7d1979"
+    },
+    {
+      "path": "local/emulator/windows/WINDOWS/SYSTEM/SB16FM.DRV",
+      "size_bytes": 4048,
+      "sha256": "a41956bdc8cf1eb53e7b4a8d9e6d898164eff0b217973c1ef2838335927febe0"
+    }
+  ]
+}

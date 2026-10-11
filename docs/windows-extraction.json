@@ -1,0 +1,95 @@
+{
+  "extractor": "bsdtar 3.5.3 / libarchive 3.5.3",
+  "files": [
+    {
+      "path": "LICENSE.TXT",
+      "sha256": "46bb9dfdac11b37a9210756eedf6e032b998aba2df7307dfc0b1c0db062dda14",
+      "size_bytes": 8686
+    },
+    {
+      "path": "READINGS/CLANCY.TXT",
+      "sha256": "121eb03132d75d5617297d31e2ce32e12a790263db18b66a6df4fa49cc14daf3",
+      "size_bytes": 7876
+    },
+    {
+      "path": "READINGS/CREDITS.TXT",
+      "sha256": "8fbdc6ac884547b573356ce669cc58e032cc906df8b546019356dd6e7f6b599d",
+      "size_bytes": 3214
+    },
+    {
+      "path": "READINGS/CREMATE.TXT",
+      "sha256": "3aec2f76d149364eaa4beb8f4cda85f089d0718827499cd970a200ac21d0b764",
+      "size_bytes": 4750
+    },
+    {
+      "path": "READINGS/HARDLUCK.TXT",
+      "sha256": "6cb10d628b6a7a34dea26da9f521da7bd3874a22523d88bb27f76c65b3deb8ae",
+      "size_bytes": 3989
+    },
+    {
+      "path": "READINGS/HOUSEKP.TXT",
+      "sha256": "6ba0272b6f2a90049a0db925c57c237aad08dce642d59aa54afd2631b63517ea",
+      "size_bytes": 13378
+    },
+    {
+      "path": "READINGS/TOBUILD.TXT",
+      "sha256": "33a0a5371f08d9dbb84c327c041e0c1f8e63706bbaad13377bb9999a92023969",
+      "size_bytes": 14729
+    },
+    {
+      "path": "READINGS/TRAIL98.TXT",
+      "sha256": "5f63ddc98635ee0f60b0e026e62b72233436092f2d7f5135f4aab6e0e72bfc00",
+      "size_bytes": 7268
+    },
+    {
+      "path": "READINGS/YUKONSP.TXT",
+      "sha256": "65df6c7ae7a651b2dd4d18171a8e97613a5793360061e8b89ac3d6c43ce9f61d",
+      "size_bytes": 3062
+    },
+    {
+      "path": "README.TXT",
+      "sha256": "06349946597598f5eb66d1a54d1a44e480b1e56f3c2775c6a4d252577861feb2",
+      "size_bytes": 5435
+    },
+    {
+      "path": "YLOGO.BMP",
+      "sha256": "0033a87365c63bb8b45a3109753cf543f3ef5e93608f20c420ccfe5136921235",
+      "size_bytes": 81958
+    },
+    {
+      "path": "YUF_____.TTF",
+      "sha256": "6a2c8f3356a9affef9711a14070b5de1cac95c320799360d10c78d8df40f4f18",
+      "size_bytes": 24236
+    },
+    {
+      "path": "YUKHELP.HLP",
+      "sha256": "379f18ca9c3c2c72fa79bd4b4b1b0802f07a4ec77b8461f11b6a24b8d1e1759a",
+      "size_bytes": 63889
+    },
+    {
+      "path": "YUKON.EXE",
+      "sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+      "size_bytes": 404272
+    },
+    {
+      "path": "YUKONCD.INF",
+      "sha256": "5717b561682bb430e5ca3dae3f6440e8710a2ea5af033c0c39e66ba67cdcd1ab",
+      "size_bytes": 16285
+    },
+    {
+      "path": "YUKONRES",
+      "sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+      "size_bytes": 87911322
+    }
+  ],
+  "listing": {
+    "line_count": 489,
+    "local_path": "local/evidence/iso9660-listing.txt",
+    "sha256": "ecb1133f90edf41835fa6d6d8a47cec5cdab50c1535d8dd229c668c403e1de15"
+  },
+  "manifest_version": 1,
+  "output_root": "original/extracted/windows",
+  "scope": "Selected full-game Windows files; not a complete installer or demo extraction.",
+  "source_iso_path": "original/iso/YUKONCD.ISO",
+  "source_iso_sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8"
+}

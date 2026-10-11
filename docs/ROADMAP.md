@@ -2,6 +2,32 @@
 
 The target is a faithful game that plays well on the web. Milestones are ordered by what they establish. Static analysis and reference-runtime setup can advance independently; an unavailable runtime does not prevent all progress, but it does prevent claiming behavioral fidelity.
 
+Current evidence, 2026-10-04: Windows source extraction and read-only Mac inventory
+are reproducible; the supplied Archive item matches the disc's published
+checksums. Its public listing has no separate tracks or Windows system media.
+Windows 3.1 OEM now boots in DOSBox-X with S3/SB16 drivers; the original game
+reaches its Seattle opening journal, with native captures. Pointer integration
+and repeat launch pass, and the journal dismisses to Seattle Wharf. Its separately provisioned system media and
+reconstructed configuration are recorded in `REFERENCE.md`.
+A fresh blind original-game run subsequently completed the Chilkoot journey,
+reached Dawson, staked a claim, mined, and returned home to the newspaper ending
+and Claims of Fame (Stampeder, 14,586). Choices and native ending evidence are in
+`BLIND-PLAYTHROUGH.md`. This is one original run, without alternate-path coverage
+or a port comparison.
+A persistent NE analysis project and the M1 archive-index reader are available;
+original open/index/lookup/read paths have been traced and annotated, with a
+static lookup comparison covering every source key.
+Selected CBMP1/2 now decode from unchanged archive bytes and the executable
+palette; all 679 integer-reader calls match original code and CBMP2's6,230 border
+pixels match a native ending capture. Full compositing and image variants remain
+open. [formats/CBMP.md](formats/CBMP.md) records this bounded proof.
+Sequential PSND1 now yields source-established mono 8-bit 22,050 Hz samples:
+all 1,278 integer calls and81,792 converted bytes match original routines.
+Live sound mapping/comparison is still pending; see [formats/PSND.md](formats/PSND.md).
+M0 source/reference checkpoint evidence is recorded; M1 remains incomplete
+without completed image/sound consumers/decoding, a behavioral comparison, and the
+runtime decision. See [STATUS.md](STATUS.md) for actual checks and next actions.
+
 ## M0 — Reproducible source and reference environment
 
 Verify source hashes; extract Windows files into a durable local location; inventory the Mac partition without discarding resource forks. Record the Internet Archive item and track inventory when available. Establish a working original Windows installation in an emulator, starting with evaluation of DOSBox-X plus Windows 3.1.

@@ -5,16 +5,51 @@
   "observed_version": "1.1",
   "provenance": {
     "reported_source": "Internet Archive",
-    "item_url": null,
+    "item_url": "https://archive.org/details/YUKONCD",
+    "item_identifier": "YUKONCD",
+    "metadata_url": "https://archive.org/metadata/YUKONCD",
+    "files_xml_url": "https://archive.org/download/YUKONCD/YUKONCD_files.xml",
+    "verified_on": "2026-10-04",
     "download_date": null,
-    "note": "Source reported by project owner. Item metadata and separate audio-track availability have not been verified."
+    "published_file_count": 8,
+    "listed_disc_files": ["YUKONCD.ISO"],
+    "separate_cd_audio_files_listed": false,
+    "cue_or_bin_files_listed": false,
+    "reference_os_media_listed": false,
+    "metadata_snapshots": [
+      {
+        "local_path": "local/evidence/archive/YUKONCD.metadata.json",
+        "size_bytes": 2944,
+        "sha256": "5911ecc6da195e06653499c5bed8bbdaa292ddcf8139afdbf219abe45ca4af37"
+      },
+      {
+        "local_path": "local/evidence/archive/YUKONCD_files.xml",
+        "size_bytes": 2414,
+        "sha256": "f4df1ef1d09ec18205071dafec72226bd453051ebd4f1097ede2840b94dbf32d"
+      }
+    ],
+    "note": "Item URL supplied by project owner. Local ISO size, MD5, SHA-1 and CRC32 match published item metadata; recorded local SHA-256 is unchanged. JSON and XML file lists agree. No separate CD audio or reference OS media is listed in this item snapshot; game music completeness and the owner's download date remain unknown."
   },
   "files": [
     {
       "role": "source_disc_image",
       "local_path": "original/iso/YUKONCD.ISO",
       "size_bytes": 370939904,
-      "sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8"
+      "sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8",
+      "md5": "b601aede7a8ab3b98d4f619c157a6f35",
+      "sha1": "b79512d26f92effcfa8ec93a1264942ace1ad158",
+      "crc32": "b1d531a5",
+      "remote_identity": {
+        "name": "YUKONCD.ISO",
+        "url": "https://archive.org/download/YUKONCD/YUKONCD.ISO",
+        "format": "ISO Image",
+        "size_bytes": 370939904,
+        "md5": "b601aede7a8ab3b98d4f619c157a6f35",
+        "sha1": "b79512d26f92effcfa8ec93a1264942ace1ad158",
+        "crc32": "b1d531a5",
+        "verified_on": "2026-10-04",
+        "all_published_identity_fields_match": true
+      }
     },
     {
       "role": "windows_executable",

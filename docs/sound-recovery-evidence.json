@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-04",
+  "decoded": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "channels": 1,
+    "chunk_metadata_sha256": "ba0d71b814ba4e602527475e0eb2c8575f56207a71fe4f889468dd608e65e765",
+    "encoded_values_sha256": "9ab91c8cd6a03fb6bf88992cd4ba7f0bc204046c00becccb3df53a8825f4b09d",
+    "integration_order": 2,
+    "length": 45300,
+    "offset": 12462669,
+    "packed_bits": 361423,
+    "payload_sha256": "a671dfae45ada8f46ea6a9d8ce0042d53234106ec6c479e60590ca8f55b1fa40",
+    "pcm_sha256": "20becd1623eaa00da9bfdd8cb2808aee7375718c17243d22323b642bb4058d7f",
+    "record_metadata_sha256": "003265c13ff47f3c4c9683e3b36e4403293417b5b80e474e87235ce06577af59",
+    "resource": "PSND:1",
+    "sample_bits": 8,
+    "sample_count": 81792,
+    "sample_rate": 22050,
+    "scope": "sequential PSND:1 only; index metadata retained, seek/loop semantics unimplemented",
+    "wav_sha256": "1ef6c8fb3a86e8d959b3c405218b026fe0025948928af0af4286320da1b9d115"
+  },
+  "exploratory_opening_search": {
+    "analysis_rate": 4000,
+    "captures": [
+      {
+        "normalized_correlation": 0.08934807769539081,
+        "path": "local/evidence/reference/krnl386_001.wav",
+        "peak_seconds": 30.20825,
+        "sha256": "3b98b0a5620e14dc1d7a32d95c03fa5d6fc885061681dd98a319395388cb71c8"
+      },
+      {
+        "normalized_correlation": 0.08835068799785767,
+        "path": "local/evidence/reference/krnl386_002.wav",
+        "peak_seconds": 33.54625,
+        "sha256": "81bfcdef97d61dcdf124004f0c5783c48697666e62f9b3e60dbbb778365523b2"
+      }
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "numpy_version": "2.3.5",
+    "scope": "exploratory peaks; no match or identity confirmation",
+    "template_sha256": "1ef6c8fb3a86e8d959b3c405218b026fe0025948928af0af4286320da1b9d115"
+  },
+  "live_resource_mapped_playback_verified": false,
+  "native_comparison": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "final_state": [
+      128,
+      129,
+      128,
+      128
+    ],
+    "integer_calls": 1278,
+    "integer_unique_calls": 1278,
+    "mismatches": 0,
+    "native_pcm_sha256": "20becd1623eaa00da9bfdd8cb2808aee7375718c17243d22323b642bb4058d7f",
+    "payload_sha256": "a671dfae45ada8f46ea6a9d8ce0042d53234106ec6c479e60590ca8f55b1fa40",
+    "resource": "PSND:1",
+    "sample_bytes_compared": 81792,
+    "scope": "original integer readers and NE3:9b34 converter; not whole processor or live playback",
+    "synthetic_orders_checked": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "unicorn_version": "2.1.4"
+  },
+  "saved_annotations": {
+    "fresh_process_reopen_identical": true,
+    "image_annotations_unchanged": true,
+    "records": 30,
+    "sha256": "932016061ab71b29fbadd04d276c594f1c9948187abc8fef251a72e0a415bab7"
+  }
+}

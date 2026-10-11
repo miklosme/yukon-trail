@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-04",
+  "decoded": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "palette_file_offset": "0x618e0",
+    "palette_rgb_sha256": "9d51b54e203cc16dc9d5ccc7c6302baf945aecc9c5ac0b9a9ab1c8febf49297f",
+    "resources": {
+      "CBMP:1": {
+        "frames": [
+          {
+            "compressed_length": 1828,
+            "frame": 0,
+            "height": 117,
+            "indices_sha256": "57a52e54ce682fc59273e425b110704c725228b0b9aa8f4237b4dfd31b6a8d0e",
+            "payload_offset": 14,
+            "png": "CBMP-1-frame-0.png",
+            "png_sha256": "e6b339a330d95a9f93f71f71ad1d1071112ec0ea2b8896c8e2b958e551bdc95e",
+            "width": 557
+          }
+        ],
+        "length": 1842,
+        "offset": 478678,
+        "sha256": "f2cccca25cfb50c6ac43e951c5bf9d91b9008ca4b84bc0071ef22f29db95d55c"
+      },
+      "CBMP:2": {
+        "frames": [
+          {
+            "compressed_length": 1854,
+            "frame": 0,
+            "height": 117,
+            "indices_sha256": "087ff03ccda0528f61a6b68e75fb7fabdd71da837784989ecd03c934260f1684",
+            "payload_offset": 14,
+            "png": "CBMP-2-frame-0.png",
+            "png_sha256": "4ac5e543d6309f2c6f9a0d614b2b4d72a968ad9b0a42d1976334d77393addd79",
+            "width": 557
+          }
+        ],
+        "length": 1868,
+        "offset": 3738197,
+        "sha256": "650cd9a29758cde01438005bfaa961f3f95dbc9fef57fe90a9d8ef817f371de4"
+      }
+    }
+  },
+  "native_integer_comparison": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "calls": 679,
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "mismatches": 0,
+    "native_code": "NE 0001:0062 and 0001:0129; file base 0x460",
+    "resources": {
+      "CBMP:1": {
+        "frames": 1,
+        "native_calls": 343,
+        "sha256": "f2cccca25cfb50c6ac43e951c5bf9d91b9008ca4b84bc0071ef22f29db95d55c"
+      },
+      "CBMP:2": {
+        "frames": 1,
+        "native_calls": 336,
+        "sha256": "650cd9a29758cde01438005bfaa961f3f95dbc9fef57fe90a9d8ef817f371de4"
+      }
+    },
+    "unicorn_version": "2.1.4",
+    "unique_calls": 165
+  },
+  "original_border_comparison": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "border_pixels": 6230,
+    "capture_origin": [
+      50,
+      234
+    ],
+    "capture_sha256": "5817f35362f2ddced25f9ec93952c9a11ac89a587a9c4945b1c682baa605c6ec",
+    "examples": [],
+    "excluded_exterior": 11610,
+    "excluded_interior": 47329,
+    "mismatches": 0,
+    "palette_conversion": "six-bit DAC, high-bit replication",
+    "payload_sha256": "650cd9a29758cde01438005bfaa961f3f95dbc9fef57fe90a9d8ef817f371de4",
+    "resource": "CBMP:2"
+  },
+  "remaining": [
+    "PSND sample decoding and playback parameters",
+    "gameplay operation recovery/comparison",
+    "transparency/clipping across resources",
+    "remaining CBMP variants",
+    "runtime decision"
+  ],
+  "saved_annotations": {
+    "fresh_process_reopen_identical": true,
+    "records": 40,
+    "sha256": "4c991e0edc75ec5e4d73751b3ca64400f063af8ae854b893b072b85ae526fa5a"
+  },
+  "scope": "CBMP:1 and CBMP:2; positive geometry; algorithm3 flags1; native integer readers and CBMP:2 border only"
+}

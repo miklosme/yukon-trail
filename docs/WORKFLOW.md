@@ -15,7 +15,7 @@ generated/                    converted resources and generated manifests
 public/game-assets/           optional future staged deployment assets
 ```
 
-These are directory conventions; most directories do not exist yet. Put small, durable interpretation notes and evidence metadata in `docs/`. Do not rely exclusively on ignored files or temporary paths for findings needed by another agent.
+These are directory conventions. Put small, durable interpretation notes and evidence metadata in `docs/`. Do not rely exclusively on ignored files or temporary paths for findings needed by another agent.
 
 ## Reproduce the Windows extraction
 
@@ -37,15 +37,72 @@ shasum -a 256 original/extracted/windows/YUKON.EXE \
   original/extracted/windows/YUKONRES
 ```
 
-The initial investigation used `bsdtar` for these selected files. This is not yet a full installer extraction or a Mac extraction procedure. Avoid overwriting an existing working extraction; use a new location if it contains changed files. Inspect the archive listing before expanding extraction scope.
+The durable selected extraction was reproduced on 2026-10-04 with `bsdtar`
+3.5.3 / libarchive 3.5.3. [Its metadata manifest](windows-extraction.json)
+records all 16 extracted files, their sizes/hashes, and the 489-line ISO listing
+identity. Preserve the listing locally:
+
+```sh
+mkdir -p local/evidence
+LC_ALL=C bsdtar -tf original/iso/YUKONCD.ISO > local/evidence/iso9660-listing.txt
+python3 tools/verify_source_files.py > local/evidence/windows-direct-verification.json
+```
+
+The verifier first checks the ISO size/SHA-256 and extraction provenance. It
+then compares each of the 16 selected extracted files with its versioned
+identity and a fresh `bsdtar -xOf` stream directly from the disc. This is
+independent of the resource reader and extracted copies; it uses the same
+libarchive container parser as extraction, so it is not independent validation
+of ISO parsing. It is read-only and emits JSON only after
+every check succeeds; check its exit status before using a redirected report.
+`bsdtar` must be available on `PATH`; version 3.5.3 was used here.
+Ten synthetic tests use a tiny independently written tar container, not game
+bytes or a claim about ISO parsing. They exercise source/extraction drift,
+inconsistent metadata, missing entries, and ambiguous/duplicate/pattern paths.
+Selected paths containing glob/escape characters fail explicitly because
+`bsdtar` otherwise interprets them as patterns rather than exact entry names.
+
+The owner-supplied Archive item and published checksum/file inventory are
+verified in [SOURCE-PROVENANCE.md](SOURCE-PROVENANCE.md). The local ISO matches
+its published size, MD5, SHA-1 and CRC32; the local SHA-256 remains the stronger
+recorded identity. No ISO was downloaded again.
+
+This is not a full installer extraction or a Mac extraction procedure. Avoid
+overwriting an existing working extraction; use a new location if it contains
+changed files. Inspect the archive listing before expanding extraction scope.
+The reference setup mounts the full ISO for the installer; see
+[actual inventory and proposed setup](REFERENCE.md). Mac inventory and the
+fork-preserving extraction recommendation are in [MAC-SOURCE.md](MAC-SOURCE.md).
 
 ## Reference runtime
 
-Inventory the emulator and system material already available before installing anything. [DOSBox-X’s Windows 3.1 guide](https://dosbox-x.com/wiki/Guide:Installing-Windows-3.1x) is the initial reference; neither DOSBox-X compatibility with this exact disc nor a working setup has been demonstrated here.
+Inventory the emulator and system material already available before installing anything. [DOSBox-X’s Windows 3.1 guide](https://dosbox-x.com/wiki/Guide:Installing-Windows-3.1x) is the initial setup reference; this project's demonstrated environment is recorded below.
 
-Record emulator version, system version, display driver/resolution/color depth, sound configuration, mounted paths/disc identity, installation choices, and launch steps. Separate full-game and demo observations. Preserve a known baseline save or snapshot and document how to restore it. Capture the original’s behavior before writing the equivalent rule.
+Record emulator version, system version, display driver/resolution/color depth, sound configuration, mounted paths/disc identity, installation choices, and launch steps. Separate full-game and demo observations. Preserve a known baseline save or snapshot and document how to restore it. Capture the original's behavior before writing the equivalent rule.
+
+DOSBox-X has now been staged in ignored `local/tools/dosbox-x/` and launched.
+Separately provisioned Windows 3.1 OEM boots in 386 Enhanced Mode with S3/SB16
+drivers; Windows waveform output has a nonzero native PCM capture. Its media,
+drivers, reconstructed configuration, backups and actual checks are recorded
+in [REFERENCE.md](REFERENCE.md). The original game's opening journal rendered
+and native video/audio capture passed integrity checks. Win31 mouse integration
+allows reliable pointer control, and a fresh process repeated the opening and
+journal dismissal to Seattle Wharf. A later
+[blind original-game run](BLIND-PLAYTHROUGH.md) reached a return-home ending and
+Claims of Fame. Other paths and original-versus-port comparison remain unverified.
 
 ## Binary analysis loop
+
+Selected image decoding and its original-code/native-pixel comparisons reproduce
+through [formats/CBMP.md](formats/CBMP.md). The decoder and synthetic tests use
+the standard library; the optional original-code verifier uses locally staged
+Unicorn 2.1.4. Keep this analysis dependency and generated PNGs out of Git.
+Read [AUDIO-EVIDENCE.md](AUDIO-EVIDENCE.md) for the current sound recovery leads.
+Sequential sound decoding, original-code comparison and its live mapping gap
+are documented in [formats/PSND.md](formats/PSND.md). Optional waveform searches
+use existing bundled NumPy and FFmpeg; they do not automatically establish
+resource identity. Image and sound CLI exports preserve source provenance and
+reject unsupported formats rather than substituting guessed data.
 
 1. Verify input identity and import `YUKON.EXE` into Ghidra using its NE support. Check segmentation, imports, entry points, and address mapping before trusting pseudocode.
 2. Configure a Ghidra integration only after inspecting its setup and persistence behavior. Confirm that saved names/types survive reopening. Evaluate the options in `RESEARCH.md`; they are not installed dependencies.
@@ -63,6 +120,27 @@ The first importer should accept an explicit input path and output directory, ve
 Validate every read and payload range. Test truncation, invalid counts/offsets, duplicate keys, and malformed payloads with small synthetic fixtures. Check valid real inputs locally without requiring the original archive in public CI. Do not assume index byte order determines payload byte order.
 
 Develop a human-readable format specification before introducing a schema generator. [Kaitai Struct](https://kaitai.io/) can express a recovered format; it does not discover its semantics. Record palette selection, transparency, orientation, sample format/rate, and similar parameters from evidence rather than visual/audio guesswork.
+
+### Implemented archive inventory
+
+The [YUKONRES index specification](formats/YUKONRES.md) and
+`tools/yukonres.py` implement source-verified inventory and explicit raw exports.
+No payloads are decoded. Python 3.14.5 was used locally; the tool uses only the
+standard library and no application runtime has been selected.
+
+```sh
+python3 tools/yukonres.py original/extracted/windows/YUKONRES \
+  --output-dir generated/yukonres-index \
+  --extract CBMP:1 --extract PSND:1 --extract CSTR:500 \
+  --extract SCRP:1000 --extract TREE:39
+python3 -m unittest discover -s tests -v
+```
+
+Use a fresh output directory for another invocation; the tool refuses existing
+content. It verifies the archive against `docs/source-manifest.json` before
+creating output. Synthetic tests require no source media. Keep exported payloads
+and generated manifests ignored; only specifications, tools, tests, and small
+source metadata belong in Git.
 
 ## Evidence record template
 

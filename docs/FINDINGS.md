@@ -8,7 +8,25 @@ Use **observed** for bytes, file metadata, or behavior directly checked; **infer
 
 **Observed:** `original/iso/YUKONCD.ISO` is 370,939,904 bytes (about 354 MiB). Its ISO9660 volume label is `YUKONCD`. `bsdtar` can list and extract the Windows-visible files. An Apple partition map contains an `Apple_HFS` partition starting at block `0x5b142`, with length `0x55810` in 512-byte blocks. At partition start plus 1,024 bytes, the HFS master directory block has signature `BD` and volume name `Yukon Trail`.
 
-**Unknown:** contents of the Mac filesystem, preservation of its forks, exact relationship between Mac and Windows editions, and whether the download represents all original disc tracks. The owner reports Internet Archive as the source; the item URL and download date were not provided.
+**Observed in the follow-up inventory:** the classic HFS catalog contains 170
+files and 24 folders including the root. Ninety-nine files have nonempty resource
+forks. The Mac `YUKONRES` data fork (CNID 185, inline extent `(721, 21463)`,
+absolute ISO offset `0xb8fb000`, length 87,911,322) has the same SHA-256 as the
+Windows archive. The Mac application has distinct data and resource forks.
+See [the bounded read-only inventory and exact evidence](MAC-SOURCE.md).
+No Mac forks have been extracted and no Mac game has run.
+
+**Observed in source verification:** the owner supplied
+`https://archive.org/details/YUKONCD`. The local ISO matches the item entry's
+size, MD5, SHA-1 and CRC32, and its recorded SHA-256 is unchanged. JSON and XML
+file lists agree on eight files, including one ISO and no separate CUE/BIN,
+audio tracks or Windows installation media. The source provenance and snapshot
+hashes are recorded in [SOURCE-PROVENANCE.md](SOURCE-PROVENANCE.md).
+
+**Unknown:** behavioral/platform differences between the executables, successful
+fork restoration, and completeness relative to a physical original disc. The
+owner's download date is still unknown; the Archive added date is not a download
+date.
 
 The local `hdiutil imageinfo` attempt failed with “Device not configured.” That did not prevent ISO9660 reads through `bsdtar`; it is not evidence that the image is corrupt.
 
@@ -27,7 +45,12 @@ The local `hdiutil imageinfo` attempt failed with “Device not configured.” T
 | `DOSDEMO/`, `WINDEMO/` | Multiple separate products and a Yukon demo | Possible comparison material; keep separate from full game |
 | `AOL/` and registration/setup utilities | Bundled unrelated software | Outside the port’s scope |
 
-**Observed:** the executable imports `KERNEL`, `USER`, `WIN87EM`, `COMMDLG`, and `MMSYSTEM`. Strings include wave/MIDI filename patterns and `waveaudio`. Readable material covers travel, inventory, health, events, dialogue, and claims.
+**Observed:** the executable imports `KERNEL`, `GDI`, `USER`, `WIN87EM`,
+`COMMDLG`, and `MMSYSTEM`. The raw NE import-table follow-up identified `GDI`,
+omitted from the initial notes. Strings include wave/MIDI filename patterns and
+`waveaudio`. Readable material covers travel, inventory, health, events,
+dialogue, and claims. Persistent-analysis setup and mapping evidence are recorded
+in [ANALYSIS.md](ANALYSIS.md).
 
 **Inferred:** the port will need native-code analysis as well as resource extraction. No source project was found in the inspected Windows tree. These findings do not establish the original language/compiler or eliminate the possibility of data-driven gameplay.
 
@@ -57,7 +80,29 @@ Each 14-byte resource entry:
 | `+6` | 4 | Payload byte length, u32 |
 | `+10` | 4 | Absolute payload file offset, u32 |
 
-Validation performed: all payload intervals begin at or after the index end and end within the archive; every `(tag, ID)` pair is unique; each group’s indicated slice contains its advertised tag; record counts sum to 2,522. This does **not** establish payload semantics, absence of overlapping payloads, or parser behavior for other editions and damaged files.
+Validation performed: all payload intervals begin at or after the index end and
+end within the archive; every `(tag, ID)` pair is unique; each group's indicated
+slice contains its advertised tag; record counts sum to 2,522. The reusable
+reader subsequently confirmed contiguous group coverage and no overlapping
+positive-length payloads. `TREE:39` (index entry `0x7058`) has length zero and
+payload offset `0x52a96df`; its meaning remains unknown.
+
+The [format specification and reader verification](formats/YUKONRES.md) record
+23 synthetic tests and byte-preserving exports of five independently located
+records. These checks establish index parsing and raw export, not payload
+semantics or support for other editions.
+
+**Observed static consumer evidence:** NE `0001:73fa` (Ghidra `1000:73fa`,
+source offset `0x785a`) reads a `0x58` header, group-count × 8 bytes and
+record-count × 14 bytes, then swaps the same numeric fields. NE `0001:75fe`
+(`1000:75fe`, source `0x7a5e`) searches raw tags and unsigned 16-bit IDs;
+counts/bounds use signed 16-bit operations. Its disassembly-derived search
+matches all 2,522 physical source ordinals and 43 absent-key checks. NE
+`0001:7818` reads the selected payload using entry `+0a` as absolute offset and
+`+06` as length, then calls unresolved `0001:8462`. A raw export is therefore
+not yet established as the final image/audio consumer buffer. Details, source
+hashes, callers, saved types/names and reopen checks are in
+[ARCHIVE-CONSUMERS.md](ARCHIVE-CONSUMERS.md).
 
 | Type | Count | Type | Count | Type | Count |
 | --- | ---: | --- | ---: | --- | ---: |
@@ -84,7 +129,112 @@ Names such as `CBMP`, `PSND`, `SCNE`, and `SCRP` suggest images, sound, scenes, 
 
 **Observed:** the disc README describes bonus music playable from tracks 2–18, with track 1 holding computer data. The inspected source is one ISO file. It also explicitly describes one track as music that did not appear in the CD-ROM game.
 
-**Unknown:** whether separate track files are available from the same archive item, whether game playback uses CD-DA, and which music is embedded in `YUKONRES` or other resources. Do not report all game music as missing based only on the ISO extension. Check the source item and trace original music playback.
+**Observed:** the supplied Archive item currently lists no separate audio files
+or CUE/BIN. This settles that item's public file inventory only. The executable
+contains waveform/sequencer filename and MCI device strings and imports MCI and
+waveform output APIs; exact identities, offsets and limits are in
+[AUDIO-EVIDENCE.md](AUDIO-EVIDENCE.md).
+
+**Unknown:** whether any game path uses CD-DA and which resources contain music.
+Do not report game music as missing based on the ISO extension or bonus-track
+list. Trace the original MCI/waveout callers and validate playback in the original.
+
+## Observed original opening
+
+**Observed on 2026-10-04:** the verified full-game `YUKON.EXE` (SHA-256
+`9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06`)
+runs unmodified in DOSBox-X 2026.10.01 with Windows Version 3.10 in 386 Enhanced
+Mode. The installed copy matches the disc; resources remain on the mounted,
+unchanged ISO. The reconstructed system/driver configuration is recorded in
+[REFERENCE.md](REFERENCE.md).
+
+After entering `reference` in the name dialog, the opening journal displays
+August 23, 1897, arrival in Seattle, 0 pounds of food and $350 cash. Evidence:
+native `local/evidence/reference/krnl386_002.png`, 147,863 bytes, SHA-256
+`5c91d7eb9f4841f84708f8a7dff61d3324e52bdeda2392b25542a2da06785fe3`.
+The first-launch AVI passes full FFmpeg decode; the separate WAV has nonzero
+emulator PCM output. These record the observed opening, not recovered asset
+formats or a port comparison. Capture output rates are not PSND source rates.
+
+**Unknown at the opening checkpoint:** broader interaction/progression, other
+paths, and audio completeness. The later blind run below adds one observed path.
+The standard Windows mouse driver exposed a host/guest pointer mismatch in UI
+automation; the official DOSBox-X Win31 integration driver fixes it as a
+reference-platform input configuration, without changing the game executable.
+A fresh emulator process repeated the name/journal sequence, and Done dismissed
+the journal to Seattle Wharf. Native scene evidence:
+`local/evidence/reference/krnl386_006.png`, 204,053 bytes, SHA-256
+`01ace7b331d5d32f43b12d79fea88adcb4d8ca68d58817638d72a06fc60864eb`.
+No purchases, travel, save/load or playthrough were performed during setup.
+
+## Observed blind original-game ending
+
+**Observed on 2026-10-04:** a fresh subagent run named `blind` used the same
+unmodified executable and reference configuration, with no walkthrough or
+recovered-behavior guidance. It completed Seattle preparation, the Yosemite
+voyage to Dyea, Chilkoot travel with a customs turnback for food, boat building
+at Lake Bennett, three rafting courses, Dawson prospecting, and mining on No. 5
+Below Bonanza Creek. The agent then followed the game's winter instructions to
+cash in and head home. One ordinary save was made; none was loaded.
+
+The game displayed a congratulatory dialogue, then the newspaper headline
+“Klondike Pair Reaches Dawson / They Find Enough Gold to Pay for Passage Home.”
+Root independently inspected the native PNGs:
+
+- `local/evidence/blind-playthrough-2026-10-04/12-ending-dialogue.png`:
+  155,767 bytes; SHA-256
+  `5817f35362f2ddced25f9ec93952c9a11ac89a587a9c4945b1c682baa605c6ec`.
+- `local/evidence/blind-playthrough-2026-10-04/13-ending-newspaper.png`:
+  207,317 bytes; SHA-256
+  `cecde54131ce2d57d0985d6b9ba0e7b8e293d16558fb6ad017ec97fc29bfacb7`.
+- `local/evidence/blind-playthrough-2026-10-04/14-final-score.png`:
+  151,678 bytes; SHA-256
+  `dc29799f288ab9e3a2afd3a121ca348003884bdeb084978f0fdd5b7a5e75c902`.
+  Displays `blind`, `Stampeder`, `14586`, `Jul 6, 1898`.
+- `local/evidence/blind-playthrough-2026-10-04/15-new-run-prompt.png`:
+  164,977 bytes; SHA-256
+  `1c3b5764d02734b0787a1f23da9de66d906103986d1f1fd39661933207662282`.
+  After Claims of Fame Done, displays fresh name entry at Seattle Wharf.
+
+[BLIND-PLAYTHROUGH.md](BLIND-PLAYTHROUGH.md) records the detailed choices,
+Claims of Fame result, capture identities, and continuation check. The ISO,
+resource archive, installed executable, and configuration still match the
+recorded SHA-256 identities. All three voyage, White Horse rafting, and
+mining/ending AVIs passed
+full FFmpeg decode; independent sample-frame checks are scoped separately from
+the agent's live observations.
+
+**Unknown:** alternative routes/partners/claims/endings, exact random seeds,
+timing and collision causes, and save/load correctness. This one finished
+original run does not establish a recovered rule model or port fidelity.
+
+## Selected image recovery
+
+**Observed:** the original CBMP consumers expose little-endian frame records
+and algorithm3 packed blocks, using MSB-first integers and8×8 column-major
+tiles. An embedded executable palette is loaded by NE `0001:5eb4` from custom
+type 2000/ID100 at file `0x618e0`. Both CBMP1 and CBMP2 decode to 557×117 and
+consume their exact declared bit/expanded lengths. All 679 integer-reader calls
+match original NE `0001:0062/0129` output bytes and returned cursor.
+CBMP2's6,230 border pixels match the native ending dialogue at `(50,234)`
+after the explicit palette conversion described in
+[formats/CBMP.md](formats/CBMP.md). Exterior/interior regions were excluded;
+transparency, text and broader image variants remain unvalidated. Metadata is
+in [bitmap-recovery-evidence.json](bitmap-recovery-evidence.json).
+
+**Observed static postread scope:** NE `0001:8462` searches a tag/pattern registry
+and leaves missing tags unchanged. Startup registers17 types, excluding CBMP
+and PSND. The full interpreter remains unresolved for registered types; this
+does not establish byte preservation for all resources. Detailed addresses and
+source hashes are in [ARCHIVE-CONSUMERS.md](ARCHIVE-CONSUMERS.md).
+
+**Observed:** sequential PSND1 conversion and source playback parameters are
+now recovered: mono 8-bit 22,050 Hz, second-order byte integration. All 1,278
+integer calls and81,792 converted samples/final state match original routines.
+[formats/PSND.md](formats/PSND.md) records exact source addresses, getter bindings
+and scope. **Unknown:** live resource-to-scene mapping/comparison, sound
+seek/loop semantics, other variants, and one recovered gameplay operation.
+M1 remains incomplete.
 
 ## Difference from earlier ports
 
