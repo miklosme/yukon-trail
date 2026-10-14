@@ -27,6 +27,7 @@ port. No application framework has been selected.
 - [Original-game reference setup](docs/REFERENCE.md): Windows, drivers, configuration, and captures.
 - [Reference environment manifest](docs/reference-environment.json): exact local identities and validation scope.
 - [Blind original-game playthrough](docs/BLIND-PLAYTHROUGH.md): one completed run, choices, ending evidence, and limits.
+- [Story reconstruction](docs/STORY-RECONSTRUCTION.md): a readable start-to-end account of the recorded journey with Linda, with evidence and unexplored branches.
 - [Mac source inventory](docs/MAC-SOURCE.md): catalog, fork hashes, and extraction limits.
 - [Binary analysis setup](docs/ANALYSIS.md): local Ghidra project, segmented mappings, and tool limitations.
 - [Archive consumer evidence](docs/ARCHIVE-CONSUMERS.md): original read/lookup routines and persisted annotations.

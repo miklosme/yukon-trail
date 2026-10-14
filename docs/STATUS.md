@@ -1,12 +1,25 @@
 # Execution checkpoint
 
-Updated: 2026-10-04. Current phase: verified source recovery, a running
+Updated: 2026-10-12. Current phase: verified source recovery, a running
 original-game reference, one completed blind playthrough, and selected image/sound recovery.
 The M0 source/reference checkpoint is reached;
 M1 remains incomplete and there is no port/gameplay fidelity claim.
 
 ## Completed
 
+- Added [STORY-RECONSTRUCTION.md](STORY-RECONSTRUCTION.md), a detailed narrative
+  of the recorded Linda/Yosemite/Chilkoot journey through its mining and
+  return-home ending. Read the supplied gameplay chat and contemporaneous
+  report, directly inspected ten original PNGs, and rechecked all 16
+  capture/save sizes and SHA-256 hashes against the preserved manifest; all
+  matched. Journal inspection adds dated voyage/trail details and preserves
+  the unexplained October 3 iceberg entry as a discrepancy. This is one
+  observed story path, with interpretation and unknown branches identified;
+  no new gameplay, binary recovery, or port validation was performed.
+  For broader story coverage, the next concrete action is a fresh Seattle
+  session recording all partner interviews and destination/ship choices,
+  followed by the unplayed route. Existing technical next-work order below
+  remains applicable to implementation requests.
 - Reverified the supplied ISO SHA-256 and durably extracted 16 selected full-game
   Windows files under `original/extracted/windows/`. All sizes/hashes match
   [the extraction metadata](windows-extraction.json); executable/archive match
