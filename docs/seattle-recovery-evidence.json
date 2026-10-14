@@ -1,0 +1,211 @@
+{
+  "cases": [
+    {
+      "after": {
+        "bank": 0,
+        "cash": 850,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 1,
+        "partner": 4,
+        "stub_calls": [
+          "NE1:a1bd optional display cache lookup -> null"
+        ]
+      },
+      "before": {
+        "bank": 0,
+        "cash": 350,
+        "delta": 500,
+        "flag334": 0
+      },
+      "name": "Linda +500"
+    },
+    {
+      "after": {
+        "bank": 0,
+        "cash": 350,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 1,
+        "partner": 0,
+        "stub_calls": []
+      },
+      "before": {
+        "bank": 0,
+        "cash": 350,
+        "delta": 500,
+        "flag334": 1
+      },
+      "name": "blocked mutation"
+    },
+    {
+      "after": {
+        "bank": 0,
+        "cash": 790,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 1,
+        "partner": 4,
+        "stub_calls": [
+          "NE1:a1bd optional display cache lookup -> null"
+        ]
+      },
+      "before": {
+        "bank": 0,
+        "cash": 850,
+        "delta": -60,
+        "flag334": 0
+      },
+      "name": "cash subtraction"
+    },
+    {
+      "after": {
+        "bank": 60,
+        "cash": 0,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 1,
+        "partner": 4,
+        "stub_calls": [
+          "NE1:a1bd optional display cache lookup -> null"
+        ]
+      },
+      "before": {
+        "bank": 100,
+        "cash": 20,
+        "delta": -60,
+        "flag334": 0
+      },
+      "name": "bank fallback"
+    },
+    {
+      "after": {
+        "bank": 30,
+        "cash": 20,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 0,
+        "partner": 4,
+        "stub_calls": [
+          "NE1:a1bd optional display cache lookup -> null"
+        ]
+      },
+      "before": {
+        "bank": 30,
+        "cash": 20,
+        "delta": -60,
+        "flag334": 0
+      },
+      "name": "insufficient total"
+    },
+    {
+      "after": {
+        "bank": 0,
+        "cash": 0,
+        "dirty54": 1,
+        "flag344": 1,
+        "money_return": 1,
+        "partner": 4,
+        "stub_calls": [
+          "NE1:a1bd optional display cache lookup -> null"
+        ]
+      },
+      "before": {
+        "bank": 0,
+        "cash": 32760,
+        "delta": 500,
+        "flag334": 0
+      },
+      "name": "signed word overflow clamp"
+    }
+  ],
+  "differential_boundary_matrix": {
+    "bank_words": [
+      0,
+      20,
+      32767,
+      32768,
+      65535
+    ],
+    "cases": 400,
+    "cash_words": [
+      0,
+      20,
+      32767,
+      32768,
+      65535
+    ],
+    "deltas": [
+      -32768,
+      -500,
+      -60,
+      -1,
+      0,
+      1,
+      500,
+      32767
+    ],
+    "flag334": [
+      0,
+      1
+    ],
+    "mismatches": 0,
+    "rows_sha256": "a2b10d1325d2e2845ac1b986c59e2a8eeabff41c248dcbc8d25faf07db406339"
+  },
+  "mismatches": 0,
+  "native_routines": [
+    "0001:9df8",
+    "0001:a652",
+    "0001:a184"
+  ],
+  "scope": "Original setters and money mutation composed with synthetic state; optional display cache lookup stubbed null. Not whole dialogue opcode or original live-state validation.",
+  "source_instruction_checks": [
+    {
+      "bytes": "2d0a00",
+      "file_offset": 71065,
+      "ne": "0002:22d9"
+    },
+    {
+      "bytes": "26ff7702",
+      "file_offset": 71201,
+      "ne": "0002:2361"
+    },
+    {
+      "bytes": "26ff7704",
+      "file_offset": 71205,
+      "ne": "0002:2365"
+    },
+    {
+      "bytes": "660fbf460a",
+      "file_offset": 71351,
+      "ne": "0002:23f7"
+    },
+    {
+      "bytes": "2689871203",
+      "file_offset": 41577,
+      "ne": "0001:9e09"
+    },
+    {
+      "bytes": "2689874403",
+      "file_offset": 43707,
+      "ne": "0001:a65b"
+    },
+    {
+      "bytes": "268980fa02",
+      "file_offset": 42632,
+      "ne": "0001:a228"
+    },
+    {
+      "bytes": "26833800",
+      "file_offset": 42694,
+      "ne": "0001:a266"
+    },
+    {
+      "bytes": "7d0a",
+      "file_offset": 42698,
+      "ne": "0001:a26a"
+    }
+  ],
+  "source_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "unicorn_version": "2.1.4"
+}

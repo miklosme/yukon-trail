@@ -1,0 +1,47 @@
+{
+  "scope": "Read-only preparation/integrity checks, no browser/emulator execution or architecture switch",
+  "trial_directory": "public/game-assets/emulation-trial-20261014",
+  "manifest_sha256": "bc6d56f8ee78243935559786871a98242608f745759c23dfff1f41209cf23412",
+  "guest_zip_sha256": "d1afef65712ad88f512b2b4de9a52c9b9eda1fe837f765f0208bacb3bf41f18c",
+  "guest_zip_bytes": 14747472,
+  "guest_members": 837,
+  "guest_files": 823,
+  "guest_file_bytes": 21734040,
+  "appledouble_omissions": 838,
+  "iso_sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8",
+  "iso_bytes": 370939904,
+  "baseline_sha256": "86a7b6ffcbd0e09353b4a6a29efefa54a084c2ce479a17add7724e288019e6dd",
+  "vendor_version": "8.5.2",
+  "vendor_files": {
+    "emulators.js": {
+      "file": "vendor/emulators.js",
+      "sha256": "066176a9e9e6babfb5388552a5154f3c1f81ed778af3bf4a1f9f904161e3c4bb",
+      "bytes": 90630
+    },
+    "wdosbox-x.js": {
+      "file": "vendor/wdosbox-x.js",
+      "sha256": "b2eb2a402e00201c5673fb95718777f0a783e40bffd65790ebf8ad79224ca478",
+      "bytes": 285604
+    },
+    "wdosbox-x.wasm": {
+      "file": "vendor/wdosbox-x.wasm",
+      "sha256": "8e6bbbee26a70433c3a78d0f3a3152a8d7762d016cd2024f6f13d69e93e9f689",
+      "bytes": 8045933
+    }
+  },
+  "checks": [
+    "All staged guest bytes match frozen source member hashes",
+    "ZIP CRC and configuration checks pass",
+    "Staged ISO copied byte-identically; original source ISO identity unchanged",
+    "Frozen baseline hash unchanged",
+    "Three pinned vendor artifacts verified before copying"
+  ],
+  "unverified": [
+    "Guest launch and WIN command",
+    "Mouse integration/frame/sound compatibility",
+    "Performance and peak memory",
+    "Game save close/extraction/restoration and filesystem deletion",
+    "Supported browsers and offline requests"
+  ],
+  "reproduction": "tools/prepare_emulation_trial.py; docs/BROWSER-EMULATION-EVALUATION.md"
+}

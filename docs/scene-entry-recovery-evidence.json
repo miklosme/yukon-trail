@@ -1,0 +1,3895 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "cases": [
+    {
+      "after_date": [
+        24,
+        8,
+        1,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 1,
+      "scene": 1000,
+      "state_sha256": "6ed98c27fd35a80bbeddc11129346a200d4d3d53d75ec53c7791d42a5af0af1f"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "97d1a0d085e53e94ffab4e7a368aad19d86cff09009f2cb2afe59cf5bfdb648e"
+    },
+    {
+      "after_date": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 1,
+      "scene": 1000,
+      "state_sha256": "0320deb6b4f161c437ad6937e2d5aa1fc3db214b899749aafd8485c8f59b4d57"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "5eb1f153e99e38bdba4160831c44ed7bdcc4bd3a0eccc14f20a698fe1c95b34e"
+    },
+    {
+      "after_date": [
+        1,
+        3,
+        32768,
+        6
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 1,
+      "scene": 1000,
+      "state_sha256": "3f94827e48c95be4adbe1192eb7effa8ced6c71ce9a3ddcdc6981fbc5f1df0e7"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 0,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "8eed681e523709745b49c39dba97bc071adfa396b9f74b71b74d61f8cf28ac63"
+    },
+    {
+      "after_date": [
+        1,
+        9,
+        1,
+        1
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 1,
+      "scene": 1000,
+      "state_sha256": "c9624cd8b5d2b8f4200458c102b4adbd6952a9bc5c06374131eab7e720403982"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a27a671eea1b8239b8fa411508617a90270027008798c724efdad176ce7581b2"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "42ba7a0fad370e0699a53740e1fc210724e9961c1283b613a579f7e9eff5a175"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "b45d52bd2211dfbe075bd55296ae7495a7db0ba2799d2c6f20a505240529c8d1"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "f6408049cf113e60fe1d4f0922cf3964ceb5ef359424be02090060d50806c49a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "9a86ae9290f37c4fd311042f5d56cd55a0b88ce8652f72e869d8448ca1b1ddaf"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "10dc786b0ac20106ddb8a64a47ac1eecec49aa71fd777f51b6ec8109a93a733d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "23a3aa6ae54167e022721f00d0e10d396900de96907f33c98a7a0a887ba68a98"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a16f63a04bede2513c4447c590f6f423058888b1dc242be0b11cd32f23264ac5"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "eb6e7cdb22c7cb587c9c5734d1e76d9aa5fb3af06fafa88ce2fef2d789d19d90"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "42ba7a0fad370e0699a53740e1fc210724e9961c1283b613a579f7e9eff5a175"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "1b17841759625cb2e687b76eff0e5e08e4d2d28c84dc1f4291239a9f60834f4c"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "f6408049cf113e60fe1d4f0922cf3964ceb5ef359424be02090060d50806c49a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "9c95d1478ba55106681e8d8e42867a7b8b08ef7ee4f6f2934c9e4e4ff9d3c1d6"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "10dc786b0ac20106ddb8a64a47ac1eecec49aa71fd777f51b6ec8109a93a733d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 2,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "bc7a8cd0c492396561e8cab3c6d1c7028c884ad17fabd16f5205063149c63e9f"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a16f63a04bede2513c4447c590f6f423058888b1dc242be0b11cd32f23264ac5"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "84b7ae56204e0712f630689f780461c0526cf0f73c9aa54f81b08053fcc3784d"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "42ba7a0fad370e0699a53740e1fc210724e9961c1283b613a579f7e9eff5a175"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "b5d43e98f0ef4286725c608b31e1a02408a76f43bbd88cb374e4d2be2ddd73ee"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "f6408049cf113e60fe1d4f0922cf3964ceb5ef359424be02090060d50806c49a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "45493c8b8eaff2b34e0aa7922d8d6bdee0486cad722d858fc5d2c72b05cb03e9"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "10dc786b0ac20106ddb8a64a47ac1eecec49aa71fd777f51b6ec8109a93a733d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "5728bdb1a646f35606835cc234f094e1df7d8213c31a57aa2be3c35c0c588c31"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a16f63a04bede2513c4447c590f6f423058888b1dc242be0b11cd32f23264ac5"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "dc45fb6bdd1d4b403806e09697ceefe99ac9b9fd909e1d669de742a8bd0eacce"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "42ba7a0fad370e0699a53740e1fc210724e9961c1283b613a579f7e9eff5a175"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "da5922c91c2d030250c385970b68d1858169d27b72df2b560bcc5368a27d6d2d"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "f6408049cf113e60fe1d4f0922cf3964ceb5ef359424be02090060d50806c49a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "9b7c1ee98a7dc1a0554cb76642c70a3a1f95ac3540d4fd7b210e8d31ba9d85b4"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "10dc786b0ac20106ddb8a64a47ac1eecec49aa71fd777f51b6ec8109a93a733d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "894b073aa14f3a954938a46a4f770a8774d5ca9cce0ac74a28d0390c56624126"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a16f63a04bede2513c4447c590f6f423058888b1dc242be0b11cd32f23264ac5"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "5ded5101f5db74687eed070402b4fbe989e65d3aa45b2e05f5f72a5e4ce18253"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "42ba7a0fad370e0699a53740e1fc210724e9961c1283b613a579f7e9eff5a175"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "5938b81cf8a5268a720c86385a655f3d468f69159f8ac5c0286d78d11f5b0358"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "f6408049cf113e60fe1d4f0922cf3964ceb5ef359424be02090060d50806c49a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "352ea8fd4c9ccc1cf7f8a9c2ca3483abdaa908f0bc99224665d0dd69473aa965"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "10dc786b0ac20106ddb8a64a47ac1eecec49aa71fd777f51b6ec8109a93a733d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "6f24e1f1bbd8df74a01f0bf3f9204a0feedb14a850f8a3cd7a7fc8c3ff914f12"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "a16f63a04bede2513c4447c590f6f423058888b1dc242be0b11cd32f23264ac5"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 1000,
+      "state_sha256": "37f3352011b208732872a4befbbcaf5bc17e4a992caeb55cbcfc17d754c2926d"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "2810c6a731fdd577d3f44c4fe03d9f995d0e2aad5b4d79929703620b8b64f9c0"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "4ac9d2e3785d821aee2f89b0eaf0a3d2f1def8bf2c5fe68aa29baa91992ea25f"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 0,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "824dc64cc182a7420f5ccab257ffb27f704c0e49a810bac4bdcbfa8baddfe257"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "019cc00adf7b06da485a416ad5df0c42f6869e90189df542d94279ce628d9209"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "89b91660aa34eb288dcb33351a892b64c42c30c31a4f885e6b018a4cd18655a2"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ca8dcde492c860bc209f9807f013b3e4ac380d5f22de65b55485499201c53c3a"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "8f872c85b7aeab836ff1d670f881955484e8e0736b69ec2387128f13b13bba1c"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "1a5ce38714e775c9bd16ead1d1bf229aacafe43a73b90d94935b1e8efe69eff1"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "c6e63d33c37dfc07f8cd779210f1a3cc63bdd7d997208f00442edc6119931d28"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "9fcaf812eed0cb84c0f0f020a6d925ccec5b27b65e669671f057b2e7580ee726"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 2,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3c86252613faac6b222cc302c6b2db9c4ecb9b1e80d989d1a2d5417e377f5c03"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "1ba2916d84fb8770a5b6b761349390983b3467b9ac05c760c4b1b9672603ed07"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3e7b8b5b13869b2275cdc5accbf847e8e5c604e713a06d1fb80dec44aeec3819"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ea2751c03b24c76f4550d0079f2b0e01f68f1da7b0765d8da421abc049d1ace0"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "c2a0dc6efedfb0df5dd01ce9b48730a935be4b2f6294001d487fedf24db28425"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "49277435c23619f66ce7f54ec1c37820ea3264e9ba6a526b79e9691a1e7d6beb"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "35abdeba17a9640e810d89311036ec32a060537e653be1ded033f6acab6d78c0"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "30c29fbf062981213b44d951e3a54b63774a19e619a7a2f19606f7963695379a"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "13329e4512129b3bae600535a3fb8266ddfca0e553baa837b3cd1e765df0f048"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "72f948454e20b6aa091bc5d6ca57a610db97f5abe27ec969d6e8f4a9f2dea59e"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "3428bbb47a964d5dcba33c43ab38299e9d7155f70b954e0ddb244986b1216fc7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "05169720e0df12b990f96ed6e1cfa0190d5ee9a9698fcb2efc66231512eac3c6"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ffb20011d5eaebcbd05e6f1698ec60bb6318d7baed9dc7ce0bf3d1990a4fd3ac"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "ff543e073328aafc518741b0ffa5f2b31a09d73f1d1535584651032ef194d894"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "fa89b1e9f8840ae7665554b31e8439f6240a1dd5fc698affed83dad8c6ba2c97"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "0d08f8f77a5f4d368c5d41c85eb24bec3998c40293cfba89d554adf3e3e67bef"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "65961a9d977052c63cd0e4c7111086e7a9a7930ec33502f17f93de7b8e17f6b8"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 2000,
+      "state_sha256": "9e4f1235d789008deab48ec33861bb07a793b940abbf1fb466b20212a241fbb7"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "17dbf78713f7972d38b6ac962ee26e5068b447ac2976d42f402b543ebd588557"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "50be9efbc2518643d77bb805e347868196bc75dc08dddada10b132a2d026b673"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 0,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "c3b95df8f84a3a640b667f9959959ad39abbdb9cf00fe4fcbf4e67105a325d43"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "0c29dbdc48cacd817d6bd72f3aea1141a91d2e3b6a1b35e3bb204c596f88e940"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "fc25a501ee156ab0019a99e13b7fe4420089c6ec0a3ad174379b19f2a43b35de"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f028d94e5b64f647f69154e5db30076139a45fd0b7974df79fe62e6e54ec0d30"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "0023e0e42283addb98fc0849c31ed6208c567feaa8f2fa877b546a7e2dac916f"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "a28c06249293c6dc02a7aae025b4d43be2be1843b9580b1d9d0096c8afeae3c2"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "dac3d174bce333d12e8b0bcd5622fdb3bee0da5ada39ef1e46de8da1e3065c95"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "7e3b81258f946a38b8b1be0093a2a83b7e498ced0912852bb4f71e5385116ed3"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 2,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "1e04ada141544ef0832a2f7113473a33324b12863c158c13d9da417eecf1d8c9"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "fe1da9ba9bed4938891fce6e444de4d5d57814d8aec148eb5fe4c036b9d41181"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8ada62dc8672b6298a12f1cd7437883a6eef8189f9eef92be19383205b99d9b7"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "2886b7bf326a20e77ed40a9cf4614baa0e3c7e9bf864e0626c219f5f5338a7ca"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "930aa18513d103b3808738ba70954ff3315ebf16171e1d0dda7303899dfebd37"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e88245cf587a63516ca2879e44eeee09b3632e174e55efb73863e62eca348126"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "dedb59cb3ad74c036061540b00c1311569b6d5e2165cf63c94cc6611a9cb4a61"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f1b4a460191e941823b3071df03821ef3b725e8eafa37ab347a132451459de93"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "54f2fe8c25e8d222a7dcb67d5e36fca6877e2560116d36a59478c4d149c90430"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "b0e8a6d63f9327055052a893941f89d157f1df2a24644c73e8aaf9af0d173b7c"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "bd37f217e997af9206cf89db64f64d94a8b397521daa03bfabf6fd099fb2724b"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "740feb85ac3bf7485bbff92ccf5c705690b38e45b04e526b82d9b2f81a33219e"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "f4387bd0460000041b3a4c51843e7ec8e206a69bd1d2e895d7556128c06920ed"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "1d6a8e781c22e0ebe94616fdfae2558a6c0d614758255a3011bdf7dfcd06f53d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "e326a4a52d878b8f10678b56cb9481da3904ec6cf6f1a9f8357007d98d8ac606"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "43c7c07dc99b7e8ecaeca0ca1bc478f831de3d1080d2599a41cecce49a359fb7"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "8f1e968ac15750a2e5a1816ee1efe65f7b76a5d556cfc8343516b121f54cf7a1"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 3000,
+      "state_sha256": "ed1a843617a9539b652672693df662c2766e09945e4c3695949f3902617e5dad"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "a44d7793f19cdad17a2d36818c4f28d5b3225edcea1279799e63c2f11d37d018"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "eb35b07e3c75d48905eff3a42654227c55b52713ded7969657bf0ce22e20b58d"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 0,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "5603f598f8767ec383141843abb4555f5391419af7a06ee14df9ca55ccb946a7"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 0,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 0,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "89b2117c9f0fab8d36bbe8262d6d45dd275600c115e54062415cf966c55fed24"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "1e315607be81de3726689ba2b550dbbf6d9fc1bcb3c1de32104312e1bc2d4018"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "f3c6a473c4286f0b16d8439a74b250d178405931f1d33a03a3ac591a36687276"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "2a5caa5eae9be3856d85ff5c2b2ecda51cae3160c09031b13f0153d3a91db170"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 1,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "7ba75cd749a5b136122afb918adc5dc70775bebd28cd8c6871927c7a052561b2"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "737c513750fc3eb112879adfcc24e9698a1b7878c41a5732bcd4d9b26ddc7b49"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "49b06720090aadb3dcdb7b65d2b805b5185ee92d883599484ef4cc028e1e3d6c"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 2,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "391962a2c515d129d2fc8e0594ada7814fe0fd8edaf303f9436f0aaa23a9aa18"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 2,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 2,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c02f2b78da57916ad71728c4dfb7d403e567cd655dc82c8fd6cd882947468651"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "ce28c684a0b49d4e2c90274a5e0f140c9552254974b685be81faa09044c1c75a"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "bdb7c9da0377f112d1351316da805ab3053984f7f5d3028a6ea1788cc5da81f1"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "85b9f5534967fd7b67bcb8691e31766e3815ad35a501340c622696f7c7a338ea"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32767,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32767,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "4c81123a487ab82969f83a745fbb3d781c52c7ebb0085ee5765bda8e2f106816"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c854f1b6e3eeba9ba25eb91ee1969a7eec85442e0d1c7c97b0b97f7acb3b5a9e"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "02e89d219c5ca729913ea34a08b05fe3b93377fbe9fb0b9fbf0925ee827818ac"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "290538cf8f946fd37e3be2840cfeedcab52081c214e7eb6ca6a42b7e0fabdcb9"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 32768,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 32768,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "553f3506f5977aba30aac29460377a7946ad9e03047c057413c7ffbb95028a73"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "c3da87e4fac8f0477f8d0664d6f71b3be0b7f70cbbcd710e59b8c2cf530c8b47"
+    },
+    {
+      "after_date": [
+        23,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        23,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "8314443c13e8653d72cfd4bacb68686e82fd148ca78eb80be98a579de4f63daf"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "068240d94459c7ee0efc16489efafa65eb0fef57035496d1f1030214bba4fff5"
+    },
+    {
+      "after_date": [
+        31,
+        12,
+        65535,
+        65535
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        12,
+        65535,
+        65535,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "acd7de103abce94b5447d76854f081edaf30b4c6f20955a1ba78cb7197e30740"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 1,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "47df80d17f27b43d71e18405bf7f39a56748d82cb941c2ee40c727847715e602"
+    },
+    {
+      "after_date": [
+        28,
+        2,
+        32767,
+        5
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        28,
+        2,
+        32767,
+        5,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "b9757d63f0a678f4893c3343477641244f00a536c6d0df55d04f180ba80ea719"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 1,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        0
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "621311946316d831edf026c03dc6e6446b19a013bb15ddc41dd02134222c7cce"
+    },
+    {
+      "after_date": [
+        31,
+        8,
+        0,
+        0
+      ],
+      "after_visit": 65535,
+      "before_date": [
+        31,
+        8,
+        0,
+        0,
+        1
+      ],
+      "before_visit": 65535,
+      "dirty54": 0,
+      "scene": 4000,
+      "state_sha256": "b5898542671c81d9e0e11adb42ddac892a7b83b63f0c87c4120a36261d09cea7"
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "native_cases": 192,
+  "resources": {
+    "HSPT:4000": {
+      "length": 66,
+      "normalized_hex": "04000000f40178000e014501000000000000e4015802390173010100c800e8030000140226022f018e010100c800e803000000000000000000000000000000000000",
+      "offset": 12461307,
+      "sha256": "4bdce01d156b421832173f54f9d2569b09eba697dde180022033283169d9f82d"
+    },
+    "SCNE:1000": {
+      "length": 10,
+      "normalized_hex": "e803e803e803e8030100",
+      "offset": 85712801,
+      "sha256": "b8c6da7f6fd5c21698cfaed98867013d040810474dddabe8ca7f9d5b62b0f0d0"
+    },
+    "SCNE:2000": {
+      "length": 10,
+      "normalized_hex": "d0070000d007d0070000",
+      "offset": 85712921,
+      "sha256": "34aba2a2f44e7dfd77316930c5c61a71547dad2b2e69a436b8773f2a7ea33c46"
+    },
+    "SCNE:3000": {
+      "length": 10,
+      "normalized_hex": "b80bb80bb80bb80b0000",
+      "offset": 85713011,
+      "sha256": "dc8b2c6a3b7133d0b213d5b145ac1356d9bd54956ac7c38c6b421bed1a630dab"
+    },
+    "SCNE:4000": {
+      "length": 10,
+      "normalized_hex": "a00fa00fa00fa00f0000",
+      "offset": 85713021,
+      "sha256": "fcec80dbe0388c8fc34ea5e315ff22825d7d6d732fc026fc4fc87201e4b7b513"
+    }
+  },
+  "scope": "Execute original selected scene constructor visit/date branch and visit marker.\n\nBounded block NE2:04f0..055b executes actual getter and date calls, then original\nNE1:a368 marks visit. No behavior stubs. Resource allocation, background/UI,\nother constructor state setters and global animation countdown excluded.\n",
+  "synthetic_far_relocations": [
+    [
+      32768,
+      1283,
+      4096,
+      42940
+    ],
+    [
+      32768,
+      1357,
+      4096,
+      41154
+    ]
+  ]
+}

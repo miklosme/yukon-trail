@@ -1,0 +1,202 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "resources": {
+    "PSND:1302": {
+      "consumed_bits": 977541,
+      "declared_bits": 977536,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "ed95995d73b5c2e59c87313b119d35c487584feb0876bdb1c5b0659d5321f91e",
+      "last_block_start": 977147,
+      "length": 122443,
+      "native_end_bits": 977541,
+      "offset": 15623369,
+      "physical_bits": 977544,
+      "raw_sha256": "dc37587a1ed8f7fec88ba99b14c6cc943afa1805a4b18cdb60c0979e2877c8d4",
+      "remaining_blocks": 0,
+      "source_window_origin": 121887,
+      "terminal_unused_bits": 3
+    },
+    "PSND:2105": {
+      "consumed_bits": 1023172,
+      "declared_bits": 1023176,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "725bb138770df5c9658cfa89911210ee7b1b1bafe97ba37c29445fee804b6ebe",
+      "last_block_start": 1022664,
+      "length": 128163,
+      "native_end_bits": 1023172,
+      "offset": 28713668,
+      "physical_bits": 1023176,
+      "raw_sha256": "c0af22e8db873b929882fb6308de4ee5606fdbf63cab94dadaef3d5b332cc34a",
+      "remaining_blocks": 0,
+      "source_window_origin": 127577,
+      "terminal_unused_bits": 4
+    },
+    "PSND:3402": {
+      "consumed_bits": 1089577,
+      "declared_bits": 1089581,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "e9b3fc405d9be49f448f357e15fae5906a2e158092f688fd54e9161203d10f82",
+      "last_block_start": 1089117,
+      "length": 136272,
+      "native_end_bits": 1089577,
+      "offset": 43524090,
+      "physical_bits": 1089584,
+      "raw_sha256": "3b9f9bd57e12d124420983e31e16fa76b0488aed92125e172ffe8aa9fd1555d9",
+      "remaining_blocks": 0,
+      "source_window_origin": 135883,
+      "terminal_unused_bits": 7
+    },
+    "PSND:395": {
+      "consumed_bits": 547402,
+      "declared_bits": 547418,
+      "emitted_blocks": 1,
+      "last_block_kind": 0,
+      "last_block_sha256": "21a812a0e2332152074f8e5a24eb1716f16b4bf2968048c32e604df351fdffcf",
+      "last_block_start": 547066,
+      "length": 68484,
+      "native_end_bits": 547402,
+      "offset": 47491951,
+      "physical_bits": 547408,
+      "raw_sha256": "235f29f6ce5c21ad0996ae747ed4598ba7fbb79e08f8f7fca92ceb612004a9e8",
+      "remaining_blocks": 0,
+      "source_window_origin": 68127,
+      "terminal_unused_bits": 6
+    },
+    "PSND:4123": {
+      "consumed_bits": 881629,
+      "declared_bits": 881539,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "83e1abec24d4ab60fa57ce03bd7e8cbd7c332fb1b7f113ef3cc0589ddbb26dc3",
+      "last_block_start": 881150,
+      "length": 110438,
+      "native_end_bits": 881629,
+      "offset": 50065576,
+      "physical_bits": 881632,
+      "raw_sha256": "2a129f6ac7008cce085f8eab0afe722468c290be1fb2267a522691c2558818d0",
+      "remaining_blocks": 0,
+      "source_window_origin": 109887,
+      "terminal_unused_bits": 3
+    },
+    "PSND:4452": {
+      "consumed_bits": 508976,
+      "declared_bits": 508944,
+      "emitted_blocks": 1,
+      "last_block_kind": 0,
+      "last_block_sha256": "8e79fd0ae92c647267b6173bc87061ba80820518de7f4b8b94c4f10d1a666128",
+      "last_block_start": 508440,
+      "length": 63760,
+      "native_end_bits": 508976,
+      "offset": 55193396,
+      "physical_bits": 508976,
+      "raw_sha256": "1b26c36ba7ea50a7f939c09d7b02109eabcfcbe9e5c03555fc5e9614ea4642ec",
+      "remaining_blocks": 0,
+      "source_window_origin": 63299,
+      "terminal_unused_bits": 0
+    },
+    "PSND:630": {
+      "consumed_bits": 578856,
+      "declared_bits": 578820,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "42d71d824ceb6ea63087bfa61bff1f495d0e72c9568fb433f0cac030d0fb65e0",
+      "last_block_start": 578476,
+      "length": 72527,
+      "native_end_bits": 578856,
+      "offset": 77235011,
+      "physical_bits": 578856,
+      "raw_sha256": "c89339bb2679026a8066994af91b5f17aa94e5c30b4207f6b391b3db31849bbb",
+      "remaining_blocks": 0,
+      "source_window_origin": 72053,
+      "terminal_unused_bits": 0
+    },
+    "PSND:638": {
+      "consumed_bits": 581190,
+      "declared_bits": 580886,
+      "emitted_blocks": 1,
+      "last_block_kind": 0,
+      "last_block_sha256": "a67c652c7e64640494bf8aabedde98e76f04f750f8c067395123171ce9fd14e0",
+      "last_block_start": 580534,
+      "length": 72819,
+      "native_end_bits": 581190,
+      "offset": 77950444,
+      "physical_bits": 581192,
+      "raw_sha256": "dd652c52ebadca9ea3c3c4100c03e8bf466b56421aeccbd2f91eaf57568055ca",
+      "remaining_blocks": 0,
+      "source_window_origin": 72310,
+      "terminal_unused_bits": 2
+    },
+    "PSND:8114": {
+      "consumed_bits": 999873,
+      "declared_bits": 999869,
+      "emitted_blocks": 1,
+      "last_block_kind": 1,
+      "last_block_sha256": "09d6cfa772ace167780ad358fbc6955a496637e98d0b70ea24869fb84e1e81e4",
+      "last_block_start": 999449,
+      "length": 125235,
+      "native_end_bits": 999873,
+      "offset": 80553025,
+      "physical_bits": 999880,
+      "raw_sha256": "3e364083392ba7fc1270444bfa8b7e10ec512f65b023f223c593ecbf25b21a65",
+      "remaining_blocks": 0,
+      "source_window_origin": 124675,
+      "terminal_unused_bits": 7
+    }
+  },
+  "scope": "Original NE3:be0e final-block loop,63fe wholeblock and NE1 bit helpers.\n\nTests selected declared-bit discrepancies with a bounded relocated input suffix.\nOriginal blocks, memory stream cursors, requested/remaining block counts run;\nonly far selectors relocated. Header platform allocation uses documented stubs.\nNo full playback, whole processor, huge-buffer allocator or mixer proof.\n",
+  "synthetic_far_relocations": [
+    [
+      4096,
+      25624,
+      32768,
+      0
+    ],
+    [
+      4096,
+      25980,
+      32768,
+      0
+    ],
+    [
+      4096,
+      26015,
+      32768,
+      0
+    ],
+    [
+      4096,
+      26077,
+      32768,
+      297
+    ],
+    [
+      4096,
+      26192,
+      32768,
+      0
+    ],
+    [
+      4096,
+      26227,
+      32768,
+      0
+    ],
+    [
+      4096,
+      26289,
+      32768,
+      98
+    ],
+    [
+      4096,
+      49024,
+      4096,
+      25598
+    ]
+  ]
+}

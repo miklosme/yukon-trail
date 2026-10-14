@@ -1,0 +1,188 @@
+{
+  "bytes": 24236,
+  "scope": "Directory bounds and selected naming strings only; no table checksum, glyph, hinting or browser rendering validation",
+  "selected_names": [
+    {
+      "byte_length": 20,
+      "encoding": 0,
+      "file_offset": 633,
+      "language": 0,
+      "name_id": 1,
+      "platform": 0,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 14,
+      "encoding": 0,
+      "file_offset": 660,
+      "language": 0,
+      "name_id": 2,
+      "platform": 0,
+      "text": "Regular"
+    },
+    {
+      "byte_length": 20,
+      "encoding": 0,
+      "file_offset": 684,
+      "language": 0,
+      "name_id": 4,
+      "platform": 0,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 18,
+      "encoding": 0,
+      "file_offset": 920,
+      "language": 0,
+      "name_id": 6,
+      "platform": 0,
+      "text": "YukonFont"
+    },
+    {
+      "byte_length": 10,
+      "encoding": 0,
+      "file_offset": 623,
+      "language": 0,
+      "name_id": 1,
+      "platform": 1,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 7,
+      "encoding": 0,
+      "file_offset": 653,
+      "language": 0,
+      "name_id": 2,
+      "platform": 1,
+      "text": "Regular"
+    },
+    {
+      "byte_length": 10,
+      "encoding": 0,
+      "file_offset": 674,
+      "language": 0,
+      "name_id": 4,
+      "platform": 1,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 9,
+      "encoding": 0,
+      "file_offset": 911,
+      "language": 0,
+      "name_id": 6,
+      "platform": 1,
+      "text": "YukonFont"
+    },
+    {
+      "byte_length": 20,
+      "encoding": 1,
+      "file_offset": 633,
+      "language": 1033,
+      "name_id": 1,
+      "platform": 3,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 14,
+      "encoding": 1,
+      "file_offset": 660,
+      "language": 1033,
+      "name_id": 2,
+      "platform": 3,
+      "text": "Regular"
+    },
+    {
+      "byte_length": 20,
+      "encoding": 1,
+      "file_offset": 684,
+      "language": 1033,
+      "name_id": 4,
+      "platform": 3,
+      "text": "Yukon Font"
+    },
+    {
+      "byte_length": 18,
+      "encoding": 1,
+      "file_offset": 920,
+      "language": 1033,
+      "name_id": 6,
+      "platform": 3,
+      "text": "YukonFont"
+    }
+  ],
+  "sha256": "6a2c8f3356a9affef9711a14070b5de1cac95c320799360d10c78d8df40f4f18",
+  "source": "original/extracted/windows/YUF_____.TTF",
+  "tables": {
+    "OS/2": {
+      "declared_checksum": 2211148328,
+      "length": 78,
+      "offset": 24032
+    },
+    "cmap": {
+      "declared_checksum": 2378577262,
+      "length": 616,
+      "offset": 21616
+    },
+    "cvt ": {
+      "declared_checksum": 29754095,
+      "length": 18,
+      "offset": 960
+    },
+    "fpgm": {
+      "declared_checksum": 2201207375,
+      "length": 20,
+      "offset": 940
+    },
+    "glyf": {
+      "declared_checksum": 1537571302,
+      "length": 19456,
+      "offset": 1040
+    },
+    "hdmx": {
+      "declared_checksum": 1044259568,
+      "length": 1800,
+      "offset": 22232
+    },
+    "head": {
+      "declared_checksum": 2434787425,
+      "length": 54,
+      "offset": 24112
+    },
+    "hhea": {
+      "declared_checksum": 97780388,
+      "length": 36,
+      "offset": 24168
+    },
+    "hmtx": {
+      "declared_checksum": 3103657885,
+      "length": 432,
+      "offset": 20932
+    },
+    "loca": {
+      "declared_checksum": 1071844,
+      "length": 436,
+      "offset": 20496
+    },
+    "maxp": {
+      "declared_checksum": 12910886,
+      "length": 32,
+      "offset": 24204
+    },
+    "name": {
+      "declared_checksum": 2683812808,
+      "length": 702,
+      "offset": 236
+    },
+    "post": {
+      "declared_checksum": 210504888,
+      "length": 250,
+      "offset": 21364
+    },
+    "prep": {
+      "declared_checksum": 2213346872,
+      "length": 57,
+      "offset": 980
+    }
+  }
+}

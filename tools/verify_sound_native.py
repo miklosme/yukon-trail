@@ -18,6 +18,25 @@ except ImportError:
     from yukonres import read_index, verify_source, DEFAULT_SOURCE_MANIFEST
 
 
+class SoundNativeReader(NativeReader):
+    def __init__(self, executable):
+        super().__init__(executable)
+        self.windowed_calls = 0
+
+    def run(self, data, start, base, extension, maximum, count, hybrid):
+        if len(data) <= 60000:
+            return super().run(data, start, base, extension, maximum, count, hybrid)
+        # Original integer helper operates on a supplied pointer/bitcursor.
+        # Relocate a <=60000byte input window and its cursor together; retain
+        # the absolute returned bit position. This avoids spilling input into
+        # the synthetic output area and does not emulate Win16 huge buffers.
+        origin = max(0, start // 8 - 256)
+        window = data[origin:origin + 60000]
+        actual, end = super().run(window, start - origin * 8, base, extension, maximum, count, hybrid)
+        self.windowed_calls += 1
+        return actual, end + origin * 8
+
+
 def native_integrate(reader, executable, data, order):
     machine = reader.machine
     # Bounded pure converter, Code3 at synthetic selector2000. All branches
@@ -44,12 +63,14 @@ def main():
     parser.add_argument("archive", type=Path)
     parser.add_argument("executable", type=Path)
     parser.add_argument("report", type=Path)
+    parser.add_argument("--id", type=int, default=1)
     args = parser.parse_args()
     executable = args.executable.read_bytes()
-    native = NativeReader(executable)
+    native = SoundNativeReader(executable)
     with args.archive.open("rb") as source:
         archive_hash = verify_source(source, DEFAULT_SOURCE_MANIFEST)
-        resource = read_index(source).by_key()["PSND:1"]
+        key = f"PSND:{args.id}"
+        resource = read_index(source).by_key()[key]
         source.seek(resource.offset)
         payload = source.read(resource.length)
     sound = decode(payload, native.compare)
@@ -59,15 +80,19 @@ def main():
         raise ValueError("original sample conversion mismatch")
     # A separate input covers wraparound and every original integration branch.
     synthetic = bytes(range(256)) * 3
-    for order in range(1, 5):
+    for order in range(0, 5):
         if native_integrate(native, executable, synthetic, order) != integrate(synthetic, order):
             raise ValueError(f"synthetic conversion mismatch, order {order}")
     report = {"archive_sha256": archive_hash, "payload_sha256": hashlib.sha256(payload).hexdigest(),
               "executable_sha256": hashlib.sha256(executable).hexdigest(), "unicorn_version": "2.1.4",
-              "resource": "PSND:1", "integer_calls": native.calls, "integer_unique_calls": len(native.unique),
+              "resource": key, "integer_calls": native.calls, "integer_unique_calls": len(native.unique), "windowed_integer_calls": native.windowed_calls,
               "sample_bytes_compared": len(actual[0]), "native_pcm_sha256": hashlib.sha256(actual[0]).hexdigest(),
-              "final_state": list(actual[1]), "synthetic_orders_checked": [1, 2, 3, 4], "mismatches": 0,
-              "scope": "original integer readers and NE3:9b34 converter; not whole processor or live playback"}
+              "sample_rate": sound.sample_rate, "integration_order": sound.order,
+              "final_block_padding_bytes": len(sound.block_padding),
+              "declared_packed_bits": sound.packed_bits, "consumed_bits": sound.consumed_bits,
+              "terminal_unused_bits": sound.terminal_unused_bits, "terminal_unused_value": sound.terminal_unused_value,
+              "final_state": list(actual[1]), "synthetic_orders_checked": [0, 1, 2, 3, 4], "mismatches": 0,
+              "scope": "original integer readers and NE3:9b34 converter; large inputs use bounded relocated bitcursor windows; not whole processor, Win16 huge buffers or live playback"}
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
     print(json.dumps(report))

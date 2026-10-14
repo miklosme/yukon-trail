@@ -1,0 +1,865 @@
+{
+  "date": "2026-10-13",
+  "scope": "Constrained original Seattle: restored boot; four partner introductions, why/cash questions; Linda acceptance before/after; whipsaw purchase before/after; outfit purchase; one original Seattle save reloaded twice; menu inventory; isolated initial date/navigation case. No port comparison or live refusal sound.",
+  "artifacts": [
+    {
+      "path": "local/emulator/baselines/yukon-mouse-integrated-pre-relaunch.tar.gz",
+      "size_bytes": 14752406,
+      "sha256": "86a7b6ffcbd0e09353b4a6a29efefa54a084c2ce479a17add7724e288019e6dd"
+    },
+    {
+      "path": "local/emulator/baselines/yukon-mouse-integrated-pre-relaunch.conf",
+      "size_bytes": 708,
+      "sha256": "a7944c47ac090d8a6081135d40f6988ed145628f10faede957422e626db22792"
+    },
+    {
+      "path": "local/emulator/seattle-reference-2026-10-13.conf",
+      "size_bytes": 748,
+      "sha256": "ed929a6c12568c0a41e27541ee3b9615cb7bed3697a5f63e899cc61852a1cbcd"
+    },
+    {
+      "path": "local/emulator/seattle-reference-2026-10-13/MECC/YUKON/YUKON.EXE",
+      "size_bytes": 404272,
+      "sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06"
+    },
+    {
+      "path": "original/iso/YUKONCD.ISO",
+      "size_bytes": 370939904,
+      "sha256": "89f8eb97bd7d3afdbabbd05dce10854673eff5c5617825940994aba7a0360ed8"
+    },
+    {
+      "path": "original/extracted/windows/YUKONRES",
+      "size_bytes": 87911322,
+      "sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6"
+    },
+    {
+      "path": "local/emulator/win31.conf",
+      "size_bytes": 708,
+      "sha256": "a7944c47ac090d8a6081135d40f6988ed145628f10faede957422e626db22792"
+    }
+  ],
+  "archive_review": {
+    "member_count": 1676,
+    "allowed_types": [
+      "regular_file",
+      "directory"
+    ],
+    "absolute_paths": 0,
+    "parent_traversals": 0,
+    "links": 0
+  },
+  "restored_guest": "local/emulator/seattle-reference-2026-10-13",
+  "current_guest_preserved": true,
+  "boot_verified": true,
+  "captures": [
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/SEATTLE-after-whipsaw-outfit.GAM",
+      "size_bytes": 11221,
+      "sha256": "ac548222959f58c34fa8247ad308e16f4f0232ddbfb6374585334c5df2b00604"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_000.avi",
+      "size_bytes": 452842986,
+      "sha256": "f64c3996bcf84bb185ee761ab576ca2d0a0133ca86fdeb65be5d1dbe4ddf8f4d"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_000.png",
+      "size_bytes": 4996,
+      "sha256": "6b3658e2c4668bf577174a98d167b59985c4d28ce9c7eb1e2702ca44bdf26fe4"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_000.wav",
+      "size_bytes": 389885032,
+      "sha256": "40bb18d142544d25d5eba00de331869c2266068808c61beae496ffff1e9be70f",
+      "wave": {
+        "rate_hz": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "frames": 97471247,
+        "duration_seconds": 2030.6509791666667
+      }
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_001.avi",
+      "size_bytes": 235948990,
+      "sha256": "ee5abc575bc940bd30795d3e08611717c1ef1423e91c68b3595c45a428517399"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_001.png",
+      "size_bytes": 2583,
+      "sha256": "647adf2f7267ce686797265682e378444c1d05427d516552f958262fa5263c07"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_001.wav",
+      "size_bytes": 200043888,
+      "sha256": "d28483fd638938d062a8cb73b6d55cfcb09152f9cdde58890a641fbdb6d23567",
+      "wave": {
+        "rate_hz": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "frames": 50010961,
+        "duration_seconds": 1041.8950208333333
+      }
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_002.avi",
+      "size_bytes": 231758898,
+      "sha256": "047a22850cab6b64c9db9c97538aca8faaff9b130c8413f4d941db7e25391717"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_002.png",
+      "size_bytes": 164699,
+      "sha256": "33051982191a8653094710805a88997a701cf2c08743bbba09b7eb7d50ddc910"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_002.wav",
+      "size_bytes": 210805664,
+      "sha256": "aea67dbb069db35bdd9d2560f892a4438a07c1d0da7bd4f75fcde566f75ba25f",
+      "wave": {
+        "rate_hz": 48000,
+        "channels": 2,
+        "sample_width_bytes": 2,
+        "frames": 52701405,
+        "duration_seconds": 1097.9459375
+      }
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_003.png",
+      "size_bytes": 164816,
+      "sha256": "7405003c73fe7d617db3cea0d03efa2d82f85e25db125965aa46f04916d653bf"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_004.png",
+      "size_bytes": 147738,
+      "sha256": "fc1d105355b4f489e690f20b66cd21851437919218562827a066f4a54226b7b1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_005.png",
+      "size_bytes": 147726,
+      "sha256": "8d1c36e15eb9ca935a49c9b8278425d71bb273bfa39d1afcb918566bb52f56e2"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_006.png",
+      "size_bytes": 147726,
+      "sha256": "8d1c36e15eb9ca935a49c9b8278425d71bb273bfa39d1afcb918566bb52f56e2"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_007.png",
+      "size_bytes": 147238,
+      "sha256": "e23b59a5931e69a7d4561d3e0a8a8ef3afb3d7741bb1c6d83f7066c81bacfb67"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_008.png",
+      "size_bytes": 147238,
+      "sha256": "e23b59a5931e69a7d4561d3e0a8a8ef3afb3d7741bb1c6d83f7066c81bacfb67"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_009.png",
+      "size_bytes": 204049,
+      "sha256": "bec6ddf59a9aba663602fc9c9c32261a423c4db29796295b7f4a2594b055115c"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_010.png",
+      "size_bytes": 204399,
+      "sha256": "85ee598391b0ce5bae3d7872b6586cf99b6c7268a7b17da8f617d91accbe4fb1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_011.png",
+      "size_bytes": 151118,
+      "sha256": "bd286a195cb5fdbabb0dbdd3f57876ab37dc323de82412f7331f246255408f30"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_012.png",
+      "size_bytes": 151125,
+      "sha256": "cf93bc6c8e264c6b4cfca51acfe688d292251df3db9085c735229873be71dd75"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_013.png",
+      "size_bytes": 150156,
+      "sha256": "618b1d6619944f9e2e7a6f4b4b606dc76f235baa06a970e89780fc3f777c2248"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_014.png",
+      "size_bytes": 151136,
+      "sha256": "da6d77ee0ec2ed2a495dc589aed23cb6d2caa194abc96b9a5a44c1fc343e599c"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_015.png",
+      "size_bytes": 151115,
+      "sha256": "9eb77f6a22f40fcae0058b2eb75804cc9e78e29289afc96b50ed520695a1dd25"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_016.png",
+      "size_bytes": 120047,
+      "sha256": "21ba93b086ea9698d670aa9e7285034856d2548c629d3839ac34bd7ac5f43e16"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_017.png",
+      "size_bytes": 119074,
+      "sha256": "62090a6772b1a5897a7406cbd0094b2615c7969c3e260d7afea17a11f9662ba0"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_018.png",
+      "size_bytes": 119214,
+      "sha256": "81e30d62c70cf25be5c11bb892490859f68eba41e36ce943d45244bc86485156"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_019.png",
+      "size_bytes": 119695,
+      "sha256": "74de167700f7130af839e8de8e93f84959604ab3a72ab4e0b8693b834bb332c1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_020.png",
+      "size_bytes": 148664,
+      "sha256": "33a1d9ae80b45736517bdbb7cc431f4f024b43fcf28eec4a6c2b254d6e1721b7"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_021.png",
+      "size_bytes": 23316,
+      "sha256": "e876f8b412cd4e513c2ba91d3e84697902cb0a07dc54a9624a7f7c040f07d6d5"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_022.png",
+      "size_bytes": 22632,
+      "sha256": "abc6d4cbefca9fd3098c23527c47e24cacda662633efb3ae5a900c76405ceaa4"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_023.png",
+      "size_bytes": 21669,
+      "sha256": "ae665a8f2de7c32d829d59d81ff294dd4a7877318899917aefc8744c99a2a29d"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_024.png",
+      "size_bytes": 148664,
+      "sha256": "33a1d9ae80b45736517bdbb7cc431f4f024b43fcf28eec4a6c2b254d6e1721b7"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_025.png",
+      "size_bytes": 22631,
+      "sha256": "a40a1a84febe02596892cced8f497127a18b7d1379cc80789c4e32ab4ef3143c"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_026.png",
+      "size_bytes": 21425,
+      "sha256": "e900f20c139a42f30e5a148a796b55fb692c593fc00547e0d1a565daffc8caba"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_027.png",
+      "size_bytes": 151785,
+      "sha256": "d9d14099188de0380b070306f32211b2d9e742c8eca4f28067bbe9d1e0efaf9a"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_028.png",
+      "size_bytes": 151358,
+      "sha256": "4729e924fedee8a4012d1f9e3662eebe72d0689c97b37709c7b53fa2217071ce"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_029.png",
+      "size_bytes": 202046,
+      "sha256": "9c7d90b4d5df20a32f34b70c8aff9ffe49e03f35b553e614645e9921b31d39f1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_030.png",
+      "size_bytes": 151960,
+      "sha256": "9f405079dc6e9975825c2517308a4c4d484f9ae32ec9fc38ee4f28b1e84c82ce"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_031.png",
+      "size_bytes": 270122,
+      "sha256": "d7b8aa98541d450cd3b06c49a5ae2b7c40d2864472fb537aea6a5bb9baf459bc"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_032.png",
+      "size_bytes": 151785,
+      "sha256": "d9d14099188de0380b070306f32211b2d9e742c8eca4f28067bbe9d1e0efaf9a"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_033.png",
+      "size_bytes": 121258,
+      "sha256": "48990d1e0aa53687527038f4f18fd47ee4926b27f6a2838b8013b06087569386"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_034.png",
+      "size_bytes": 121968,
+      "sha256": "e47b078b748be388d9b3874385da1dde774d4f849e10586cce858ebeb13a240a"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_035.png",
+      "size_bytes": 122254,
+      "sha256": "a2a009b09c72226ac55e67b930d17e04e04a76320f2fa8f6c43304b0b1462327"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_036.png",
+      "size_bytes": 121486,
+      "sha256": "13cebb5bb57429ab971ffec017b93d22ad628d9287a9e56a17f2da6a478eaf68"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_037.png",
+      "size_bytes": 151337,
+      "sha256": "202a100d15b9bf7a9ac93eecc9d05b70d83a527489da9d2c88939122dd2b4128"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_038.png",
+      "size_bytes": 121252,
+      "sha256": "7016318e89e9dc7e84b698364e6e777f3b594a7c30f35dd7bb6c2f5e7d86dcc6"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_039.png",
+      "size_bytes": 121406,
+      "sha256": "8ac05925cf534c0d9b71abb275fe3784c0896a142d519f4f99f81b6eb7136341"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_040.png",
+      "size_bytes": 121497,
+      "sha256": "6dce76337d1b7667d0c8cfbfd761609c3537a725d7dbfc76888d5482f76509d9"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_041.png",
+      "size_bytes": 122845,
+      "sha256": "2aa06c951ab69e3fb5525839960d0633ecefe7183d1ccc1340bdf7fb6b21a978"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_042.png",
+      "size_bytes": 123199,
+      "sha256": "3b335a1038211a6a601a346bfc9e512c20c0004fdb0b12e1f57c1f7ed10eb67d"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_043.png",
+      "size_bytes": 121100,
+      "sha256": "5090dc505bf713e40d4820f8ee4802b4e5d8d99827497a3637d102d76a4b3019"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_044.png",
+      "size_bytes": 268211,
+      "sha256": "be9a2b3dcfa4ccb359d52469489e5fc7ac4d08a0ee6a642a921fda8f33eaba65"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_045.png",
+      "size_bytes": 244150,
+      "sha256": "1cac9cce2f1779d820c8ffd1243641175e59f1a0ab33b5d1891eda4d60816c73"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_046.png",
+      "size_bytes": 164754,
+      "sha256": "16af843a8da28711ed72aa0a5afef8cb6247325b262edce0b45a6a79da0accf9"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_047.png",
+      "size_bytes": 164045,
+      "sha256": "87c65b55bba7507f2c0d3581929eb35ec7f24ebacd8dd00ef1cc42fd75f582cf"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_048.png",
+      "size_bytes": 164716,
+      "sha256": "5c66e0b6a5decbe5a26d0cf100cdcd683c35a1af6817e3a4e193ccd36f68e55d"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_049.png",
+      "size_bytes": 270151,
+      "sha256": "14dc91b0bf0a1134b2735aa79daa8fbc29b4c323a0184906f4428e28729857dc"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_050.png",
+      "size_bytes": 237542,
+      "sha256": "bdb434899cb3594fb568985d88c4c2c7ad5ae32d230512a994e69e1f42f8e487"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_051.png",
+      "size_bytes": 155896,
+      "sha256": "6bda5768e6a3ef33659c54e1082eb40b97db03c004fbaf2cdfe74e36e9b930a4"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_052.png",
+      "size_bytes": 156535,
+      "sha256": "e7a381351e03faccb55b7b2efd21bafc16d39a17d00a2462211ddfd1d323d7c4"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_053.png",
+      "size_bytes": 126651,
+      "sha256": "c0c6d251f55b5297c8fe2eac8a8a7e26fb5599c3cc8bb554283803d228ecae57"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_054.png",
+      "size_bytes": 126576,
+      "sha256": "025b299746e2244f6fd06ce681bdfa9a60fa75debeeb9b2d71300c7836b867ce"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_055.png",
+      "size_bytes": 164942,
+      "sha256": "3b3155ad5197479f694c3a29ff390e33d6d6edd6809cefc137cf3f205cb5c4d0"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_056.png",
+      "size_bytes": 147749,
+      "sha256": "84eed9838887c948d23c8b5d77a717874da9d36b94ee14de5966cedf1a042835"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_057.png",
+      "size_bytes": 205934,
+      "sha256": "d8fe406c3c1e92583c67c3e321bbe6a49148464e6403ec273fc5de59ca3acfdd"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_058.png",
+      "size_bytes": 150326,
+      "sha256": "3ccdb11e16cef4086eae38407709127980b82c3c2ebc8f77ed55061eb8b5d62e"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_059.png",
+      "size_bytes": 119885,
+      "sha256": "f5c41e58305e33ea821b8fae4376947e3794c0e8a04780ac46adb3452bc87667"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_060.png",
+      "size_bytes": 25395,
+      "sha256": "220bb373dfcaf6484477006dc2884e953792ed8e69d2d0b5e7d0fbeef18967d1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_061.png",
+      "size_bytes": 24365,
+      "sha256": "7ebb1ca3bfc8338cbe2d5deb99117fba2cd72f1f9b6d29f47e1830bbd4c5a7d2"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_062.png",
+      "size_bytes": 25884,
+      "sha256": "e45e45ebeff676ceea1aebf77ebd7f925b5a041ced3c71d5102d2dab48ff14e6"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_063.png",
+      "size_bytes": 24673,
+      "sha256": "5ffb7a5bb2faeb885d8e09749859f223dffaa0f83f28e91c5529228483976fb1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_064.png",
+      "size_bytes": 118667,
+      "sha256": "471cfbd3046f3fbdcffc2585b0d60f6b03651f92686cc4cdecebd0d66f6a67ab"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_065.png",
+      "size_bytes": 24423,
+      "sha256": "e5d328660ca3b30edb90b2b37ff65c250c34fc378b929f24631b3a3a6b3a0681"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_066.png",
+      "size_bytes": 24246,
+      "sha256": "220471d44ac4115f00d6d38d39583d14d92a32461ec1d6e1d249c904606acd05"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_067.png",
+      "size_bytes": 23117,
+      "sha256": "a13c91a2abafd2978b365166b80eae0ce5ab2346a9bab7f39e030f9c807bb04f"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_068.png",
+      "size_bytes": 119555,
+      "sha256": "9228d565f5fca93491022e7c777ac514e7a38b04125645fd38903a8c5593ffbd"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_069.png",
+      "size_bytes": 23496,
+      "sha256": "1f292850e882e29ee3f94daa0e25147280db73df0e8afe9344266b94451fc1e9"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_070.png",
+      "size_bytes": 23166,
+      "sha256": "48e3c39e591b5bf3d328c3e6ed9eee8becd9bcefe1baaa3df8e6f631056c319e"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_071.png",
+      "size_bytes": 23119,
+      "sha256": "a958514e06caab13a8f460ced8ff1896ba79cd5e7b51fd333c5fbcbaf26bd82f"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_072.png",
+      "size_bytes": 22340,
+      "sha256": "907fbbdb792e3632bd99c9debcb1defff409a9ecea49ba62b0b5119b7dc34b5b"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_073.png",
+      "size_bytes": 110397,
+      "sha256": "7f2ab54f7bf1024a836679a4df58309e0e675ea33a19a1869de8cb33bb12eeb6"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_074.png",
+      "size_bytes": 21200,
+      "sha256": "b3b19503f54e5758ba84d0aeb50b5bad1cb9d27ede7b3b591855e92e10b2dfc0"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_075.png",
+      "size_bytes": 21607,
+      "sha256": "e98c6296ebb1a8bda004cc9dc2aec42c0a8ff8f36173ffb3f011646e7abf38f8"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_076.png",
+      "size_bytes": 21015,
+      "sha256": "af2708cdefa18162f62e08d3f8d9cb8537e8c7bb48559fb1d1ee47b842fb06b9"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_077.png",
+      "size_bytes": 22144,
+      "sha256": "74636398acfa2fac64eaabd05f313f20fe07d52f029916431832446b1b658344"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_078.png",
+      "size_bytes": 21863,
+      "sha256": "6d1cc4a8557c99755f624b1d03e08a3169e3d2da3dacce878ee6fd87f28301b6"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_079.png",
+      "size_bytes": 16210,
+      "sha256": "f56ba42712b0d57cb07bbf75f48d1da9b781647aaf8ba31ccb2294276c7a8fcb"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_080.png",
+      "size_bytes": 16465,
+      "sha256": "9a2533835ed8c6f99c120db720ced9ceb112972093e906a82294e0e9f2292e80"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_081.png",
+      "size_bytes": 270218,
+      "sha256": "b08e7243e7687a02b85d52ac84c6dc0c08874f78c530d31ab322ecc5fbb1c412"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_082.png",
+      "size_bytes": 237533,
+      "sha256": "91152f588420cef5b36aac29069ba0f22a9ee4c6eaed89083623595379419f14"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_083.png",
+      "size_bytes": 155896,
+      "sha256": "6bda5768e6a3ef33659c54e1082eb40b97db03c004fbaf2cdfe74e36e9b930a4"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_084.png",
+      "size_bytes": 156521,
+      "sha256": "5a38f4c06afa2cb54ea85e23998c79ad55bf652d8e2b42911c5214f838cef07d"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_085.png",
+      "size_bytes": 126651,
+      "sha256": "c0c6d251f55b5297c8fe2eac8a8a7e26fb5599c3cc8bb554283803d228ecae57"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_086.png",
+      "size_bytes": 164984,
+      "sha256": "112709df465556248a6f8db08834e466ec535ce31005a0fdb0aceff64d5da29f"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_087.png",
+      "size_bytes": 147967,
+      "sha256": "c70125855bae2670f4a5231ca3ac9075ea7474f97b49a1d8304a45b5077e12f1"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_088.png",
+      "size_bytes": 205934,
+      "sha256": "d8fe406c3c1e92583c67c3e321bbe6a49148464e6403ec273fc5de59ca3acfdd"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_089.png",
+      "size_bytes": 176745,
+      "sha256": "20f2e52245fe7674ba6db5640f6d4ff322603662394bc26ef9d49f270d8afa28"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_090.png",
+      "size_bytes": 147683,
+      "sha256": "7ba145eecdd56579f1da2499b051300d8117719be780ef559bff5a472e923575"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_091.png",
+      "size_bytes": 205417,
+      "sha256": "dde80c2de2b78e0641e56a01945df24b830fe2c684e32086be9629b802696021"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_092.png",
+      "size_bytes": 151497,
+      "sha256": "f60b28d2890ad3d2cd98748eabbb04d61ce1cc7534dee61d8656c608e6fdc540"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_093.png",
+      "size_bytes": 123014,
+      "sha256": "fc4512648b1540ed844d416170d246331c2b9e82d1c04cbea421d1d5e0e13d19"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_094.png",
+      "size_bytes": 147869,
+      "sha256": "df499626b129838bb0fb471ff3585f121aae13ac0ddddb8c6ff3526237dcb258"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_095.png",
+      "size_bytes": 147868,
+      "sha256": "9d7c896f78c8b93993831b4d5be31ad5c067ce1e4146993427e01b00f21b1844"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_096.png",
+      "size_bytes": 120816,
+      "sha256": "c55316387b56103d0c7149588d350fa281f94cd05dbe995371e80ead0d992295"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_097.png",
+      "size_bytes": 83187,
+      "sha256": "596a5f5c1fd676a1e13cdf10ce9162977126611525b710507605159487398648"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_098.png",
+      "size_bytes": 270218,
+      "sha256": "b08e7243e7687a02b85d52ac84c6dc0c08874f78c530d31ab322ecc5fbb1c412"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_099.png",
+      "size_bytes": 237533,
+      "sha256": "91152f588420cef5b36aac29069ba0f22a9ee4c6eaed89083623595379419f14"
+    },
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_100.png",
+      "size_bytes": 155896,
+      "sha256": "6bda5768e6a3ef33659c54e1082eb40b97db03c004fbaf2cdfe74e36e9b930a4"
+    }
+  ],
+  "blocker": {
+    "service": "CUA/Sky native computer use",
+    "attempts": [
+      {
+        "operation": "cua.getApp(dosbox-x)",
+        "duration_seconds": 667.0643,
+        "result": "Sky Computer Use request timed out"
+      },
+      {
+        "operation": "cua.getState()",
+        "timeout_seconds": 60,
+        "duration_seconds": 60.0174,
+        "result": "js execution timed out; kernel reset"
+      }
+    ],
+    "status": "Historical CUA failure; authorized foreground osascript public-event fallback succeeded. No current original UI access blocker."
+  },
+  "followup_revalidation": {
+    "date": "2026-10-13",
+    "shell_session_id": 75582,
+    "process_still_running": true,
+    "emulator_log_observations": [
+      "ISO mounted D: with1data track,0audio tracks",
+      "Windows init broadcast version3.10 Enhanced Mode",
+      "Display and mouse-reset diagnostic activity; no visual interpretation"
+    ],
+    "cua_inventory": {
+      "operation": "cua.getState()",
+      "duration_seconds": 5.9994,
+      "result": "success; DOSBox-X listed running"
+    },
+    "cua_binding_attempts": [
+      {
+        "operation": "cua.getApp(com.dosbox-x)",
+        "result": "Ambiguous app identifier; SDL1 and SDL2 app paths reported",
+        "duration_seconds": 0.0106
+      },
+      {
+        "operation": "cua.getApp(/Users/miklosme/github/yukon-trail/local/tools/dosbox-x/dosbox-x-sdl2/dosbox-x.app)",
+        "timeout_seconds": 60,
+        "duration_seconds": 120.0129,
+        "result": "Sky Computer Use request timed out"
+      }
+    ],
+    "native_ui_actions_submitted": 0,
+    "boot_visually_verified": false
+  },
+  "authorized_applescript_fallback": {
+    "human_authorization": "Authorize AppleScript fallback",
+    "queries": [
+      {
+        "command": "osascript -e 'tell application \"System Events\" to tell process \"dosbox-x\" to get {name, unix id, name of every window, name of every menu bar item of menu bar 1}'",
+        "exit_code": 1,
+        "result": "68:72: execution error: An error of type -10822 has occurred. (-10822)"
+      },
+      {
+        "command": "osascript -e 'tell application \"System Events\" to get {name, unix id} of every process whose name contains \"dosbox\"'",
+        "exit_code": 1,
+        "result": "40:101: execution error: An error of type -10822 has occurred. (-10822)"
+      },
+      {
+        "command": "osascript -e 'return \"AppleScript engine available\"'",
+        "exit_code": 0,
+        "result": "AppleScript engine available"
+      }
+    ],
+    "interpretation": "AppleScript interpreter runs, but System Events scoped process/menu inventory failed. Error alone does not establish cause or explicit OS permission denial.",
+    "ui_actions_submitted": 0,
+    "permissions_changed": false,
+    "native_captures": 0
+  },
+  "root_proxy_access": {
+    "scope": "Human-authorized AppleScript fallback, executed by root because worker System Events access fails",
+    "process_id": 94413,
+    "window": "Yukon Trail reference - DOSBox-X 2026.10.01: KRNL386 - 20000 cycles/ms",
+    "capture_menu_item": "Take screenshot [F12+P]",
+    "success": true
+  },
+  "initial_state": {
+    "name": "seattle",
+    "date": "August23,1897",
+    "location": "Seattle",
+    "food_lb": 0,
+    "cash_dollars": 350,
+    "native_capture": "krnl386_004.png"
+  },
+  "gameplay_verified": "Original Seattle bounded cases documented in SEATTLE-REFERENCE.md; no journey or browser/port validation",
+  "worker_escalation_followup": {
+    "scoped_system_events_query": "tell process dosbox-x get unixid/windowname",
+    "result": "success outside shell sandbox; process94413/KRNL386",
+    "interpretation": "Earlierworker-10822failures were sandbox-specific; rootandworker escalated access available",
+    "guest_mouse_delivery_verified": false
+  },
+  "linda_acceptance": {
+    "before_native": "krnl386_024.png",
+    "before": {
+      "date": "August24,1897",
+      "food_lb": 0,
+      "cash_dollars": 350
+    },
+    "choice_native": [
+      "krnl386_025.png",
+      "krnl386_026.png"
+    ],
+    "confirmation": "OK,Illgetthetickets",
+    "after_native": "krnl386_027.png",
+    "after": {
+      "date": "August24,1897",
+      "food_lb": 0,
+      "cash_dollars": 850
+    },
+    "journal_added": "TeamedupwithnativeAlaskaLinda;added500topartnership",
+    "intervening_purchase_travel_actions": 0
+  },
+  "whipsaw_purchase": {
+    "before_native": "krnl386_032.png",
+    "before": {
+      "date": "August24,1897",
+      "food_lb": 0,
+      "cash_dollars": 850
+    },
+    "price_native": "krnl386_035.png",
+    "price_dollars": 8,
+    "confirmation": "OK,itsadeal",
+    "after_native": "krnl386_037.png",
+    "after": {
+      "date": "August24,1897",
+      "food_lb": 0,
+      "cash_dollars": 842
+    },
+    "whipsaw_visible_after": true
+  },
+  "save": {
+    "path": "local/emulator/seattle-reference-2026-10-13/MECC/YUKON/SEATTLE.GAM",
+    "evidence_copy": "local/evidence/seattle-reference-2026-10-13/SEATTLE-after-whipsaw-outfit.GAM",
+    "reload_verified": true,
+    "filename_entry_issue": "periodkeystrokeomitted;seattlegamrejected;basename seattle accepted with .GAM extension",
+    "before_journal_native": "krnl386_051.png",
+    "after_reload_native": "krnl386_083.png",
+    "second_reload_native": "krnl386_100.png",
+    "restored_date": "August24,1897",
+    "restored_cash_dollars": 422,
+    "restored_food_lb": 2400,
+    "restored_partner": "Linda",
+    "whipsaw_and_outfit_visible": true,
+    "save_bytes_unchanged": true
+  },
+  "isolated_date_case": {
+    "name": "clock",
+    "initial_native": "krnl386_087.png",
+    "after_initial_done_and_journal_only_native": "krnl386_090.png",
+    "date_before_and_after": "August23,1897",
+    "after_downtown_only_native": "krnl386_094.png",
+    "date_after_downtown": "August24,1897",
+    "cash_dollars": 350,
+    "food_lb": 0,
+    "interviews_purchases_between": 0
+  },
+  "menu_inventory": {
+    "Game": "krnl386_017.png",
+    "File": "krnl386_045.png",
+    "Management": "krnl386_077.png"
+  },
+  "refusal": {
+    "captured": false,
+    "reason": "No unaffordable attempt reached; observed finite initial outfit/sled/whipsaw/ticket choices did not establish a practical route to low cash. No edited state or guessed spending used.",
+    "future_case": "Use later naturally low-cash Midas journey and original insufficient-funds dialogue; static PSND1 mapping remains separate."
+  },
+  "final_guest_state": {
+    "process_id": 94413,
+    "shell_session_id": 75582,
+    "journal_native": "krnl386_100.png",
+    "scene": "Outfittersjournal",
+    "loaded_original_save": "SEATTLE.GAM",
+    "native_recordings_finalized": true
+  },
+  "independent_reviews": [
+    {
+      "reviewer": "original_seattle worker",
+      "scope": "Direct visual inspection all stated native PNG checkpoints"
+    },
+    {
+      "reviewer": "root",
+      "scope": "Native024/027 Linda balances/date/prose; rehash finalized000AVI/WAV; full000AVI decode separate root result"
+    }
+  ],
+  "partner_interviews": {
+    "Linda": {
+      "intro": "krnl386_021.png",
+      "why": "krnl386_022.png",
+      "cash": "krnl386_023.png",
+      "cash_dollars": 500
+    },
+    "Sadie": {
+      "intro": "krnl386_060.png",
+      "why": "krnl386_062.png",
+      "cash": "krnl386_063.png",
+      "cash_dollars": 500
+    },
+    "Jake": {
+      "intro": "krnl386_065.png",
+      "why": "krnl386_066.png",
+      "cash": "krnl386_067.png",
+      "cash_dollars": 500
+    },
+    "MidasTGolden": {
+      "intro": "krnl386_069.png",
+      "why": "krnl386_070.png",
+      "cash": "krnl386_071.png",
+      "cash_dollars": 750
+    },
+    "limits": "Only selected intro/why/cash branches; not exhaustive dialogue coverage"
+  },
+  "checks": {
+    "full_avi_decode": {
+      "krnl386_001.avi": {
+        "command": "ffmpeg -nostdin -v error -i local/evidence/seattle-reference-2026-10-13/krnl386_001.avi -f null -",
+        "exit_code": 0,
+        "stderr": ""
+      },
+      "krnl386_002.avi": {
+        "command": "ffmpeg -nostdin -v error -i local/evidence/seattle-reference-2026-10-13/krnl386_002.avi -f null -",
+        "exit_code": 0,
+        "stderr": ""
+      }
+    },
+    "versions": {
+      "python": "3.14.5",
+      "ffmpeg": "8.1.2",
+      "macOS": "14.8.3 build23J220",
+      "DOSBoxX": "2026.10.01 ARM SDL2"
+    },
+    "final_source_identity_recheck": "ISO and restored YUKON.EXE match prior source SHA256; SEATTLE.GAM matches preserved copy"
+  },
+  "avi_probes": {
+    "krnl386_001.avi": {
+      "duration_seconds": 1041.93652,
+      "size_bytes": 235948990,
+      "video": "ZMBV640x480",
+      "audio": "PCM16bit48kHzstereo"
+    },
+    "krnl386_002.avi": {
+      "duration_seconds": 1097.930805,
+      "size_bytes": 231758898,
+      "video": "ZMBV640x480",
+      "audio": "PCM16bit48kHzstereo"
+    }
+  }
+}

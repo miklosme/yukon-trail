@@ -1,0 +1,24 @@
+{
+  "scope": "Prepared canonical WAV adapter checked against original sample hashes, not browser/audio-output validation",
+  "asset_directory": "public/game-assets/seattle-voices-verified-20261014",
+  "manifest_sha256": "c4f5f48e5cbd0b4726c7c3ddb9da5df602d6d5c6e1906f1b360081ea52342684",
+  "native_evidence": "docs/seattle-sound-set-recovery-evidence.json",
+  "resources": {
+    "bitmaps": 11,
+    "trees": 7,
+    "voices": 47,
+    "sample_bytes": 7626207
+  },
+  "checks": [
+    "47 WAV PCM hashes match independently measured original converter outputs",
+    "Source raw hashes/offsets retained and match",
+    "Unsigned8-bit endpoints/neutral Web Audio conversion checked",
+    "Malformed WAV rate/truncation rejected",
+    "Deliberately changed native PCM oracle rejected before output creation"
+  ],
+  "unsupported": [
+    "Actual AudioContext creation/output and audible browser playback",
+    "Autoplay/user-gesture integration",
+    "Gain, queue/interruption/seek/mixer and scene dialogue timing"
+  ]
+}

@@ -1,0 +1,1302 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "integer_calls": 119127,
+  "mismatches": 0,
+  "sample_bytes": 7626207,
+  "scope": "Recover voices from selected actual Seattle TREE graphs; compare all native PCM.\n\nSource graph voice IDs, not TREE IDs or character-name guesses, choose PSND.\nOriginal integer readers/converter execute; header/terminal proofs are separate.\nNo live playback, mixer, whole processor, dialogue/UI or condition execution.\n",
+  "sounds": {
+    "PSND:1": {
+      "consumed_bits": 361423,
+      "declared_bits": 361423,
+      "final_state": [
+        128,
+        129,
+        128,
+        128
+      ],
+      "integer_calls": 1278,
+      "length": 45300,
+      "native_pcm_sha256": "20becd1623eaa00da9bfdd8cb2808aee7375718c17243d22323b642bb4058d7f",
+      "offset": 12462669,
+      "order": 2,
+      "raw_sha256": "a671dfae45ada8f46ea6a9d8ce0042d53234106ec6c479e60590ca8f55b1fa40",
+      "sample_bytes": 81792,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2100": {
+      "consumed_bits": 333558,
+      "declared_bits": 333558,
+      "final_state": [
+        129,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 1377,
+      "length": 41801,
+      "native_pcm_sha256": "7ef645ba2ebb26c529dc85d3341f1d8b0a97c58e0f2473ed0645e52492762348",
+      "offset": 28012085,
+      "order": 2,
+      "raw_sha256": "c4140723f6844f0dca5f7e916c6f4653e6b819d22639c027aa7cf3600292d259",
+      "sample_bytes": 88216,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2101": {
+      "consumed_bits": 191471,
+      "declared_bits": 191471,
+      "final_state": [
+        127,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 666,
+      "length": 24008,
+      "native_pcm_sha256": "17c38f84cc9718053b14dff52a58205726df4e02c424de81bc754b1d4b4bebdb",
+      "offset": 28606121,
+      "order": 2,
+      "raw_sha256": "71df15d85d81a1456ae0f1dbcb8074950742115119ab97329db2515b2288a700",
+      "sample_bytes": 42624,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2102": {
+      "consumed_bits": 179557,
+      "declared_bits": 179557,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 670,
+      "length": 22519,
+      "native_pcm_sha256": "13d28d1b64fc43270a3b1964c27007f9b2c24a174c7e952fc275c5765f43c012",
+      "offset": 28630129,
+      "order": 2,
+      "raw_sha256": "c1028eaa3279edbba711383493065c097ae432fa443c876cd3314879352226b1",
+      "sample_bytes": 42842,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2103": {
+      "consumed_bits": 292302,
+      "declared_bits": 292302,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 1161,
+      "length": 36644,
+      "native_pcm_sha256": "f6f40eeedc721e6b2ebd70952a2da2f30352326c81d4e7492a86ed0913829f6d",
+      "offset": 28652648,
+      "order": 2,
+      "raw_sha256": "837ea7f7b25f5985e4fbe62d09a2f8085e06fe51d02ff5ff23be7e8cc68ea185",
+      "sample_bytes": 74296,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2104": {
+      "consumed_bits": 194409,
+      "declared_bits": 194409,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 725,
+      "length": 24376,
+      "native_pcm_sha256": "d5fa24f96cb408e5bec7b83f306eea34cfe5a4fce038638fdf7ce855ba796688",
+      "offset": 28689292,
+      "order": 2,
+      "raw_sha256": "efa4a0f1b4d2b3556421ba96ff57b1442f49e939cbdeba3d0b496496ffc457a3",
+      "sample_bytes": 46400,
+      "terminal_unused_bits": 7,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2105": {
+      "consumed_bits": 1023172,
+      "declared_bits": 1023176,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3553,
+      "length": 128163,
+      "native_pcm_sha256": "c6f3e756d981299b3407e87102595acd66c139e3827776f52d6b9b98418368a1",
+      "offset": 28713668,
+      "order": 2,
+      "raw_sha256": "c0af22e8db873b929882fb6308de4ee5606fdbf63cab94dadaef3d5b332cc34a",
+      "sample_bytes": 227336,
+      "terminal_unused_bits": 4,
+      "windowed_integer_calls": 3553
+    },
+    "PSND:2106": {
+      "consumed_bits": 1327395,
+      "declared_bits": 1327395,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 4638,
+      "length": 166255,
+      "native_pcm_sha256": "f811d26d3c3a8c1107b29bbf2c7b9d74017541719e6815fc798ca56f16c7284c",
+      "offset": 28841831,
+      "order": 2,
+      "raw_sha256": "3e2bb27c554839082dae82facf3ab8d5b1d3041a99636a8d20306474331166fd",
+      "sample_bytes": 296817,
+      "terminal_unused_bits": 5,
+      "windowed_integer_calls": 4638
+    },
+    "PSND:2107": {
+      "consumed_bits": 163509,
+      "declared_bits": 163509,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 663,
+      "length": 20513,
+      "native_pcm_sha256": "67673066008f821fbfa05dd93c1023329546b5022c78f03ee3f27f4104375856",
+      "offset": 29008086,
+      "order": 2,
+      "raw_sha256": "2e79c137e224a07321cea0c29a7e0458e7af641d40684b8d9eea7893b26919cc",
+      "sample_bytes": 42383,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2108": {
+      "consumed_bits": 263380,
+      "declared_bits": 263380,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 978,
+      "length": 33013,
+      "native_pcm_sha256": "f4b8c863e4fe6481b7cdfe308a658878ed9b1ff5a65f69ac20ef5d2413350801",
+      "offset": 29028599,
+      "order": 2,
+      "raw_sha256": "b24406af45d4396cd7d9d4d06c8a2c8c34d6f1f2a2d4d4e877e2b3fbe72099b2",
+      "sample_bytes": 62644,
+      "terminal_unused_bits": 4,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2109": {
+      "consumed_bits": 1236080,
+      "declared_bits": 1236080,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 5056,
+      "length": 154584,
+      "native_pcm_sha256": "8ba4be61a1d7cddf93836d239d6df26842cb712d4aefcbcd775f407c6af83bc9",
+      "offset": 29061612,
+      "order": 2,
+      "raw_sha256": "d6f87e7d4321eb4157bc8ab7982b80525ff42e5c525af7182ce38ed9bca66593",
+      "sample_bytes": 323780,
+      "terminal_unused_bits": 0,
+      "windowed_integer_calls": 5056
+    },
+    "PSND:2110": {
+      "consumed_bits": 896638,
+      "declared_bits": 896638,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3586,
+      "length": 112138,
+      "native_pcm_sha256": "16f58a65aa492c3ae08eb35ed6d05a4e91c884b4a191f19ae56ccd7621a3d77e",
+      "offset": 29216196,
+      "order": 2,
+      "raw_sha256": "c31c2d20b53dbaac81a9281a971c35a61e32bd7b0652e1503aed10e70c9bdf73",
+      "sample_bytes": 229568,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 3586
+    },
+    "PSND:2111": {
+      "consumed_bits": 734938,
+      "declared_bits": 734938,
+      "final_state": [
+        128,
+        129,
+        128,
+        128
+      ],
+      "integer_calls": 2594,
+      "length": 91926,
+      "native_pcm_sha256": "444fc4b0dc2079b0d5e549089f19d5a7d4bcf0aa401668f77f9ed0facd844975",
+      "offset": 30535820,
+      "order": 2,
+      "raw_sha256": "c0bb8088dd20dcde818cf874bc53045e72fc3b7b06b20232c35806a6e4d1445a",
+      "sample_bytes": 165980,
+      "terminal_unused_bits": 6,
+      "windowed_integer_calls": 2594
+    },
+    "PSND:2112": {
+      "consumed_bits": 1356393,
+      "declared_bits": 1356393,
+      "final_state": [
+        129,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 5363,
+      "length": 169624,
+      "native_pcm_sha256": "ca3c7b734de1c46f7b606ef55292269151ba4b0a8f99d52c59066cacc33e615b",
+      "offset": 31210858,
+      "order": 2,
+      "raw_sha256": "97c771054a7b70fa586d37f95c8b01ffb2831c0288b800360dd427f53e2eab40",
+      "sample_bytes": 343296,
+      "terminal_unused_bits": 7,
+      "windowed_integer_calls": 5363
+    },
+    "PSND:2113": {
+      "consumed_bits": 281174,
+      "declared_bits": 281174,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 1147,
+      "length": 35187,
+      "native_pcm_sha256": "e9c187f544232eac02618ddb7609cb4f8e55c70babfcc9e3f8eb5b430739b07a",
+      "offset": 31380482,
+      "order": 2,
+      "raw_sha256": "4d2b67751f7b01f353c0bef57f6ed442980523db8853e906f1d7743354ad0388",
+      "sample_bytes": 73540,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2114": {
+      "consumed_bits": 176978,
+      "declared_bits": 176978,
+      "final_state": [
+        129,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 611,
+      "length": 22163,
+      "native_pcm_sha256": "0555cf7fedc3d61f2685143120151f9bdba33f0c8eea580ae9f8a1dfd6585969",
+      "offset": 31415669,
+      "order": 2,
+      "raw_sha256": "b669c21800ce84deab2a205570f39eff359493f56d1545551b910ccb38c064b5",
+      "sample_bytes": 39066,
+      "terminal_unused_bits": 6,
+      "windowed_integer_calls": 0
+    },
+    "PSND:2115": {
+      "consumed_bits": 1094573,
+      "declared_bits": 1094573,
+      "final_state": [
+        129,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3831,
+      "length": 136896,
+      "native_pcm_sha256": "4c8ad20b251f16431598529b08f3bf428c1a0d23b6bd95e3eaec31ed2b02cac5",
+      "offset": 31437832,
+      "order": 2,
+      "raw_sha256": "db6418b02a0813612ed3ef975389aacdda7612693467d0e5a46e88fa2cf7bf55",
+      "sample_bytes": 245176,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 3831
+    },
+    "PSND:2116": {
+      "consumed_bits": 787125,
+      "declared_bits": 787125,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3134,
+      "length": 98449,
+      "native_pcm_sha256": "44f60249ae78a0c61b3c8e479d568c2580e0202c0a8184ead189ea4bbd8dfba2",
+      "offset": 31574728,
+      "order": 2,
+      "raw_sha256": "eddd076ee9e5c6b4a8e750b321062536e573f66418a82f5d021fd69e3bf2cd21",
+      "sample_bytes": 200776,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 3134
+    },
+    "PSND:3100": {
+      "consumed_bits": 644648,
+      "declared_bits": 644648,
+      "final_state": [
+        129,
+        129,
+        128,
+        128
+      ],
+      "integer_calls": 2129,
+      "length": 80639,
+      "native_pcm_sha256": "864b4b42f0c16486c736f7af24741e521a8191f624627d89fbea1160dca79e0a",
+      "offset": 40703301,
+      "order": 2,
+      "raw_sha256": "d6dfb1b781ea954e78a6a8a53771b811410ea7f0dd9aa20e1af9f249fb359e0d",
+      "sample_bytes": 136256,
+      "terminal_unused_bits": 0,
+      "windowed_integer_calls": 2129
+    },
+    "PSND:3101": {
+      "consumed_bits": 536313,
+      "declared_bits": 536313,
+      "final_state": [
+        129,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 1839,
+      "length": 67098,
+      "native_pcm_sha256": "b29b158f716417b9164cb713c3668329facbee206afe6682987017dcaa028300",
+      "offset": 40783940,
+      "order": 2,
+      "raw_sha256": "b308a760605e74ed626750e956357fe97a0a4d6d2908f25a7aca0b34a161e2a1",
+      "sample_bytes": 117696,
+      "terminal_unused_bits": 7,
+      "windowed_integer_calls": 1839
+    },
+    "PSND:3102": {
+      "consumed_bits": 1134208,
+      "declared_bits": 1134208,
+      "final_state": [
+        127,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 3930,
+      "length": 141850,
+      "native_pcm_sha256": "eece208dc83a21211e4f39ce8e46ef090a6669b99ef4162f66491d2de1015bd2",
+      "offset": 40851038,
+      "order": 2,
+      "raw_sha256": "ea45c8ae89112463bfacc369213f48db894935e87efad9dc4ff89d8cfc1cff92",
+      "sample_bytes": 251520,
+      "terminal_unused_bits": 0,
+      "windowed_integer_calls": 3930
+    },
+    "PSND:3103": {
+      "consumed_bits": 513710,
+      "declared_bits": 513710,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 1715,
+      "length": 64272,
+      "native_pcm_sha256": "cfff952ec59f6890fe55018f6402c3cab6b10b1a514377b55ad3eac8412c5d26",
+      "offset": 40992888,
+      "order": 2,
+      "raw_sha256": "def9740522366b40fc626abefdcedc253214b303f1ecbbb35969cce5da6a01ab",
+      "sample_bytes": 109760,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 1715
+    },
+    "PSND:3104": {
+      "consumed_bits": 882082,
+      "declared_bits": 882082,
+      "final_state": [
+        127,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3026,
+      "length": 110319,
+      "native_pcm_sha256": "f6c57358c9f97c9920eb43cbfa5beb4d435351ff8b2b78a7dee09d39fd5f4766",
+      "offset": 41057160,
+      "order": 2,
+      "raw_sha256": "d4fae5bbdd9260da734a94212957c18a322e319ca81c446a0473e9069c25277a",
+      "sample_bytes": 193664,
+      "terminal_unused_bits": 6,
+      "windowed_integer_calls": 3026
+    },
+    "PSND:3105": {
+      "consumed_bits": 638292,
+      "declared_bits": 638292,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 2393,
+      "length": 79845,
+      "native_pcm_sha256": "07f9f0a311ba10ae6de283ec50e75874624fd4fbf2ac8362ef67ed9186b83fbc",
+      "offset": 41167479,
+      "order": 2,
+      "raw_sha256": "4296fe7b07d57b8d4a8194609faf91e882a7010eb1f1f250b30328901ba38964",
+      "sample_bytes": 153216,
+      "terminal_unused_bits": 4,
+      "windowed_integer_calls": 2393
+    },
+    "PSND:3106": {
+      "consumed_bits": 477166,
+      "declared_bits": 477166,
+      "final_state": [
+        129,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 1816,
+      "length": 59704,
+      "native_pcm_sha256": "5096c02feb0f57a08673fdd7b54957bea836be796605f7e54745bf7c88755aa0",
+      "offset": 41247324,
+      "order": 2,
+      "raw_sha256": "4063fc3b6f73be80d2bbe405d3af492250b5812bdf1e3b535cbb8903585b6415",
+      "sample_bytes": 116224,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 0
+    },
+    "PSND:3200": {
+      "consumed_bits": 753837,
+      "declared_bits": 753837,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 2711,
+      "length": 94288,
+      "native_pcm_sha256": "f265543e8e44222214f6b5d6bf5d2d341062e4071f6150717986882c67caea22",
+      "offset": 41668687,
+      "order": 2,
+      "raw_sha256": "ae503396017669cb9406ddc9d57fd2b1cd9b6d7bb6c93ca129e33bf72a4bdf37",
+      "sample_bytes": 173478,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 2711
+    },
+    "PSND:3201": {
+      "consumed_bits": 957682,
+      "declared_bits": 957682,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 3420,
+      "length": 119785,
+      "native_pcm_sha256": "6b3b8f8289f7f2d4191a3b2b606defb2e625abdae04cfad38aceae6460209935",
+      "offset": 41762975,
+      "order": 2,
+      "raw_sha256": "934963dc831e3dc50d9a3deb5f166d09943d0d68fbae8bf3a8cfaa416f93523b",
+      "sample_bytes": 219020,
+      "terminal_unused_bits": 6,
+      "windowed_integer_calls": 3420
+    },
+    "PSND:3202": {
+      "consumed_bits": 865479,
+      "declared_bits": 865479,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 3236,
+      "length": 108243,
+      "native_pcm_sha256": "478de0d3214c51534594bf4d352884e3167304d6087c92109025934eac853a53",
+      "offset": 41882760,
+      "order": 2,
+      "raw_sha256": "8e8042b51ffd57fda1ad775a1a4e4a6dc098c2c2cb428b431b6909efa529bdcc",
+      "sample_bytes": 207360,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 3236
+    },
+    "PSND:3203": {
+      "consumed_bits": 814830,
+      "declared_bits": 814830,
+      "final_state": [
+        129,
+        129,
+        128,
+        128
+      ],
+      "integer_calls": 2904,
+      "length": 101912,
+      "native_pcm_sha256": "c53c1ca52384a5165f4d1389cae190e1248399d5ba1086b00b9b90bab56b1e5e",
+      "offset": 41991003,
+      "order": 2,
+      "raw_sha256": "fd4581791e52b43d8361ff9b2e322c20bf2dd059a66532568e5824dfdfcd56d5",
+      "sample_bytes": 185818,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 2904
+    },
+    "PSND:3204": {
+      "consumed_bits": 987973,
+      "declared_bits": 987973,
+      "final_state": [
+        127,
+        126,
+        128,
+        128
+      ],
+      "integer_calls": 3444,
+      "length": 123537,
+      "native_pcm_sha256": "62940ba80c9d9f10ef97f028ab1b153f61dcb05950160941381e1562c2c7fc4f",
+      "offset": 42092915,
+      "order": 2,
+      "raw_sha256": "dfd8c2e03c2e3b3d8dc5a7dda5681574498ec8baea0f4ba197feabb5819b22e4",
+      "sample_bytes": 220364,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 3444
+    },
+    "PSND:3205": {
+      "consumed_bits": 514431,
+      "declared_bits": 514431,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 1769,
+      "length": 64362,
+      "native_pcm_sha256": "11687c067619a162be0bb33996721e518c55e4d38db2ee824a15683c07b633a8",
+      "offset": 42216452,
+      "order": 2,
+      "raw_sha256": "bb8ebb4ed1054e854084f08cff81c8d05a6d3cf5400fd873f5ecce968be5e307",
+      "sample_bytes": 113338,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 1769
+    },
+    "PSND:3206": {
+      "consumed_bits": 189299,
+      "declared_bits": 189299,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 681,
+      "length": 23703,
+      "native_pcm_sha256": "39b9f56756bcd21848ca9e0ff24f00b5a9712032927bcde70fa93b39565da91a",
+      "offset": 42280814,
+      "order": 2,
+      "raw_sha256": "3f84eec34bb362e9e60d17345a8c690a5afec2ad292af2377246723a9cdef4ea",
+      "sample_bytes": 43572,
+      "terminal_unused_bits": 5,
+      "windowed_integer_calls": 0
+    },
+    "PSND:3300": {
+      "consumed_bits": 582421,
+      "declared_bits": 582421,
+      "final_state": [
+        127,
+        126,
+        128,
+        128
+      ],
+      "integer_calls": 2045,
+      "length": 72861,
+      "native_pcm_sha256": "c0a835a980f5f345163d5213e556fde63a5901afe1a21ea09885d86f955da6c2",
+      "offset": 42378445,
+      "order": 2,
+      "raw_sha256": "380359f3f7a3c3504567719cb3941e1edff5d72a51e6d316ba4eda95a0dce10b",
+      "sample_bytes": 130880,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 2045
+    },
+    "PSND:3301": {
+      "consumed_bits": 879670,
+      "declared_bits": 879670,
+      "final_state": [
+        128,
+        129,
+        128,
+        128
+      ],
+      "integer_calls": 3106,
+      "length": 110017,
+      "native_pcm_sha256": "01208f37446fd6cef6f9b0c56d135bf9d64a9059c6ce9b12767df732dc1a243c",
+      "offset": 42451306,
+      "order": 2,
+      "raw_sha256": "6238b669051bfcd104d926b43577ea44ee42a877918019077110454643aefe6e",
+      "sample_bytes": 198784,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 3106
+    },
+    "PSND:3302": {
+      "consumed_bits": 798452,
+      "declared_bits": 798452,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3327,
+      "length": 99865,
+      "native_pcm_sha256": "d87ab5fb4b794e97b9f8c78b29feb8f3e4b39842faa5110d4b3c41e37fc5ef4c",
+      "offset": 42561323,
+      "order": 2,
+      "raw_sha256": "f37be43fd51d0b8d204e00751334ea05a5257901ad9d7d63aba29b9bc090310b",
+      "sample_bytes": 213504,
+      "terminal_unused_bits": 4,
+      "windowed_integer_calls": 3327
+    },
+    "PSND:3303": {
+      "consumed_bits": 1218903,
+      "declared_bits": 1218903,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 4721,
+      "length": 152437,
+      "native_pcm_sha256": "3aec800e022d82f54cbf2d631cd543b6dca2079b24f2f47d0f1892edccf8cbfa",
+      "offset": 42661188,
+      "order": 2,
+      "raw_sha256": "08ca7a41af9bb672e782e2b06308ee1d60bfbc3bd41626e4c85cdaa597630c1a",
+      "sample_bytes": 302720,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 4721
+    },
+    "PSND:3304": {
+      "consumed_bits": 1304013,
+      "declared_bits": 1304013,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 5114,
+      "length": 163076,
+      "native_pcm_sha256": "2b1fa36b059f4b617cdfc3a254f62824611b468369662e2a8c113dc0acf1782a",
+      "offset": 42813625,
+      "order": 2,
+      "raw_sha256": "fb4c441d852e3e24235d4cc7bd79c49506259a47028ebcc1821a514d040dfa92",
+      "sample_bytes": 327424,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 5114
+    },
+    "PSND:3305": {
+      "consumed_bits": 833254,
+      "declared_bits": 833254,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3250,
+      "length": 104215,
+      "native_pcm_sha256": "e13659d007cab24628ff13aff38e4deafe34fcb92d2fe6d6e8473aa8c9247b6a",
+      "offset": 42976701,
+      "order": 2,
+      "raw_sha256": "440c8bb2f214c6db247440c2d2ebec146c37a516426cc084f0a1fa31f50d64b3",
+      "sample_bytes": 208064,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 3250
+    },
+    "PSND:3306": {
+      "consumed_bits": 555804,
+      "declared_bits": 555804,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 1973,
+      "length": 69534,
+      "native_pcm_sha256": "08bce6392f10eac1b14e20b711aae6697fb028fa175c80d88a689213a5b9137a",
+      "offset": 43080916,
+      "order": 2,
+      "raw_sha256": "e2dfa5054e164af6c5cedea25bbe59ba4746abd12380571f9d9675c9eb6b38fe",
+      "sample_bytes": 126272,
+      "terminal_unused_bits": 4,
+      "windowed_integer_calls": 1973
+    },
+    "PSND:3400": {
+      "consumed_bits": 563991,
+      "declared_bits": 563991,
+      "final_state": [
+        129,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 1971,
+      "length": 70557,
+      "native_pcm_sha256": "faef59da722e7f5aa179b655dffc979a00e57a6f257ab713c22aa990dc73ea3a",
+      "offset": 43210534,
+      "order": 2,
+      "raw_sha256": "f9869724e37cc1132445391ffa85473ca9fafb8fd440ab6a548040196b39edba",
+      "sample_bytes": 126116,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 1971
+    },
+    "PSND:3401": {
+      "consumed_bits": 887902,
+      "declared_bits": 887902,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 3747,
+      "length": 111046,
+      "native_pcm_sha256": "76c8e6e4caae73eb0d4360e45e657c582956ad854ff25bcbcd8f99684ac7a5aa",
+      "offset": 43413044,
+      "order": 2,
+      "raw_sha256": "7d649004db91300f4cd820b6fbcf417d2d9abe9ce552ac9773fce6bed60abc1c",
+      "sample_bytes": 239766,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 3747
+    },
+    "PSND:3402": {
+      "consumed_bits": 1089577,
+      "declared_bits": 1089581,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 4036,
+      "length": 136272,
+      "native_pcm_sha256": "7f658fb21c4e82196d123886bfe0e09106dde9d0dbf1c4f822674281870a4d13",
+      "offset": 43524090,
+      "order": 2,
+      "raw_sha256": "3b9f9bd57e12d124420983e31e16fa76b0488aed92125e172ffe8aa9fd1555d9",
+      "sample_bytes": 258248,
+      "terminal_unused_bits": 7,
+      "windowed_integer_calls": 4036
+    },
+    "PSND:3403": {
+      "consumed_bits": 568586,
+      "declared_bits": 568586,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 2363,
+      "length": 71132,
+      "native_pcm_sha256": "97a50219ba329f0689bc787a8a4460fabd9cc5632da29afa5dabf805b52a9f33",
+      "offset": 43660362,
+      "order": 2,
+      "raw_sha256": "748564003c3ef7758065aa8e775d329327d0f906f63615a42266cf9cbc888ab9",
+      "sample_bytes": 151200,
+      "terminal_unused_bits": 6,
+      "windowed_integer_calls": 2363
+    },
+    "PSND:3404": {
+      "consumed_bits": 969215,
+      "declared_bits": 969215,
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 3539,
+      "length": 121226,
+      "native_pcm_sha256": "6de1a10792f94be7b3a2640adc5c0e6567521394521f2420c6c5b011c95b44af",
+      "offset": 43731494,
+      "order": 2,
+      "raw_sha256": "3779978876ef94dd8443a659ce62caddf52fcf572eb5e050fa0cc07032ec1821",
+      "sample_bytes": 226434,
+      "terminal_unused_bits": 1,
+      "windowed_integer_calls": 3539
+    },
+    "PSND:3405": {
+      "consumed_bits": 632141,
+      "declared_bits": 632141,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 2710,
+      "length": 79076,
+      "native_pcm_sha256": "ee411d517522b9735467e1b300229f92bc042ddc4bdfd8b43450e8f389255a37",
+      "offset": 43852720,
+      "order": 2,
+      "raw_sha256": "28dc9c900bfb91e5cdc9c1be7074ae6b3031538651c49714c0d32c77824d31dc",
+      "sample_bytes": 173403,
+      "terminal_unused_bits": 3,
+      "windowed_integer_calls": 2710
+    },
+    "PSND:3406": {
+      "consumed_bits": 148816,
+      "declared_bits": 148816,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 590,
+      "length": 18642,
+      "native_pcm_sha256": "cc9c9d3cc6e6aa94559aaa927cac5c6f600c090b4a2c1c8f4ad5fdafdab19a95",
+      "offset": 43931796,
+      "order": 2,
+      "raw_sha256": "53258df65022d7b68b22976ea50f79fdcc6b149923b9742cb42de16852841581",
+      "sample_bytes": 37750,
+      "terminal_unused_bits": 0,
+      "windowed_integer_calls": 0
+    },
+    "PSND:601": {
+      "consumed_bits": 160486,
+      "declared_bits": 160486,
+      "final_state": [
+        128,
+        127,
+        128,
+        128
+      ],
+      "integer_calls": 591,
+      "length": 20135,
+      "native_pcm_sha256": "da40d6eb457bc0974b68eaa9df2ae64ebb7df2e651e2d920ae24a5c0246c3fc9",
+      "offset": 74779918,
+      "order": 2,
+      "raw_sha256": "dacfa96eb30799588775099dc3d3f56a543887b296293eaf33ed076b520cfb13",
+      "sample_bytes": 37824,
+      "terminal_unused_bits": 2,
+      "windowed_integer_calls": 0
+    }
+  },
+  "trees": {
+    "TREE:1": {
+      "length": 1648,
+      "offset": 85729653,
+      "raw_sha256": "985c4295e47595e266d1da976dd934000031e726023d11ce52d98fd0d6ba566e",
+      "speaker_word": 1,
+      "voiced_records": [
+        {
+          "record_offset": 278,
+          "text_sha256": "2faff59f2c0efe857883d8b0e95c0c30e40c4ba5a9467c8f49a708b9ede5f194",
+          "voice_id": 1
+        }
+      ]
+    },
+    "TREE:2100": {
+      "length": 24664,
+      "offset": 86177479,
+      "raw_sha256": "eabb9e6ed25f0ff36ebaffb6717c58ae41276ed605657da6d1267a3b36c7e353",
+      "speaker_word": 17,
+      "voiced_records": [
+        {
+          "record_offset": 4,
+          "text_sha256": "e0e73ed06ec93acd05cbce3c53f61f62bc257c0cdfe4d8a932de93b6afabd8e0",
+          "voice_id": 2100
+        },
+        {
+          "record_offset": 278,
+          "text_sha256": "80b3afadd54368a89db32456a799221a3c632cb8b482d2ca49ea09836949c1c2",
+          "voice_id": 2101
+        },
+        {
+          "record_offset": 552,
+          "text_sha256": "616cb3f990b4121bedb34d86502d3f574bcb06c0211ece51d194ab4d2339e5df",
+          "voice_id": 2102
+        },
+        {
+          "record_offset": 1100,
+          "text_sha256": "5801be0c323817179543553b540a044abe881f18f23d2dd5d85329e0424ec428",
+          "voice_id": 2103
+        },
+        {
+          "record_offset": 1648,
+          "text_sha256": "656ec07a72d8e1171f352fbb47e401eedd22235f7ce02d4e76942a6a52e07342",
+          "voice_id": 2104
+        },
+        {
+          "record_offset": 2196,
+          "text_sha256": "17b4de2b13fbc00bd1652b64e0fccae5ffd6dc1fdbefc086d2f5274411fa5ae3",
+          "voice_id": 2105
+        },
+        {
+          "record_offset": 2744,
+          "text_sha256": "b417efcb78c708b5ee4bbf6319a30c6058537a267c6fb0bf0cda5db6d0b86b1b",
+          "voice_id": 2106
+        },
+        {
+          "record_offset": 3292,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 4114,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 4936,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 5758,
+          "text_sha256": "c3ea38dd664f96affa645fe1b46393cd92243cbbe73983f1bd4e4b3886dd865f",
+          "voice_id": 2108
+        },
+        {
+          "record_offset": 6854,
+          "text_sha256": "a45700decd6f972cbbeeee5ca00c145a3db48a26c9fd8824bd418a1695360206",
+          "voice_id": 2109
+        },
+        {
+          "record_offset": 7402,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 8224,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 9046,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 9868,
+          "text_sha256": "c3ea38dd664f96affa645fe1b46393cd92243cbbe73983f1bd4e4b3886dd865f",
+          "voice_id": 2108
+        },
+        {
+          "record_offset": 10964,
+          "text_sha256": "591609bd12acf320f9a30c98482794c269cae39eac66660a6586d6fd7c06d4e2",
+          "voice_id": 2110
+        },
+        {
+          "record_offset": 11512,
+          "text_sha256": "fdb9fcf66ab47ddfe9a93927c019818fb10438425ebaf8917110f743256ade85",
+          "voice_id": 2111
+        },
+        {
+          "record_offset": 12334,
+          "text_sha256": "e42db9e71ef1523221342248ef01d86a0fc32842fe018a7f771e71d75b3e680e",
+          "voice_id": 2112
+        },
+        {
+          "record_offset": 13156,
+          "text_sha256": "c1deee5494f8198f906cd7311ece5b4b9c36fa02194aa508215fe85f851ccb0b",
+          "voice_id": 2113
+        },
+        {
+          "record_offset": 14252,
+          "text_sha256": "d48a1252d1679436644fae7e782aeac8d533ac6233ca4f653de21b7a24e9e2a7",
+          "voice_id": 2114
+        },
+        {
+          "record_offset": 15074,
+          "text_sha256": "c3ea38dd664f96affa645fe1b46393cd92243cbbe73983f1bd4e4b3886dd865f",
+          "voice_id": 2108
+        },
+        {
+          "record_offset": 16170,
+          "text_sha256": "c966840550fcb53683e13c77fade9f1560451e940c5aa4dda7ee5e6b7a1151bf",
+          "voice_id": 2115
+        },
+        {
+          "record_offset": 16718,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 17540,
+          "text_sha256": "d48a1252d1679436644fae7e782aeac8d533ac6233ca4f653de21b7a24e9e2a7",
+          "voice_id": 2114
+        },
+        {
+          "record_offset": 18362,
+          "text_sha256": "c3ea38dd664f96affa645fe1b46393cd92243cbbe73983f1bd4e4b3886dd865f",
+          "voice_id": 2108
+        },
+        {
+          "record_offset": 19458,
+          "text_sha256": "c7ff0daca883b5bce95af329c42fe8df8c8793aaaaa0a5adede3d27cf14cf951",
+          "voice_id": 2116
+        },
+        {
+          "record_offset": 20006,
+          "text_sha256": "106eb35ca81a96c310b5e5b8598b28ae2e4e402267883b427420adcef98c0046",
+          "voice_id": 2107
+        },
+        {
+          "record_offset": 20828,
+          "text_sha256": "d48a1252d1679436644fae7e782aeac8d533ac6233ca4f653de21b7a24e9e2a7",
+          "voice_id": 2114
+        },
+        {
+          "record_offset": 21650,
+          "text_sha256": "c3ea38dd664f96affa645fe1b46393cd92243cbbe73983f1bd4e4b3886dd865f",
+          "voice_id": 2108
+        }
+      ]
+    },
+    "TREE:3100": {
+      "length": 14252,
+      "offset": 86505539,
+      "raw_sha256": "be1173d78e7a7a45b43f0ba603f0bb3396c9f491475c1bcc2e117dd435c8ccfa",
+      "speaker_word": 1,
+      "voiced_records": [
+        {
+          "record_offset": 4,
+          "text_sha256": "2cc8b199dc9b8967abc7f2a924769f2d308ccd573b2d04cf7e1795dc32dcd9f6",
+          "voice_id": 3100
+        },
+        {
+          "record_offset": 552,
+          "text_sha256": "e7f1f545c914a965b9de9703f3c139ae1dee450b63620874af9bec5714ec0572",
+          "voice_id": 3101
+        },
+        {
+          "record_offset": 1100,
+          "text_sha256": "d1e7091ded7bf4c44c4b5198d302e61b84bfadd8fc82592fdcaf85f5c8f5d3cd",
+          "voice_id": 3102
+        },
+        {
+          "record_offset": 1922,
+          "text_sha256": "c6ba4a4bae6e626049d8d7c2710fe68f6dc4705c6ccf5582a554ff309894d54d",
+          "voice_id": 3103
+        },
+        {
+          "record_offset": 2470,
+          "text_sha256": "e12c1e4fe2c842c1017c37dd96704b9bffe5f3e0884a0ae63e574ba6c1de4acb",
+          "voice_id": 3104
+        },
+        {
+          "record_offset": 3018,
+          "text_sha256": "dfeb1a5e1b310860e2ca5563f5f2784acbc303551cf68d18b4ab5e60806b34c7",
+          "voice_id": 3105
+        },
+        {
+          "record_offset": 6580,
+          "text_sha256": "4370b1d39980cde1c6f4bb50a0ae606e6dcb522f7e9e62231299d2844e5fd290",
+          "voice_id": 3106
+        },
+        {
+          "record_offset": 7402,
+          "text_sha256": "dfeb1a5e1b310860e2ca5563f5f2784acbc303551cf68d18b4ab5e60806b34c7",
+          "voice_id": 3105
+        },
+        {
+          "record_offset": 10964,
+          "text_sha256": "dfeb1a5e1b310860e2ca5563f5f2784acbc303551cf68d18b4ab5e60806b34c7",
+          "voice_id": 3105
+        }
+      ]
+    },
+    "TREE:3200": {
+      "length": 14252,
+      "offset": 86522261,
+      "raw_sha256": "e3c331c525d326fd4b413e5c01664d383e9cd66f68119a3bd23fff27c518e3c1",
+      "speaker_word": 3,
+      "voiced_records": [
+        {
+          "record_offset": 4,
+          "text_sha256": "3069e7aca65854c8df3725763423f1f0b51ba758beaf68114a5951a3b9cfc2fe",
+          "voice_id": 3200
+        },
+        {
+          "record_offset": 552,
+          "text_sha256": "18c576112a0430647b16f6220a18d5c4d0de070347fcc19b98f0b1824aa2728c",
+          "voice_id": 3201
+        },
+        {
+          "record_offset": 1100,
+          "text_sha256": "8eb7dcadf85c3803eecab526248e7b648bbe639c8c1d863cfc75c1035f75e520",
+          "voice_id": 3202
+        },
+        {
+          "record_offset": 1922,
+          "text_sha256": "80e2df11d2e56b66201b0e97bd49aa996f3e8f3c98edd2bb9bcfc7ee1d12c433",
+          "voice_id": 3203
+        },
+        {
+          "record_offset": 2470,
+          "text_sha256": "8748b6adcbc29b676f95c622df84fa05b0b3f3a0ada49c010112cbfbe648ebd7",
+          "voice_id": 3204
+        },
+        {
+          "record_offset": 3018,
+          "text_sha256": "e47ead4b6a15422693c8e4af6e47ec50ccb4524527832ce9e83881205ebf7df1",
+          "voice_id": 3205
+        },
+        {
+          "record_offset": 6580,
+          "text_sha256": "224f5b96b834b337e81d826836d55b0547727048e18bc8b96555012c9f3f634e",
+          "voice_id": 3206
+        },
+        {
+          "record_offset": 7402,
+          "text_sha256": "e47ead4b6a15422693c8e4af6e47ec50ccb4524527832ce9e83881205ebf7df1",
+          "voice_id": 3205
+        },
+        {
+          "record_offset": 10964,
+          "text_sha256": "e47ead4b6a15422693c8e4af6e47ec50ccb4524527832ce9e83881205ebf7df1",
+          "voice_id": 3205
+        }
+      ]
+    },
+    "TREE:3300": {
+      "length": 14252,
+      "offset": 86538983,
+      "raw_sha256": "6d239f20dd005324c8adabef5a33a51d379c4d845166787c4f411e81ae57cbd7",
+      "speaker_word": 2,
+      "voiced_records": [
+        {
+          "record_offset": 4,
+          "text_sha256": "f55264439ca53d2c6d82beef8242f0ce4153535541130bd5561a36f14513d653",
+          "voice_id": 3300
+        },
+        {
+          "record_offset": 552,
+          "text_sha256": "fa5503eafc089c208f94c06b325ec86e77154e1ccdbb8ef83f3b711c9af16c23",
+          "voice_id": 3301
+        },
+        {
+          "record_offset": 1100,
+          "text_sha256": "bc578e6be3014313097b029fff9f62020fb389aca32c0ae1bc8585860e826ff7",
+          "voice_id": 3302
+        },
+        {
+          "record_offset": 1922,
+          "text_sha256": "4cf1e24846b11a3a555a06f09e07bfddecb87f0229171127eb38567269d89b8f",
+          "voice_id": 3303
+        },
+        {
+          "record_offset": 2470,
+          "text_sha256": "0d17a87c99e448f2b44cfd60a98fb7c9bbafc437b65b1115bf943716b8cee7cd",
+          "voice_id": 3304
+        },
+        {
+          "record_offset": 3018,
+          "text_sha256": "f9958780e1bbb31af828166442eb192752dc352e358f7f0987f9ada6e6b59bd3",
+          "voice_id": 3305
+        },
+        {
+          "record_offset": 6580,
+          "text_sha256": "1fa960f7fdac1266904eaf21b2543c66346ebcd9d61f999bf86e228da5a89cea",
+          "voice_id": 3306
+        },
+        {
+          "record_offset": 7402,
+          "text_sha256": "f9958780e1bbb31af828166442eb192752dc352e358f7f0987f9ada6e6b59bd3",
+          "voice_id": 3305
+        },
+        {
+          "record_offset": 10964,
+          "text_sha256": "f9958780e1bbb31af828166442eb192752dc352e358f7f0987f9ada6e6b59bd3",
+          "voice_id": 3305
+        }
+      ]
+    },
+    "TREE:3400": {
+      "length": 14526,
+      "offset": 86563945,
+      "raw_sha256": "948242aaa095b020ee47f6b6df71d8a4abaeedb14517ab85e6d8feb105b0e57a",
+      "speaker_word": 4,
+      "voiced_records": [
+        {
+          "record_offset": 4,
+          "text_sha256": "9918e90e63d6828b787362aa09a3e32922fce6f79bb27a40cfe43849dfc37743",
+          "voice_id": 3400
+        },
+        {
+          "record_offset": 552,
+          "text_sha256": "20f5d3e4ed11c1004c75fb66029f943f5cf7f7d98e83f65bd10dcaba60232168",
+          "voice_id": 3401
+        },
+        {
+          "record_offset": 1100,
+          "text_sha256": "6bc68943d08e4266838fe9f3875eab4eed093d0402b585f35a4e96e5904507da",
+          "voice_id": 3402
+        },
+        {
+          "record_offset": 1922,
+          "text_sha256": "6abf7f4f1dbc380de5f46ce49c23295fd99ced808f2f4322560d3012f46e4270",
+          "voice_id": 3403
+        },
+        {
+          "record_offset": 2470,
+          "text_sha256": "1dab9e2d178905aa9f917e503f354938bac6af5a160e90d993561fc1643dda70",
+          "voice_id": 3404
+        },
+        {
+          "record_offset": 3018,
+          "text_sha256": "f8ba3e3eeafc3c33cab2e0698c930b8e5bcaf560514f341d5dc3d541294b53fe",
+          "voice_id": 3405
+        },
+        {
+          "record_offset": 6580,
+          "text_sha256": "224f5b96b834b337e81d826836d55b0547727048e18bc8b96555012c9f3f634e",
+          "voice_id": 3406
+        },
+        {
+          "record_offset": 7402,
+          "text_sha256": "f8ba3e3eeafc3c33cab2e0698c930b8e5bcaf560514f341d5dc3d541294b53fe",
+          "voice_id": 3405
+        },
+        {
+          "record_offset": 10964,
+          "text_sha256": "f8ba3e3eeafc3c33cab2e0698c930b8e5bcaf560514f341d5dc3d541294b53fe",
+          "voice_id": 3405
+        }
+      ]
+    },
+    "TREE:600": {
+      "length": 1648,
+      "offset": 87294045,
+      "raw_sha256": "d3be3d9e229d178ba265ee91e7d5057ee343526a8a2f95c63227b17323d289aa",
+      "speaker_word": 4,
+      "voiced_records": [
+        {
+          "record_offset": 278,
+          "text_sha256": "66db3001e84b5c460bec13afac1ce9ee4a6df961b78fa1407247389e62868044",
+          "voice_id": 601
+        }
+      ]
+    }
+  },
+  "voice_count": 47
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Independent root visual inspection of finalized original native184; no UI control or port comparison",
+  "capture": "local/evidence/seattle-reference-2026-10-13/krnl386_184.png",
+  "sha256": "b1ff1e02077ed97c1b20a1b5c18995153f2aff4c15bb84c6c572a02a3df22ccc",
+  "observed": {
+    "context": "Original customs active welcome conversation",
+    "speech": "Welcome to Canada!",
+    "game_menu_disabled": [
+      "See Journal & Outfit",
+      "High Score List"
+    ],
+    "game_menu_checked": [
+      "Sound Effects",
+      "Music",
+      "Speech",
+      "Show Speech Balloons"
+    ]
+  },
+  "unknown": [
+    "Underlying enabled/disabled state flags and all dialogue phases",
+    "Port browser menu behavior"
+  ]
+}

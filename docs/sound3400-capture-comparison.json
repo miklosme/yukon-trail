@@ -1,0 +1,78 @@
+{
+  "capture_path": "local/evidence/recovery-proof/linda-capture-1800-2000-20261014.wav",
+  "capture_sha256": "4d4ba42af10e6984a37044bea0509b1cb3172917ad19a7322e7063b1a143f594",
+  "clip_extraction": {
+    "command": "ffmpeg -nostdin -v error -ss 1800 -i local/evidence/seattle-reference-2026-10-13/krnl386_000.avi -t 200 -vn -c:a pcm_s16le local/evidence/recovery-proof/linda-capture-1800-2000-20261014.wav",
+    "duration_seconds": 200,
+    "scope": "Bounded existing-media analysis; no live application control.",
+    "start_seconds": 1800
+  },
+  "comparison_channels": 1,
+  "comparison_rate": 4000,
+  "end_seconds": 113.2855,
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "fitted_dc_offset": 0.0010017278108377015,
+  "fitted_gain": 0.3390357946635798,
+  "fractional_phase_refinement": {
+    "fitted_dc_offset": 0.001001353315805519,
+    "fitted_gain": 0.33892051929537836,
+    "fractional_sample_shift": 0.5,
+    "normalized_correlation": 0.9930209475328743,
+    "residual_rms_fraction_of_capture": 0.11793810987510443,
+    "time_stretch": 1.0
+  },
+  "normalized_correlation": 0.9533613051053622,
+  "numpy_version": "2.3.5",
+  "original_capture": {
+    "bytes": 452842986,
+    "duration_seconds": 2030.692753,
+    "path": "local/evidence/seattle-reference-2026-10-13/krnl386_000.avi",
+    "sha256": "f64c3996bcf84bb185ee761ab576ca2d0a0133ca86fdeb65be5d1dbe4ddf8f4d"
+  },
+  "original_end_seconds": 1913.2855,
+  "original_start_seconds": 1907.56575,
+  "residual_rms_fraction_of_capture": 0.3018314462209031,
+  "sample_count": 22879,
+  "scene_frame": {
+    "original_seconds": 1910,
+    "path": "local/evidence/recovery-proof/linda-3400-1910s-20261014.png",
+    "sha256": "9157bdd87d56759521d2567a416e650474392f725ae1bebb090f5496119d0dd7"
+  },
+  "scope": "Aligned resampled mono waveform comparison with fitted linear gain/DC. Residual retained; not bit-identical PCM, automatic resource identity, full mixer, or general sound validation.",
+  "source_text_corroboration": {
+    "observation": "Sound subagent independently inspected extracted original AVI scene frame: Linda and exact source-record text visible.",
+    "record_offset": 4,
+    "text_bytes_hex": "4920736565207468617420796f752068617665206e6f74207965742063686f73656e206120706172746e65722e20596f7520776f756c64206d616b6520612077697365206465636973696f6e2062792063686f6f73696e67206d652e",
+    "text_latin1": "I see that you have not yet chosen a partner. You would make a wise decision by choosing me.",
+    "tree_id": 3400,
+    "voice_id": 3400
+  },
+  "start_seconds": 107.56575,
+  "template_sha256": "c828d336de26558877a2d2d63086fbb190e9af4f53a3d226fc96bf4705198b45",
+  "thirds": [
+    {
+      "end_seconds": 109.47224999999999,
+      "fitted_dc_offset": 0.0009785236512252766,
+      "fitted_gain": 0.33957758198975074,
+      "normalized_correlation": 0.9552111733363194,
+      "residual_rms_fraction_of_capture": 0.2959250147139502,
+      "start_seconds": 107.56575
+    },
+    {
+      "end_seconds": 111.37875,
+      "fitted_dc_offset": 0.001207499478881655,
+      "fitted_gain": 0.33327914477811116,
+      "normalized_correlation": 0.9369535636658802,
+      "residual_rms_fraction_of_capture": 0.3494538875643093,
+      "start_seconds": 109.47224999999999
+    },
+    {
+      "end_seconds": 113.2855,
+      "fitted_dc_offset": 0.0008001978995096409,
+      "fitted_gain": 0.343286767749833,
+      "normalized_correlation": 0.9651362690089836,
+      "residual_rms_fraction_of_capture": 0.26174793646449046,
+      "start_seconds": 111.37875
+    }
+  ]
+}

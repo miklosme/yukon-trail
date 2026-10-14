@@ -1,0 +1,179 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "artifacts": {
+    "local/evidence/recovery-proof/bitmap-census-20261013.json": {
+      "sha256": "dd73cfc4fe800d8ebed7ef2a9e54633407b54330cfaf93790c0d11da6c0da10a",
+      "size_bytes": 794182
+    },
+    "local/evidence/recovery-proof/seattle-native-integers-20261013.json": {
+      "sha256": "98ccec440cf930e2d9ce133b0ff4c075e2d6fd1d0a4413577a6cf91f29084416",
+      "size_bytes": 669
+    },
+    "local/evidence/recovery-proof/storm-bubble-20261013.json": {
+      "sha256": "8a964132774760a0ce810cf2814e1d95f52e52c5a8798c4beb508610e1d2cd64",
+      "size_bytes": 517
+    },
+    "local/evidence/recovery-proof/voyage-storm-70s-20261013.png": {
+      "sha256": "84b681ad06483629e0b7dd598c7014a0eba1499cdc94d1337df58bb7b0e00f72",
+      "size_bytes": 124042
+    },
+    "local/evidence/recovery-proof/wharf-background-20261013.json": {
+      "sha256": "7af9f4ae131d5ba1491a9cba57e4dc45bee90f266e9db55dd321cbcd704f645c",
+      "size_bytes": 1527
+    }
+  },
+  "census_summary": {
+    "declared_frames": 1523,
+    "decoded_frames": 1523,
+    "resources": 331,
+    "statuses": {
+      "decoded": 331
+    }
+  },
+  "checked_date": "2026-10-13",
+  "native_integer_comparison": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "calls": 7830,
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "mismatches": 0,
+    "native_code": "NE 0001:0062 and 0001:0129; file base 0x460",
+    "resources": {
+      "CBMP:3000": {
+        "frames": 1,
+        "native_calls": 5882,
+        "sha256": "9886b7d6a9c497f1f9c67c03169314438869cd5d0125397c5403eb24bbb9c6fe"
+      },
+      "CBMP:4001": {
+        "frames": 7,
+        "native_calls": 1948,
+        "sha256": "eed2c94c055cb920c62cbebce99df5ce52966838c8517702e83189489d28caf5"
+      }
+    },
+    "unicorn_version": "2.1.4",
+    "unique_calls": 5406
+  },
+  "scope": "Census acceptance is not independent native validation. Native integer and pixel comparisons cover only named resources/regions. Index-zero edge pixels remain unresolved.",
+  "storm_bubble_comparison": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "border_pixels": 6317,
+    "capture_origin": [
+      40,
+      234
+    ],
+    "capture_sha256": "84b681ad06483629e0b7dd598c7014a0eba1499cdc94d1337df58bb7b0e00f72",
+    "examples": [],
+    "excluded_exterior": 11523,
+    "excluded_interior": 47329,
+    "mismatches": 0,
+    "palette_conversion": "six-bit DAC, high-bit replication",
+    "payload_sha256": "f2cccca25cfb50c6ac43e951c5bf9d91b9008ca4b84bc0071ef22f29db95d55c",
+    "resource": "CBMP:1"
+  },
+  "storm_frame_derivation": {
+    "command": "ffmpeg -nostdin -v error -ss 70 -i local/evidence/blind-playthrough-2026-10-04/02-seattle-to-dyea.avi -frames:v 1 local/evidence/recovery-proof/voyage-storm-70s-20261013.png",
+    "nominal_seek_seconds": 70,
+    "observed": "Linda portrait and exact TREE616 storm text visible; audio identity not yet checked",
+    "source": "local/evidence/blind-playthrough-2026-10-04/02-seattle-to-dyea.avi",
+    "source_sha256": "9f9474e3efd04f2e80cb562250bf86bcf25ce49635d37c012c9562ca7d661966"
+  },
+  "wharf_background_comparison": {
+    "archive_length": 116903,
+    "archive_offset": 10507794,
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "capture_sha256": "01ace7b331d5d32f43b12d79fea88adcb4d8ca68d58817638d72a06fc60864eb",
+    "compared_pixels": 120000,
+    "examples": [
+      {
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          255,
+          255,
+          255
+        ],
+        "index": 0,
+        "x": 0,
+        "y": 124
+      },
+      {
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          255,
+          255,
+          255
+        ],
+        "index": 0,
+        "x": 0,
+        "y": 125
+      },
+      {
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          255,
+          255,
+          255
+        ],
+        "index": 0,
+        "x": 0,
+        "y": 126
+      },
+      {
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          255,
+          255,
+          255
+        ],
+        "index": 0,
+        "x": 0,
+        "y": 127
+      },
+      {
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "expected": [
+          255,
+          255,
+          255
+        ],
+        "index": 0,
+        "x": 0,
+        "y": 130
+      }
+    ],
+    "mismatches": 45,
+    "origin": [
+      20,
+      59
+    ],
+    "palette_conversion": "six-bit DAC, high-bit replication",
+    "payload_sha256": "bf44bb0de9cb9ec6c640ea251f9207a0eb0b7d230a8388dbd51ee3796ab1dd1b",
+    "resource": "CBMP:4000",
+    "source_rectangles": [
+      [
+        0,
+        0,
+        600,
+        200
+      ]
+    ]
+  }
+}

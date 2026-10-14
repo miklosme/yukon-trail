@@ -1,12 +1,354 @@
 # Execution checkpoint
 
-Updated: 2026-10-12. Current phase: verified source recovery, a running
+Updated: 2026-10-13. Current phase: verified source recovery, a running
 original-game reference, one completed blind playthrough, and selected image/sound recovery.
 The M0 source/reference checkpoint is reached;
-M1 remains incomplete and there is no port/gameplay fidelity claim.
+M1 now has its bounded recovery proof and runtime decision; M2 remains incomplete.
+A partial local name/journal/Wharf opening is implemented and served. It has no
+Seattle interaction, save/load or browser execution validation, so there is no
+playable milestone or general gameplay fidelity claim. Historical bullets below
+retain earlier check counts; the latest checkpoint supersedes their pending work.
 
-## Completed
+## Latest implementation checkpoint
 
+- Inventoried all510 TREE resources;509 nonempty graphs structurally parse,
+  emptyTREE39 is an explicit exclusion. Native original response graph/copy
+  comparison now covers all509/2,400 response nodes/10,479 allocations with
+  zero mismatches; initial roots come independently from source sentinels.
+  Corpus contains1,894 choices/126 overrides and references761 nonzero voices,
+  all present. Numeric action/condition references remain unassigned where
+  recovery is incomplete. No UI/condition/action/override-loading proof inferred.
+  Exact source IDs/hashes/limits/reproduction: formats/TREE.md and two census
+  evidence reports. Standard-library synthetic census/root tests added.
+- Latest completed root verification after census integration: **196 Python
+  tests passed**; projection/status/navigation/ticket Node original-oracle checks
+  pass, updated Python tools compile, source/generated/Ghidra artifacts remain
+  ignored and `git diff --check` passes. All509 census/native resource identities,
+  record counts and response totals were independently cross-checked. The active
+  actor/voyage/alternate-journey workers have separate unfinished boundaries.
+- User-requested attempt to reopen Chrome at a blank tab returned
+  `Browser is not available: chrome`. No navigation to the blocked site through
+  another surface. In-app origin denial still prevents browser/playtest claims.
+
+- Integrated recovered current-status caching and all16 inventory selectors into
+  the local opening. Inputs are a0x314-byte explicitly bounded known-word
+  projection, not a fabricated complete world/save. Deterministic values match
+  original reset; post-summary cache matches original event0→event4; overlays
+  still match native024. No RNG seed/untouched allocation bytes invented.
+  Main now requires source-derived journal-status vocabulary. Fresh11CBMP/
+  34frame/7TREE/47voice package matches original vocabulary/table and PCM evidence;
+  same127.0.0.1:8000 server switched to `seattle-journal-status-20261014`.
+  Server session27654 started successfully; no HTTP/browser execution check.
+  Reproduction and superseded package warning: PORT-RUN.md.
+- Journal worker finalized147 full-buffer and1,584 inventory-selector original
+  comparisons; seven annotations survive fresh reopen with auditSHA
+  `4b0c087938b52e3e7bfcae9eadbe3e356088f0231484d4a278d31f625cc99893`.
+  Bounded dirty gating/header exclusions/Edit request and overflow limitations
+  are in JOURNAL-STATUS.md. Actor/controller initial population recovery is now
+  assigned to that worker; actual scene hit lists remain unavailable.
+- Browser retry after user reported closing Chrome again received the same
+  saved-origin preference denial. No alternate surface or indirect execution.
+  Continued source integration and original constrained playtests safely.
+- Post-integration checks:189 Python tests, projection/asset-original comparisons,
+  all147/1,584 journal cases, fresh47voice PCM and opening byte checks pass.
+  Main/loader syntax passes; rendering and actual input remain untested.
+
+- Added an experimental canvas-only trial entry at `web/emulation-trial/`, with
+  pinned manifest/file identity checks, original backend frame conversion,
+  physical keys, normalized pointer and source-correct left/middle/right mapping.
+  Mono audio starts on a canvas gesture; pre-gesture loss/underruns are counted,
+  and a backlog over two seconds stops the trial explicitly. Those are untested
+  platform policies, not fidelity results. No guest/backend/browser execution,
+  automatic save persistence or runtime switch. The server has an optional
+  separately bounded `/emulation-assets/` mount; current running server unchanged.
+  Pinned source contract checks, five server boundary tests and syntax pass.
+  Reproduction/limitations: BROWSER-EMULATION-EVALUATION.md.
+- Browser retry after the user reported saving an exact-origin allow exception
+  still received the same saved-preference security denial for
+  `http://127.0.0.1:8000/`. Authorization is already granted. No alternate origin,
+  browser surface, raw browser command or indirect execution was attempted.
+  Actual browser playtests remain unavailable; source recovery continues.
+- Final ticket/boarding handoff matches4,826 native contexts and seven actual
+  TREE graphs: fares, clerk/Wharf selection, seen marks, ship conditions and exact
+  immediate/delayed boarding queues. Main integration, countdown completion,
+  voyage and schedule remain open. Eleven annotations survive fresh Ghidra
+  reopening. `node tests/ticket-oracle.mjs` independently rerun successfully.
+- Navigation now also matches302 actual ticket-office handler contexts, in
+  addition to1,231 common handler cases. The office handler has no common
+  countdown gate; callers must choose the correct handler. Source annotations
+  and six guarded fresh navigation-region census are finalized. Module rerun
+  passes; main integration still awaits scene/journal state support.
+- Current full standard-library suite: **184 tests passed**. The new trial
+  adapter contract test compares against pinned vendor source without executing
+  an emulator. The latest ticket and navigation Node oracle checks pass.
+- Added explicit TREE corpus selection to the selected-voice native verifier.
+  Seven ticket/boarding graphs now yield56 additional distinct voices,
+  116,610 original integer calls and7,476,546 original PCM bytes with zero
+  mismatches. Fresh native-guarded ticket package11CBMP/34frames/7TREE/56WAV
+  passes independent Python export and Node voice adapter checks. Both selected
+  corpora total103 distinct voices; this is not live playback or mixer proof.
+  Exact identities/commands: TICKETS.md and ticket-sound-set-recovery-evidence.json.
+- Source identity verifier independently rechecked the ISO and all16 selected
+  extracted Windows files against direct-disc streams and recorded hashes; pass.
+  Generated ticket/trial manifests and source media remain Git-ignored; JSON,
+  tracked diff whitespace and new adapter file whitespace checks pass.
+- Fixed an original-byte opening discrepancy: the port trimmed the original
+  arrival entry's trailing space. Original event0 execution establishes the
+  retained byte; updated opening check passes. Full status append/inventory
+  recovery remains worker-owned and may reveal further invisible bytes. The
+  opening test also matches the independently executed119-byte event0→event4
+  tail exactly. Original journal UI's later WM_CHAR20 request is distinct from
+  formatting and remains a presentation/state-lifecycle integration item.
+- Independently inspected finalized WHITEB/WHITES original save copies: both
+  exact11221-byte containers round-trip without change, cash122/bank0/food1971/
+  partner4. WHITEBday28/month12/phase5 agrees with observed prebuild reload.
+  WHITES has day29/month5/phase10 while preserving its last Dec28 journal; do
+  not mistake cached journal text for current state during the spring popup.
+  Worker observed the spring conversation replay on WHITES reload. Exact hashes,
+  raw word offsets/scope: lake-bennett-save-inspection.json. No port-save claim.
+- Final root checkpoint suite after concurrent recovery additions: **189 Python
+  tests passed**. Opening tail, trial source contracts and syntax rerun pass;
+  all documentation JSON and tracked diff whitespace pass. Workers' unfinished
+  countdown/journal source recovery is excluded from root milestone claims.
+
+- Prepared a frozen offline browser-emulation trial asset set as the documented
+  fallback:837 preserved guest members/21,734,040 file bytes,14,747,472-byte ZIP,
+  unchanged370,939,904-byte ISO copy and three pinned vendor artifacts. All guest
+  hashes/ZIP CRC/config and original baseline/ISO identities pass. Recognized
+  AppleDouble metadata is explicitly recorded/omitted; unsafe paths/types/DOS
+  aliases and source drift fail. No emulator/browser execution or architecture
+  switch; actual launch, pointer, sound, saves and browser performance
+  remain unverified. Commands/limits: BROWSER-EMULATION-EVALUATION.md and
+  browser-emulation-trial-preparation.json.
+- Earlier read official OpenAI browser settings/origin policy documentation and inspected
+  only local browser-policy keys: no local config.toml browser rule found. The
+  user reported no matching origin rule; removal may have restored a blocking
+  default. Requested an explicit browsing exception for the exact127.0.0.1:8000
+  origin. No policy modification, bypass or further unapproved retry performed.
+- Review caught a navigation census scope error: it assumed partnerword0 false
+  for condition(3,1), but the retained native oracle says0 true and freshffff
+  false. Worker corrected the census to actual freshffff and retained exact
+  original condition evidence. Source-clear region integration still requires
+  global anchor/no-overlay/context guards; whole-screen empty sprite lists remain
+  invalid.
+
+- Seattle button/navigation module now matches1,231 actual original instruction
+  cases, including121 complete cached-frame sprite-hit/interception cases.
+  Window button coordinates pass unchanged; source manager rectangle edges are
+  inclusive while HSPT comparisons are strict. Sprite pixel tests use native
+  stride indexing with the original width×height bound. Explicit sprite list,
+  initialized padding, active globals, countdown and activation context remain
+  required. Do not silently supply an empty list for a real scene. Source actor
+  population and defensible navigation integration are still worker-owned;
+  main.mjs has not yet connected this module. Navigation evidence/module/tests
+  are ready; source annotations/doc handoff are being finalized.
+- Earlier ticket-clerk/fare/inventory/boarding exit recovery was assigned to the
+  finished sound worker, using original observations and unchanged native code.
+  Original White Pass alternate cleared customs and paid100, with aftercash122;
+  it continues toward Lake Bennett. Immediate conversation journal access was
+  disabled, so food/date changes are not attributed to the tax alone. Native
+  input error192 was undone via original Edit→Undo; raw error capture is retained.
+
+- Prepared a fresh selected Seattle asset package with11 CBMP/34frames,
+  seven source TREE graphs and47 independently native-checked voices. Importer
+  now checks optional original PCM evidence before output; a deliberately wrong
+  PSND1 PCM hash fails and creates no output. Manifest retains source/PCM/WAV
+  hashes and declared/consumed lengths. `web/platform/voice.mjs` reads only
+  canonical generated mono8-bit/22050Hz WAV and supplies an explicit AudioBuffer
+  adapter; loader verifies WAV/PCM identity and returns independent samples.
+  Node checks all47 voices/7,626,207 native sample bytes. No AudioContext output,
+  gesture, gain, playback timing or browser fidelity claim. Reproduction and
+  limits: PORT-RUN.md, browser-voice-adapter-evidence.json. Served v2 remains
+  unchanged until scene/audio integration is ready.
+- Sound recovery now accepts all871 source resources after original header,
+  terminal-block/cursor and rare-order proofs; acceptance is not all-voice native
+  or mixer validation. Selected47voice sample proof/corpus identities are in
+  seattle-sound-set-recovery-evidence.json and sound-census-evidence.json.
+
+- Follow-up save header recovery:246 actual original branch/comparison cases
+  match Python and Node. Corrected an invented zero-padding restriction: original
+  ignores signature byte5 and post-NUL title/version padding. Preserved those
+  bytes; original lexical version/status decisions are exposed, with older-version
+  restore explicitly unsupported. Source load reads buffers before validation;
+  rollback and scene recreation are unknown. See formats/GAM.md and
+  save-header-recovery-evidence.json. Browser persistence remains incomplete.
+
+- Recovered the original fixed save container and added Python/JavaScript
+  byte-preserving readers. Unchanged original974a/97ec plus read/write count
+  wrappers transfer all five finalized evidence saves exactly through substituted
+  in-memory file APIs:5/64/10/902/10240-byte blocks,11221 total. Saved raw Seattle
+  values independently match the recorded restore. No browser persistence or
+  full load/scene recreation claim; full error UI/global RNG dependencies
+  remain open. Five saved names/comments survive fresh Ghidra reopening with identical audits.
+  Exact evidence/reproduction: [formats/GAM.md](formats/GAM.md).
+
+- Latest full standard-library run: **183 tests passed**; twelve Node
+  original-oracle commands passed. `node --check web/main.mjs`, parsing all
+  documentation JSON files and `git diff --check` passed. Source ISO, generated
+  asset manifest and native captures remain Git-ignored. Counts are checkpoints;
+  active workers may add further cases before their finalized handoffs.
+- Reusable journal native024 comparison now checks55,170 selected pixels with
+  zero differences:38,000 cloth,4,369 frame10,7,210 unoccluded frame6 and5,591
+  frame11. Source-derived positions, capture/resource hashes and explicit
+  zero/clip/occlusion exclusions are in journal-capture-comparison.json and
+  JOURNAL-PRESENTATION.md; no alignment search or whole-scene claim.
+
+- Implemented the local opening in `web/`: original name prompt, source-derived
+  editable journal, original font/background and three fresh inventory overlays,
+  Done → Wharf, Game journal reopening/Ctrl+J. Added a loopback-only asset server,
+  four path-boundary checks, and provenance-preserving asset preparation. The platform loader also exposes hash-checked selected TREE
+  resources for the next integration; its browser path is unverified. Exact
+  commands and unsupported behavior are in [PORT-RUN.md](PORT-RUN.md).
+- Nine rule/opening Node original-oracle commands plus the new save-container
+  check pass:400 money/16 eligibility,243 copy,
+  36 full reset/RNG,2190 calendar/192 scene-entry,112 whipsaw purchase,
+  645 hotspot/5 geometry/36 suspension,176 TREE links/18 Linda opening,
+  576 journal/48 actual Seattle tuple/3 queue cases, plus opening visible-text
+  and text-range checks. Font/browser events/rendering remain untested.
+- Recovered full raw reset/RNG, actual Seattle location tuples and first-visit
+  calendar entry, recursive TREE links/conditions, whipsaw dispatch/refusal,
+  source sprite/hotspot geometry and journal controls/inventory. Each exact
+  source address/hash, original execution scope and reproduction is linked from
+  SEATTLE-RULES.md, SEATTLE-SPRITES.md and JOURNAL-PRESENTATION.md. Do not collapse
+  these into a claim that the complete UI/action scheduler is recovered.
+- Constrained original Seattle reference is finalized:101 PNGs, three fully
+  decoded AVI/WAV pairs, all four selected partner introductions/cash replies,
+  isolated first-Downtown date check and two SEATTLE.GAM reloads. Visible saved
+  Linda/Aug24/$422/2400lb/whipsaw+outfit state is restored; save identity remains
+  unchanged. Save container/header checks are recovered; full loader/port persistence remain
+  incomplete. An independently
+  controlled alternate Al-Ki/Skagway/White Pass original run is in progress;
+  WHITE-PASS-REFERENCE.md retains bounded observations, not a completed ending.
+- Natural WhitePassCity refusal is finalized: unaffordable1600lb/$240 with$222
+  leaves visible date/food/cash unchanged. TREE600 voice601 maps to the exact
+  Linda reply; original sample proof and recording comparison are retained in
+  sound601-capture-comparison.json. Correlation0.995244/residual9.741% RMS,
+  refined0.998180/6.030%; unexplained residual is not dismissed as mixer behavior.
+- PSND3400/3401/3405 header22/count1 is now source-established and converted;
+  3400/3405 native sample and live capture comparisons retain unexplained
+  waveform residuals. Wider PSND corpus/header audit is in progress. Audio is
+  not connected to the port. Browser emulation has a source-only feasibility
+  evaluation; no guest bundle execution or runtime switch is claimed.
+- Automatic approval review rejected CUA browser access to
+  `http://127.0.0.1:8000/` as permission denied. The user subsequently authorized local preview/tests, but the retry was rejected
+  because a saved browser permission preference still blocks the exact URL. The user reported clearing the preference; a further exact retry still returned
+  the same block. Tool access remains unresolved despite explicit authorization. Do not bypass via another surface
+  or raw browser commands. AppleScript covers original-game playtesting only.
+
+## Completed (historical checkpoints)
+
+- Recovered the separate raw date primitive:2,190 original-code comparisons
+  across valid fixed-calendar dates, boundary counters/phases and mutation gate
+  match. It belongs to an animation-timer/countdown path, not an unconditional
+  navigation or Linda action. Source callbacks and pending-action exclusions are
+  in SEATTLE-RULES.md;12 annotations survive fresh Ghidra reopening. Full suite
+  now124 passes. Runtime journal/queue modules additionally match576/3 original
+  cases with source-derived ignored vocabulary; no browser UI has been added.
+
+- Independently inspected the constrained original Linda before024/after027:
+  Aug24,$350→$850,0lbfood, unchanged date; source-derived partnership journal
+  exactly matches visual transcription. Capture hashes/scope are retained in
+  linda-live-comparison.json. Chose JavaScript modules/2D canvas after this bounded
+  proof; alternatives and limitations are in RUNTIME-DECISION.md. First actual
+  browser-compatible rule module `web/rules/seattle.mjs` matches the400-case
+  original money matrix hash and16 original eligibility cases in Node26.0.0.
+  This is a tested rule module, not a playable browser application or M2.
+
+- Recovered all eight postread transformation operations and all seventeen actual
+  startup patterns from source instructions. Corrected earlier ACTS/ANMS/SPRT
+  tag transcriptions. Full original routine execution matches the bounded model
+  for1,274 registered source buffers; empty TREE39 and two large WRLD buffers
+  remain explicitly excluded. Nine independent synthetic tests pass. Source
+  identity, raw/normalized provenance, saved/reopened annotations and exact
+  reproduction are in [formats/POSTREAD.md](formats/POSTREAD.md).
+- Recovered selected Linda journal formatting and queued continuation:576 native
+  formatter comparisons,3 queue comparisons and48 selected child-condition
+  calls match. The model supplies no default date or calendar advance. Full
+  activation/rendering and overflow retention remain under investigation;
+  see [SEATTLE-RULES.md](SEATTLE-RULES.md).
+- Resolved the45 Wharf edge differences with the actual unconditional background
+  copy path, postdecode display-index normalization and explicit black palette0.
+  All120,000 selected background pixels now match. The palette0 value is inferred
+  from source/capture, not a measured GDI palette return; actor overlays and full
+  composition remain separate.243 copy cases and256 normalization cases match
+  native instructions; annotations persist. See IMAGE-COMPOSITING.md.
+- The human explicitly authorized AppleScript/System Events fallback. Root full
+  access and the original worker's escalated context can query/control DOSBox-X;
+  their earlier restricted failures remain historical. Restored Windows boot,
+  fresh name `seattle`, initial Aug23/$350/0lb journal and unobstructed Wharf are
+  captured. A constrained independent worker now owns native UI, recording all
+  interviews and immediate Linda before/after. Navigation to the ticket office
+  already shows Aug24 before recruitment. No complete operation comparison is
+  claimed while the worker is still recording; capture identities will follow.
+
+- Started the requested full-port goal; added [COVERAGE.md](COVERAGE.md) to
+  separate discovered original content, recovery checks and pending port cases.
+  Human review remains due at the playable Seattle milestone. There is no
+  runnable port or runtime decision yet, and the goal remains active.
+- Audited all331 CBMP resources /1,523 frames with the unchanged bounded decoder:
+  all accepted, no unsupported headers or dimensions found. Added reproducible
+  `tools/audit_bitmaps.py`, retaining geometry, payload/index hashes and explicit
+  failure reports. This is acceptance coverage, not native rendering validation.
+  Full ignored census and versioned summary identities are in
+  [bitmap-census-evidence.json](bitmap-census-evidence.json).
+- Visually identified the four selected Seattle backgrounds; compared the
+  ticket-office CBMP3000 and seven-frame CBMP4001 with original integer code:
+  7,830 calls /5,406 unique, zero mismatches. The first sandboxed Unicorn run
+  returned SIGILL as previously documented; approved bounded execution passed.
+  CBMP4000 top600×200 at native capture origin20,59 matches119,955 pixels;
+  45 index0 pixels at sourcex0 appear black and remain an open draw-path issue.
+  Added exact rectangle comparison and independent synthetic cases. Full suite
+  **91 tests passed**; all16 Windows files matched fresh direct-disc reads.
+  [formats/CBMP.md](formats/CBMP.md) records reproducible commands and limits.
+- Independently traced TREE1's first insufficient-funds response through the
+  original dialogue/cache/sound dispatch to PSND1. Nine nonrelocated routing
+  instructions match direct executable bytes. Four supported names/comments
+  persist after fresh Ghidra reopening with byte-identical audits. Exact speaker
+  and live trigger/playback remain pending; [formats/PSND.md](formats/PSND.md)
+  records the evidence and similar voice branches, without claiming a live match.
+- Recovered a bounded Linda acceptance/money model in `tools/yukonseattle.py`.
+  Original setter/money instructions match six independent expected transitions
+  and a400-case differential boundary matrix; seven synthetic tests pass.
+  Four annotations survive fresh Ghidra reopening. [SEATTLE-RULES.md](SEATTLE-RULES.md)
+  records source action bytes, widths, signed arithmetic, gated mutations and
+  excluded journal/date/eligibility effects. The only native stub is an optional
+  display-cache lookup returning null; arithmetic and setters execute unchanged.
+  This is not a full dialogue operation or live before/after comparison.
+- Established mode-specific normal/reverse excluded-index copy kernels and
+  zero-key wrappers:162 original-code synthetic buffer cases pass. Nine supported
+  names/comments persist after fresh reopening. [IMAGE-COMPOSITING.md](IMAGE-COMPOSITING.md)
+  records the unconditional-copy alternative, postdecode index normalization and
+  selected CBMP1/2 bubble chain through the actual manager destination table to
+  source index-zero exclusion. All256 input indices match original normalization
+  instructions; `tools/yukonrender.py` exposes that transform explicitly while
+  preserving lossless exports. Full bubble pixels/text and the45 Wharf differences
+  remain unverified. No universal CBMP alpha rule was added.
+- Inspected a derived native voyage frame at nominal70 seconds: Linda and exact
+  TREE616 storm text are visible. CBMP1 bubble at40,234 matches all6,317 border
+  pixels; exterior/interior still excluded. Original AVI hash matches the
+  preserved blind-run identity. PSND616 is therefore a concrete sound lead in
+  an existing407.744-second recording; its raw header differs from PSND1 and
+  order1/final partial-block support require original consumer checks before
+  extending the decoder. Reproduction/metadata are in formats/CBMP.md.
+- Recovered PSND616's source-mapped Linda storm voice from the recorded voyage.
+  The memory/file stream getters leave record byte1 uninterpreted on this path;
+  512 original getter cases, all1,284 integer calls and82,134 converted samples
+  match original code. Extended the bounded decoder to orders1/2 and a final
+  partial block with retained padding/metadata. PSND1 PCM/WAV is unchanged.
+  The native recording aligns at69.01675 seconds: correlation0.970498,
+  fitted residual24.11% RMS; fractional-sample refinement gives0.989638 and
+  14.36% residual without time stretching. These differences remain recorded,
+  not explained away as mixer behavior. Four stream annotations/two slots survive
+  reopening. [formats/PSND.md](formats/PSND.md) records scope and commands;
+  full standard-library suite **101 tests passed**. No whole-audio fidelity claim.
+- Prepared a safely restored, isolated original guest from the verified
+  pre-relaunch baseline:1,676 member paths/types reviewed; installed EXE/source
+  hashes match and current guest/config preserved. DOSBox launch succeeded, but
+  CUA/Sky `getApp` timed out after667 seconds, then `getState` timed out at60
+  seconds and reset its kernel. Boot and gameplay are unobserved; there are no
+  new captures or interviews. [SEATTLE-REFERENCE.md](SEATTLE-REFERENCE.md) and
+  [its manifest](seattle-reference-evidence.json) preserve exact artifacts and
+  the next UI recovery action. Full standard-library suite now **98 passes**.
 - Added [STORY-RECONSTRUCTION.md](STORY-RECONSTRUCTION.md), a detailed narrative
   of the recorded Linda/Yosemite/Chilkoot journey through its mining and
   return-home ending. Read the supplied gameplay chat and contemporaneous
@@ -138,47 +480,37 @@ M1 remains incomplete and there is no port/gameplay fidelity claim.
 
 ## Not yet done
 
-No completed general image/compositing recovery, live resource-mapped sound comparison,
-gameplay recovery, framework selection, browser port, or
+No completed general image/compositing recovery, whole-audio fidelity,
+full gameplay recovery, playable browser port, or
 original-versus-port playthrough comparison. One original blind run reached an
-ending; other routes, endings, and save/load remain unvalidated.
-Guest-backup restoration/boot has not
-been tested. No Mac extraction/restoration or Mac original-game execution. No
+ending; the White Pass alternate is in progress, other endings and port save/load remain
+unvalidated. Guest backup/restored boot and one original Seattle save restoration
+are checked; later restore boundaries and the save schema remain unvalidated. No Mac extraction/restoration or Mac original-game execution. No
 Ghidra MCP integration has been evaluated; the current project uses reproducible
 headless scripts. Tooling success does not establish recovered behavior.
 
 ## Next work, in order
 
-1. **Capture a selected sound in the original.** PSND1 sequential decoding,
-   conversion and playback parameters are recovered in formats/PSND.md.
-   Trace its resource-to-dialogue/scene use, capture that original interaction,
-   and compare the clip. The existing opening captures did not give a convincing
-   waveform match. If PSND1 does not provide a practical observable case, choose
-   another sound only after tracing its format/parameters; do not generalize the
-   bounded decoder automatically.
-   Preserve NE segment:offset alongside actual Ghidra mappings; save/reopen
-   annotations. The selected CBMP proof is in formats/CBMP.md; general
-   transparency/clipping and other variants are follow-up questions.
-2. **Use the original for targeted comparisons.** The first owner review
-   setup checkpoint was Seattle Wharf, with journal/input and repeat launch
-   checked; the later blind run reached a return-home ending. An existing ending
-   capture now supplies a selected image comparison. Use `REFERENCE.md`,
-   `BLIND-PLAYTHROUGH.md`, and the baselines for sound and a small operation
-   such as a purchase with before/after state.
-   Test restored-guest boot before treating a backup as a verified replay reset.
-3. **Complete the bounded recovery proof.** Extend the selected image result
-   as needed for compositing, finish the live sound comparison, then recover an operation such
-   as a purchase. Compare rendering/audio/state with the original before choosing
-   TypeScript versus C++/WebAssembly. The archive reader is only the index part
-   of this milestone.
-4. **Optional Mac evidence extraction.** If needed to resolve a concrete question,
-   export selected files as separate CNID-named data/resource forks with catalog
-   metadata and compare output hashes against the inventory. Keep this separate
-   from Windows files and retain the unchanged ISO.
+1. Continue source-backed Seattle integration: load normalized scene resources,
+   connect observed navigation/first-visit date behavior, sprites/hotspots and
+   TREE dialogue/action dispatch. Preserve unsupported conditions/actions rather
+   than inventing defaults. Recover ticket/exit and save schema before M2 exit.
+2. When browser access is authorized, verify the current opening and source font
+   in the actual browser. Assign independent blind and constrained port tests
+   with separate input ownership; no port UI playtest has occurred yet.
+3. Continue the worker-owned original White Pass alternate and targeted refusal
+   capture. Do not race DOSBox UI or hash unfinished recordings. Preserve original
+   odd journal entries rather than correcting them by assumption.
+4. Complete supported sound-header/native checks and source-mapped live residual
+   investigation; retain seeking/looping/mixer exclusions. Persist reusable
+   journal inventory comparisons and assess source-only browser-emulation trial
+   feasibility without bypassing denied browser access.
+5. Request human review once the actual Seattle loop, exit and save round trip
+   are playable and compared. Continue complete journey/alternate paths and
+   supported-browser/save validation afterward. Public deployment remains separate.
 
-See [milestones and exit criteria](ROADMAP.md) for what constitutes completion.
-The source/reference checkpoint above supplies M0 evidence; M1's bounded recovery
-proof is still pending.
+See [milestones and exit criteria](ROADMAP.md) and [PORT-RUN.md](PORT-RUN.md).
+M0 and the bounded M1 proof/decision are recorded; M2 remains incomplete.
 
 ## Open inputs and decisions
 
@@ -188,13 +520,13 @@ proof is still pending.
 | Separate CD audio tracks | Bonus tracks 2–18 are absent from this item's listing; in-game dependency unknown | MCI/waveform consumer investigation |
 | Reference system media and emulator setup | Windows 3.1 OEM/DOSBox-X works through one original-game ending; pointer/relaunch checks pass | Targeted runtime comparisons, static analysis and decoders |
 | Mac executable/resources | Catalog/forks inventoried; shared archive identical; not extracted or executed | Windows work and selective evidence extraction |
-| TypeScript versus C++/WebAssembly | Deferred until proof milestone | Extraction and behavior research |
+| Runtime | JavaScript modules /2D canvas; alternatives documented | Actual Seattle slice and original-oracle rule checks |
 | Project license and asset distribution | Undecided | Local tooling and documentation |
 
 ## Actual checks and reproducibility
 
-- Python 3.14.5: `python3 -m unittest discover -s tests -v` — **86 tests passed**
-  (23 archive-reader, 22 HFS-inventory, 10 source-verification, 25 image/capture, six sound tests), requiring
+- Python 3.14.5: `python3 -m unittest discover -s tests -v` — **124 tests passed**, including
+  new postread, journal and selected-condition checks, requiring
   no original media. Source tests use `bsdtar` with small synthetic containers.
   Independent review found two HFS malformed-input gaps; overlap/root-parent
   checks and regression cases now pass.
@@ -280,3 +612,20 @@ the lookup check and saved annotation verification. The Archive URL is now suppl
 verified. Windows media and the booting guest are now provisioned separately;
 no Windows-media input is needed for the opening reference. Static consumer
 tracing and targeted original-versus-recovered comparisons can proceed.
+
+Browser rule handoff: `node tests/test_browser_seattle.mjs` checks the retained
+original money matrix/eligibility cases. Prepare fresh ignored vocabulary with
+`python3 tools/prepare_journal_assets.py original/extracted/windows/YUKONRES
+original/extracted/windows/YUKON.EXE generated/browser-proof-20261013/journal.json`
+(the output must not exist), then run
+`node tests/test_browser_journal.mjs generated/browser-proof-20261013/journal.json`.
+Node26.0.0 matches400 money/16 eligibility/576 formatter/3 queue original cases.
+No browser UI, save or journey is tested by these commands. Original TrueType
+font identity/naming is in FONT-EVIDENCE.md and source font-size selection is in
+JOURNAL-PRESENTATION.md; browser rasterization/styles remain unverified.
+
+Finalized constrained-session000AVI/WAV identities independently match the
+reference manifest. WAV parses as48kHz/16-bit stereo,97,471,247frames,
+2,030.650979seconds. Full AVI decode withFFmpeg8.1.2 exited0 with no errors (shell session61826);
+this checks recording integrity, not full behavioral validation. Recordings001/002
+are now finalized and fully decode; alternate-run recordings remain worker-owned.

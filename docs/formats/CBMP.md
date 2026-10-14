@@ -237,9 +237,114 @@ at the addresses above. Ignored projects, PNGs, raw indices and logs stay local.
 
 ## Remaining work
 
-PSND compressed sample conversion/playback parameters and one original-versus-
-recovered state operation remain pending. Other CBMP variants, signed heights,
+PSND live playback comparison and one original-versus-recovered state operation
+remain pending. Other CBMP variants, signed heights,
 full palette realization and compositing need separate evidence. The bounded
 decoder rejects unsupported headers and malformed indices/references; it does
 not substitute guessed data. M1 remains incomplete and runtime selection stays
 deferred.
+
+## Archive census and Seattle image checks (2026-10-13)
+
+**Observed decoder acceptance:** all 331 CBMP resources, containing 1,523
+frames, pass the unchanged bounded decoder. All declared chunk headers are
+size12/algorithm3/flags1; all frame dimensions are positive. The census preserves
+resource offsets/lengths, payload hashes, raw frame tables and decoded index
+hashes. It does not establish native rendering, all palette branches or
+compositing correctness. Reproduce the deterministic report with:
+
+```sh
+python3 tools/audit_bitmaps.py original/extracted/windows/YUKONRES \
+  local/evidence/recovery-proof/bitmap-census-20261013.json
+```
+
+Use a fresh report path. Full report: 794,182 bytes, SHA-256
+`dd73cfc4fe800d8ebed7ef2a9e54633407b54330cfaf93790c0d11da6c0da10a`.
+The summary and selected comparison identities are versioned in
+[bitmap-census-evidence.json](../bitmap-census-evidence.json).
+
+**Observed visual identification:** decoded frame0 of CBMP1000 shows downtown
+Seattle; CBMP2000 the outfitter interior; CBMP3000 the ticket office; CBMP4000
+Seattle Wharf. These identifications follow direct image inspection, not ID
+numbering alone. Scene-resource linkage in the executable is not yet recovered.
+
+**Observed original-reader comparison:** CBMP3000 (one608×400 frame) and
+CBMP4001 (seven frames) produce 7,830 integer calls / 5,406 unique calls, all
+matching original NE1:0062/0129 bytes and cursors. The harness remains bounded
+to packed inputs at most60,000 bytes; larger background streams were not tested
+with this verifier. The sandboxed attempt returned SIGILL, as previously
+documented; approved execution outside that sandbox passed. This is isolated
+integer-code validation, not the full frame/draw pipeline.
+
+```sh
+PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_bitmap_native.py \
+  original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
+  local/evidence/recovery-proof/seattle-native-integers-20261013.json \
+  --id 3000 --id 4001
+```
+
+**Observed bounded pixel comparison:** CBMP4000, archive offset `0xa05612`,
+length116,903, payload SHA-256
+`bf44bb0de9cb9ec6c640ea251f9207a0eb0b7d230a8388dbd51ee3796ab1dd1b`,
+matches119,955 of120,000 pixels in source rectangle `(0,0,600,200)` against
+`local/evidence/reference/krnl386_006.png`, origin `(20,59)`, with the same
+explicit palette conversion used above. This region covers the static upper
+wharf background above the foreground people; the lower half is not compared.
+The decoded frame is608 pixels wide, while the native scene displays600 pixels.
+The rightmost8 source columns are outside this capture comparison.
+
+The initial origin `(20,60)` gave86,660 differences; a small offset probe on the
+title area identified `(20,59)`, then the fixed-origin comparison above was
+rerun. Record this as discovered alignment, not a pre-established layout rule.
+All45 remaining differences are at source x0, index0: source palette RGB white,
+native RGB black. Their cause remains **unknown** (a transparency/drawing-path
+lead). The comparison exits1 and retains the discrepancy rather than assigning
+an invented alpha rule or masking it into a success.
+
+```sh
+python3 tools/compare_background_capture.py \
+  original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
+  local/evidence/reference/krnl386_006.png \
+  local/evidence/recovery-proof/wharf-background-20261013.json \
+  --id 4000 --x 20 --y 59 --rect 0,0,600,200
+python3 -m unittest discover -s tests
+```
+
+The added census/comparison tests use hand-authored tiles and RGB pixels, check
+cropping, duplicate rectangle accounting, malformed tables and exact mismatch
+detection. Full suite:91 tests passed. All16 extracted files also matched fresh
+direct-disc reads using `tools/verify_source_files.py`. No source asset or
+generated image is committed.
+
+**Observed subsequent consumer trace:** selected CBMP1/2 bubble sprites reach
+the original index-zero exclusion kernel through the actual scene-manager buffer
+and its relocated method table. All162 synthetic copy-kernel cases and256
+postdecode index-normalization inputs match original code.
+[IMAGE-COMPOSITING.md](../IMAGE-COMPOSITING.md) records the complete static chain,
+addresses, preserved annotations and the explicit optional display transform.
+Lossless CBMP exports remain unchanged. This closes the selected static
+transparency-path question, while full native composition, text, clipping and
+the45 Wharf differences remain pending.
+
+**Observed additional image/text case:** frame at nominal70 seconds in the
+preserved `02-seattle-to-dyea.avi` visibly shows Linda and TREE616's exact storm
+line. Its CBMP1 bubble at `(40,234)` matches all6,317 border pixels, zero
+differences under the same palette conversion. The11,523 exterior and47,329
+interior pixels remain excluded; no full-text or scene-composition comparison
+is claimed. The AVI matches its preserved SHA-256
+`9f9474e3efd04f2e80cb562250bf86bcf25ce49635d37c012c9562ca7d661966`.
+The derived RGB frame hash is
+`84b681ad06483629e0b7dd598c7014a0eba1499cdc94d1337df58bb7b0e00f72`.
+This is a frame derived from native video, not a fresh original-game run.
+Full metadata is in the census evidence linked above. Reproduce with:
+
+```sh
+ffmpeg -nostdin -v error -ss 70 \
+  -i local/evidence/blind-playthrough-2026-10-04/02-seattle-to-dyea.avi \
+  -frames:v 1 local/evidence/recovery-proof/voyage-storm-70s-20261013.png
+python3 tools/compare_bitmap_capture.py \
+  original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
+  local/evidence/recovery-proof/voyage-storm-70s-20261013.png \
+  local/evidence/recovery-proof/storm-bubble-20261013.json \
+  --id 1 --x 40 --y 234
+```

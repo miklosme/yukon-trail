@@ -9,9 +9,17 @@ been imported and reopened. Windows 3.1 boots in the local DOSBox-X reference
 environment; a blind subagent playthrough reached the original game's
 return-home newspaper ending and Claims of Fame. A bounded decoder recovers two
 original speech bubbles, with native-code and border-pixel comparisons passing.
-A sequential PSND1 decoder also matches the original integer/sample-conversion
-routines; its live playback case remains unidentified. There is no playable
-port. No application framework has been selected.
+All 331 CBMP resources (1,523 frames) pass the bounded decoder; selected Seattle
+background/sprite integer routines and a bounded Linda contribution/money model
+have additional original-code checks. These are recovery results, not a playable
+Seattle slice. The authorized AppleScript fallback now supports a fresh constrained Seattle
+reference session; an independent worker is recording it. Selected journal and
+postread transformations also match bounded original-code execution.
+A sequential PSND1/616 decoder matches original integer/sample-conversion
+routines. PSND616 maps to Linda's recorded storm speech with a bounded waveform
+comparison and documented residuals; PSND1's live case remains unidentified. There is no playable
+port. The bounded proof supports JavaScript modules/2D canvas; the first browser
+rule module matches original money/eligibility checks. No framework is required.
 
 ## Start here
 
@@ -31,9 +39,16 @@ port. No application framework has been selected.
 - [Mac source inventory](docs/MAC-SOURCE.md): catalog, fork hashes, and extraction limits.
 - [Binary analysis setup](docs/ANALYSIS.md): local Ghidra project, segmented mappings, and tool limitations.
 - [Archive consumer evidence](docs/ARCHIVE-CONSUMERS.md): original read/lookup routines and persisted annotations.
+- [Postread transformations](docs/formats/POSTREAD.md): original startup patterns and bounded native buffer comparisons.
 - [Archive-index specification](docs/formats/YUKONRES.md): validated reader and byte-preserving raw exports.
 - [Selected image recovery](docs/formats/CBMP.md): frame/packed formats, original palette, and native comparisons.
 - [Selected sound recovery](docs/formats/PSND.md): sequential samples, playback parameters, and original-code checks.
+- [Runtime decision](docs/RUNTIME-DECISION.md): bounded proof, selected JavaScript/canvas approach and alternatives.
+- [Validation coverage](docs/COVERAGE.md): discovered original cases, recovery scope and pending port checks.
+- [Seattle operation recovery](docs/SEATTLE-RULES.md): bounded partner contribution and original money arithmetic.
+- [Seattle reference handoff](docs/SEATTLE-REFERENCE.md): isolated restored guest and native UI access limitation.
+- [Original font evidence](docs/FONT-EVIDENCE.md): supplied TrueType identity and remaining rasterization questions.
+- [Image composition](docs/IMAGE-COMPOSITING.md): original copy modes and remaining selected-scene gaps.
 
 ## What we have learned
 
@@ -60,12 +75,14 @@ contains no separate audio-track files. The disc README describes bonus tracks
 
 Preserve the original game’s rules and content first. Keep intentional usability improvements distinguishable from fidelity fixes. The owner has used React Three Fiber successfully on earlier ports but has no required framework for this project.
 
-The first implementation milestone will recover one image, one sound, and one observable gameplay operation, checked against the running original. Then choose the runtime:
-
-- **TypeScript with a 2D renderer and optional React shell** if the resource data and recovered rules are straightforward to express directly.
-- **C++ compiled to WebAssembly**, with a browser shell as needed, if preserving substantial recovered native logic reduces translation risk.
-
-Browser emulation remains a possible reference or fallback. Compatibility and user experience have not been tested. Do not scaffold a renderer before resolving the first milestone’s architectural questions.
+The bounded recovery proof now includes selected images, source-mapped sound,
+and the independent immediate Linda contribution/journal comparison. The runtime
+decision is JavaScript modules with a2D canvas, with import, rules, platform
+services and presentation separated. [The decision](docs/RUNTIME-DECISION.md)
+records TypeScript, C++/WebAssembly and browser-emulation alternatives, reasons
+and remaining limits. Browser emulation remains untested as a fallback.
+The first rule modules have original-oracle checks; the actual Seattle slice,
+save round trip and browser presentation still need implementation/validation.
 
 ## Local source material
 
@@ -98,6 +115,9 @@ python3 tools/yukonres.py original/extracted/windows/YUKONRES \
 Choose a fresh output directory when repeating an export. Tests use small
 synthetic fixtures and require no source media. See the workflow and tool-specific
 documents for complete extraction, HFS inventory, and analysis commands.
-There are no game build/run commands yet. Do not commit the disc or silently
+A partial local opening build and exact asset preparation/run commands are in
+[PORT-RUN.md](docs/PORT-RUN.md). Browser execution, Seattle interaction, save/load
+and the playable milestone remain unverified/incomplete. Run the browser rule
+original-oracle check with `node tests/test_browser_seattle.mjs` (Node26.0.0 tested). Do not commit the disc or silently
 bundle its assets into a public build. Project-code licensing and the asset
 distribution approach are still undecided.

@@ -1,0 +1,72 @@
+{
+  "bounded_clock_diagnostic": {
+    "best_fit": {
+      "fitted_dc_offset": 0.002776351224714581,
+      "fitted_gain": 0.3359813690110137,
+      "fractional_sample_shift": -0.29999999999999993,
+      "normalized_correlation": 0.9896384075422582,
+      "residual_rms_fraction_of_capture": 0.14358211001800592,
+      "time_stretch": 1.0
+    },
+    "phase_range_samples": [
+      -1,
+      1
+    ],
+    "phase_steps": 41,
+    "scope": "Exploratory clock/phase fit only. No decoder/playback change; residual remains unexplained.",
+    "stretch_range": [
+      0.999,
+      1.001
+    ],
+    "stretch_steps": 81
+  },
+  "capture_path": "local/evidence/blind-playthrough-2026-10-04/02-seattle-to-dyea.avi",
+  "capture_sha256": "9f9474e3efd04f2e80cb562250bf86bcf25ce49635d37c012c9562ca7d661966",
+  "comparison_channels": 1,
+  "comparison_rate": 4000,
+  "end_seconds": 72.74175,
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "fitted_dc_offset": 0.0028786464302650427,
+  "fitted_gain": 0.34618280029747356,
+  "fractional_phase_refinement": {
+    "fitted_dc_offset": 0.002776351224714581,
+    "fitted_gain": 0.3359813690110137,
+    "fractional_sample_shift": -0.29999999999999993,
+    "normalized_correlation": 0.9896384075422582,
+    "residual_rms_fraction_of_capture": 0.14358211001800592,
+    "time_stretch": 1.0
+  },
+  "normalized_correlation": 0.9704978793076672,
+  "numpy_version": "2.3.5",
+  "residual_rms_fraction_of_capture": 0.24110965608892915,
+  "sample_count": 14900,
+  "scope": "Aligned resampled mono waveform comparison with fitted linear gain/DC. Residual retained; not bit-identical PCM, automatic resource identity, full mixer, or general sound validation.",
+  "start_seconds": 69.01675,
+  "template_sha256": "49099dae358c2a4d277527c8b7612ceab533f9fb6ddf7aa775d01a7d282dd3c5",
+  "thirds": [
+    {
+      "end_seconds": 70.25825,
+      "fitted_dc_offset": 0.0011681600861793416,
+      "fitted_gain": 0.34198236210745653,
+      "normalized_correlation": 0.9623771988034436,
+      "residual_rms_fraction_of_capture": 0.2717169984068655,
+      "start_seconds": 69.01675
+    },
+    {
+      "end_seconds": 71.5,
+      "fitted_dc_offset": 0.003623795381624509,
+      "fitted_gain": 0.34627732112704296,
+      "normalized_correlation": 0.9699323562611987,
+      "residual_rms_fraction_of_capture": 0.24337465824855092,
+      "start_seconds": 70.25825
+    },
+    {
+      "end_seconds": 72.74175,
+      "fitted_dc_offset": 0.0038375034550056754,
+      "fitted_gain": 0.349827082905151,
+      "normalized_correlation": 0.9785478561103172,
+      "residual_rms_fraction_of_capture": 0.20601964300012937,
+      "start_seconds": 71.5
+    }
+  ]
+}

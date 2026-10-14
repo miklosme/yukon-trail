@@ -1,0 +1,251 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "capture_sha256": "33a1d9ae80b45736517bdbb7cc431f4f024b43fcf28eec4a6c2b254d6e1721b7",
+  "capture_size_wh": [
+    640,
+    480
+  ],
+  "scene_origin_xy": [
+    20,
+    59
+  ],
+  "layout": {
+    "edit_xywh": [
+      0,
+      0,
+      302,
+      340
+    ],
+    "selected_inventory": {
+      "10": {
+        "ordinal": 9,
+        "state_index": 0,
+        "state_compare": 0,
+        "anchor_xy": [
+          301,
+          78
+        ]
+      },
+      "6": {
+        "ordinal": 14,
+        "state_index": -1,
+        "state_compare": 0,
+        "anchor_xy": [
+          450,
+          253
+        ]
+      },
+      "11": {
+        "ordinal": 15,
+        "state_index": -1,
+        "state_compare": 0,
+        "anchor_xy": [
+          468,
+          338
+        ]
+      }
+    }
+  },
+  "resources": {
+    "CBMP:37000": {
+      "offset": 9727834,
+      "length": 52847,
+      "raw_sha256": "5b32638c82eb8d3f9fef2af6d0d031db104a6f37b3d5bc3d0ca41c7db42a5040"
+    },
+    "CBMP:37001": {
+      "offset": 9780681,
+      "length": 93133,
+      "raw_sha256": "e68afa9f51b5e74d489a42225f9012190bbab910154f4c579108c7ec6527057b"
+    }
+  },
+  "cloth": {
+    "source_rectangles": [
+      [
+        400,
+        0,
+        190,
+        200
+      ]
+    ],
+    "native_origin_xy": [
+      20,
+      59
+    ],
+    "clip_ltrb": [
+      20,
+      59,
+      620,
+      459
+    ],
+    "zero_key": false,
+    "candidate_pixels": 38000,
+    "compared_pixels": 38000,
+    "mismatches": 0,
+    "excluded_zero_pixels": 0,
+    "excluded_clip_pixels": 0,
+    "examples": [],
+    "resource": "CBMP:37000",
+    "frame": 0,
+    "source_indices_sha256": "98d63b8bb43ceb296810e954cae6759793ee0591501d3c5d2a0d4be2195bfa64",
+    "display_indices_sha256": "98d63b8bb43ceb296810e954cae6759793ee0591501d3c5d2a0d4be2195bfa64",
+    "scope": "Fixed unobscured cloth rectangle; background index0 is copied, not excluded"
+  },
+  "inventory": [
+    {
+      "source_rectangles": [
+        [
+          0,
+          0,
+          69,
+          107
+        ]
+      ],
+      "native_origin_xy": [
+        321,
+        137
+      ],
+      "clip_ltrb": [
+        322,
+        59,
+        620,
+        459
+      ],
+      "zero_key": true,
+      "candidate_pixels": 7383,
+      "compared_pixels": 4369,
+      "mismatches": 0,
+      "excluded_zero_pixels": 2907,
+      "excluded_clip_pixels": 107,
+      "examples": [],
+      "resource": "CBMP:37001",
+      "frame": 10,
+      "frame_size_wh": [
+        69,
+        107
+      ],
+      "source_entry": {
+        "ordinal": 9,
+        "state_index": 0,
+        "state_compare": 0,
+        "anchor_xy": [
+          301,
+          78
+        ]
+      },
+      "source_indices_sha256": "6d9621d60778a5203536549a4e274eecd09e89d67ae9db29bf2da47464e995fd",
+      "display_indices_sha256": "6d9621d60778a5203536549a4e274eecd09e89d67ae9db29bf2da47464e995fd",
+      "scope": "Explicit selected frame; zero key and edit/viewport excluded"
+    },
+    {
+      "source_rectangles": [
+        [
+          0,
+          0,
+          149,
+          146
+        ]
+      ],
+      "native_origin_xy": [
+        470,
+        312
+      ],
+      "clip_ltrb": [
+        322,
+        59,
+        620,
+        397
+      ],
+      "zero_key": true,
+      "candidate_pixels": 21754,
+      "compared_pixels": 7210,
+      "mismatches": 0,
+      "excluded_zero_pixels": 5455,
+      "excluded_clip_pixels": 9089,
+      "examples": [],
+      "resource": "CBMP:37001",
+      "frame": 6,
+      "frame_size_wh": [
+        149,
+        146
+      ],
+      "source_entry": {
+        "ordinal": 14,
+        "state_index": -1,
+        "state_compare": 0,
+        "anchor_xy": [
+          450,
+          253
+        ]
+      },
+      "source_indices_sha256": "0d3a0b434a2a7de9b67cf20a256c38ce87cab0b873c30477394293302aa32bc9",
+      "display_indices_sha256": "0d3a0b434a2a7de9b67cf20a256c38ce87cab0b873c30477394293302aa32bc9",
+      "scope": "Explicit selected frame; zero key and edit/viewport excluded; entire region at/below frame11 top conservatively excluded"
+    },
+    {
+      "source_rectangles": [
+        [
+          0,
+          0,
+          131,
+          61
+        ]
+      ],
+      "native_origin_xy": [
+        488,
+        397
+      ],
+      "clip_ltrb": [
+        322,
+        59,
+        620,
+        459
+      ],
+      "zero_key": true,
+      "candidate_pixels": 7991,
+      "compared_pixels": 5591,
+      "mismatches": 0,
+      "excluded_zero_pixels": 2400,
+      "excluded_clip_pixels": 0,
+      "examples": [],
+      "resource": "CBMP:37001",
+      "frame": 11,
+      "frame_size_wh": [
+        131,
+        61
+      ],
+      "source_entry": {
+        "ordinal": 15,
+        "state_index": -1,
+        "state_compare": 0,
+        "anchor_xy": [
+          468,
+          338
+        ]
+      },
+      "source_indices_sha256": "1f5d2c143e02df356df3e6e46b930e07ddc3fd8befdd4cffc35010c05671cbaf",
+      "display_indices_sha256": "1f5d2c143e02df356df3e6e46b930e07ddc3fd8befdd4cffc35010c05671cbaf",
+      "scope": "Explicit selected frame; zero key and edit/viewport excluded"
+    }
+  ],
+  "compared_pixels": 55170,
+  "mismatches": 0,
+  "render_index_transform": "NE2:47c4..47dc",
+  "palette_conversion": "six-bit DAC high-bit replication",
+  "supplied_system_palette_zero_rgb": [
+    0,
+    0,
+    0
+  ],
+  "system_palette_scope": "Explicit supplied reference value; not an API return capture",
+  "layout_source": "NE1:aea4/b032..b060/bb4c; NE13:0df4, NE13:4e32 selector relocation -> NE9:0000",
+  "scope": "No alignment search; selected cloth and visible nonzero inventory only. Text, native controls, underlay, lower guide overlap, visibility conditions and full-scene composite excluded.",
+  "reproduction": {
+    "tool": "tools/compare_journal_capture.py",
+    "test": "tests/test_journal_capture.py",
+    "capture": "local/evidence/seattle-reference-2026-10-13/krnl386_024.png",
+    "scene_origin_scope": "Observed reference client origin supplied explicitly; source table gives logical positions",
+    "alignment_search": false,
+    "synthetic_comparison_tests_passed": 3
+  }
+}

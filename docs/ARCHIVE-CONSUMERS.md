@@ -126,18 +126,21 @@ helper `0001:7c88` returns entry `+06` in DX:AX.
 takes context far (`BP+06`), length dword (`+0a`), buffer far (`+0e`), and
 logical tag dword (`+12`); `RETF0x10`. It searches context word count `+70a`
 and registry rows starting `+7a`, stride `0x54`. Missing tags return without
-changing the buffer. Matching rows supply word opcodes; byte-swap16/32 cases
-are present, but the full pattern interpreter is not recovered.
+changing the buffer. Matching rows supply word opcodes. All eight switch operations
+and startup patterns are now recovered; the bounded model matches the complete
+original routine on 1,274 actual registered buffers. See
+[formats/POSTREAD.md](formats/POSTREAD.md) for patterns, bounds and exclusions.
 
 Registration NE `0001:83e4` / Ghidra `1000:83e4`, file `0x8844`, has 17
 direct call references from startup `0001:673a`, at offsets `6794,67bc,67e1,
 6812,6849,6880,68d8,6912,6958,6971,698a,69a3,69bc,69d5,69ee,6a07,6a20`.
-Their tags are `CATS, AMSN, SCNE, HSPT, PRRS, SCRP, TRSP, TREE, CONV,
+Their tags are `ACTS, ANMS, SCNE, HSPT, PRRS, SCRP, SPRT, TREE, CONV,
 ASEQ, ACEL, WRLD, FNTL, CSTR, FMAP, SMAP, CMIN`. Neither CBMP nor PSND is
 registered by this path. This supports using their unchanged raw payloads;
 runtime DS contents and other initialization paths were not observed. Do not
-generalize unchanged bytes to other types. The missing switch-case disassembly
-region `850e–859d` and raw jump table at `85ae` still need work for those types.
+generalize unchanged bytes to other types. Switch-case region `850e–859d` and
+table `85ae` are now disassembled and documented in POSTREAD.md. Empty TREE39
+and the two large WRLD records remain outside native transform validation.
 
 `0001:7dd2` accepts context (`BP+06`), far output pointers for length (`+0a`),
 offset (`+0e`), and handle (`+12`), followed by ID (`+16`) and logical tag
@@ -245,6 +248,6 @@ disassembly is the basis of the findings above.
 a live original clip; sequential conversion and source parameters are now in
 [formats/PSND.md](formats/PSND.md). The original is available for comparison.
 Follow up CBMP color-key/clipping behavior and additional
-variants separately. The full postread interpreter is still pending for the
-registered resource types. New recovery names/layouts and their save/reopen
+variants separately. The bounded postread transformer is recovered; resource
+semantics still require consumer traces. New recovery names/layouts and their save/reopen
 check are documented in [formats/CBMP.md](formats/CBMP.md).

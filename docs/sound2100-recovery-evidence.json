@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "final_block_padding_bytes": 40,
+  "final_state": [
+    129,
+    128,
+    128,
+    128
+  ],
+  "integer_calls": 1377,
+  "integer_unique_calls": 1377,
+  "integration_order": 2,
+  "mismatches": 0,
+  "native_pcm_sha256": "7ef645ba2ebb26c529dc85d3341f1d8b0a97c58e0f2473ed0645e52492762348",
+  "payload_sha256": "c4140723f6844f0dca5f7e916c6f4653e6b819d22639c027aa7cf3600292d259",
+  "resource": "PSND:2100",
+  "sample_bytes_compared": 88216,
+  "sample_rate": 22050,
+  "scope": "original integer readers and NE3:9b34 converter; large inputs use bounded relocated bitcursor windows; not whole processor, Win16 huge buffers or live playback",
+  "synthetic_orders_checked": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unicorn_version": "2.1.4",
+  "windowed_integer_calls": 0
+}

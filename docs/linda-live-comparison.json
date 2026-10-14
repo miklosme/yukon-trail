@@ -1,0 +1,49 @@
+{
+  "after": {
+    "cash": 850,
+    "day": 24,
+    "food_lb": 0,
+    "month": 8,
+    "year": 1897
+  },
+  "before": {
+    "cash": 350,
+    "day": 24,
+    "food_lb": 0,
+    "month": 8,
+    "year": 1897
+  },
+  "captures": [
+    {
+      "bytes": 148664,
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_024.png",
+      "sha256": "33a1d9ae80b45736517bdbb7cc431f4f024b43fcf28eec4a6c2b254d6e1721b7"
+    },
+    {
+      "bytes": 22631,
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_025.png",
+      "sha256": "a40a1a84febe02596892cced8f497127a18b7d1379cc80789c4e32ab4ef3143c"
+    },
+    {
+      "bytes": 21425,
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_026.png",
+      "sha256": "e900f20c139a42f30e5a148a796b55fb692c593fc00547e0d1a565daffc8caba"
+    },
+    {
+      "bytes": 151785,
+      "path": "local/evidence/seattle-reference-2026-10-13/krnl386_027.png",
+      "sha256": "d9d14099188de0380b070306f32211b2d9e742c8eca4f28067bbe9d1e0efaf9a"
+    }
+  ],
+  "case": "fresh Seattle Linda immediate acceptance",
+  "journal_entry_matches_manual_capture_transcription": true,
+  "journal_entry_sha256": "b63718773929b4f68542f6c734f79c39347acade99cba7f616c5615407ee57b1",
+  "scope": "Visible money/date/journal comparison. Model hidden initial bank/partner/gates are explicit selected test inputs, not captured game-memory values. Full scene activation, hidden state and general dialogue remain excluded. Initial journal received accidental blanklines during earlier keyboard probe; no spending preceded baseline024.",
+  "source": {
+    "cstr505_offset": 12454713,
+    "cstr505_sha256": "3aa310d5dc68ffc9618ae3085294b5b43548a1d527b97a04b277bfab5b941e2a",
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06"
+  },
+  "tester": "independent constrained original_seattle agent; root independently inspected before/after PNGs",
+  "visible_cash_matches_recovered_model": true
+}

@@ -1,0 +1,291 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "scope": "Locallyprepared actualWAV params/PCMagainstoriginalnativevoiceoracle; no browseraudio/mixer/seek/loop/playbacktest.",
+  "sound_count": 47,
+  "sounds": {
+    "PSND:1": {
+      "file": "PSND-1.wav",
+      "pcm_sha256": "20becd1623eaa00da9bfdd8cb2808aee7375718c17243d22323b642bb4058d7f",
+      "samples": 81792,
+      "wav_sha256": "1ef6c8fb3a86e8d959b3c405218b026fe0025948928af0af4286320da1b9d115"
+    },
+    "PSND:2100": {
+      "file": "PSND-2100.wav",
+      "pcm_sha256": "7ef645ba2ebb26c529dc85d3341f1d8b0a97c58e0f2473ed0645e52492762348",
+      "samples": 88216,
+      "wav_sha256": "5e479c03c99902a861772f33b5b23b41b9307f9e0413b91fa37d9d1993d08603"
+    },
+    "PSND:2101": {
+      "file": "PSND-2101.wav",
+      "pcm_sha256": "17c38f84cc9718053b14dff52a58205726df4e02c424de81bc754b1d4b4bebdb",
+      "samples": 42624,
+      "wav_sha256": "9d1926502df5d4fbd41ddb45f6a47fa2b206b9383cea2aaaa3c648f4be9accad"
+    },
+    "PSND:2102": {
+      "file": "PSND-2102.wav",
+      "pcm_sha256": "13d28d1b64fc43270a3b1964c27007f9b2c24a174c7e952fc275c5765f43c012",
+      "samples": 42842,
+      "wav_sha256": "553369faa9cb59861aade7e90330ebbbb1596ba601b3e112551642ccb71afb39"
+    },
+    "PSND:2103": {
+      "file": "PSND-2103.wav",
+      "pcm_sha256": "f6f40eeedc721e6b2ebd70952a2da2f30352326c81d4e7492a86ed0913829f6d",
+      "samples": 74296,
+      "wav_sha256": "d01ea9b605e7ef294fb746ccd11e879da855a36cdd4e3e82914a85e0ce8ea044"
+    },
+    "PSND:2104": {
+      "file": "PSND-2104.wav",
+      "pcm_sha256": "d5fa24f96cb408e5bec7b83f306eea34cfe5a4fce038638fdf7ce855ba796688",
+      "samples": 46400,
+      "wav_sha256": "c133f024e2463fed062f6954605fa6c5d536cac20c0b7a5a5895b78cdcc454c5"
+    },
+    "PSND:2105": {
+      "file": "PSND-2105.wav",
+      "pcm_sha256": "c6f3e756d981299b3407e87102595acd66c139e3827776f52d6b9b98418368a1",
+      "samples": 227336,
+      "wav_sha256": "2707c6bc3058858133a20884808129494231b63a5d96b086e4fa721e0c1bd9e1"
+    },
+    "PSND:2106": {
+      "file": "PSND-2106.wav",
+      "pcm_sha256": "f811d26d3c3a8c1107b29bbf2c7b9d74017541719e6815fc798ca56f16c7284c",
+      "samples": 296817,
+      "wav_sha256": "065f4605da914d98a4210deed4cdde5a8de04ee245c4c4968262974b6bcb58e9"
+    },
+    "PSND:2107": {
+      "file": "PSND-2107.wav",
+      "pcm_sha256": "67673066008f821fbfa05dd93c1023329546b5022c78f03ee3f27f4104375856",
+      "samples": 42383,
+      "wav_sha256": "141530392e45a4a3051a82f9dff1b0435af25bbe32c8540cf53c552ff88be82e"
+    },
+    "PSND:2108": {
+      "file": "PSND-2108.wav",
+      "pcm_sha256": "f4b8c863e4fe6481b7cdfe308a658878ed9b1ff5a65f69ac20ef5d2413350801",
+      "samples": 62644,
+      "wav_sha256": "c1dabb90ef7d86a405885b0255a476b075f3716a15589305cab6023329dc591b"
+    },
+    "PSND:2109": {
+      "file": "PSND-2109.wav",
+      "pcm_sha256": "8ba4be61a1d7cddf93836d239d6df26842cb712d4aefcbcd775f407c6af83bc9",
+      "samples": 323780,
+      "wav_sha256": "f50a7009293431983e388e2634c731b8c5e4ab511d936c087b6c8fdd91cb0e75"
+    },
+    "PSND:2110": {
+      "file": "PSND-2110.wav",
+      "pcm_sha256": "16f58a65aa492c3ae08eb35ed6d05a4e91c884b4a191f19ae56ccd7621a3d77e",
+      "samples": 229568,
+      "wav_sha256": "9d4213f629971b38410a6cff2ba7debfae0b4aa99b6fa029749d9676baf51649"
+    },
+    "PSND:2111": {
+      "file": "PSND-2111.wav",
+      "pcm_sha256": "444fc4b0dc2079b0d5e549089f19d5a7d4bcf0aa401668f77f9ed0facd844975",
+      "samples": 165980,
+      "wav_sha256": "ae1ef455700cb8878afc0796f93274768bff44aa21556a53590441552c202f15"
+    },
+    "PSND:2112": {
+      "file": "PSND-2112.wav",
+      "pcm_sha256": "ca3c7b734de1c46f7b606ef55292269151ba4b0a8f99d52c59066cacc33e615b",
+      "samples": 343296,
+      "wav_sha256": "1846cb0267dbedc245d6bf943e77b44f3bbe97204cef222e885aa40c4dafebe2"
+    },
+    "PSND:2113": {
+      "file": "PSND-2113.wav",
+      "pcm_sha256": "e9c187f544232eac02618ddb7609cb4f8e55c70babfcc9e3f8eb5b430739b07a",
+      "samples": 73540,
+      "wav_sha256": "7d0687af268e19e97cd9d18a8ac941546cd603a585bdeaa034074d6537392e89"
+    },
+    "PSND:2114": {
+      "file": "PSND-2114.wav",
+      "pcm_sha256": "0555cf7fedc3d61f2685143120151f9bdba33f0c8eea580ae9f8a1dfd6585969",
+      "samples": 39066,
+      "wav_sha256": "d8f5629b093240363ef6b4ed662a988ed9de45339f4007843aec9d03e73ef7eb"
+    },
+    "PSND:2115": {
+      "file": "PSND-2115.wav",
+      "pcm_sha256": "4c8ad20b251f16431598529b08f3bf428c1a0d23b6bd95e3eaec31ed2b02cac5",
+      "samples": 245176,
+      "wav_sha256": "6b9ea97597c790a89137300da23b2b03774b9d9b94fe6cbbd429fc5a0bc4dcef"
+    },
+    "PSND:2116": {
+      "file": "PSND-2116.wav",
+      "pcm_sha256": "44f60249ae78a0c61b3c8e479d568c2580e0202c0a8184ead189ea4bbd8dfba2",
+      "samples": 200776,
+      "wav_sha256": "30bb80282b4cd2e1569c914ccd98676ee94573776ac6b0a37474831c570c8793"
+    },
+    "PSND:3100": {
+      "file": "PSND-3100.wav",
+      "pcm_sha256": "864b4b42f0c16486c736f7af24741e521a8191f624627d89fbea1160dca79e0a",
+      "samples": 136256,
+      "wav_sha256": "42e305d9b99f3cf27c3df6b9ab55565720e75a15c6c7b4218692f0129ffe7cc7"
+    },
+    "PSND:3101": {
+      "file": "PSND-3101.wav",
+      "pcm_sha256": "b29b158f716417b9164cb713c3668329facbee206afe6682987017dcaa028300",
+      "samples": 117696,
+      "wav_sha256": "e47262a228fd49dfdd134259486380a42098b86814c44797cd44633012212e86"
+    },
+    "PSND:3102": {
+      "file": "PSND-3102.wav",
+      "pcm_sha256": "eece208dc83a21211e4f39ce8e46ef090a6669b99ef4162f66491d2de1015bd2",
+      "samples": 251520,
+      "wav_sha256": "fe405183fdb5b18569751685e567e0582a433ee096ab6d10e81161283927048c"
+    },
+    "PSND:3103": {
+      "file": "PSND-3103.wav",
+      "pcm_sha256": "cfff952ec59f6890fe55018f6402c3cab6b10b1a514377b55ad3eac8412c5d26",
+      "samples": 109760,
+      "wav_sha256": "e0947a561f1b1be906ac4518e6306d87937c2c3d33c9f26e854d0088b1fd8a6a"
+    },
+    "PSND:3104": {
+      "file": "PSND-3104.wav",
+      "pcm_sha256": "f6c57358c9f97c9920eb43cbfa5beb4d435351ff8b2b78a7dee09d39fd5f4766",
+      "samples": 193664,
+      "wav_sha256": "d5f825365a9177d18d9650aa51c18e512e4f6a5f526112a542544323a9bcec1a"
+    },
+    "PSND:3105": {
+      "file": "PSND-3105.wav",
+      "pcm_sha256": "07f9f0a311ba10ae6de283ec50e75874624fd4fbf2ac8362ef67ed9186b83fbc",
+      "samples": 153216,
+      "wav_sha256": "9bf235a499cc88996dceca86ef05372dd6084b17c2631aefd8ce1387e18803d9"
+    },
+    "PSND:3106": {
+      "file": "PSND-3106.wav",
+      "pcm_sha256": "5096c02feb0f57a08673fdd7b54957bea836be796605f7e54745bf7c88755aa0",
+      "samples": 116224,
+      "wav_sha256": "4b0d159917b4d21fde128953042c8737c5d34fbc20449252c131a175c8eff088"
+    },
+    "PSND:3200": {
+      "file": "PSND-3200.wav",
+      "pcm_sha256": "f265543e8e44222214f6b5d6bf5d2d341062e4071f6150717986882c67caea22",
+      "samples": 173478,
+      "wav_sha256": "087da68d183285332d8fff98e84c624d3debacf7d8ecfe6cda278c53d1cc6d87"
+    },
+    "PSND:3201": {
+      "file": "PSND-3201.wav",
+      "pcm_sha256": "6b3b8f8289f7f2d4191a3b2b606defb2e625abdae04cfad38aceae6460209935",
+      "samples": 219020,
+      "wav_sha256": "0732cafafe7e3aa6d68725fa007c92ebd85cd6fc982c62abd56fac70fead4f23"
+    },
+    "PSND:3202": {
+      "file": "PSND-3202.wav",
+      "pcm_sha256": "478de0d3214c51534594bf4d352884e3167304d6087c92109025934eac853a53",
+      "samples": 207360,
+      "wav_sha256": "314485eb3544529233a5b0d15edc7118b28534178a8a4b178efe268f7b9609cc"
+    },
+    "PSND:3203": {
+      "file": "PSND-3203.wav",
+      "pcm_sha256": "c53c1ca52384a5165f4d1389cae190e1248399d5ba1086b00b9b90bab56b1e5e",
+      "samples": 185818,
+      "wav_sha256": "92561d9d611603871e48e67a6ea36894b1c310d870624198381402e097126377"
+    },
+    "PSND:3204": {
+      "file": "PSND-3204.wav",
+      "pcm_sha256": "62940ba80c9d9f10ef97f028ab1b153f61dcb05950160941381e1562c2c7fc4f",
+      "samples": 220364,
+      "wav_sha256": "565633953b78c3389faa07ef7a8ce62c3ab4838e96eeb60e08c685aeec3ed5fa"
+    },
+    "PSND:3205": {
+      "file": "PSND-3205.wav",
+      "pcm_sha256": "11687c067619a162be0bb33996721e518c55e4d38db2ee824a15683c07b633a8",
+      "samples": 113338,
+      "wav_sha256": "1e38ff5fad74cf55cfe49600f9e47a387625249f8fc760b4f95eb0171e0f9ae3"
+    },
+    "PSND:3206": {
+      "file": "PSND-3206.wav",
+      "pcm_sha256": "39b9f56756bcd21848ca9e0ff24f00b5a9712032927bcde70fa93b39565da91a",
+      "samples": 43572,
+      "wav_sha256": "0943375c409d955f013dd14376ea0f395af365e17b3f45d2c269b0b04f49bb81"
+    },
+    "PSND:3300": {
+      "file": "PSND-3300.wav",
+      "pcm_sha256": "c0a835a980f5f345163d5213e556fde63a5901afe1a21ea09885d86f955da6c2",
+      "samples": 130880,
+      "wav_sha256": "db934eb312c803525dbe5bdf2cba011815dbca791bbe3f2c9be3066edacbc372"
+    },
+    "PSND:3301": {
+      "file": "PSND-3301.wav",
+      "pcm_sha256": "01208f37446fd6cef6f9b0c56d135bf9d64a9059c6ce9b12767df732dc1a243c",
+      "samples": 198784,
+      "wav_sha256": "f843a43296856d0c18570fe974e4e41e54b27755b34b45e65e82fcc886344b11"
+    },
+    "PSND:3302": {
+      "file": "PSND-3302.wav",
+      "pcm_sha256": "d87ab5fb4b794e97b9f8c78b29feb8f3e4b39842faa5110d4b3c41e37fc5ef4c",
+      "samples": 213504,
+      "wav_sha256": "34c09e19cc7c81e687e955c3cd7ed44c3e8f908c8bdb8dfbfbee7004a436f364"
+    },
+    "PSND:3303": {
+      "file": "PSND-3303.wav",
+      "pcm_sha256": "3aec800e022d82f54cbf2d631cd543b6dca2079b24f2f47d0f1892edccf8cbfa",
+      "samples": 302720,
+      "wav_sha256": "6236b9dab1a1991e7dbb4dbba81359ea4102b9fce40e8b57226ba0c1beb00d26"
+    },
+    "PSND:3304": {
+      "file": "PSND-3304.wav",
+      "pcm_sha256": "2b1fa36b059f4b617cdfc3a254f62824611b468369662e2a8c113dc0acf1782a",
+      "samples": 327424,
+      "wav_sha256": "03e896e3e52b0d29e8e77365dcbf2208c8eaa1b6d45b6f4ff5c97ebbeb4e36f6"
+    },
+    "PSND:3305": {
+      "file": "PSND-3305.wav",
+      "pcm_sha256": "e13659d007cab24628ff13aff38e4deafe34fcb92d2fe6d6e8473aa8c9247b6a",
+      "samples": 208064,
+      "wav_sha256": "cf4fcfff21d9166841c2b6e84d889520ca3d7eb45f8595b9af3f40f50da7d8e7"
+    },
+    "PSND:3306": {
+      "file": "PSND-3306.wav",
+      "pcm_sha256": "08bce6392f10eac1b14e20b711aae6697fb028fa175c80d88a689213a5b9137a",
+      "samples": 126272,
+      "wav_sha256": "22ad172790b7784b1776a5ba35d0923af7e902b73dcabc31b19d1ca8e8789d84"
+    },
+    "PSND:3400": {
+      "file": "PSND-3400.wav",
+      "pcm_sha256": "faef59da722e7f5aa179b655dffc979a00e57a6f257ab713c22aa990dc73ea3a",
+      "samples": 126116,
+      "wav_sha256": "c828d336de26558877a2d2d63086fbb190e9af4f53a3d226fc96bf4705198b45"
+    },
+    "PSND:3401": {
+      "file": "PSND-3401.wav",
+      "pcm_sha256": "76c8e6e4caae73eb0d4360e45e657c582956ad854ff25bcbcd8f99684ac7a5aa",
+      "samples": 239766,
+      "wav_sha256": "7ee6aee57f25f5076e204098021e0e73ec50785634c1056075c81c83946d4c32"
+    },
+    "PSND:3402": {
+      "file": "PSND-3402.wav",
+      "pcm_sha256": "7f658fb21c4e82196d123886bfe0e09106dde9d0dbf1c4f822674281870a4d13",
+      "samples": 258248,
+      "wav_sha256": "7a55af50813f788171bf5c4540b1d53a24ff3bca5b64287d0f6c4b835d730319"
+    },
+    "PSND:3403": {
+      "file": "PSND-3403.wav",
+      "pcm_sha256": "97a50219ba329f0689bc787a8a4460fabd9cc5632da29afa5dabf805b52a9f33",
+      "samples": 151200,
+      "wav_sha256": "ff3f392bf2a7476a8900ad40bf4c5fb115102349e6d03787dcfad4b4213e16e8"
+    },
+    "PSND:3404": {
+      "file": "PSND-3404.wav",
+      "pcm_sha256": "6de1a10792f94be7b3a2640adc5c0e6567521394521f2420c6c5b011c95b44af",
+      "samples": 226434,
+      "wav_sha256": "8550adea9cbbcb70e12a22d288fd1005e8422ee2b458ca45362de255a7d14e43"
+    },
+    "PSND:3405": {
+      "file": "PSND-3405.wav",
+      "pcm_sha256": "ee411d517522b9735467e1b300229f92bc042ddc4bdfd8b43450e8f389255a37",
+      "samples": 173403,
+      "wav_sha256": "0822284b0e405611d32306f7979720f2c2fa882188d6712742ec94368528cea1"
+    },
+    "PSND:3406": {
+      "file": "PSND-3406.wav",
+      "pcm_sha256": "cc9c9d3cc6e6aa94559aaa927cac5c6f600c090b4a2c1c8f4ad5fdafdab19a95",
+      "samples": 37750,
+      "wav_sha256": "f91b636d74ec0f6c9d59975770e9285b9a3fd8bff7c4411a4d456f6bc1a1cfe3"
+    },
+    "PSND:601": {
+      "file": "PSND-601.wav",
+      "pcm_sha256": "da40d6eb457bc0974b68eaa9df2ae64ebb7df2e651e2d920ae24a5c0246c3fc9",
+      "samples": 37824,
+      "wav_sha256": "6c880e3373aa748e2d72718fe11684528cdf91248d450ba56b0bf82c55b3970f"
+    }
+  }
+}

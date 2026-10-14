@@ -1,0 +1,64 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "ghidra_version": "12.1.4",
+  "internal_selector_fields_checked": 6595,
+  "non_fixup_source_bytes_checked": 326922,
+  "segments": [
+    {
+      "ne_segment": 1,
+      "length": 60176,
+      "ghidra_sha256": "af37729da4090aee1032fd9d4305c3b1624a4129b3de490e7bb80beb7c2426d7",
+      "source_sha256": "731649c80f89b7dd7882e07a2131bc8883c2d43d8c6f2bf39ef89347a9508919"
+    },
+    {
+      "ne_segment": 2,
+      "length": 59610,
+      "ghidra_sha256": "fe6e87d7f68cc318c581d4c5bd7aeac8676fdb45295f3ad0f24568b4c3d81032",
+      "source_sha256": "767498b3420736d9cc4d666346dadb0ae1a83aeb197fa83427ca1cbd028d79f0"
+    },
+    {
+      "ne_segment": 3,
+      "length": 59278,
+      "ghidra_sha256": "f89062a8c560ba0f864bb71e1ecd65c6c02e1b93bc4f4391a2c2a99706d42128",
+      "source_sha256": "c5d0f0a01d7e91100d5f32fd9f7d8ec38ba40f35f5b373d436bd18a5d7aacb8a"
+    },
+    {
+      "ne_segment": 4,
+      "length": 60252,
+      "ghidra_sha256": "6656c3330aa31b34f37b4b8f838e9d15fd22aa6f590ed4832df2de61446eb300",
+      "source_sha256": "cd63a28a376f01c2f01b123538ea26438c8ba21592ac208d9f47239cc83d806c"
+    },
+    {
+      "ne_segment": 5,
+      "length": 37748,
+      "ghidra_sha256": "51c7c72d2d3eb1406f53103ab06ef6c4a500a7f337b9973810628ea0f1448173",
+      "source_sha256": "9b1f63231cff6b0341fd9ffc54b393783b6d7b3b863c237c747c832fd63711e4"
+    },
+    {
+      "ne_segment": 6,
+      "length": 39822,
+      "ghidra_sha256": "912b5a65c9740d2b8c55b723cb0e6455104524bfbe803ff69fcba771a4731b20",
+      "source_sha256": "67d8ff93fc2f619497347a4c538675ade659f0b76ad3fe4c4dadc952bac3b5dc"
+    },
+    {
+      "ne_segment": 9,
+      "length": 8,
+      "ghidra_sha256": "cae05dda83eaa8ae1016ef7966fc73d82734973e29b44f6fb92613d1b5f9145f",
+      "source_sha256": "cae05dda83eaa8ae1016ef7966fc73d82734973e29b44f6fb92613d1b5f9145f"
+    },
+    {
+      "ne_segment": 11,
+      "length": 8,
+      "ghidra_sha256": "d05a25e1c86a793416e96222a6f8019d6b37b3a3b73406db072c8191dc608471",
+      "source_sha256": "d05a25e1c86a793416e96222a6f8019d6b37b3a3b73406db072c8191dc608471"
+    },
+    {
+      "ne_segment": 13,
+      "length": 29314,
+      "ghidra_sha256": "2c82616c58695f7f4cce366bcf8d9c456169164248b83df549866e5caeff22fb",
+      "source_sha256": "de8ae1add0c8ab4f3b259cc6d4112b40146f8a7fd69ac66f0c425a3ec5111f1d"
+    }
+  ],
+  "mismatches": 0,
+  "scope": "Independent Ghidra loaded images vs source internal-selector chain sites and every non-fixup initialized byte. Synthetic import addresses differ intentionally; imported APIs and excluded OS fixups are not executed by this audit."
+}

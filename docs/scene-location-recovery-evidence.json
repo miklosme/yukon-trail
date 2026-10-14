@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "dirty54": 1,
+      "gate334": 0,
+      "journal_place_hex": "53656174746c652e20",
+      "location_words": [
+        200,
+        0,
+        1000
+      ],
+      "scene": 1000,
+      "state_sha256": "fa7a39ef9b7bf9a1aba12ac9f2edb858bc1a54f9540348379eff4b22d0adaa4c"
+    },
+    {
+      "dirty54": 0,
+      "gate334": 1,
+      "journal_place_hex": null,
+      "location_words": [
+        21845,
+        21845,
+        21845
+      ],
+      "scene": 1000,
+      "state_sha256": "8d660b95b016d2615e1b2e2a600fac739ddf1bbf0fb44f4d5dcc99e0fb91deb6"
+    },
+    {
+      "dirty54": 1,
+      "gate334": 0,
+      "journal_place_hex": "53656174746c652e20",
+      "location_words": [
+        200,
+        0,
+        2000
+      ],
+      "scene": 2000,
+      "state_sha256": "223813f345034b4f06e9873966fe3020313aac201abb0b2c2a3d78038ba68c26"
+    },
+    {
+      "dirty54": 0,
+      "gate334": 1,
+      "journal_place_hex": null,
+      "location_words": [
+        21845,
+        21845,
+        21845
+      ],
+      "scene": 2000,
+      "state_sha256": "8d660b95b016d2615e1b2e2a600fac739ddf1bbf0fb44f4d5dcc99e0fb91deb6"
+    },
+    {
+      "dirty54": 1,
+      "gate334": 0,
+      "journal_place_hex": "53656174746c652e20",
+      "location_words": [
+        200,
+        0,
+        3000
+      ],
+      "scene": 3000,
+      "state_sha256": "59bb5e26c917ea18d4a4b0eebedd01dc7105e11dbc4879c6794d312357dc9b58"
+    },
+    {
+      "dirty54": 0,
+      "gate334": 1,
+      "journal_place_hex": null,
+      "location_words": [
+        21845,
+        21845,
+        21845
+      ],
+      "scene": 3000,
+      "state_sha256": "8d660b95b016d2615e1b2e2a600fac739ddf1bbf0fb44f4d5dcc99e0fb91deb6"
+    },
+    {
+      "dirty54": 1,
+      "gate334": 0,
+      "journal_place_hex": "53656174746c652e20",
+      "location_words": [
+        200,
+        0,
+        4000
+      ],
+      "scene": 4000,
+      "state_sha256": "f9fd518bf93a5019f8ee47120be13f18539c4c7ad47658246200b628214a8bb0"
+    },
+    {
+      "dirty54": 0,
+      "gate334": 1,
+      "journal_place_hex": null,
+      "location_words": [
+        21845,
+        21845,
+        21845
+      ],
+      "scene": 4000,
+      "state_sha256": "8d660b95b016d2615e1b2e2a600fac739ddf1bbf0fb44f4d5dcc99e0fb91deb6"
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "scope": "Original selected Seattle constructor location switch and journal place heading.\n\nRuns NE2:00e6..0214 throughactual NE1:9ffa setter, then NE1:cff8 place heading\nfor ungated actual tuples. Only far selectors relocated; no behavior stubs.\nFull constructor allocation/rendering and other scene families excluded.\n",
+  "synthetic_far_relocations": [
+    [
+      4096,
+      53734,
+      4096,
+      42740
+    ],
+    [
+      4096,
+      53766,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53784,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      54102,
+      8192,
+      7886
+    ],
+    [
+      32768,
+      527,
+      4096,
+      40954
+    ]
+  ]
+}

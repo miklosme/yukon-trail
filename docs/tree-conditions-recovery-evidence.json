@@ -1,0 +1,193 @@
+{
+  "cases": [
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 0,
+      "result": 0,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 0,
+      "result": 1,
+      "state_word_offset": 774
+    },
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 1,
+      "result": 1,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 1,
+      "result": 0,
+      "state_word_offset": 774
+    },
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 2,
+      "result": 1,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 2,
+      "result": 0,
+      "state_word_offset": 774
+    },
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 32767,
+      "result": 1,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 32767,
+      "result": 0,
+      "state_word_offset": 774
+    },
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 32768,
+      "result": 1,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 32768,
+      "result": 0,
+      "state_word_offset": 774
+    },
+    {
+      "condition": [
+        2,
+        1
+      ],
+      "context_words": [
+        3400,
+        4
+      ],
+      "input_word": 65535,
+      "result": 1,
+      "state_word_offset": 544
+    },
+    {
+      "condition": [
+        11,
+        109
+      ],
+      "context_words": [
+        2100,
+        17
+      ],
+      "input_word": 65535,
+      "result": 0,
+      "state_word_offset": 774
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "getter_arguments": [
+    [
+      21637,
+      42820,
+      0,
+      20480,
+      6
+    ],
+    [
+      23092,
+      42868,
+      0,
+      20480,
+      4
+    ]
+  ],
+  "mismatches": 0,
+  "scope": "Original selected condition/getter instructions; no behaviorstubs or statewrites. Broader condition catalog unknown.",
+  "synthetic_call_relocations": [
+    [
+      36864,
+      21637,
+      4096,
+      42820
+    ],
+    [
+      36864,
+      23092,
+      4096,
+      42868
+    ]
+  ]
+}

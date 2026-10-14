@@ -1,0 +1,223 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mapping": {
+    "NE1": "1000",
+    "NE9": "1040",
+    "NE13": "1060"
+  },
+  "constructor": "NE1:aea4",
+  "source_inventory_table": {
+    "address": "NE13:0df4",
+    "file_offset": "0x50214",
+    "stride": 10,
+    "fields": [
+      "state_index",
+      "state_compare",
+      "frame",
+      "anchor_y",
+      "anchor_x"
+    ],
+    "entries": [
+      [
+        7,
+        7,
+        0,
+        -20,
+        311
+      ],
+      [
+        7,
+        8,
+        1,
+        -20,
+        311
+      ],
+      [
+        7,
+        9,
+        2,
+        -20,
+        311
+      ],
+      [
+        8,
+        10,
+        3,
+        -40,
+        401
+      ],
+      [
+        8,
+        11,
+        4,
+        -40,
+        401
+      ],
+      [
+        8,
+        12,
+        5,
+        -40,
+        401
+      ],
+      [
+        3,
+        0,
+        14,
+        149,
+        301
+      ],
+      [
+        3,
+        0,
+        12,
+        78,
+        460
+      ],
+      [
+        6,
+        0,
+        13,
+        102,
+        301
+      ],
+      [
+        0,
+        0,
+        10,
+        78,
+        301
+      ],
+      [
+        2,
+        0,
+        9,
+        297,
+        301
+      ],
+      [
+        5,
+        0,
+        7,
+        282,
+        360
+      ],
+      [
+        1,
+        0,
+        8,
+        273,
+        401
+      ],
+      [
+        4,
+        0,
+        15,
+        12,
+        455
+      ],
+      [
+        -1,
+        0,
+        6,
+        253,
+        450
+      ],
+      [
+        -1,
+        0,
+        11,
+        338,
+        468
+      ]
+    ]
+  },
+  "edit_rectangle": {
+    "address": "NE9:0000",
+    "file_offset": "0x4f3e0",
+    "xywh": [
+      0,
+      0,
+      302,
+      340
+    ],
+    "selector_fixup": "NE13:4e32 source0200324e09000000 ->NE9"
+  },
+  "done": {
+    "source": "NE1:b0cc..b0f3",
+    "logical_xywh": [
+      105,
+      355,
+      70,
+      30
+    ],
+    "id": 10,
+    "style": "0x50000000",
+    "class_string": "NE13:0e99",
+    "label_string": "NE13:0e94"
+  },
+  "edit": {
+    "source": "NE1:b0fb..b132",
+    "id": 20,
+    "style": "0x50a01044",
+    "class_string": "NE13:0ea0"
+  },
+  "font": {
+    "source": "NE1:af32..af8d",
+    "face_string": "NE13:0de2",
+    "face_pointer": "NE13:0dee",
+    "requested_points": 10,
+    "height_expression": "-MulDiv(10,GetDeviceCaps(hdc,90),72)",
+    "width": 0,
+    "fallback_stock_object": 13,
+    "enumeration_callback": "NE1:be32",
+    "style_scope": "LOGFONT from matching face enumeration; other fields not overridden or runtime-inspected"
+  },
+  "scope": "static source consumer and independent root original inventory pixel placements; full native font runtime and browser comparisons pending",
+  "original_capture": {
+    "path": "local/evidence/seattle-reference-2026-10-13/krnl386_024.png",
+    "sha256": "33a1d9ae80b45736517bdbb7cc431f4f024b43fcf28eec4a6c2b254d6e1721b7",
+    "scene_origin_xy": [
+      20,
+      59
+    ]
+  },
+  "independent_root_pixel_observations": [
+    {
+      "frame": 10,
+      "native_origin_xy": [
+        321,
+        137
+      ],
+      "nonzero_matching_pixels": 4369
+    },
+    {
+      "frame": 11,
+      "native_origin_xy": [
+        488,
+        397
+      ],
+      "nonzero_matching_pixels": 5591
+    },
+    {
+      "frame": 6,
+      "native_origin_xy": [
+        470,
+        312
+      ],
+      "nonzero_matching_pixels": 7210,
+      "scope": "above occlusion y397"
+    }
+  ],
+  "independent_root_pixel_observations_scope": "Reported by root after exact sourcepixel search; locator ignored local/evidence/recovery-proof/locate-journal-items-20261013.py. This subagent independently recovered table addresses/positions rather than rerunning its pixel search.",
+  "analysis_persistence": {
+    "script": "tools/ghidra/AnnotateJournalPresentation.java",
+    "tool": "Ghidra12.1.4",
+    "fresh_reopen_audit": "local/ghidra/journal-presentation-reopened.tsv",
+    "audit_sha256": "ce165adcbfa3d232082abe293324b8b0974e77f4b61edd636b7942d575df5fa2",
+    "audit_records": 18,
+    "function_count": 3,
+    "observed_resource_structures": 2,
+    "backup": "local/ghidra/backups/journal-presentation-before-20261013.tar.gz"
+  }
+}

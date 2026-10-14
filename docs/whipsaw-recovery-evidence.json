@@ -1,0 +1,45 @@
+{
+  "cases": 112,
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "matrix_sha256": "f11c72cb24814b531147a46b4f364f660da861c1dc1b61c2d575a8c763d4310f",
+  "mismatches": 0,
+  "scope": "Original220dispatch/24d0purchase/getters/setter/money, selecteditem109cost8unownedword306partner4CONV17. Displaycachelookupnull; refusalOpenSceneargumentscapturedonly; noGUIorjournalcaller.",
+  "synthetic_call_relocations": [
+    [
+      32768,
+      9436,
+      4096,
+      42820
+    ],
+    [
+      32768,
+      9450,
+      4096,
+      42820
+    ],
+    [
+      32768,
+      9467,
+      4096,
+      42546
+    ],
+    [
+      32768,
+      9549,
+      4096,
+      40512
+    ],
+    [
+      32768,
+      9569,
+      4096,
+      41348
+    ],
+    [
+      32768,
+      9631,
+      4096,
+      41348
+    ]
+  ]
+}

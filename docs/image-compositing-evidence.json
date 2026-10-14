@@ -1,0 +1,131 @@
+{
+  "checked_date": "2026-10-13",
+  "source_executable": "original/extracted/windows/YUKON.EXE",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "normalization": {
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "unicorn_version": "2.1.4",
+    "native_code": "NE0002:47c4..47dc; stop at47dd; file base0xf2c0",
+    "cases": 256,
+    "mismatches": 0,
+    "derived_table_sha256": "213efc9f0cc86ac59dcdf891b015b1f57c0855c60b21688ce42b65b812780e62",
+    "scope": "individual normalization bytes; row iteration/padding and live scene pixel effects unverified"
+  },
+  "excluded_byte_copy": {
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "unicorn_version": "2.1.4",
+    "kernels": [
+      "NE0001:0344",
+      "NE0001:04fc",
+      "NE0001:042a"
+    ],
+    "cases": 243,
+    "mismatches": 0,
+    "scope": "synthetic buffers; excluded-byte/forward/reverse and unconditional copy; source zero is copied by042a; scene dispatch verified statically, not executed"
+  },
+  "annotation_audit": {
+    "functions": 13,
+    "records": 27,
+    "sha256": "be231a873ae183d21379d885cb4d3bcdf8ee70ecb2214a9e63bccafb2acc09f7",
+    "local_path": "local/ghidra/background-reopened.tsv"
+  },
+  "selected_bubble_static_chain": {
+    "resource_ids": [
+      1,
+      2
+    ],
+    "resource_server": "NE0003:5ddc -> NE0006:7b02+04 -> NE0003:5d50 -> NE0002:4926",
+    "drawing": "NE0002:4290 -> NE0006:71e8+0c -> NE0002:e554 -> NE0006:67ea+30 -> NE0002:7eb0 -> NE0006:69ca+34 -> NE0002:5c54 -> NE0003:0d90 -> NE0001:0344",
+    "key_index": 0,
+    "classification": "observed static dispatch; synthetic kernel oracle; no complete native scene comparison"
+  },
+  "limitations": [
+    "Complete native bubble composited pixels and text remain unverified",
+    "Alternate buffer/drawing modes remain unverified",
+    "Normalization row iteration/padding and final scene effects remain unverified",
+    "Wharf45 differences explained by corrected reference systempalette0; independent live GDI paletteAPI-return/DAC capture remains unchecked",
+    "Complete Wharf actors/overlays not compared"
+  ],
+  "wharf_display": {
+    "source_scene_resource": {
+      "key": "SCNE:4000",
+      "offset": 85713021,
+      "length": 10,
+      "raw_hex": "0fa00fa00fa00fa00000",
+      "scope": "first word linkage lead plus observed native CBMP4000 pixel correspondence; complete SCNE format not recovered"
+    },
+    "unconditional_copy_chain": "NE0002:0002 -> manager706a+20 -> NE0002:3ee2 -> buffer69ca+20 -> NE0002:515a -> NE0003:0c56 -> NE0001:042a",
+    "palette_chain": "NE0001:5eb4 overrides first10/last10 with GETSYSTEMPALETTEENTRIES, createsDS00ac -> startup530c palettewrapper -> NE0002:6a66 selectswrapper+6 palette and identity indexedDIB table",
+    "reference_zero_rgb": [
+      0,
+      0,
+      0
+    ],
+    "zero_rgb_classification": "inferred runtime systementry0 from original replacement path and native pixels; no separate GDI API-return capture",
+    "source_zero_pixels": 63,
+    "source_zero_positions": "x0; y124..221",
+    "source_zero_native_black_pixels": 63,
+    "top_comparison": {
+      "archive_length": 116903,
+      "archive_offset": 10507794,
+      "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+      "capture_sha256": "01ace7b331d5d32f43b12d79fea88adcb4d8ca68d58817638d72a06fc60864eb",
+      "compared_pixels": 120000,
+      "examples": [],
+      "mismatches": 0,
+      "origin": [
+        20,
+        59
+      ],
+      "palette_conversion": "six-bit DAC, high-bit replication",
+      "payload_sha256": "bf44bb0de9cb9ec6c640ea251f9207a0eb0b7d230a8388dbd51ee3796ab1dd1b",
+      "render_index_transform": "NE0002:47c4..47dc",
+      "resource": "CBMP:4000",
+      "source_rectangles": [
+        [
+          0,
+          0,
+          600,
+          200
+        ]
+      ],
+      "supplied_system_palette_zero_rgb": [
+        0,
+        0,
+        0
+      ],
+      "system_palette_scope": "Explicitly supplied runtime value; no claim about all reserved entries or independent API return capture"
+    },
+    "left_column_comparison": {
+      "archive_length": 116903,
+      "archive_offset": 10507794,
+      "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+      "capture_sha256": "01ace7b331d5d32f43b12d79fea88adcb4d8ca68d58817638d72a06fc60864eb",
+      "compared_pixels": 400,
+      "examples": [],
+      "mismatches": 0,
+      "origin": [
+        20,
+        59
+      ],
+      "palette_conversion": "six-bit DAC, high-bit replication",
+      "payload_sha256": "bf44bb0de9cb9ec6c640ea251f9207a0eb0b7d230a8388dbd51ee3796ab1dd1b",
+      "render_index_transform": "NE0002:47c4..47dc",
+      "resource": "CBMP:4000",
+      "source_rectangles": [
+        [
+          0,
+          0,
+          1,
+          400
+        ]
+      ],
+      "supplied_system_palette_zero_rgb": [
+        0,
+        0,
+        0
+      ],
+      "system_palette_scope": "Explicitly supplied runtime value; no claim about all reserved entries or independent API return capture"
+    }
+  }
+}

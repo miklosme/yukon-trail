@@ -24,9 +24,17 @@ open. [formats/CBMP.md](formats/CBMP.md) records this bounded proof.
 Sequential PSND1 now yields source-established mono 8-bit 22,050 Hz samples:
 all 1,278 integer calls and81,792 converted bytes match original routines.
 Live sound mapping/comparison is still pending; see [formats/PSND.md](formats/PSND.md).
-M0 source/reference checkpoint evidence is recorded; M1 remains incomplete
-without completed image/sound consumers/decoding, a behavioral comparison, and the
-runtime decision. See [STATUS.md](STATUS.md) for actual checks and next actions.
+Follow-up 2026-10-13: PSND616 now maps to Linda's storm speech in the preserved
+original voyage; native integers/samples match and an aligned waveform comparison
+retains its residuals. All331 CBMP resources /1,523 frames decode, selected bubble
+zero-key routing is traced, and bounded Linda/money semantics match original
+instruction execution. Immediate original before/after operation comparison,
+complete selected composition and runtime decision remain pending. The human-authorized
+AppleScript fallback now supports the fresh isolated reference playtest;
+see STATUS.md and SEATTLE-REFERENCE.md for exact checks and handoff.
+M0 source/reference checkpoint evidence is recorded. The immediate Linda
+comparison and JavaScript/canvas decision now establish the bounded M1 proof;
+see RUNTIME-DECISION.md for exact scope and residuals. M2 remains incomplete. See [STATUS.md](STATUS.md) for actual checks and next actions.
 
 ## M0 — Reproducible source and reference environment
 
@@ -43,6 +51,14 @@ Verify source hashes; extract Windows files into a durable local location; inven
 5. Decide TypeScript versus C++/WebAssembly based on native-logic volume, data-driven behavior, platform coupling, debugging, and maintenance. Record the reasons, uncertainties, and chosen rendering approach.
 
 **Exit evidence:** reproducible extraction/decoding; image and sound comparison to the original; one independently checked state transition; durable analysis notes; an explicit architecture decision. If any part fails, retain the useful results and document the specific gap rather than extrapolating success.
+
+2026-10-13 implementation checkpoint: a partial name/journal/Wharf opening is
+implemented and locally served; nine Node original-oracle checks pass. Browser
+access was denied, so no browser rendering or port playtest result is claimed.
+Seattle interaction, exit, audio and save/load remain incomplete. See
+[PORT-RUN.md](PORT-RUN.md) for reproducible commands and exact limits. Static
+browser-emulation feasibility is recorded in BROWSER-EMULATION-EVALUATION.md;
+it has not been executed or selected as a replacement runtime.
 
 ## M2 — Playable opening slice
 
@@ -62,7 +78,17 @@ Maintain a coverage matrix connecting scenes, resource types, important rules, a
 
 ## M4 — Browser experience and preservation release
 
-Polish responsive scaling, touch and keyboard interaction, readable text, volume controls, browser audio activation, pause/resume, autosave, and save export/import. Address loading progress, asset caching/lazy loading, and memory use based on measured needs. For a native-code port, validate event-loop yielding and persistence across reloads. Verify desktop and mobile browser behavior, including Safari, rather than assuming a successful Chromium run is sufficient.
+Polish responsive scaling, touch and keyboard interaction, readable text,
+original volume/menu controls, browser audio activation and persistence.
+The owner's 2026-10-13 instruction requires the observed original UI: do not
+add controls or panels unless absolutely necessary. Consider pause/resume,
+autosave, save export/import and loading indicators only within that constraint;
+document any necessary browser accommodation and present it at human review.
+Address asset caching/lazy loading and memory use based on measured needs.
+For a native-code port, validate event-loop yielding and persistence across
+reloads. Verify supported browsers, including Safari, rather than assuming a
+successful Chromium run is sufficient. Agree final browser/mobile coverage at
+a playable review and record actual tested versions.
 
 Document intentional differences from the original. Resolve missing-media handling, project-code licensing, and the asset distribution model before deployment packaging. Possible packaging approaches include a separately provisioned asset set or local user import; selection is still open.
 

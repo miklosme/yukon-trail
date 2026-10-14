@@ -1,0 +1,183 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "cases": [
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 0
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 1
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 2
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 3
+    },
+    {
+      "condition_outputs": [
+        1,
+        1,
+        1
+      ],
+      "eligible": true,
+      "partner_word": 4
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 5
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 6
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 7
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 8
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 9
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 32766
+    },
+    {
+      "condition_outputs": [
+        1,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 32767
+    },
+    {
+      "condition_outputs": [
+        0,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 32768
+    },
+    {
+      "condition_outputs": [
+        0,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 32769
+    },
+    {
+      "condition_outputs": [
+        0,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 65534
+    },
+    {
+      "condition_outputs": [
+        0,
+        0,
+        1
+      ],
+      "eligible": false,
+      "partner_word": 65535
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "native_condition_calls": 48,
+  "resource": "SCRP:4000",
+  "resource_length": 290,
+  "resource_offset": 85717655,
+  "resource_sha256": "898c985d0c422471f3cc64caaf78f8458cf16d5024c0f788c0076e691140dfcb",
+  "scope": "Selected kind3/SPRT403 eligibility only; no allocation, rendering, controller list construction or calendar progression.",
+  "selected_record_index": 15,
+  "selected_record_words": [
+    3,
+    403,
+    0,
+    3,
+    1,
+    5,
+    4,
+    0,
+    0
+  ],
+  "synthetic_call_relocations": [
+    [
+      36864,
+      22371,
+      4096,
+      42546
+    ],
+    [
+      36864,
+      22889,
+      4096,
+      42546
+    ]
+  ]
+}

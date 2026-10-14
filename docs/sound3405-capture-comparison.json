@@ -1,0 +1,78 @@
+{
+  "capture_path": "local/evidence/recovery-proof/linda-capture-1800-2000-20261014.wav",
+  "capture_sha256": "4d4ba42af10e6984a37044bea0509b1cb3172917ad19a7322e7063b1a143f594",
+  "clip_extraction": {
+    "command": "ffmpeg -nostdin -v error -ss 1800 -i local/evidence/seattle-reference-2026-10-13/krnl386_000.avi -t 200 -vn -c:a pcm_s16le local/evidence/recovery-proof/linda-capture-1800-2000-20261014.wav",
+    "duration_seconds": 200,
+    "scope": "Bounded existing-media analysis; no live application control.",
+    "start_seconds": 1800
+  },
+  "comparison_channels": 1,
+  "comparison_rate": 4000,
+  "end_seconds": 152.9535,
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "fitted_dc_offset": 0.00010095623324493457,
+  "fitted_gain": 0.3464710113966929,
+  "fractional_phase_refinement": {
+    "fitted_dc_offset": 0.00010353765667811261,
+    "fitted_gain": 0.336299766631074,
+    "fractional_sample_shift": 0.30000000000000004,
+    "normalized_correlation": 0.9893820166693148,
+    "residual_rms_fraction_of_capture": 0.14533831253788185,
+    "time_stretch": 1.0
+  },
+  "normalized_correlation": 0.9727426244840112,
+  "numpy_version": "2.3.5",
+  "original_capture": {
+    "bytes": 452842986,
+    "duration_seconds": 2030.692753,
+    "path": "local/evidence/seattle-reference-2026-10-13/krnl386_000.avi",
+    "sha256": "f64c3996bcf84bb185ee761ab576ca2d0a0133ca86fdeb65be5d1dbe4ddf8f4d"
+  },
+  "original_end_seconds": 1952.9535,
+  "original_start_seconds": 1945.08925,
+  "residual_rms_fraction_of_capture": 0.231887443627196,
+  "sample_count": 31457,
+  "scene_frame": {
+    "original_seconds": 1949,
+    "path": "local/evidence/recovery-proof/linda-3405-1949s-20261014.png",
+    "sha256": "77b0425f11c471c36d3a2c79887b546f8f60ecda8973414ce6db7ddb9a3cbe95"
+  },
+  "scope": "Aligned resampled mono waveform comparison with fitted linear gain/DC. Residual retained; not bit-identical PCM, automatic resource identity, full mixer, or general sound validation.",
+  "source_text_corroboration": {
+    "observation": "Sound subagent independently inspected extracted original AVI scene frame: Linda and exact source-record text visible.",
+    "record_offset": 10964,
+    "text_bytes_hex": "4f4b2e20492077696c6c20747275737420796f752077697468206d79206d6f6e65792e204e6f77207765206e65656420746f207075726368617365207469636b65747320666f722070617373616765206f6e2061207368697020746f20416c61736b612e",
+    "text_latin1": "OK. I will trust you with my money. Now we need to purchase tickets for passage on a ship to Alaska.",
+    "tree_id": 3400,
+    "voice_id": 3405
+  },
+  "start_seconds": 145.08925,
+  "template_sha256": "0822284b0e405611d32306f7979720f2c2fa882188d6712742ec94368528cea1",
+  "thirds": [
+    {
+      "end_seconds": 147.7105,
+      "fitted_dc_offset": 0.00016019892379404057,
+      "fitted_gain": 0.3435779669679126,
+      "normalized_correlation": 0.965248159537686,
+      "residual_rms_fraction_of_capture": 0.26133501584959745,
+      "start_seconds": 145.08925
+    },
+    {
+      "end_seconds": 150.332,
+      "fitted_dc_offset": 0.00010365508964237358,
+      "fitted_gain": 0.3484925221448509,
+      "normalized_correlation": 0.9788580157108788,
+      "residual_rms_fraction_of_capture": 0.2045409129699036,
+      "start_seconds": 147.7105
+    },
+    {
+      "end_seconds": 152.9535,
+      "fitted_dc_offset": 4.03633984151054e-05,
+      "fitted_gain": 0.34608845620155554,
+      "normalized_correlation": 0.9699174289086023,
+      "residual_rms_fraction_of_capture": 0.24343414119495432,
+      "start_seconds": 150.332
+    }
+  ]
+}

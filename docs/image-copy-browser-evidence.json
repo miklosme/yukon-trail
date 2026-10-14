@@ -1,0 +1,13 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "unicorn_version": "2.1.4",
+  "kernels": [
+    "NE0001:0344",
+    "NE0001:04fc",
+    "NE0001:042a"
+  ],
+  "cases": 243,
+  "output_matrix_rows_sha256": "4c5d62d9fe332745c9faeb692df72c218da4e0d6f08a3866525e277bb075d182",
+  "mismatches": 0,
+  "scope": "synthetic buffers; excluded-byte/forward/reverse and unconditional copy; source zero is copied by042a; scene dispatch verified statically, not executed"
+}

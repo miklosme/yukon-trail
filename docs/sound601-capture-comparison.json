@@ -1,0 +1,81 @@
+{
+  "capture_path": "local/evidence/recovery-proof/linda-refusal-capture-640-740-20261014.wav",
+  "capture_sha256": "e17b1548df7ddc80c7f71e14023d60fa41216c6af1ef23afa4f8305f835f24ce",
+  "clip_extraction": {
+    "command": "ffmpeg -nostdin -v error -ss 640 -i local/evidence/seattle-reference-2026-10-13/krnl386_006.avi -t 100 -vn -c:a pcm_s16le local/evidence/recovery-proof/linda-refusal-capture-640-740-20261014.wav",
+    "duration_seconds": 100,
+    "start_seconds": 640
+  },
+  "comparison_channels": 1,
+  "comparison_rate": 4000,
+  "end_seconds": 28.815749999999998,
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "fitted_dc_offset": 0.001417356161272202,
+  "fitted_gain": 0.3527095254355801,
+  "fractional_phase_refinement": {
+    "fitted_dc_offset": 0.0013919887795526987,
+    "fitted_gain": 0.3484989244257324,
+    "fractional_sample_shift": -0.1499999999999999,
+    "normalized_correlation": 0.9981801593104352,
+    "residual_rms_fraction_of_capture": 0.06030231802338008,
+    "time_stretch": 1.0
+  },
+  "normalized_correlation": 0.9952443836835263,
+  "numpy_version": "2.3.5",
+  "original_capture": {
+    "bytes": 176353348,
+    "duration_seconds": 789.090896,
+    "path": "local/evidence/seattle-reference-2026-10-13/krnl386_006.avi",
+    "sha256": "5e593e634b43c8eb0f9096ab2c18d8dad962ee5652f46fe0f0b2a3718e2e6562"
+  },
+  "original_end_seconds": 668.81575,
+  "original_start_seconds": 667.10025,
+  "residual_rms_fraction_of_capture": 0.0974095310860233,
+  "sample_count": 6862,
+  "scene_frame": {
+    "observation": "Sound subagent independently inspected existing AVI frame: Linda and exact refusal text visible.",
+    "original_seconds": 668,
+    "path": "local/evidence/recovery-proof/linda-refusal-668s-20261014.png",
+    "sha256": "67faa19a6f15103cda28eab8093547422eeded53e3c61cdda4dd0d1f4f7242b7"
+  },
+  "scope": "Aligned resampled mono waveform comparison with fitted linear gain/DC. Residual retained; not bit-identical PCM, automatic resource identity, full mixer, or general sound validation.",
+  "start_seconds": 27.10025,
+  "template_sha256": "6c880e3373aa748e2d72718fe11684528cdf91248d450ba56b0bf82c55b3970f",
+  "thirds": [
+    {
+      "end_seconds": 27.672,
+      "fitted_dc_offset": 0.0004945953367758143,
+      "fitted_gain": 0.35261339254161944,
+      "normalized_correlation": 0.9943994067636015,
+      "residual_rms_fraction_of_capture": 0.10568736834739056,
+      "start_seconds": 27.10025
+    },
+    {
+      "end_seconds": 28.24375,
+      "fitted_dc_offset": 0.001858757655233155,
+      "fitted_gain": 0.353034371961222,
+      "normalized_correlation": 0.9965836144689125,
+      "residual_rms_fraction_of_capture": 0.08258994716112683,
+      "start_seconds": 27.672
+    },
+    {
+      "end_seconds": 28.815749999999998,
+      "fitted_dc_offset": 0.0018943893820988263,
+      "fitted_gain": 0.3517303943104791,
+      "normalized_correlation": 0.9927331103727753,
+      "residual_rms_fraction_of_capture": 0.12033690859248235,
+      "start_seconds": 28.24375
+    }
+  ],
+  "tree_source": {
+    "length": 1648,
+    "offset": 87294045,
+    "raw_sha256": "d3be3d9e229d178ba265ee91e7d5057ee343526a8a2f95c63227b17323d289aa",
+    "resource": "TREE:600",
+    "root_record_offset": 278,
+    "text_latin1": "We don't have enough money for that.",
+    "text_payload_offset": 296,
+    "voice_id": 601,
+    "voice_payload_offset": 294
+  }
+}

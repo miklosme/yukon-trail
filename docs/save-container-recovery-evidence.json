@@ -1,0 +1,572 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "source_instruction_ranges": [
+    {
+      "ne_segment": 1,
+      "offset": 38730,
+      "end_exclusive": 38892,
+      "ghidra": "1000:974a",
+      "file_offset": 39850,
+      "sha256": "2ef86f7927b17219123b41d21c24fbe8e0ff378d1b7912b9d038285da8be0454"
+    },
+    {
+      "ne_segment": 1,
+      "offset": 38892,
+      "end_exclusive": 39055,
+      "ghidra": "1000:97ec",
+      "file_offset": 40012,
+      "sha256": "4dcb396291d7dd80c639362ba04552167b2d1398b308def1e5d31867d375fab0"
+    },
+    {
+      "ne_segment": 1,
+      "offset": 36232,
+      "end_exclusive": 36388,
+      "ghidra": "1000:8d88",
+      "file_offset": 37352,
+      "sha256": "513f54ae0babf90c6b4a1cef98f111a904134a39afbaaf9544b673599c7d2bc5"
+    },
+    {
+      "ne_segment": 1,
+      "offset": 36388,
+      "end_exclusive": 36544,
+      "ghidra": "1000:8e24",
+      "file_offset": 37508,
+      "sha256": "e0716d6e4d2b22e5485ebe3482f89b9fd8fc8527baecb364e03cf83586c6bf10"
+    },
+    {
+      "ne_segment": 1,
+      "offset": 36208,
+      "end_exclusive": 36232,
+      "ghidra": "1000:8d70",
+      "file_offset": 37328,
+      "sha256": "6a4d5ebeb6fb71a484569e9db8180004587c7db8056fd829208f8e14caaa807e"
+    }
+  ],
+  "cases": [
+    {
+      "path": "local/evidence/seattle-reference-2026-10-13/SEATTLE-after-whipsaw-outfit.GAM",
+      "size": 11221,
+      "sha256": "ac548222959f58c34fa8247ad308e16f4f0232ddbfb6374585334c5df2b00604",
+      "read_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "c6073e6ec4f1cd4b411fe0ca8f7cce200a3d1bec3a1c23db3df8db35ebb646ea"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "e93bd126782969d93431937235536c4074cd040026ec0f06147952489f87ffdd"
+        }
+      ],
+      "write_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "c6073e6ec4f1cd4b411fe0ca8f7cce200a3d1bec3a1c23db3df8db35ebb646ea"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "e93bd126782969d93431937235536c4074cd040026ec0f06147952489f87ffdd"
+        }
+      ],
+      "state_sha256": "c6073e6ec4f1cd4b411fe0ca8f7cce200a3d1bec3a1c23db3df8db35ebb646ea",
+      "journal_buffer_sha256": "e93bd126782969d93431937235536c4074cd040026ec0f06147952489f87ffdd",
+      "journal_text_sha256": "7a4233a7ff7870c92d808d1c6bfe4b3774f23635fb1e0f8745d32d3a237627d6",
+      "words": {
+        "028": 24,
+        "02a": 8,
+        "034": 200,
+        "036": 0,
+        "038": 2000,
+        "2fa": 422,
+        "2fc": 0,
+        "2fe": 2400,
+        "306": 1,
+        "30e": 2,
+        "310": 1,
+        "312": 4,
+        "330": 2000,
+        "332": 200
+      }
+    },
+    {
+      "path": "local/evidence/blind-playthrough-2026-10-04/BLIND-before-sheep-camp.GAM",
+      "size": 11221,
+      "sha256": "f082939ff627671c1a09a166409fcf2195eeb0809f0b3204c884d05f2573bf6f",
+      "read_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "0c07d9f304e94fac2fc3b87977fa9fddf647206fdf41fc7f619006e605dfb81f"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "b2d96996c6fa3bfde41ad526269905eb2830bb406503a0838d93f1278e2f5409"
+        }
+      ],
+      "write_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "0c07d9f304e94fac2fc3b87977fa9fddf647206fdf41fc7f619006e605dfb81f"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "b2d96996c6fa3bfde41ad526269905eb2830bb406503a0838d93f1278e2f5409"
+        }
+      ],
+      "state_sha256": "0c07d9f304e94fac2fc3b87977fa9fddf647206fdf41fc7f619006e605dfb81f",
+      "journal_buffer_sha256": "b2d96996c6fa3bfde41ad526269905eb2830bb406503a0838d93f1278e2f5409",
+      "journal_text_sha256": "24fbc62a03e1977b5523e5bd5950b280914e9dae7259ab16bc65d524fec0ae1f",
+      "words": {
+        "028": 24,
+        "02a": 10,
+        "034": 400,
+        "036": 1,
+        "038": 50,
+        "2fa": 412,
+        "2fc": 0,
+        "2fe": 993,
+        "306": 1,
+        "30e": 63,
+        "310": 3,
+        "312": 4,
+        "330": 32000,
+        "332": 400
+      }
+    },
+    {
+      "path": "local/evidence/white-pass-reference-2026-10-13/WHITE-predeparture.GAM",
+      "size": 11221,
+      "sha256": "c1e1fb823990ef2f1d0b504a24a16d41e262282165d2ceaa02da93ce83662feb",
+      "read_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "2eb2e8c71e07c78b473f19971aba31beaff3f0493fc4956edd29eb56bcb0d35d"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "67b694299875dd5a05d597b1225d0a0968d3d34127b332fc082ef79b60c1a79b"
+        }
+      ],
+      "write_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "2eb2e8c71e07c78b473f19971aba31beaff3f0493fc4956edd29eb56bcb0d35d"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "67b694299875dd5a05d597b1225d0a0968d3d34127b332fc082ef79b60c1a79b"
+        }
+      ],
+      "state_sha256": "2eb2e8c71e07c78b473f19971aba31beaff3f0493fc4956edd29eb56bcb0d35d",
+      "journal_buffer_sha256": "67b694299875dd5a05d597b1225d0a0968d3d34127b332fc082ef79b60c1a79b",
+      "journal_text_sha256": "d80808e8f65b5d0e581b9e53075ba82f4881355f48219e1ceba6abb63bc8886d",
+      "words": {
+        "028": 24,
+        "02a": 8,
+        "034": 200,
+        "036": 0,
+        "038": 3000,
+        "2fa": 342,
+        "2fc": 0,
+        "2fe": 2400,
+        "306": 1,
+        "30e": 2,
+        "310": 1,
+        "312": 4,
+        "330": 3000,
+        "332": 200
+      }
+    },
+    {
+      "path": "local/evidence/white-pass-reference-2026-10-13/WHITEA-Skagway.GAM",
+      "size": 11221,
+      "sha256": "15e23ad55319a07281d1841172d1127d8324496fca82af9229ded355d8ded896",
+      "read_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "c8d13da905719cd500db12845b1503b235c679f5d3bbd940dd9fcb428914b69d"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "cd1757a26b7fc1b43b58ce5eeabb7aa779692996c62531b0b614047647ea9ab4"
+        }
+      ],
+      "write_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "c8d13da905719cd500db12845b1503b235c679f5d3bbd940dd9fcb428914b69d"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "cd1757a26b7fc1b43b58ce5eeabb7aa779692996c62531b0b614047647ea9ab4"
+        }
+      ],
+      "state_sha256": "c8d13da905719cd500db12845b1503b235c679f5d3bbd940dd9fcb428914b69d",
+      "journal_buffer_sha256": "cd1757a26b7fc1b43b58ce5eeabb7aa779692996c62531b0b614047647ea9ab4",
+      "journal_text_sha256": "49636396c270613b9a406891e9e59380a130a6b3afd43d26c69e4d77c5e6b6c6",
+      "words": {
+        "028": 11,
+        "02a": 9,
+        "034": 200,
+        "036": 2,
+        "038": 9000,
+        "2fa": 342,
+        "2fc": 0,
+        "2fe": 2400,
+        "306": 1,
+        "30e": 20,
+        "310": 2,
+        "312": 4,
+        "330": 9000,
+        "332": 200
+      }
+    },
+    {
+      "path": "local/evidence/white-pass-reference-2026-10-13/WHITETR-after-theft.GAM",
+      "size": 11221,
+      "sha256": "c214729f16b10594e982a0aa2e3a9e27329e4f842d6bc0c283073f2a71e4a3fb",
+      "read_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "abdbd8714dfaabb5820c9bc931f83fe5686ebd49ba34eed12c82592fa3c3dace"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "07dd95e0531f3318a2cf347d3143434e666c40385e8dc0f1390a5f60b02aa6dc"
+        }
+      ],
+      "write_transfers": [
+        {
+          "count": 5,
+          "offset": 12292,
+          "selector": 16384,
+          "sha256": "a7bf49e06d267b6004d4dc28e15d521a922de44bc87279754b334ded1255e966"
+        },
+        {
+          "count": 64,
+          "offset": 12297,
+          "selector": 16384,
+          "sha256": "44e331de48592c5594f5bc8b474a8597e4e44b11112a98ba1e5d772727bdf355"
+        },
+        {
+          "count": 10,
+          "offset": 12361,
+          "selector": 16384,
+          "sha256": "40761c8cf0fd93b283ecb30e707a39221a1d1bd77e22e8744b958ba2dfbad7d2"
+        },
+        {
+          "count": 902,
+          "offset": 0,
+          "selector": 20480,
+          "sha256": "abdbd8714dfaabb5820c9bc931f83fe5686ebd49ba34eed12c82592fa3c3dace"
+        },
+        {
+          "count": 10240,
+          "offset": 4096,
+          "selector": 24576,
+          "sha256": "07dd95e0531f3318a2cf347d3143434e666c40385e8dc0f1390a5f60b02aa6dc"
+        }
+      ],
+      "state_sha256": "abdbd8714dfaabb5820c9bc931f83fe5686ebd49ba34eed12c82592fa3c3dace",
+      "journal_buffer_sha256": "07dd95e0531f3318a2cf347d3143434e666c40385e8dc0f1390a5f60b02aa6dc",
+      "journal_text_sha256": "e7b36f02b8604a3656524e654545eec21ecdc44d8dc27d6975b6f4374f218446",
+      "words": {
+        "028": 4,
+        "02a": 10,
+        "034": 400,
+        "036": 2,
+        "038": 52,
+        "2fa": 342,
+        "2fc": 0,
+        "2fe": 2105,
+        "306": 1,
+        "30e": 43,
+        "310": 3,
+        "312": 4,
+        "330": 32001,
+        "332": 400
+      }
+    }
+  ],
+  "mismatches": 0,
+  "synthetic_far_relocations": [
+    [
+      4096,
+      38769,
+      4096,
+      36232
+    ],
+    [
+      4096,
+      38792,
+      4096,
+      36232
+    ],
+    [
+      4096,
+      38815,
+      4096,
+      36232
+    ],
+    [
+      4096,
+      38837,
+      4096,
+      36232
+    ],
+    [
+      4096,
+      38863,
+      4096,
+      36232
+    ],
+    [
+      4096,
+      38879,
+      4096,
+      36208
+    ],
+    [
+      4096,
+      38932,
+      4096,
+      36388
+    ],
+    [
+      4096,
+      38955,
+      4096,
+      36388
+    ],
+    [
+      4096,
+      38978,
+      4096,
+      36388
+    ],
+    [
+      4096,
+      39000,
+      4096,
+      36388
+    ],
+    [
+      4096,
+      39026,
+      4096,
+      36388
+    ],
+    [
+      4096,
+      39042,
+      4096,
+      36208
+    ]
+  ],
+  "scope": "Execute original NE1:974a/97ec and original8d88/8e24/8d70 wrappers.\n\nOnly file-open dialog and KERNEL file I/O calls are substituted with an in-memory\nfile; original five-block transfer order/pointers/counts and wrapper count checks\nexecute. No full load validation, constructor, scene rebuild, OS disk failure or\nbrowser persistence claim. Synthetic selectors relocate unchanged source calls.\n",
+  "ghidra_annotations": {
+    "apply_audit": "local/ghidra/save-container-apply.tsv",
+    "reopen_audit": "local/ghidra/save-container-reopen.tsv",
+    "records": 11,
+    "sha256": "05de49e93887fd19194300e11c007a217bb21ebaa757a4fb057b19eb6c093ea8",
+    "script": "tools/ghidra/AnnotateSaveContainer.java",
+    "backup": "local/ghidra/backups/save-container-before-20261014.tar.gz",
+    "scope": "Five observed function names/comments survive separate read-only JVM; no guessed signatures/types"
+  }
+}

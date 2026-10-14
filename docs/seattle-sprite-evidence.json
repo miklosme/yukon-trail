@@ -1,0 +1,184 @@
+{
+  "geometry": {
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "unicorn_version": "2.1.4",
+    "resources": {
+      "SPRT:403": {
+        "offset": 85727233,
+        "length": 54,
+        "raw_sha256": "6ea5ca407b481747127e88a049c7762db40be71b889a62c9ead41cad399e28ec",
+        "normalized_sha256": "267ccf96b304ef86fea0f73b4db81049280a980ed5bb863a6877f198fe7ef5ae"
+      },
+      "ACEL:400": {
+        "offset": 40218,
+        "length": 14,
+        "raw_sha256": "43160f5354173fec4f679f2e83db2f00f3ab5d071e079bacfe7ec08b993cf7fe",
+        "normalized_sha256": "1d2a9264751de8e1f181f46fc043a2f4335e4020716fca81a84875c165690ff9"
+      },
+      "ASEQ:400": {
+        "offset": 68022,
+        "length": 628,
+        "raw_sha256": "a9d6393a5aed32bf6802f181365d9f2d8f5810b194c0f0fa86de1c42e51cc519",
+        "normalized_sha256": "c2dd8c229677347d01a7628eb34c9288d2d41dbcb6d47e5bf116a2ea1c3ca81f"
+      },
+      "CBMP:400": {
+        "offset": 10501361,
+        "length": 6433,
+        "raw_sha256": "c72632978c2f2a0fa772646ba4fc511b9075c0157bb2f8dc61d4c19a7c0a0e17",
+        "normalized_sha256": "c72632978c2f2a0fa772646ba4fc511b9075c0157bb2f8dc61d4c19a7c0a0e17"
+      }
+    },
+    "native_code": [
+      "NE0002:e62a",
+      "NE0002:e5e4",
+      "NE0003:2a52 suspended branch and NE0002:e5b8 hide"
+    ],
+    "geometry_calls": 5,
+    "suspended_flag_cases": 36,
+    "mismatches": 0,
+    "initial_anchor_xy": [
+      -2,
+      338
+    ],
+    "sequence": 5,
+    "sequence_descriptor": [
+      12,
+      2,
+      10,
+      4
+    ],
+    "completed_anchor_xy": [
+      -2,
+      298
+    ],
+    "bitmap_frame": 1,
+    "cel_offset_xy": [
+      10,
+      -11
+    ],
+    "frame_size_wh": [
+      124,
+      108
+    ],
+    "rectangle_top_left_bottom_right": [
+      309,
+      -12,
+      417,
+      112
+    ],
+    "predicted_capture_origin_xy": [
+      8,
+      368
+    ],
+    "scope": "source-derived sequence5 movement; original geometry functions executed; suspended flags checked across36 cases; constructor, clock/timer/successor scheduling not executed"
+  },
+  "hotspots": {
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "unicorn_version": "2.1.4",
+    "native_code": "NE0002:0d4c..0de6/0df7; stops before action virtual call",
+    "cases": 645,
+    "mismatches": 0,
+    "resources": {
+      "HSPT:1000": {
+        "offset": 12459631,
+        "length": 178,
+        "raw_sha256": "51b14aa7dc35115576dd3ee56d5436d8db8555d89da2883594c372d4737abe7e",
+        "normalized_sha256": "ea29502df2a97a4c1e650448c0e70eb686399deda89e5c87a33458c8d60dbc29",
+        "records": 11,
+        "points": 494
+      },
+      "HSPT:4000": {
+        "offset": 12461307,
+        "length": 66,
+        "raw_sha256": "4bdce01d156b421832173f54f9d2569b09eba697dde180022033283169d9f82d",
+        "normalized_sha256": "d503ad3095b7bb9f3333e10efba126eb2814387c84daface61235cb5fca8c257",
+        "records": 4,
+        "points": 151
+      }
+    },
+    "scope": "selected fallback after sprite hit-test returned no object; no action execution, original UI projection or foreground-sprite interception"
+  },
+  "pixels": {
+    "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+    "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+    "capture_sha256": "9c7d90b4d5df20a32f34b70c8aff9ffe49e03f35b553e614645e9921b31d39f1",
+    "resources": {
+      "SPRT:403": {
+        "offset": 85727233,
+        "length": 54,
+        "raw_sha256": "6ea5ca407b481747127e88a049c7762db40be71b889a62c9ead41cad399e28ec"
+      },
+      "ASEQ:400": {
+        "offset": 68022,
+        "length": 628,
+        "raw_sha256": "a9d6393a5aed32bf6802f181365d9f2d8f5810b194c0f0fa86de1c42e51cc519"
+      },
+      "ACEL:400": {
+        "offset": 40218,
+        "length": 14,
+        "raw_sha256": "43160f5354173fec4f679f2e83db2f00f3ab5d071e079bacfe7ec08b993cf7fe"
+      },
+      "CBMP:400": {
+        "offset": 10501361,
+        "length": 6433,
+        "raw_sha256": "c72632978c2f2a0fa772646ba4fc511b9075c0157bb2f8dc61d4c19a7c0a0e17"
+      }
+    },
+    "sprite_id": 403,
+    "sequence": 5,
+    "bitmap_id": 400,
+    "frame": 1,
+    "frame_size_wh": [
+      124,
+      108
+    ],
+    "completed_anchor_xy": [
+      -2,
+      298
+    ],
+    "source_cel_offset_xy": [
+      10,
+      -11
+    ],
+    "scene_origin_xy": [
+      20,
+      59
+    ],
+    "predicted_capture_origin_xy": [
+      8,
+      368
+    ],
+    "clip_viewport_ltrb": [
+      20,
+      59,
+      620,
+      459
+    ],
+    "compared_pixels": 5968,
+    "mismatches": 0,
+    "excluded_zero_pixels": 4224,
+    "clipped_pixels": 3200,
+    "examples": [],
+    "palette_conversion": "explicit native-checked index normalization and six-bit DAC high-bit replication",
+    "scope": "all visible nonzero pixels of predicted frame1 aftersequence5; no automatic alignment; transparent underlay, timer, alternate states/actors and whole scene excluded"
+  },
+  "analysis_persistence": {
+    "tool": "Ghidra12.1.4",
+    "script": "tools/ghidra/AnnotateSprite.java",
+    "fresh_reopen_audit": "local/ghidra/sprite-reopened.tsv",
+    "audit_sha256": "c61e552036cbb98401b2c8fe199554d397d4dcb6bd9b557996739961c0f6184e",
+    "audit_records": 57,
+    "function_count": 8,
+    "observed_resource_structures": 6,
+    "mapping": {
+      "NE1": "1000",
+      "NE2": "1008",
+      "NE3": "1010",
+      "NE6": "1028",
+      "data13": "1060"
+    },
+    "backup": "local/ghidra/backups/sprite-before-20261013.tar.gz"
+  }
+}

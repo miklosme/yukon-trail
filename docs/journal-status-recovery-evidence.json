@@ -1,0 +1,8399 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "source_assets": {
+    "schema": "recovered-journal-status-v1",
+    "vocabulary": {
+      "months": [
+        "January ",
+        "February ",
+        "March ",
+        "April ",
+        "May ",
+        "June ",
+        "July ",
+        "August ",
+        "September ",
+        "October ",
+        "November ",
+        "December "
+      ],
+      "early_year": ", 1897. ",
+      "later_year": ", 1898. ",
+      "seattle": "Seattle. ",
+      "separator": "\r\n\r\n"
+    },
+    "fragments": {
+      "have": {
+        "text": "We have:\r\n      ",
+        "ne_address": "NE13:1106",
+        "file_offset": 328998,
+        "length": 17,
+        "sha256": "d50d5391f5181b4947e72e201c4e5444de7c8617db623cf549a02e94f86755cc"
+      },
+      "kilograms": {
+        "text": " kilograms of food\r\n      $",
+        "ne_address": "NE13:1117",
+        "file_offset": 329015,
+        "length": 28,
+        "sha256": "1b27f9b1ed60527ddc23f8ef99854a5e996530e9fc5788a3fd543bd5143ca374"
+      },
+      "pounds": {
+        "text": " pounds of food\r\n      $",
+        "ne_address": "NE13:1133",
+        "file_offset": 329043,
+        "length": 25,
+        "sha256": "6907bf6656dce800c48b7cd9712d5053e76c8a21256189c04183364c5503ae1d"
+      },
+      "cash": {
+        "text": " in cash",
+        "ne_address": "NE13:114c",
+        "file_offset": 329068,
+        "length": 9,
+        "sha256": "f9c807f73015b94226d45fe45bf6908b17003702a615c67551cc64619be42163"
+      },
+      "gold_prefix": {
+        "text": "\r\n      $",
+        "ne_address": "NE13:1155",
+        "file_offset": 329077,
+        "length": 10,
+        "sha256": "873b1303ef2e29145f419d89d8f1cfe5d489e5e67912e26842dd1aa806ac032a"
+      },
+      "gold": {
+        "text": " in gold",
+        "ne_address": "NE13:115f",
+        "file_offset": 329087,
+        "length": 9,
+        "sha256": "d6a1cb1e50f5c1450cec0c982d3609a48a1fc57b4696f1defef878a969e1a880"
+      }
+    },
+    "inventory_table": {
+      "entries": [
+        [
+          7,
+          7,
+          0,
+          -20,
+          311
+        ],
+        [
+          7,
+          8,
+          1,
+          -20,
+          311
+        ],
+        [
+          7,
+          9,
+          2,
+          -20,
+          311
+        ],
+        [
+          8,
+          10,
+          3,
+          -40,
+          401
+        ],
+        [
+          8,
+          11,
+          4,
+          -40,
+          401
+        ],
+        [
+          8,
+          12,
+          5,
+          -40,
+          401
+        ],
+        [
+          3,
+          0,
+          14,
+          149,
+          301
+        ],
+        [
+          3,
+          0,
+          12,
+          78,
+          460
+        ],
+        [
+          6,
+          0,
+          13,
+          102,
+          301
+        ],
+        [
+          0,
+          0,
+          10,
+          78,
+          301
+        ],
+        [
+          2,
+          0,
+          9,
+          297,
+          301
+        ],
+        [
+          5,
+          0,
+          7,
+          282,
+          360
+        ],
+        [
+          1,
+          0,
+          8,
+          273,
+          401
+        ],
+        [
+          4,
+          0,
+          15,
+          12,
+          455
+        ],
+        [
+          -1,
+          0,
+          6,
+          253,
+          450
+        ],
+        [
+          -1,
+          0,
+          11,
+          338,
+          468
+        ]
+      ],
+      "ne_address": "NE13:0df4",
+      "file_offset": 328212,
+      "length": 160,
+      "sha256": "c47a1bd67816c08468b8a6aa17caaa368d85deaf2f59602c20e3761df70a9d07"
+    },
+    "provenance": {
+      "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+      "encoding": "Source byte to Latin1 codepoint mapping; typography not inferred"
+    }
+  },
+  "base_state_words": [
+    [
+      40,
+      24
+    ],
+    [
+      42,
+      8
+    ],
+    [
+      52,
+      200
+    ],
+    [
+      54,
+      0
+    ],
+    [
+      56,
+      2000
+    ],
+    [
+      762,
+      350
+    ],
+    [
+      764,
+      0
+    ],
+    [
+      766,
+      0
+    ],
+    [
+      784,
+      1
+    ],
+    [
+      786,
+      65535
+    ]
+  ],
+  "status_cases": [
+    {
+      "name": "clean_reopen",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "dirty0",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "dirty1",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "dirty2",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        2
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          2
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "dirty65535",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        65535
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          65535
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "cache_word0",
+      "state_word_changes": [],
+      "snapshot_words": [
+        23,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "cache_word1",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        7,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "cache_word2",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        1,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "cache_word3",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        351,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "cache_word4",
+      "state_word_changes": [],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        1,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_28_1",
+      "state_word_changes": [
+        [
+          40,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a41756775737420312c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          1,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_28_31",
+      "state_word_changes": [
+        [
+          40,
+          31
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742033312c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          31,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2a_1",
+      "state_word_changes": [
+        [
+          42,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          1,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_2a_12",
+      "state_word_changes": [
+        [
+          42,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          12,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_2fa_0",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_1",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_4",
+      "state_word_changes": [
+        [
+          762,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243420696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          4,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_5",
+      "state_word_changes": [
+        [
+          762,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243520696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          5,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_6",
+      "state_word_changes": [
+        [
+          762,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243620696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          6,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_32767",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_32768",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fa_65535",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_0",
+      "state_word_changes": [
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_2fc_1",
+      "state_word_changes": [
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_4",
+      "state_word_changes": [
+        [
+          764,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a202020202020243420696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          4,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_5",
+      "state_word_changes": [
+        [
+          764,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a202020202020243520696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          5,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_6",
+      "state_word_changes": [
+        [
+          764,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a202020202020243620696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          6,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_32767",
+      "state_word_changes": [
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_32768",
+      "state_word_changes": [
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fc_65535",
+      "state_word_changes": [
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_0",
+      "state_word_changes": [
+        [
+          766,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_2fe_1",
+      "state_word_changes": [
+        [
+          766,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203120706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          1,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_4",
+      "state_word_changes": [
+        [
+          766,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203420706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          4,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_5",
+      "state_word_changes": [
+        [
+          766,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203520706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          5,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_6",
+      "state_word_changes": [
+        [
+          766,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203620706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          6,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_32767",
+      "state_word_changes": [
+        [
+          766,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a202020202020333237363720706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32767,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_32768",
+      "state_word_changes": [
+        [
+          766,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d333237363820706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32768,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_2fe_65535",
+      "state_word_changes": [
+        [
+          766,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d3120706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          65535,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "changed_only_310_0",
+      "state_word_changes": [
+        [
+          784,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_1",
+      "state_word_changes": [
+        [
+          784,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_4",
+      "state_word_changes": [
+        [
+          784,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_5",
+      "state_word_changes": [
+        [
+          784,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_6",
+      "state_word_changes": [
+        [
+          784,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_32767",
+      "state_word_changes": [
+        [
+          784,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_32768",
+      "state_word_changes": [
+        [
+          784,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_310_65535",
+      "state_word_changes": [
+        [
+          784,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_0",
+      "state_word_changes": [
+        [
+          786,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_1",
+      "state_word_changes": [
+        [
+          786,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_4",
+      "state_word_changes": [
+        [
+          786,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_5",
+      "state_word_changes": [
+        [
+          786,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_6",
+      "state_word_changes": [
+        [
+          786,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_32767",
+      "state_word_changes": [
+        [
+          786,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_32768",
+      "state_word_changes": [
+        [
+          786,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_312_65535",
+      "state_word_changes": [
+        [
+          786,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_0",
+      "state_word_changes": [
+        [
+          56,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_1",
+      "state_word_changes": [
+        [
+          56,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_4",
+      "state_word_changes": [
+        [
+          56,
+          4
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_5",
+      "state_word_changes": [
+        [
+          56,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_6",
+      "state_word_changes": [
+        [
+          56,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_32767",
+      "state_word_changes": [
+        [
+          56,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_32768",
+      "state_word_changes": [
+        [
+          56,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "changed_only_38_65535",
+      "state_word_changes": [
+        [
+          56,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_300_1",
+      "state_word_changes": [
+        [
+          768,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_300_7",
+      "state_word_changes": [
+        [
+          768,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_300_12",
+      "state_word_changes": [
+        [
+          768,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_300_65535",
+      "state_word_changes": [
+        [
+          768,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_302_1",
+      "state_word_changes": [
+        [
+          770,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_302_7",
+      "state_word_changes": [
+        [
+          770,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_302_12",
+      "state_word_changes": [
+        [
+          770,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_302_65535",
+      "state_word_changes": [
+        [
+          770,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_304_1",
+      "state_word_changes": [
+        [
+          772,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_304_7",
+      "state_word_changes": [
+        [
+          772,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_304_12",
+      "state_word_changes": [
+        [
+          772,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_304_65535",
+      "state_word_changes": [
+        [
+          772,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_306_1",
+      "state_word_changes": [
+        [
+          774,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_306_7",
+      "state_word_changes": [
+        [
+          774,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_306_12",
+      "state_word_changes": [
+        [
+          774,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_306_65535",
+      "state_word_changes": [
+        [
+          774,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_308_1",
+      "state_word_changes": [
+        [
+          776,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_308_7",
+      "state_word_changes": [
+        [
+          776,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_308_12",
+      "state_word_changes": [
+        [
+          776,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_308_65535",
+      "state_word_changes": [
+        [
+          776,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_30a_1",
+      "state_word_changes": [
+        [
+          778,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_30a_7",
+      "state_word_changes": [
+        [
+          778,
+          7
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_30a_12",
+      "state_word_changes": [
+        [
+          778,
+          12
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "item_only_30a_65535",
+      "state_word_changes": [
+        [
+          778,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a74657874",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [],
+        "stopped_before_cleanup": false
+      }
+    },
+    {
+      "name": "format_food0_units0",
+      "state_word_changes": [
+        [
+          766,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food0_units1",
+      "state_word_changes": [
+        [
+          766,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food0_units65535",
+      "state_word_changes": [
+        [
+          766,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food1_units0",
+      "state_word_changes": [
+        [
+          766,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203120706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          1,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food1_units1",
+      "state_word_changes": [
+        [
+          766,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          1,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food1_units65535",
+      "state_word_changes": [
+        [
+          766,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          1,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2_units0",
+      "state_word_changes": [
+        [
+          766,
+          2
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203220706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2_units1",
+      "state_word_changes": [
+        [
+          766,
+          2
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2_units65535",
+      "state_word_changes": [
+        [
+          766,
+          2
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food99_units0",
+      "state_word_changes": [
+        [
+          766,
+          99
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a202020202020393920706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          99,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food99_units1",
+      "state_word_changes": [
+        [
+          766,
+          99
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203434206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          99,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food99_units65535",
+      "state_word_changes": [
+        [
+          766,
+          99
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203434206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          99,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food100_units0",
+      "state_word_changes": [
+        [
+          766,
+          100
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202031303020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          100,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food100_units1",
+      "state_word_changes": [
+        [
+          766,
+          100
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          100,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food100_units65535",
+      "state_word_changes": [
+        [
+          766,
+          100
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          100,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2400_units0",
+      "state_word_changes": [
+        [
+          766,
+          2400
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203234303020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2400,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2400_units1",
+      "state_word_changes": [
+        [
+          766,
+          2400
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202031303830206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2400,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food2400_units65535",
+      "state_word_changes": [
+        [
+          766,
+          2400
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202031303830206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          2400,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32767_units0",
+      "state_word_changes": [
+        [
+          766,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a202020202020333237363720706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32767,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32767_units1",
+      "state_word_changes": [
+        [
+          766,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203134373435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32767,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32767_units65535",
+      "state_word_changes": [
+        [
+          766,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203134373435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32767,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32768_units0",
+      "state_word_changes": [
+        [
+          766,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d333237363820706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32768,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32768_units1",
+      "state_word_changes": [
+        [
+          766,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d3134373435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32768,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food32768_units65535",
+      "state_word_changes": [
+        [
+          766,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d3134373435206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          32768,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food65535_units0",
+      "state_word_changes": [
+        [
+          766,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020202d3120706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          65535,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food65535_units1",
+      "state_word_changes": [
+        [
+          766,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 1,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          65535,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_food65535_units65535",
+      "state_word_changes": [
+        [
+          766,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 65535,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a20202020202030206b696c6f6772616d73206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          65535,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash0_gold0",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash0_gold1",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash0_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash0_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash0_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          0
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          0,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash1_gold0",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash1_gold1",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash1_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash1_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash1_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          1
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020243120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          1,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash350_gold0",
+      "state_word_changes": [
+        [
+          762,
+          350
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash350_gold1",
+      "state_word_changes": [
+        [
+          762,
+          350
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash350_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          350
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash350_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          350
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash350_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          350
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32767_gold0",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32767_gold1",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32767_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32767_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32767_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a20202020202024333237363720696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32767,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32768_gold0",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32768_gold1",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32768_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32768_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash32768_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d333237363820696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          32768,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash65535_gold0",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ],
+        [
+          764,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash65535_gold1",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ],
+        [
+          764,
+          1
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e20636173680d0a202020202020243120696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          1,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash65535_gold32767",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ],
+        [
+          764,
+          32767
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e20636173680d0a20202020202024333237363720696e20676f6c64",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          32767,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash65535_gold32768",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ],
+        [
+          764,
+          32768
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          32768,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "format_cash65535_gold65535",
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ],
+        [
+          764,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "",
+      "units_word": 0,
+      "original": {
+        "text_hex": "4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a202020202020242d3120696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          65535,
+          65535,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "phase0",
+      "state_word_changes": [
+        [
+          784,
+          0
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "phase5",
+      "state_word_changes": [
+        [
+          784,
+          5
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "phase6",
+      "state_word_changes": [
+        [
+          784,
+          6
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839382e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    },
+    {
+      "name": "phase65535",
+      "state_word_changes": [
+        [
+          784,
+          65535
+        ]
+      ],
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        1
+      ],
+      "prior_hex": "656469746564ff0d0a74657874",
+      "units_word": 0,
+      "original": {
+        "text_hex": "656469746564ff0d0a746578740d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+        "snapshot_words": [
+          24,
+          8,
+          0,
+          350,
+          0,
+          0
+        ],
+        "allocations": [
+          8,
+          255
+        ],
+        "stopped_before_cleanup": true
+      }
+    }
+  ],
+  "inventory_cases": [
+    {
+      "state_word_changes": [
+        [
+          762,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          762,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          764,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          766,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          768,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          770,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          772,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          774,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          7
+        ]
+      ],
+      "original_enabled": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          776,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          0
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          1
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          7
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          8
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          9
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          10
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          11
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          12
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          32767
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          32768
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "state_word_changes": [
+        [
+          778,
+          65535
+        ]
+      ],
+      "original_enabled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "retention_requests": [
+    {
+      "abandon_word": 0,
+      "original_request": [
+        4096,
+        24576,
+        10240,
+        13,
+        123
+      ]
+    },
+    {
+      "abandon_word": 1,
+      "original_request": null
+    },
+    {
+      "abandon_word": 65535,
+      "original_request": null
+    }
+  ],
+  "capture094": {
+    "path": "local/evidence/seattle-reference-2026-10-13/krnl386_094.png",
+    "sha256": "df499626b129838bb0fb471ff3585f121aae13ac0ddddb8c6ff3526237dcb258",
+    "observed_nonempty_tail_lines": [
+      "August 23, 1897. Arrived at Seattle.",
+      "August 23, 1897. Seattle. We have:",
+      "0 pounds of food",
+      "$350 in cash",
+      "August 24, 1897. Seattle. We have:",
+      "0 pounds of food",
+      "$350 in cash"
+    ],
+    "original_event0": {
+      "text_hex": "4175677573742032332c20313839372e20417272697665642061742053656174746c652e20",
+      "snapshot_words": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "allocations": [
+        8,
+        255
+      ],
+      "stopped_before_cleanup": true
+    },
+    "original_first_event4": {
+      "text_hex": "4175677573742032332c20313839372e20417272697665642061742053656174746c652e200d0a0d0a4175677573742032332c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+      "snapshot_words": [
+        23,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "allocations": [
+        8,
+        255
+      ],
+      "stopped_before_cleanup": true
+    },
+    "original_second_event4": {
+      "text_hex": "4175677573742032332c20313839372e20417272697665642061742053656174746c652e200d0a0d0a4175677573742032332c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e20636173680d0a0d0a4175677573742032342c20313839372e2053656174746c652e20576520686176653a0d0a2020202020203020706f756e6473206f6620666f6f640d0a2020202020202433353020696e2063617368",
+      "snapshot_words": [
+        24,
+        8,
+        0,
+        350,
+        0,
+        0
+      ],
+      "allocations": [
+        8,
+        255
+      ],
+      "stopped_before_cleanup": true
+    },
+    "scope": "Manual visible-line comparison excludes name/header and leading/trailing indentation; exact bytes come independently from executed original formatter, not screenshot OCR."
+  },
+  "synthetic_call_relocations": [
+    [
+      4096,
+      48005,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      48049,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      48080,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      50406,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      50420,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      50451,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      50952,
+      4096,
+      42638
+    ],
+    [
+      4096,
+      50964,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      50983,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      50998,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      51938,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      51956,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      51991,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      52924,
+      4096,
+      42638
+    ],
+    [
+      4096,
+      52955,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      52973,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53006,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      53030,
+      8192,
+      8440
+    ],
+    [
+      4096,
+      53044,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53062,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53096,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      53109,
+      4096,
+      43088
+    ],
+    [
+      4096,
+      53127,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53145,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53176,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53194,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53226,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      53734,
+      4096,
+      42740
+    ],
+    [
+      4096,
+      53766,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      53784,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      54102,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      54130,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56362,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56378,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56396,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56427,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56439,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56457,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56488,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56518,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56536,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56567,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56582,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      56643,
+      8192,
+      8440
+    ],
+    [
+      4096,
+      56656,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56674,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56706,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56718,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56736,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56774,
+      8192,
+      8440
+    ],
+    [
+      4096,
+      56787,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56805,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56837,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56849,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56867,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56898,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      56920,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      56929,
+      8192,
+      8440
+    ],
+    [
+      4096,
+      56942,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56960,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      56992,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      57004,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57022,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57053,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      57068,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      57083,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57101,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57132,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      57154,
+      4096,
+      42820
+    ],
+    [
+      4096,
+      57163,
+      8192,
+      8440
+    ],
+    [
+      4096,
+      57176,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57194,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57226,
+      8192,
+      7886
+    ],
+    [
+      4096,
+      57238,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57256,
+      8192,
+      8072
+    ],
+    [
+      4096,
+      57287,
+      8192,
+      7886
+    ]
+  ],
+  "scope": "Original c474 event4 gates/dbe2 full formatter/string append; platform malloc replaced with bounded local memory. Stops before entry destructor; overflow/prompt/nativeEdit API execution excluded. Retention records actual import request boundary only."
+}

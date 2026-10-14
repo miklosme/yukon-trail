@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-13",
+  "scope": "Static official source/package inspection and byte measurements only. No emulator execution, browser access, mount/import of guest or performance/compatibility trial. Native JavaScript runtime decision unchanged.",
+  "package": {
+    "name": "emulators",
+    "version": "8.5.2",
+    "registry_url": "https://registry.npmjs.org/emulators/8.5.2",
+    "tarball_url": "https://registry.npmjs.org/emulators/-/emulators-8.5.2.tgz",
+    "registry_integrity_sha512": "sha512-XW+1SsuYd/egY1EmuOpq6k9kUqrGyoaN8o1sqkVvDJRFWy4lrCqst3of6TBZj1m//4aU/ZSt5VbqQBcRl+Uk1Q==",
+    "registry_shasum_sha1": "f6974960e14505919b007e58fc37a345a7cac673",
+    "integrity_verified": true,
+    "npm_git_head": "6bbf0925d221a7304ea8e0dda1e89b8dc01569b2",
+    "unpacked_bytes": 29055045,
+    "declared_vendor_license": "GPL-2.0",
+    "sha1_verified": true
+  },
+  "source": {
+    "repository": "https://github.com/caiiiycuk/emulators",
+    "commit": "6bbf0925d221a7304ea8e0dda1e89b8dc01569b2",
+    "dosbox_x_submodule": "788fde99d3d451eab3621009186e5abe516f2b9c",
+    "dosbox_x_fork_url": "https://github.com/js-dos/dosbox-x",
+    "upstream_head_inspected": "378e6f8a25768594df87c9f5c99b5df9b3f6a8b0",
+    "upstream_workflow_names": [
+      "hxdos.yml",
+      "linux.yml",
+      "macos.yml",
+      "mingw32.yml",
+      "mingw64.yml",
+      "vsbuild32.yml",
+      "vsbuild64.yml",
+      "vsbuild_xp.yml",
+      "windows-installers.yml"
+    ]
+  },
+  "local_ignored_root": "local/tools/browser-emulation-evaluation",
+  "downloads": {
+    "npm-emulators-8.5.2.json": {
+      "bytes": 3882,
+      "sha256": "b2a0e26455902f6f793977d99e46dc63a487b580dbafa8a830266fab37f4ac3c"
+    },
+    "emulators-8.5.2.tgz": {
+      "bytes": 9781713,
+      "sha256": "99a3e6f257726749915f4dc6828d82cd9834969aa69cc2dcc5ed8babfb323cb4"
+    },
+    "emulators-source-8.5.2.tar.gz": {
+      "bytes": 2122391,
+      "sha256": "9b7354c2cc853681b99eb288bcdc7e5e0ff7fd2e821485c9b20c12472fbc822e"
+    },
+    "emulators-native-tree.json": {
+      "bytes": 2570,
+      "sha256": "6eaf1b5b7a388a4267cc3c825b9aebe2a149d6f20cb101ec93d2de84dbfeff49"
+    },
+    "dosbox-x-head.json": {
+      "bytes": 11810,
+      "sha256": "f0621565e970f83eeaa649b8ff2c27df78d98c7473b50b8be5b2a9be07d04662"
+    },
+    "dosbox-x-workflows.json": {
+      "bytes": 9077,
+      "sha256": "855ef92445446595c51624e5dbfe92b6f75b530a0fcabf213809812c3432c731"
+    }
+  },
+  "deployment_files": {
+    "emulators.js": {
+      "bytes": 90630,
+      "sha256": "066176a9e9e6babfb5388552a5154f3c1f81ed778af3bf4a1f9f904161e3c4bb",
+      "gzip_bytes_measured_level9": 25389
+    },
+    "wdosbox-x.js": {
+      "bytes": 285604,
+      "sha256": "b2eb2a402e00201c5673fb95718777f0a783e40bffd65790ebf8ad79224ca478",
+      "gzip_bytes_measured_level9": 70914
+    },
+    "wdosbox-x.wasm": {
+      "bytes": 8045933,
+      "sha256": "8e6bbbee26a70433c3a78d0f3a3152a8d7762d016cd2024f6f13d69e93e9f689",
+      "gzip_bytes_measured_level9": 2790756
+    },
+    "wlibzip.js": {
+      "bytes": 72957,
+      "sha256": "b8e55c2aa4c96e961c9965f289c0f40b5d44f02a557dcf980ddc29787b493842",
+      "gzip_bytes_measured_level9": 19375
+    },
+    "wlibzip.wasm": {
+      "bytes": 112483,
+      "sha256": "25064d970c42ca7ea0fdb8b058204d6e41cc8826a676219677772f5591e8337b",
+      "gzip_bytes_measured_level9": 52017
+    },
+    "wdosbox-x-jspi.js": {
+      "bytes": 286514,
+      "sha256": "8d44f76367bc2dd0222b37a51608b62c2c7958313ed27b2fb652f28bf90201cc",
+      "gzip_bytes_measured_level9": 70089
+    },
+    "wdosbox-x-jspi.wasm": {
+      "bytes": 7893150,
+      "sha256": "c154235667747e613be00d0955f068b54cbf8e1fb8e5c34d34e5552292f4c72a",
+      "gzip_bytes_measured_level9": 2738404
+    },
+    "wdosbox-x-dbg.js": {
+      "bytes": 290525,
+      "sha256": "d9430e55bceecfa7a94a1f0230f7a1626fe681aee9c43ba99d68fc0d5e176d42",
+      "gzip_bytes_measured_level9": 72007
+    },
+    "wdosbox-x-dbg.wasm": {
+      "bytes": 8427514,
+      "sha256": "cf51d186a2aaa5d6581297e98a66ebcc7f6192679a8c5016632a94c46a40c8b5",
+      "gzip_bytes_measured_level9": 2924025
+    }
+  },
+  "standard_backend_three_file_bytes": 8422167,
+  "with_bundle_utilities_five_file_bytes": 8607607,
+  "source_files": {
+    "src/emulators.ts": {
+      "bytes": 7234,
+      "sha256": "04dd8d268f5960d60fc8fcb9d279c4b0c8278dade9310af050b496331fe30008",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/src/emulators.ts"
+    },
+    "src/protocol/protocol.ts": {
+      "bytes": 33909,
+      "sha256": "96a97d86a4e8eabc0507a57b3a08cf9da60cbe56f9d51752b055fa435e68bcf5",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/src/protocol/protocol.ts"
+    },
+    "src/impl/modules.ts": {
+      "bytes": 9596,
+      "sha256": "3a4da4e1c7ca23687c3a70053020a13532e11a92d44552deeca0b31daab98db6",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/src/impl/modules.ts"
+    },
+    "src/dos/dosbox/ts/worker.ts": {
+      "bytes": 2663,
+      "sha256": "d855d244ea4cdf2e2b20f04a65be83674e0953e3786c30a10b0ae09771c2bee9",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/src/dos/dosbox/ts/worker.ts"
+    },
+    "src/dos/dosbox/cpp/worker-protocol.cpp": {
+      "bytes": 45173,
+      "sha256": "e94170334c6652bc31a7cef6e13eabdcc207679680a2b56399b74e89e34e2e51",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/src/dos/dosbox/cpp/worker-protocol.cpp"
+    },
+    "native/jsdos/dosbox-x/jsdos-x-main.cpp": {
+      "bytes": 400439,
+      "sha256": "503d21bdbea38d5a54e8aeea2b3d818c8ffb140bfd6dd5aa4e9f7df64c7e9921",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/native/jsdos/dosbox-x/jsdos-x-main.cpp"
+    },
+    "native/libzip/jsdos-libzip.c": {
+      "bytes": 11493,
+      "sha256": "52a25e7226b4bdba899820bfb488bc85a897a690df62968ea240d5da3e179ecd",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/native/libzip/jsdos-libzip.c"
+    },
+    "targets/dosbox-x-sdl2.cmake": {
+      "bytes": 44274,
+      "sha256": "167e02bf0b199a78cd179cde4cc0dbd1d082d95d069fe9f182eb7d2212fe51dd",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/targets/dosbox-x-sdl2.cmake"
+    },
+    "CMakeLists.txt": {
+      "bytes": 4363,
+      "sha256": "aaca09114b002261d6355117f244b0db374261bd71ba5481a26c30732fc4ae96",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/CMakeLists.txt"
+    },
+    "Dockerfile": {
+      "bytes": 1065,
+      "sha256": "9ff004e4bbef68fc7f6a5962220de81cd8b4d3ba7a08c1e62742ebf81a52e9ba",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/Dockerfile"
+    },
+    "test/src/test-dos.ts": {
+      "bytes": 19643,
+      "sha256": "bf5fde5acf7d7dcd6eea706f52868cd814e2f5090dc7ba59c296af53fbf62756",
+      "url": "https://github.com/caiiiycuk/emulators/blob/6bbf0925d221a7304ea8e0dda1e89b8dc01569b2/test/src/test-dos.ts"
+    }
+  },
+  "wasm_memory_declared": {
+    "standard_backend_initial_pages": 1024,
+    "maximum_pages": 32768,
+    "page_bytes": 65536,
+    "initial_bytes": 67108864,
+    "maximum_bytes": 2147483648,
+    "shared": false,
+    "method": "Read WASM section5 limits, without instantiation"
+  },
+  "guest_inputs_measured": {
+    "guest_directory": "local/emulator/seattle-reference-2026-10-13",
+    "files": 1664,
+    "total_file_bytes": 27135956,
+    "iso_path": "original/iso/YUKONCD.ISO",
+    "iso_bytes": 370939904,
+    "resource_bytes": 87911322,
+    "scope": "Current live reference directory size only; not a frozen verified browser bundle or browser memory estimate"
+  },
+  "unknowns": [
+    "Win3.1 guest and S3/SB16/DOSBox-X integration driver compatibility in fork",
+    "pointer alignment and input timing",
+    "actual save flush/delete/restore behavior",
+    "guest working-set/browser heap copies",
+    "Chrome/Edge/Firefox/Safari compatibility and performance",
+    "offline network trace and CSP requirements",
+    "exact SDK/compiler used for published build; no source rebuild performed"
+  ]
+}

@@ -1,0 +1,3938 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "resources": {
+    "SCNE:1000": {
+      "offset": 85712801,
+      "length": 10,
+      "raw_sha256": "b8c6da7f6fd5c21698cfaed98867013d040810474dddabe8ca7f9d5b62b0f0d0",
+      "normalized_sha256": "8856acc25267cba065b2cb2ff65cf6f9f8dd5097bbeef12eca5f0874f7af7cf7"
+    },
+    "SCRP:1000": {
+      "offset": 85713101,
+      "length": 164,
+      "raw_sha256": "2be6618a1ad0dd333743087eaa15dac77542d94478d6811d6a9d1a5550d720ed",
+      "normalized_sha256": "e0f0011efe88cb50b754a0118cf2d8946d38faa3ab93e497aafd4cdf89648075"
+    },
+    "SPRT:1013": {
+      "offset": 85721001,
+      "length": 62,
+      "raw_sha256": "d143758df3563398266cce86f042890c5e32809337bb8ea76e3244aa1bda6add",
+      "normalized_sha256": "65bed458bb30997636fba320c4528cf9d9032123bcfdec57a54036e7ecab15a7"
+    },
+    "CBMP:1011": {
+      "offset": 844469,
+      "length": 30508,
+      "raw_sha256": "9752721a3e48e2c8c89be6288c7376efc208bc028fb3c0af2e97e17b8fc176c9",
+      "normalized_sha256": "9752721a3e48e2c8c89be6288c7376efc208bc028fb3c0af2e97e17b8fc176c9"
+    },
+    "ACEL:1013": {
+      "offset": 35802,
+      "length": 46,
+      "raw_sha256": "a4f968ef60a6e91727048b3461954a85a870f4fe35a0635fee3549d903930b46",
+      "normalized_sha256": "6e5cc82331c76f2a58d51d83861cdc423c5895c70b3b1d923ec700bdd3e8e8da"
+    },
+    "ASEQ:1013": {
+      "offset": 44330,
+      "length": 308,
+      "raw_sha256": "76778e7a952d56ac9bc42772a32be9ebd846bd5182176ddf2cdfb2084b551488",
+      "normalized_sha256": "1ab04582a434963152bd6b0c8f9823e4635a1fe26384347a6d1a9aeb4446b882"
+    },
+    "SPRT:1003": {
+      "offset": 85720793,
+      "length": 54,
+      "raw_sha256": "bf471aa1cf4b476d20caf45f5719f767e07cac7d119258a0509bc025c839bb5f",
+      "normalized_sha256": "3e2d2bde1ab5fccdf8ed0465e3cac1627ff0ca6808f6ea003bd8a03a4de71f69"
+    },
+    "CBMP:1001": {
+      "offset": 715577,
+      "length": 17685,
+      "raw_sha256": "5fbf814f7d99596f6703b8917aa8ba9614dfa949e5ff0df0c2ab3f910ae9a9dd",
+      "normalized_sha256": "5fbf814f7d99596f6703b8917aa8ba9614dfa949e5ff0df0c2ab3f910ae9a9dd"
+    },
+    "ACEL:1003": {
+      "offset": 35612,
+      "length": 30,
+      "raw_sha256": "b9a53f580eaada3e13985fb091245f96694cb82762c33d26b71cfbd884f527aa",
+      "normalized_sha256": "e9cabf15fd845a3dd952b338b965b7f6d7866952e1d2d67bd055112cd042ae11"
+    },
+    "ASEQ:1003": {
+      "offset": 42858,
+      "length": 116,
+      "raw_sha256": "8fff303a689a071695bb14e426f32b8c61aa1b713aee63f7365a14221dd3de8b",
+      "normalized_sha256": "437932282150ff9e1b418465c3a9ae280f96998ce809c5390ac2b6803fa262dd"
+    },
+    "SPRT:1014": {
+      "offset": 85721063,
+      "length": 54,
+      "raw_sha256": "a85b446c8eebc2a9525251c5f243fa85097d25767aaaa3d79925f983a8c68bd9",
+      "normalized_sha256": "d0a9ae4946970fba4b25a965bec3a9e70953e63312b77304dd9d23fd71079866"
+    },
+    "SPRT:1004": {
+      "offset": 85720847,
+      "length": 46,
+      "raw_sha256": "0e0acf819eea4bd37ccb2df326b12e05da28b4608418c05b70857d9f60d3776f",
+      "normalized_sha256": "7ba8c4dc256f3aa88ab3be29061a3895f82c0563dfdbcc9eb80ace366f25d013"
+    },
+    "SPRT:1023": {
+      "offset": 85721241,
+      "length": 102,
+      "raw_sha256": "badefc1e52cb326622f4fd5623425a3f246835a8e85935b679173e8d324998dd",
+      "normalized_sha256": "8af873440eb84b2dc738cd3fb55b410d36dd5590350b8e16eb37d2eb92cecdbb"
+    },
+    "CBMP:1021": {
+      "offset": 943344,
+      "length": 32338,
+      "raw_sha256": "1f7084c63e1197341142b4fdd5c9e1818a680f18c66ff94feda19fde69ce9d97",
+      "normalized_sha256": "1f7084c63e1197341142b4fdd5c9e1818a680f18c66ff94feda19fde69ce9d97"
+    },
+    "ACEL:1023": {
+      "offset": 35962,
+      "length": 58,
+      "raw_sha256": "defe53c6bc979b03de836de76b7dc1de632a0698a767315c1e6f4cba96a0731e",
+      "normalized_sha256": "6ca152e9fd27745cfb9fa0c8dcaded6c6871ee30c4e1577ebe0ec0b2b8e111b8"
+    },
+    "ASEQ:1023": {
+      "offset": 45530,
+      "length": 324,
+      "raw_sha256": "51576bec756135ab0f845378577b38b33dea2ef040a056454a65587e460cc323",
+      "normalized_sha256": "1f9b526717631642479fdda60a8c623b4ae79d62fd543620a06fc1413d29792f"
+    },
+    "SPRT:102": {
+      "offset": 85721117,
+      "length": 54,
+      "raw_sha256": "b760f82f6fa689e0fd83ec3c5c0bad64b80fa93277de2f823af14b6342f5b936",
+      "normalized_sha256": "92d31fe270d45651f1ca7b63afac1f42cb34ec9215baa85750386ba33af2bfdc"
+    },
+    "CBMP:100": {
+      "offset": 525475,
+      "length": 8852,
+      "raw_sha256": "1e7e46e0894853b283d36d0fb168b6cba3c62a5b08a4ba71933cfe2213ed5021",
+      "normalized_sha256": "1e7e46e0894853b283d36d0fb168b6cba3c62a5b08a4ba71933cfe2213ed5021"
+    },
+    "ACEL:100": {
+      "offset": 35564,
+      "length": 14,
+      "raw_sha256": "9d3aafee79c12e8bfb27f243d1a3619289de0fa2a3c0f7129ea973ea76997c2b",
+      "normalized_sha256": "6b2d2df93cbb38519ba8ab823a8db3d7c13ba76fa232bfbf13ca86827ba2186a"
+    },
+    "ASEQ:100": {
+      "offset": 42014,
+      "length": 628,
+      "raw_sha256": "a1b0f9b03b9ddfa9c0f15829ab43f44063473bf7c9ac87a94a6878c80f4fd8f9",
+      "normalized_sha256": "8a68f5428b11b04a3301a57bdfc1690d20ced7cd082250dfa6ca099ef3e50ed4"
+    },
+    "SPRT:202": {
+      "offset": 85724277,
+      "length": 54,
+      "raw_sha256": "0e204df33165ce697cb9226b7ebd5a4ed649b4dd0a6600177cc1e3846e15e15e",
+      "normalized_sha256": "bca6c8136ddbd4e075013e0ec00291f99643fcd19fabfd118641b666a19151ea"
+    },
+    "CBMP:200": {
+      "offset": 3740065,
+      "length": 8567,
+      "raw_sha256": "e1233353d2af0d138e72800d773e77fe63cbdcdfa79712c6bd5d17be4705be5b",
+      "normalized_sha256": "e1233353d2af0d138e72800d773e77fe63cbdcdfa79712c6bd5d17be4705be5b"
+    },
+    "ACEL:200": {
+      "offset": 37062,
+      "length": 14,
+      "raw_sha256": "c8b3ce0d387d52f44cdcdcaa17178e4125dd3fac4ec5f50219b59760f04064b1",
+      "normalized_sha256": "0d567a86f347393d5f4c2a68faf470e607640fe599650b2182202a13729ec7f3"
+    },
+    "ASEQ:200": {
+      "offset": 53350,
+      "length": 628,
+      "raw_sha256": "87b7b48143f82436211f3436a440a2877fe4dd3a26047d853bce59b510b2ee9f",
+      "normalized_sha256": "b3ba93aeabe90ab782ce46a66d4e8d6fb008175811548af86df4f73a6b3f1ba4"
+    },
+    "SPRT:302": {
+      "offset": 85726257,
+      "length": 54,
+      "raw_sha256": "9901d85ba3c06eeb5f8f478b2a3c67072f80e2db114ab2e0b9856675a91b0983",
+      "normalized_sha256": "be1c06826c916888e62a2871ea4427ed85514230649de67b7d56a59a45df483e"
+    },
+    "CBMP:300": {
+      "offset": 6153328,
+      "length": 9078,
+      "raw_sha256": "69f5fb636727573523f52788dbfd6f57e67a57d95d0098252ad09dc03dd6558c",
+      "normalized_sha256": "69f5fb636727573523f52788dbfd6f57e67a57d95d0098252ad09dc03dd6558c"
+    },
+    "ACEL:300": {
+      "offset": 37852,
+      "length": 14,
+      "raw_sha256": "c2a619363b8c89f03a74e31994a58c311caa917fe65c090164c5b7a00f54008f",
+      "normalized_sha256": "a1ea67da680685807fec16f13fa11c23567b61cd187870b7b58033bd39970c51"
+    },
+    "ASEQ:300": {
+      "offset": 59490,
+      "length": 628,
+      "raw_sha256": "e2eb02a38782e9565e1207c605048485e560ea543272912de44e5883f6498e4a",
+      "normalized_sha256": "3106315156cab47738598ab69d31a12171d7baf8b1eed5560060eb4a75fccb44"
+    },
+    "SPRT:402": {
+      "offset": 85727085,
+      "length": 54,
+      "raw_sha256": "fa4b2e0dd33d0f6811a2efc9ef31efa86b2b5a4baef49fa5cba13abd97adae17",
+      "normalized_sha256": "fde966fba31127e015d933b4a47b3789402a5049ccd48bb2be03580ddaed01ce"
+    },
+    "CBMP:400": {
+      "offset": 10501361,
+      "length": 6433,
+      "raw_sha256": "c72632978c2f2a0fa772646ba4fc511b9075c0157bb2f8dc61d4c19a7c0a0e17",
+      "normalized_sha256": "c72632978c2f2a0fa772646ba4fc511b9075c0157bb2f8dc61d4c19a7c0a0e17"
+    },
+    "ACEL:400": {
+      "offset": 40218,
+      "length": 14,
+      "raw_sha256": "43160f5354173fec4f679f2e83db2f00f3ab5d071e079bacfe7ec08b993cf7fe",
+      "normalized_sha256": "1d2a9264751de8e1f181f46fc043a2f4335e4020716fca81a84875c165690ff9"
+    },
+    "ASEQ:400": {
+      "offset": 68022,
+      "length": 628,
+      "raw_sha256": "a9d6393a5aed32bf6802f181365d9f2d8f5810b194c0f0fa86de1c42e51cc519",
+      "normalized_sha256": "c2dd8c229677347d01a7628eb34c9288d2d41dbcb6d47e5bf116a2ea1c3ca81f"
+    },
+    "HSPT:1000": {
+      "offset": 12459631,
+      "length": 178,
+      "raw_sha256": "51b14aa7dc35115576dd3ee56d5436d8db8555d89da2883594c372d4737abe7e",
+      "normalized_sha256": "ea29502df2a97a4c1e650448c0e70eb686399deda89e5c87a33458c8d60dbc29"
+    },
+    "SCNE:2000": {
+      "offset": 85712921,
+      "length": 10,
+      "raw_sha256": "34aba2a2f44e7dfd77316930c5c61a71547dad2b2e69a436b8773f2a7ea33c46",
+      "normalized_sha256": "2eef14a0a1b43f51e630aa5a121b3c780cd15db93fc2db10ec81bd69ff33bc5a"
+    },
+    "SCRP:2000": {
+      "offset": 85714907,
+      "length": 92,
+      "raw_sha256": "3bbd6dbbbabea93cbaacccbe14b94f6554e990373c673696f7e49f3c493a4b63",
+      "normalized_sha256": "5a9b01a4349dba2358211d0fa5f095a323f792de7c20c109b9554b1c556502bf"
+    },
+    "SPRT:2003": {
+      "offset": 85724051,
+      "length": 94,
+      "raw_sha256": "3333ffcd839bb8bf9b41b2b08e3fcc7fcbf33207dab4b1899d9b4da0137a2d76",
+      "normalized_sha256": "6449a80da67923f24f6e10bc4d15d65f500520786f6fe3dfbc0c347f47d1aba4"
+    },
+    "CBMP:2001": {
+      "offset": 3876437,
+      "length": 11485,
+      "raw_sha256": "8d56de303c9469b8214428a0fb1922df82de2c11af69392edd993568b2ca30fe",
+      "normalized_sha256": "8d56de303c9469b8214428a0fb1922df82de2c11af69392edd993568b2ca30fe"
+    },
+    "ACEL:2003": {
+      "offset": 37116,
+      "length": 34,
+      "raw_sha256": "a87b51a5fe86aa66a9f8e54702880e84b6f42298c260cf3e12208539fa27d9d5",
+      "normalized_sha256": "93085733fb3b3faaa9574ffe077454e707c0e16896f64114050b2593dedbd57c"
+    },
+    "ASEQ:2003": {
+      "offset": 54230,
+      "length": 504,
+      "raw_sha256": "08d50e557ce79c9d2e90ae51ed5e0f32080b4e0fc746b0bd6effb412733cf123",
+      "normalized_sha256": "be8e0eb431f35e4867c9bd10686f4a5df193e3a60c65fadb0284a1cf1873ec72"
+    },
+    "SPRT:104": {
+      "offset": 85721397,
+      "length": 54,
+      "raw_sha256": "1b831913f9c0180c2f7d4e94af3daf55aaad4d24bf6b21795f957385d8d4daf1",
+      "normalized_sha256": "9b393eeed0d6264013aad0be6f3e43a21a301f24eaa0760c17c3aa384c28ee35"
+    },
+    "SPRT:204": {
+      "offset": 85724385,
+      "length": 54,
+      "raw_sha256": "5697f7b48abada1b5570cff616d2d54164d95da381fb24790d0c6ac8e91b0e78",
+      "normalized_sha256": "5c25f12397268d6f13972c0d978985b342e88a96895186fc51a8f65db1bf5814"
+    },
+    "SPRT:304": {
+      "offset": 85726365,
+      "length": 54,
+      "raw_sha256": "608182014d18cc44aa50ac51c737b743260f851555fa0d7edb780da90f14b466",
+      "normalized_sha256": "4ca2dd814d03a73296fb329e303eb44ee3739614191ad7eb4f9d28df39626580"
+    },
+    "SPRT:404": {
+      "offset": 85727333,
+      "length": 54,
+      "raw_sha256": "07ae9939bf4339cd43f7f3e949fbd5951fb838f8369d57a5cbed87c018afbacb",
+      "normalized_sha256": "2241daa5e1172c8889a10d76eeb80768f3484c1914dc34c7e5aebfe7d6794b00"
+    },
+    "HSPT:2000": {
+      "offset": 12460535,
+      "length": 82,
+      "raw_sha256": "bf34999f2040e936fe6b2a5b8f59ee23fb8d85be0c6fab73a05806478540e004",
+      "normalized_sha256": "134083bc8c1976af30bc955de21b8370312108e4b1df33fec490cf7d728595e7"
+    },
+    "SCNE:3000": {
+      "offset": 85713011,
+      "length": 10,
+      "raw_sha256": "dc8b2c6a3b7133d0b213d5b145ac1356d9bd54956ac7c38c6b421bed1a630dab",
+      "normalized_sha256": "413de5f6cb091a8256611cd9331f6d2dc5a0e80ef5a135fee74ba47cbf4dab20"
+    },
+    "SCRP:3000": {
+      "offset": 85717473,
+      "length": 182,
+      "raw_sha256": "2b88989852015110552aaa10de12952e4b0292026bbdbdfc9422ad73589af496",
+      "normalized_sha256": "46ebbabdfddbd7155413e9bae7c925527c7102ecae8951c97ad2d42ce7e7f5df"
+    },
+    "SPRT:120": {
+      "offset": 85721767,
+      "length": 62,
+      "raw_sha256": "43ee6a92a590fbe57bf59e6ecc7b0ef6028d69de316c5969449838c733ff6315",
+      "normalized_sha256": "522fa15559e57ecf8d43f54cfb517471a3fb904e85e0a36b99ebdb324d805580"
+    },
+    "CBMP:120": {
+      "offset": 1004978,
+      "length": 17114,
+      "raw_sha256": "194d4a5a9e51dabbd25a2544774eb34d7b72e9b95d4d8d125902e058aa7f975b",
+      "normalized_sha256": "194d4a5a9e51dabbd25a2544774eb34d7b72e9b95d4d8d125902e058aa7f975b"
+    },
+    "ACEL:120": {
+      "offset": 36062,
+      "length": 26,
+      "raw_sha256": "cb9e9f67eb331550248122b6d0472428ed990eca67760dbdaba3d982b87acd46",
+      "normalized_sha256": "9234b6e0415ec5a60b410b03a797cd411cdf0e36393fdbc74d56f732da548a68"
+    },
+    "ASEQ:120": {
+      "offset": 46342,
+      "length": 384,
+      "raw_sha256": "70d5d8b6edd513a5aedb9e736e7852f540df473b0841600b794e000a87e82c31",
+      "normalized_sha256": "0c4ae4da6ef25dbc2f330de97f4e1ee0220e315685389751b51e8870e780293f"
+    },
+    "SPRT:220": {
+      "offset": 85725653,
+      "length": 78,
+      "raw_sha256": "5aebf0a7bf4459577e20fd018e0751f11d99d0d986e0fb6eb8cc0d7d37771e89",
+      "normalized_sha256": "9ce8fd800184ba1020cb03af7b1e2aa80fd4cf759f460d1359044e2ff81cbefa"
+    },
+    "CBMP:220": {
+      "offset": 4322101,
+      "length": 14119,
+      "raw_sha256": "4ab4e8ed95aa8d38dbbd5842530778f21d00e7baa8ba9dce324b20feea444870",
+      "normalized_sha256": "4ab4e8ed95aa8d38dbbd5842530778f21d00e7baa8ba9dce324b20feea444870"
+    },
+    "ACEL:220": {
+      "offset": 37694,
+      "length": 22,
+      "raw_sha256": "a5a88460daea56841848e237e90ec138b0b51d7be75046d2303e4ff2c1307765",
+      "normalized_sha256": "e674b999176af71a708c29600692fe5d05b1047e7c1db4a87a3c3098d244f658"
+    },
+    "ASEQ:220": {
+      "offset": 58026,
+      "length": 128,
+      "raw_sha256": "c6459fe9dcc0b892490b0ab1780472a8e13812be47408d1f011c1ca6f350202d",
+      "normalized_sha256": "005983c97455b45063472cb7603c5eb5cc81b7c137e9a24ced058a355e55bb95"
+    },
+    "SPRT:320": {
+      "offset": 85726711,
+      "length": 70,
+      "raw_sha256": "d0280a3f2f93c2ab676226feddbffacce461bf7ac367f0eb2fbbf0a5ab9b85f0",
+      "normalized_sha256": "8f2192fb5ce5e0366daa7f28293edaf780f1c600fe49a4ff9b47b776dfb9bd05"
+    },
+    "CBMP:320": {
+      "offset": 7260566,
+      "length": 11733,
+      "raw_sha256": "23857522d5978b23256d71d2a4aa696beea7053148279396aa8f28458d9076e9",
+      "normalized_sha256": "23857522d5978b23256d71d2a4aa696beea7053148279396aa8f28458d9076e9"
+    },
+    "ACEL:320": {
+      "offset": 38304,
+      "length": 18,
+      "raw_sha256": "40012ae8c943b047e0fd36e30fdb44ff09cd058e7d7adef00018f68f1e593132",
+      "normalized_sha256": "b650c96d1cee8ccfc73106a0d943ccf2f456caca669dc48f63c73b62beaf5692"
+    },
+    "ASEQ:320": {
+      "offset": 62086,
+      "length": 84,
+      "raw_sha256": "fd1c8f62a6a0cd9d640b7a3c93ed57d19bbd3726d9502362eaa774f96938e220",
+      "normalized_sha256": "d91f6eac2c7ff8d18bcdfb0b74f575a07947e788793b59742d6f3042ff9aae24"
+    },
+    "SPRT:420": {
+      "offset": 85728217,
+      "length": 94,
+      "raw_sha256": "4b21d13fc49768b4d1e10aa9fb3b54eed371d03282eb728f11756b4af8cbbee5",
+      "normalized_sha256": "d49556b9853f20498155b49b0fa26991e88987313588d793c87f4cf30d310c72"
+    },
+    "CBMP:420": {
+      "offset": 10895233,
+      "length": 28484,
+      "raw_sha256": "b19ecdcc0bdaaf40b0ca0279dc968319eeb4ef298f57ac3ff3bc239a4e84b255",
+      "normalized_sha256": "b19ecdcc0bdaaf40b0ca0279dc968319eeb4ef298f57ac3ff3bc239a4e84b255"
+    },
+    "ACEL:420": {
+      "offset": 40684,
+      "length": 46,
+      "raw_sha256": "fe04daca24a937788d1e47fb0747e58af7a3240dd893b1dd8d12582196a46a9b",
+      "normalized_sha256": "3f0fc5401e1a65d47a389a569fd396b17466af2780da17981c2c19473041142c"
+    },
+    "ASEQ:420": {
+      "offset": 72778,
+      "length": 360,
+      "raw_sha256": "684443b4e554ca96e6a10827d66a4c3d3fb3eb34729f73e1a7392ffa282fac39",
+      "normalized_sha256": "363705305289253efdc4d5bbce0e49584326f4c19607e5746800276e1f869b31"
+    },
+    "SPRT:3001": {
+      "offset": 85726095,
+      "length": 62,
+      "raw_sha256": "ae264de8a8ea346f9864920cc99f0521e4b652345b6d47b00c9ce567e7653b06",
+      "normalized_sha256": "e2eca2f971428269f6aac629f4f9404853db4eaeda0249ef7deab54db50824db"
+    },
+    "CBMP:3001": {
+      "offset": 6303332,
+      "length": 17930,
+      "raw_sha256": "5038563c51e384ec1029373fe1e6e24b68957367e90872e5a9be1405b0d16d99",
+      "normalized_sha256": "5038563c51e384ec1029373fe1e6e24b68957367e90872e5a9be1405b0d16d99"
+    },
+    "ACEL:3001": {
+      "offset": 37866,
+      "length": 58,
+      "raw_sha256": "4e7125f924d3489f38ceac5940f1c26ce6e3f9739d912c36ad286f2bb16ff143",
+      "normalized_sha256": "ed7ae61a4d09c0af8e612f7ef8df0339acef2f59320274deef1184633aeb0c4d"
+    },
+    "ASEQ:3001": {
+      "offset": 60118,
+      "length": 260,
+      "raw_sha256": "de72570795eeecf7ebfb892e5d29707a933bee987f7e3e6a32ba56d5d488da2c",
+      "normalized_sha256": "f8436e89e990879b3d5d214d4d66a5a87b1dde791597f17196f95d3b8c489762"
+    },
+    "SPRT:3002": {
+      "offset": 85726157,
+      "length": 46,
+      "raw_sha256": "2e70c83f1bd78cad51903bf1b602d67c36f9edf7b43b22710ba608b91c523c77",
+      "normalized_sha256": "1ed4572f10cdb789e7ba5092218fc3f8268491e9dd43c2aa6cc59342827049c6"
+    },
+    "SPRT:101": {
+      "offset": 85720893,
+      "length": 54,
+      "raw_sha256": "f43821cd1ff1b3b6c1ef67ac124ac595a9ad9d41f94b96e77cb898c83803c03a",
+      "normalized_sha256": "133f0ba16fbf513ea627b468b199b56dbdfae894a2dd946a984f4865c8e5f938"
+    },
+    "SPRT:206": {
+      "offset": 85724493,
+      "length": 54,
+      "raw_sha256": "288c9fbe92d7f0d93755100e438828d323c39dba8995b4d398be85b36bede3de",
+      "normalized_sha256": "12002d64166e3dd0dd2c2cf0db4a6f346a7e4d6889deb27e9d1c6a5784b9cb78"
+    },
+    "SPRT:306": {
+      "offset": 85726473,
+      "length": 54,
+      "raw_sha256": "caca42d9faba71e39e1a08d95f4ef247c91432822054e86df843a827e329fa1a",
+      "normalized_sha256": "59969df1fde0eb81d01a1c54d39b7fb6ffa2e65acf5cf7d983f228d0843bfaa8"
+    },
+    "SPRT:401": {
+      "offset": 85726929,
+      "length": 54,
+      "raw_sha256": "9bf1031ab2d8c3df1af264e0c6a35b73523cf953f2cdb41f3fc44b3588ba435a",
+      "normalized_sha256": "5f763559009a2fc7e08a6592b70c510c1521f5b4339d74b38a33ee3552ba919a"
+    },
+    "HSPT:3000": {
+      "offset": 12461241,
+      "length": 66,
+      "raw_sha256": "f7edf446598308cf494962f9ff0d4a330715b4624354af24d8b681059e1c04f7",
+      "normalized_sha256": "ecd90d4ffe59797c8649371f08c777b07c958c703933db89e0cece35a52c34f7"
+    },
+    "SCNE:4000": {
+      "offset": 85713021,
+      "length": 10,
+      "raw_sha256": "fcec80dbe0388c8fc34ea5e315ff22825d7d6d732fc026fc4fc87201e4b7b513",
+      "normalized_sha256": "12aeede0b7b063a175a263de4dc476710707f1763791fa44edad9318e5f015e2"
+    },
+    "SCRP:4000": {
+      "offset": 85717655,
+      "length": 290,
+      "raw_sha256": "898c985d0c422471f3cc64caaf78f8458cf16d5024c0f788c0076e691140dfcb",
+      "normalized_sha256": "b0def1391678b7982c17efba77c8060b5bbd1c3f6f7ab689749a55b6437606da"
+    },
+    "SPRT:4013": {
+      "offset": 85726983,
+      "length": 102,
+      "raw_sha256": "3138ada7b7df44cd3b89377b54ff0dfd1afbcd9bb66a199e7c982ed15d80a3fd",
+      "normalized_sha256": "78994a877352d53e18fe638297d283509c8e0e61f5662819ce422205a30d6c5f"
+    },
+    "CBMP:4011": {
+      "offset": 10721163,
+      "length": 24366,
+      "raw_sha256": "e290320f73d9f519379042c976b8c939126be09f33b2cae28dcbd6aeffb0ffba",
+      "normalized_sha256": "e290320f73d9f519379042c976b8c939126be09f33b2cae28dcbd6aeffb0ffba"
+    },
+    "ACEL:4013": {
+      "offset": 40410,
+      "length": 34,
+      "raw_sha256": "3279bed0cae2f7cb1eb205db3ef83ceaa87ef8bc72b70dc2e5b2beb3d744e2fb",
+      "normalized_sha256": "16b1569a608efdced7b73d717e6b747260ecdaa13310a06440b22f9a235f8fc4"
+    },
+    "ASEQ:4013": {
+      "offset": 70610,
+      "length": 216,
+      "raw_sha256": "17a24319f1ae9835dee75ce20762a9db57780487653f2071ff0a37d7a909b236",
+      "normalized_sha256": "da87c0678005ca4f5a967008cdb9aa80c4df30dc955380d02906e80a4bd31e1e"
+    },
+    "SPRT:4023": {
+      "offset": 85727139,
+      "length": 94,
+      "raw_sha256": "d6a8896eb7acc52c1f5f6a313d19d7339c1aff1a2497e1ecb0b77d9ef1029109",
+      "normalized_sha256": "a6d98b260b1b236694e6501e8d73c7a8135b9f0979a18f504da7da59554e7109"
+    },
+    "CBMP:4021": {
+      "offset": 10769288,
+      "length": 25308,
+      "raw_sha256": "772c953e82f129ae2b3ccc004d70be39bd516de4bb61135116f9f8ea48943c41",
+      "normalized_sha256": "772c953e82f129ae2b3ccc004d70be39bd516de4bb61135116f9f8ea48943c41"
+    },
+    "ACEL:4023": {
+      "offset": 40478,
+      "length": 26,
+      "raw_sha256": "fbd42b3a176283d991ff25436ff08ab5b6a2c189208242ac426577d38446380a",
+      "normalized_sha256": "52c7fa91428723451c13452e9680d538ed0fefaa130445dd1b0bb65b95ac197f"
+    },
+    "ASEQ:4023": {
+      "offset": 71066,
+      "length": 180,
+      "raw_sha256": "a07a8dfa27d3ac763c01e010b1ab5759b08a550da3f8ff27bc17aa0df44e6be7",
+      "normalized_sha256": "38fe6c30f7d514459f8d056779e138fa84c094b37730becfd91b76469b92560b"
+    },
+    "SPRT:4093": {
+      "offset": 85727999,
+      "length": 46,
+      "raw_sha256": "1b012b782b265e4ce106c0196b67b8ed9665f9a0a7de5112145d4a6c17fe906a",
+      "normalized_sha256": "6472f519f54b77028ddf197bff6fe21f401c7bf5ff2a3674e192cd57588dea27"
+    },
+    "CBMP:4091": {
+      "offset": 10884980,
+      "length": 2479,
+      "raw_sha256": "265def1f88fcd077d6670790f8db0054cae038d59a400c494d5683092e5de2e8",
+      "normalized_sha256": "265def1f88fcd077d6670790f8db0054cae038d59a400c494d5683092e5de2e8"
+    },
+    "ACEL:4093": {
+      "offset": 40618,
+      "length": 6,
+      "raw_sha256": "01cf85cfeb36d628ca2e6f583fa2331be029b6b28e877e1008fb3f862306c086",
+      "normalized_sha256": "36c159d76b52e03e496363607c5940227f62f4e048df344b050159bc97bba3d7"
+    },
+    "ASEQ:4093": {
+      "offset": 72282,
+      "length": 24,
+      "raw_sha256": "b94f47055e20e37820673c9b677b2d7ad1861d5246750a367ea59e73e00c1185",
+      "normalized_sha256": "21b572fb4c913156291354e4ae8512fe12b75d35386142e59b2a3adda6c909fb"
+    },
+    "SPRT:4063": {
+      "offset": 85727723,
+      "length": 46,
+      "raw_sha256": "d92e6105a3adbf262a41d1039f0456f74d6775790af72abd6aadce4fe9959c3b",
+      "normalized_sha256": "82c396dc6fabb575c60c79db070a60a7bc2d59ca3f0860bb6902c602ae01fb49"
+    },
+    "CBMP:4061": {
+      "offset": 10877220,
+      "length": 2548,
+      "raw_sha256": "083b7e66a9d5e74b3c53d9f9e7b18b58a7106faca7c068ff397569b78b2e07b4",
+      "normalized_sha256": "083b7e66a9d5e74b3c53d9f9e7b18b58a7106faca7c068ff397569b78b2e07b4"
+    },
+    "ACEL:4063": {
+      "offset": 40600,
+      "length": 6,
+      "raw_sha256": "01cf85cfeb36d628ca2e6f583fa2331be029b6b28e877e1008fb3f862306c086",
+      "normalized_sha256": "36c159d76b52e03e496363607c5940227f62f4e048df344b050159bc97bba3d7"
+    },
+    "ASEQ:4063": {
+      "offset": 72210,
+      "length": 24,
+      "raw_sha256": "b94f47055e20e37820673c9b677b2d7ad1861d5246750a367ea59e73e00c1185",
+      "normalized_sha256": "21b572fb4c913156291354e4ae8512fe12b75d35386142e59b2a3adda6c909fb"
+    },
+    "SPRT:4073": {
+      "offset": 85727815,
+      "length": 46,
+      "raw_sha256": "fa2d12a29d0e9bbe4f42e7d94fe39a78405f31e4d3a132693bcf3c8fabeb1d7a",
+      "normalized_sha256": "b27d4eac5a44197081137bc539f2e4641839b2a5354511191aa46390a91c120e"
+    },
+    "CBMP:4071": {
+      "offset": 10879768,
+      "length": 2590,
+      "raw_sha256": "6613c362452fd1bdb37928db3642908b929089a7f9d7be86f86bf4121b0db0f1",
+      "normalized_sha256": "6613c362452fd1bdb37928db3642908b929089a7f9d7be86f86bf4121b0db0f1"
+    },
+    "ACEL:4073": {
+      "offset": 40606,
+      "length": 6,
+      "raw_sha256": "8cd2ef6ea8c09b340714d63b9bb79c0745396fa2ed7f9f25c20d16bad1b514e7",
+      "normalized_sha256": "759ca95cb93aa5b2737dfedec32227400cc2ffba9dc8b3dd35be0667ddd0ad8e"
+    },
+    "ASEQ:4073": {
+      "offset": 72234,
+      "length": 24,
+      "raw_sha256": "b94f47055e20e37820673c9b677b2d7ad1861d5246750a367ea59e73e00c1185",
+      "normalized_sha256": "21b572fb4c913156291354e4ae8512fe12b75d35386142e59b2a3adda6c909fb"
+    },
+    "SPRT:4083": {
+      "offset": 85727907,
+      "length": 46,
+      "raw_sha256": "1fd3932f7d514d6331890f316512d637f75ea043ed24adb2c6f08c993f2afb57",
+      "normalized_sha256": "07f74521c91d5f3ee2de3ffc3ae4e9962b8abf16821c905c5e6d6f9a0fde07ac"
+    },
+    "CBMP:4081": {
+      "offset": 10882358,
+      "length": 2622,
+      "raw_sha256": "0b0912a77040a7f6890ef3019d24fe2698f3acd21c03794596f69df1194d5056",
+      "normalized_sha256": "0b0912a77040a7f6890ef3019d24fe2698f3acd21c03794596f69df1194d5056"
+    },
+    "ACEL:4083": {
+      "offset": 40612,
+      "length": 6,
+      "raw_sha256": "01cf85cfeb36d628ca2e6f583fa2331be029b6b28e877e1008fb3f862306c086",
+      "normalized_sha256": "36c159d76b52e03e496363607c5940227f62f4e048df344b050159bc97bba3d7"
+    },
+    "ASEQ:4083": {
+      "offset": 72258,
+      "length": 24,
+      "raw_sha256": "b94f47055e20e37820673c9b677b2d7ad1861d5246750a367ea59e73e00c1185",
+      "normalized_sha256": "21b572fb4c913156291354e4ae8512fe12b75d35386142e59b2a3adda6c909fb"
+    },
+    "SPRT:4003": {
+      "offset": 85726827,
+      "length": 102,
+      "raw_sha256": "9fba6d92788aab8062f93c648f41adce1039d3ce43b61d6dc3233b31be42811d",
+      "normalized_sha256": "7e2a72e151369855066643ba4bd74a7efd8679e3bcf08b6be415dd1ae8d6c70e"
+    },
+    "CBMP:4001": {
+      "offset": 10649556,
+      "length": 22005,
+      "raw_sha256": "eed2c94c055cb920c62cbebce99df5ce52966838c8517702e83189489d28caf5",
+      "normalized_sha256": "eed2c94c055cb920c62cbebce99df5ce52966838c8517702e83189489d28caf5"
+    },
+    "ACEL:4003": {
+      "offset": 40316,
+      "length": 30,
+      "raw_sha256": "d6783e9e7f25b32ccc1546f35a55374e931471e645b0d87235cd911d9dbdc6cf",
+      "normalized_sha256": "da9e5367e37f93cfe62ddba8ba4c6e706b7a8f64009269a545011fc696e44099"
+    },
+    "ASEQ:4003": {
+      "offset": 69986,
+      "length": 176,
+      "raw_sha256": "a8d0945f53bfd7d8bbb406fc3e0ec126ba945f334f6b0d535fe60e742a0927de",
+      "normalized_sha256": "65d9f79640bc00f772f996d43692d0e37e638cdc1c25838fa2524c609cdfe4c8"
+    },
+    "SPRT:4043": {
+      "offset": 85727387,
+      "length": 118,
+      "raw_sha256": "89fd3b6052a66f76385f82dadade250e892e884ad528faa09a24444218feaf70",
+      "normalized_sha256": "030fc7573e35df8babfa7a84ab259fe5b31763dfa7855ca24dd2a59f83b6f1eb"
+    },
+    "CBMP:4041": {
+      "offset": 10867990,
+      "length": 5828,
+      "raw_sha256": "e81ca150e27c0a2776d424078c52228c792f530919ba1b1ab60047ef769fd5a6",
+      "normalized_sha256": "e81ca150e27c0a2776d424078c52228c792f530919ba1b1ab60047ef769fd5a6"
+    },
+    "ACEL:4043": {
+      "offset": 40564,
+      "length": 30,
+      "raw_sha256": "ba829c23e9198d40932726439a8976b4c790dba335bc728761911991a958f6a4",
+      "normalized_sha256": "cf7f3ea24fced967940bdcfc320e04a1852579b6d8605586002997e3c6e35da7"
+    },
+    "ASEQ:4043": {
+      "offset": 71726,
+      "length": 412,
+      "raw_sha256": "03221b29c9dff876922e3493d3260688897c73f744d0364a55166b531a6b10f8",
+      "normalized_sha256": "a41c384ae1961d9ecb509247041f206d4fe72eb5b709ac8c5cc534e0bb63f96a"
+    },
+    "SPRT:4053": {
+      "offset": 85727559,
+      "length": 118,
+      "raw_sha256": "c9aea908632048d719416741da6b1a26ab017e2c04596b9ca814673f2021b278",
+      "normalized_sha256": "56922e1413bd3510512a627126fab629abb4474dc1e82c84e81621b6a4d1dcfa"
+    },
+    "SPRT:4033": {
+      "offset": 85727287,
+      "length": 46,
+      "raw_sha256": "17a76951bac439b45d387ec5cac8c015c724b9a8c1d96fe0a0e617f207bed8d8",
+      "normalized_sha256": "74f2807f3623eb2a0126d4c817c02b416d04013bce731e58c520d0d202b6ba6c"
+    },
+    "CBMP:4031": {
+      "offset": 10820335,
+      "length": 17849,
+      "raw_sha256": "bdbd14bbf14b97080e768e1ba8371a63e6a65e566f2c909ad6843e0c9c446076",
+      "normalized_sha256": "bdbd14bbf14b97080e768e1ba8371a63e6a65e566f2c909ad6843e0c9c446076"
+    },
+    "ACEL:4033": {
+      "offset": 40542,
+      "length": 22,
+      "raw_sha256": "9dfd886e0e47a360cac2d15c43fc59f18f4ce63a8a6ffac90843b76bd9a9dec9",
+      "normalized_sha256": "eff7a041decb3c10a429d03d2d577811a06b390b6482f0e24a789ff8c869344c"
+    },
+    "ASEQ:4033": {
+      "offset": 71558,
+      "length": 168,
+      "raw_sha256": "d35a386512ae57111f31f9822507b99e08b007427f459be2f3e0daed4a61d451",
+      "normalized_sha256": "e9b5e523f403f7150144120f5379d0c5beb49b3a5fb9e7324e4e2d10e10fbf06"
+    },
+    "SPRT:103": {
+      "offset": 85721343,
+      "length": 54,
+      "raw_sha256": "a5bf43c94c0efad483fddbad67b231c4dbe40b5b10ea345c44c63baada5bc5ad",
+      "normalized_sha256": "49b225e0efc8d732ae936239db07088987e508933752c48c641191c92a6974e6"
+    },
+    "SPRT:203": {
+      "offset": 85724331,
+      "length": 54,
+      "raw_sha256": "99cc955c76d31fa54a763ec72d49274677ff2f2e51b8cd533a67e83ad5e98640",
+      "normalized_sha256": "81b8433f42652cc2f2ce3715774982fe864b140eeed49f76ef50454937b8705b"
+    },
+    "SPRT:303": {
+      "offset": 85726311,
+      "length": 54,
+      "raw_sha256": "2ceef4b2fce64fad6adb08218bbbc0e9973a103a1fe00d84107c47692728bd02",
+      "normalized_sha256": "39d9b0c815367583dea86295cf673db3fc347f182008161c1612b3b6fd3048c9"
+    },
+    "SPRT:403": {
+      "offset": 85727233,
+      "length": 54,
+      "raw_sha256": "6ea5ca407b481747127e88a049c7762db40be71b889a62c9ead41cad399e28ec",
+      "normalized_sha256": "267ccf96b304ef86fea0f73b4db81049280a980ed5bb863a6877f198fe7ef5ae"
+    },
+    "HSPT:4000": {
+      "offset": 12461307,
+      "length": 66,
+      "raw_sha256": "4bdce01d156b421832173f54f9d2569b09eba697dde180022033283169d9f82d",
+      "normalized_sha256": "d503ad3095b7bb9f3333e10efba126eb2814387c84daface61235cb5fca8c257"
+    },
+    "CBMP:37500": {
+      "offset": 10176054,
+      "length": 26747,
+      "raw_sha256": "4008f41617deb12b80fd55ebc355d273e28d0e96340a0399eebc2c465937bc7c",
+      "normalized_sha256": "4008f41617deb12b80fd55ebc355d273e28d0e96340a0399eebc2c465937bc7c"
+    },
+    "ACEL:37500": {
+      "offset": 39178,
+      "length": 50,
+      "raw_sha256": "999111f094c40a21000829bf6621be38ab2065c0986ae3b50ad1dbed7b593058",
+      "normalized_sha256": "c7a2e5b9b29d49df10ca0a218af97cf9e14a8b6a841e3f3bdf23fd9b041c2437"
+    },
+    "ASEQ:37500": {
+      "offset": 66310,
+      "length": 604,
+      "raw_sha256": "33b36b51efe05d15a6b090252d1d977326fe7a3e47a5e1f9fa75063171d7d013",
+      "normalized_sha256": "b64cfa552b043f12f975094574fd3d7cf4d9275ac4566ddb7a79128c1d594198"
+    },
+    "CBMP:37501": {
+      "offset": 10202801,
+      "length": 12208,
+      "raw_sha256": "4b69dcc5d2eb5c7d5ee0b9110b820ce03935ad421a597bb1be42bf82d93d2b44",
+      "normalized_sha256": "4b69dcc5d2eb5c7d5ee0b9110b820ce03935ad421a597bb1be42bf82d93d2b44"
+    },
+    "ACEL:37501": {
+      "offset": 39228,
+      "length": 30,
+      "raw_sha256": "9f65d2628112ff8b3f958944dbba7595db3774d62e1c7ab1747431d865d7414a",
+      "normalized_sha256": "e87317aa23303085e573df11e9196893e2686216881676d53e9c1608b161c0a3"
+    },
+    "ASEQ:37501": {
+      "offset": 66914,
+      "length": 224,
+      "raw_sha256": "ddbb43820c2de7310bbdfaebe881c57cc304e722069e5fbcc2ba2067f323e424",
+      "normalized_sha256": "d288bea372d2f940e1617cbb18c45c80a4b9080eaa823291142d597eb3a710b4"
+    }
+  },
+  "scenes": {
+    "1000": {
+      "scne_words": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1
+      ],
+      "hotspot_id": 1000,
+      "controller_id": 1000,
+      "entries": [
+        {
+          "ordinal": 0,
+          "sprite_id": 1013,
+          "condition_pairs": [
+            [
+              28,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 1011,
+            "animation_id": 1013,
+            "anchor_xy": [
+              190,
+              285
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                219,
+                135,
+                377,
+                231
+              ],
+              [
+                219,
+                139,
+                377,
+                237
+              ],
+              [
+                221,
+                133,
+                378,
+                236
+              ],
+              [
+                221,
+                139,
+                378,
+                238
+              ],
+              [
+                218,
+                130,
+                378,
+                240
+              ],
+              [
+                219,
+                137,
+                378,
+                253
+              ],
+              [
+                218,
+                132,
+                377,
+                245
+              ],
+              [
+                198,
+                137,
+                377,
+                241
+              ],
+              [
+                191,
+                149,
+                377,
+                240
+              ],
+              [
+                193,
+                148,
+                377,
+                239
+              ],
+              [
+                193,
+                148,
+                377,
+                239
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 1,
+          "sprite_id": 1003,
+          "condition_pairs": [
+            [
+              28,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 1001,
+            "animation_id": 1003,
+            "anchor_xy": [
+              135,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                205,
+                87,
+                380,
+                180
+              ],
+              [
+                207,
+                86,
+                380,
+                186
+              ],
+              [
+                202,
+                99,
+                380,
+                166
+              ],
+              [
+                200,
+                109,
+                380,
+                176
+              ],
+              [
+                204,
+                89,
+                381,
+                186
+              ],
+              [
+                204,
+                95,
+                381,
+                167
+              ],
+              [
+                205,
+                93,
+                383,
+                173
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 2,
+          "sprite_id": 1014,
+          "condition_pairs": [
+            [
+              28,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 1011,
+            "animation_id": 1013,
+            "anchor_xy": [
+              260,
+              285
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                219,
+                205,
+                377,
+                301
+              ],
+              [
+                219,
+                209,
+                377,
+                307
+              ],
+              [
+                221,
+                203,
+                378,
+                306
+              ],
+              [
+                221,
+                209,
+                378,
+                308
+              ],
+              [
+                218,
+                200,
+                378,
+                310
+              ],
+              [
+                219,
+                207,
+                378,
+                323
+              ],
+              [
+                218,
+                202,
+                377,
+                315
+              ],
+              [
+                198,
+                207,
+                377,
+                311
+              ],
+              [
+                191,
+                219,
+                377,
+                310
+              ],
+              [
+                193,
+                218,
+                377,
+                309
+              ],
+              [
+                193,
+                218,
+                377,
+                309
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 3,
+          "sprite_id": 1004,
+          "condition_pairs": [
+            [
+              28,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 1001,
+            "animation_id": 1003,
+            "anchor_xy": [
+              230,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                205,
+                182,
+                380,
+                275
+              ],
+              [
+                207,
+                181,
+                380,
+                281
+              ],
+              [
+                202,
+                194,
+                380,
+                261
+              ],
+              [
+                200,
+                204,
+                380,
+                271
+              ],
+              [
+                204,
+                184,
+                381,
+                281
+              ],
+              [
+                204,
+                190,
+                381,
+                262
+              ],
+              [
+                205,
+                188,
+                383,
+                268
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 4,
+          "sprite_id": 1023,
+          "condition_pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 1021,
+            "animation_id": 1023,
+            "anchor_xy": [
+              530,
+              290
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                221,
+                493,
+                377,
+                568
+              ],
+              [
+                222,
+                493,
+                377,
+                568
+              ],
+              [
+                221,
+                493,
+                377,
+                568
+              ],
+              [
+                221,
+                481,
+                377,
+                568
+              ],
+              [
+                221,
+                476,
+                377,
+                568
+              ],
+              [
+                221,
+                477,
+                377,
+                568
+              ],
+              [
+                215,
+                488,
+                377,
+                568
+              ],
+              [
+                221,
+                488,
+                377,
+                568
+              ],
+              [
+                218,
+                478,
+                377,
+                563
+              ],
+              [
+                218,
+                478,
+                377,
+                563
+              ],
+              [
+                218,
+                493,
+                377,
+                563
+              ],
+              [
+                218,
+                493,
+                377,
+                563
+              ],
+              [
+                218,
+                476,
+                377,
+                575
+              ],
+              [
+                218,
+                474,
+                377,
+                580
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 5,
+          "sprite_id": 102,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 100,
+            "animation_id": 100,
+            "anchor_xy": [
+              -71,
+              292
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                293,
+                -70,
+                411,
+                50
+              ],
+              [
+                295,
+                -71,
+                411,
+                51
+              ],
+              [
+                293,
+                -71,
+                411,
+                60
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 6,
+          "sprite_id": 202,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 200,
+            "animation_id": 200,
+            "anchor_xy": [
+              -70,
+              291
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                291,
+                -81,
+                410,
+                48
+              ],
+              [
+                292,
+                -78,
+                410,
+                44
+              ],
+              [
+                291,
+                -81,
+                410,
+                35
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 7,
+          "sprite_id": 302,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 300,
+            "animation_id": 300,
+            "anchor_xy": [
+              -62,
+              293
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                295,
+                -62,
+                412,
+                60
+              ],
+              [
+                298,
+                -62,
+                412,
+                53
+              ],
+              [
+                297,
+                -62,
+                412,
+                60
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 8,
+          "sprite_id": 402,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 400,
+            "animation_id": 400,
+            "anchor_xy": [
+              -62,
+              299
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                306,
+                -67,
+                418,
+                54
+              ],
+              [
+                310,
+                -72,
+                418,
+                52
+              ],
+              [
+                306,
+                -72,
+                418,
+                52
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        }
+      ],
+      "hotspots": [
+        [
+          133,
+          188,
+          150,
+          178,
+          1,
+          200,
+          4000
+        ],
+        [
+          164,
+          213,
+          0,
+          240,
+          1,
+          200,
+          4000
+        ],
+        [
+          123,
+          150,
+          0,
+          240,
+          1,
+          200,
+          4000
+        ],
+        [
+          260,
+          353,
+          144,
+          260,
+          1,
+          200,
+          2000
+        ],
+        [
+          500,
+          595,
+          150,
+          260,
+          1,
+          200,
+          2000
+        ],
+        [
+          378,
+          464,
+          165,
+          270,
+          1,
+          200,
+          2000
+        ],
+        [
+          252,
+          597,
+          74,
+          89,
+          1,
+          200,
+          2000
+        ],
+        [
+          59,
+          84,
+          164,
+          235,
+          1,
+          200,
+          3000
+        ],
+        [
+          2,
+          60,
+          130,
+          153,
+          1,
+          200,
+          3000
+        ],
+        [
+          53,
+          107,
+          142,
+          162,
+          1,
+          200,
+          3000
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "2000": {
+      "scne_words": [
+        2000,
+        0,
+        2000,
+        2000,
+        0
+      ],
+      "hotspot_id": 2000,
+      "controller_id": 2000,
+      "entries": [
+        {
+          "ordinal": 0,
+          "sprite_id": 2003,
+          "condition_pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 2001,
+            "animation_id": 2003,
+            "anchor_xy": [
+              333,
+              161
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                127,
+                308,
+                196,
+                360
+              ],
+              [
+                127,
+                307,
+                196,
+                360
+              ],
+              [
+                127,
+                307,
+                196,
+                360
+              ],
+              [
+                127,
+                307,
+                196,
+                360
+              ],
+              [
+                128,
+                307,
+                196,
+                360
+              ],
+              [
+                128,
+                308,
+                196,
+                360
+              ],
+              [
+                128,
+                308,
+                196,
+                360
+              ],
+              [
+                128,
+                308,
+                196,
+                360
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 1,
+          "sprite_id": 104,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 100,
+            "animation_id": 100,
+            "anchor_xy": [
+              -61,
+              332
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                333,
+                -60,
+                451,
+                60
+              ],
+              [
+                335,
+                -61,
+                451,
+                61
+              ],
+              [
+                333,
+                -61,
+                451,
+                70
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 2,
+          "sprite_id": 204,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 200,
+            "animation_id": 200,
+            "anchor_xy": [
+              -60,
+              331
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                331,
+                -71,
+                450,
+                58
+              ],
+              [
+                332,
+                -68,
+                450,
+                54
+              ],
+              [
+                331,
+                -71,
+                450,
+                45
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 3,
+          "sprite_id": 304,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 300,
+            "animation_id": 300,
+            "anchor_xy": [
+              -52,
+              333
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                335,
+                -52,
+                452,
+                70
+              ],
+              [
+                338,
+                -52,
+                452,
+                63
+              ],
+              [
+                337,
+                -52,
+                452,
+                70
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 4,
+          "sprite_id": 404,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 400,
+            "animation_id": 400,
+            "anchor_xy": [
+              -52,
+              338
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                345,
+                -57,
+                457,
+                64
+              ],
+              [
+                349,
+                -62,
+                457,
+                62
+              ],
+              [
+                345,
+                -62,
+                457,
+                62
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        }
+      ],
+      "hotspots": [
+        [
+          415,
+          520,
+          110,
+          180,
+          1,
+          200,
+          1000
+        ],
+        [
+          450,
+          520,
+          179,
+          205,
+          1,
+          200,
+          1000
+        ],
+        [
+          455,
+          495,
+          204,
+          218,
+          1,
+          200,
+          1000
+        ],
+        [
+          465,
+          490,
+          217,
+          245,
+          1,
+          200,
+          1000
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "3000": {
+      "scne_words": [
+        3000,
+        3000,
+        3000,
+        3000,
+        0
+      ],
+      "hotspot_id": 3000,
+      "controller_id": 3000,
+      "entries": [
+        {
+          "ordinal": 0,
+          "sprite_id": 120,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 120,
+            "animation_id": 120,
+            "anchor_xy": [
+              480,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                230,
+                440,
+                387,
+                526
+              ],
+              [
+                206,
+                439,
+                385,
+                519
+              ],
+              [
+                230,
+                445,
+                388,
+                522
+              ],
+              [
+                237,
+                438,
+                386,
+                523
+              ],
+              [
+                203,
+                439,
+                385,
+                527
+              ],
+              [
+                203,
+                439,
+                385,
+                527
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 1,
+          "sprite_id": 220,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 220,
+            "animation_id": 220,
+            "anchor_xy": [
+              350,
+              300
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                210,
+                322,
+                394,
+                383
+              ],
+              [
+                207,
+                322,
+                394,
+                383
+              ],
+              [
+                210,
+                322,
+                394,
+                382
+              ],
+              [
+                205,
+                322,
+                394,
+                389
+              ],
+              [
+                210,
+                322,
+                393,
+                383
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 2,
+          "sprite_id": 320,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 320,
+            "animation_id": 320,
+            "anchor_xy": [
+              50,
+              300
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                223,
+                14,
+                390,
+                85
+              ],
+              [
+                223,
+                14,
+                390,
+                85
+              ],
+              [
+                223,
+                17,
+                390,
+                95
+              ],
+              [
+                223,
+                17,
+                390,
+                95
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 3,
+          "sprite_id": 420,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 420,
+            "animation_id": 420,
+            "anchor_xy": [
+              225,
+              310
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                237,
+                188,
+                390,
+                263
+              ],
+              [
+                241,
+                183,
+                388,
+                270
+              ],
+              [
+                225,
+                175,
+                391,
+                276
+              ],
+              [
+                225,
+                192,
+                392,
+                255
+              ],
+              [
+                237,
+                188,
+                390,
+                264
+              ],
+              [
+                238,
+                188,
+                390,
+                263
+              ],
+              [
+                237,
+                188,
+                390,
+                270
+              ],
+              [
+                237,
+                188,
+                390,
+                272
+              ],
+              [
+                266,
+                192,
+                390,
+                263
+              ],
+              [
+                237,
+                188,
+                390,
+                263
+              ],
+              [
+                237,
+                188,
+                386,
+                263
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 4,
+          "sprite_id": 3001,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 3001,
+            "animation_id": 3001,
+            "anchor_xy": [
+              248,
+              155
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                316
+              ],
+              [
+                156,
+                248,
+                241,
+                315
+              ],
+              [
+                156,
+                248,
+                241,
+                306
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                304
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                314
+              ],
+              [
+                157,
+                248,
+                241,
+                316
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 5,
+          "sprite_id": 3002,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 3001,
+            "animation_id": 3001,
+            "anchor_xy": [
+              248,
+              155
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                316
+              ],
+              [
+                156,
+                248,
+                241,
+                315
+              ],
+              [
+                156,
+                248,
+                241,
+                306
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                156,
+                248,
+                241,
+                304
+              ],
+              [
+                157,
+                248,
+                241,
+                313
+              ],
+              [
+                157,
+                248,
+                241,
+                314
+              ],
+              [
+                157,
+                248,
+                241,
+                316
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 6,
+          "sprite_id": 101,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 100,
+            "animation_id": 100,
+            "anchor_xy": [
+              -11,
+              292
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                293,
+                -10,
+                411,
+                110
+              ],
+              [
+                295,
+                -11,
+                411,
+                111
+              ],
+              [
+                293,
+                -11,
+                411,
+                120
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 7,
+          "sprite_id": 206,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 200,
+            "animation_id": 200,
+            "anchor_xy": [
+              -10,
+              291
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                291,
+                -21,
+                410,
+                108
+              ],
+              [
+                292,
+                -18,
+                410,
+                104
+              ],
+              [
+                291,
+                -21,
+                410,
+                95
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 8,
+          "sprite_id": 306,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 300,
+            "animation_id": 300,
+            "anchor_xy": [
+              -2,
+              293
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                295,
+                -2,
+                412,
+                120
+              ],
+              [
+                298,
+                -2,
+                412,
+                113
+              ],
+              [
+                297,
+                -2,
+                412,
+                120
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 9,
+          "sprite_id": 401,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 400,
+            "animation_id": 400,
+            "anchor_xy": [
+              -2,
+              299
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                306,
+                -7,
+                418,
+                114
+              ],
+              [
+                310,
+                -12,
+                418,
+                112
+              ],
+              [
+                306,
+                -12,
+                418,
+                112
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        }
+      ],
+      "hotspots": [
+        [
+          350,
+          450,
+          110,
+          150,
+          2,
+          300,
+          3500
+        ],
+        [
+          375,
+          480,
+          150,
+          205,
+          2,
+          1700,
+          3100
+        ],
+        [
+          55,
+          170,
+          130,
+          300,
+          1,
+          200,
+          1000
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "4000": {
+      "scne_words": [
+        4000,
+        4000,
+        4000,
+        4000,
+        0
+      ],
+      "hotspot_id": 4000,
+      "controller_id": 4000,
+      "entries": [
+        {
+          "ordinal": 0,
+          "sprite_id": 4013,
+          "condition_pairs": [
+            [
+              8,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 4011,
+            "animation_id": 4013,
+            "anchor_xy": [
+              120,
+              310
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                218,
+                86,
+                387,
+                158
+              ],
+              [
+                218,
+                82,
+                387,
+                158
+              ],
+              [
+                218,
+                80,
+                387,
+                159
+              ],
+              [
+                218,
+                80,
+                387,
+                162
+              ],
+              [
+                218,
+                80,
+                387,
+                163
+              ],
+              [
+                217,
+                84,
+                387,
+                158
+              ],
+              [
+                217,
+                84,
+                387,
+                158
+              ],
+              [
+                218,
+                84,
+                387,
+                158
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 1,
+          "sprite_id": 4023,
+          "condition_pairs": [
+            [
+              8,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 4021,
+            "animation_id": 4023,
+            "anchor_xy": [
+              205,
+              300
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                207,
+                170,
+                389,
+                241
+              ],
+              [
+                207,
+                164,
+                389,
+                243
+              ],
+              [
+                207,
+                165,
+                389,
+                257
+              ],
+              [
+                208,
+                164,
+                389,
+                243
+              ],
+              [
+                207,
+                170,
+                389,
+                255
+              ],
+              [
+                207,
+                170,
+                389,
+                249
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 2,
+          "sprite_id": 4093,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              100
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4091,
+            "animation_id": 4093,
+            "anchor_xy": [
+              270,
+              270
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                270,
+                270,
+                363,
+                422
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 3,
+          "sprite_id": 4063,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              103
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4061,
+            "animation_id": 4063,
+            "anchor_xy": [
+              310,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                295,
+                310,
+                377,
+                404
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 4,
+          "sprite_id": 4073,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              102
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4071,
+            "animation_id": 4073,
+            "anchor_xy": [
+              355,
+              340
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                299,
+                308,
+                381,
+                402
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 5,
+          "sprite_id": 4083,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              101
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4081,
+            "animation_id": 4083,
+            "anchor_xy": [
+              310,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                295,
+                310,
+                377,
+                404
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 6,
+          "sprite_id": 4003,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4001,
+            "animation_id": 4003,
+            "anchor_xy": [
+              310,
+              290
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                203,
+                272,
+                388,
+                345
+              ],
+              [
+                203,
+                263,
+                388,
+                345
+              ],
+              [
+                203,
+                252,
+                388,
+                345
+              ],
+              [
+                203,
+                267,
+                388,
+                345
+              ],
+              [
+                203,
+                272,
+                388,
+                365
+              ],
+              [
+                195,
+                270,
+                388,
+                345
+              ],
+              [
+                188,
+                270,
+                388,
+                345
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 7,
+          "sprite_id": 4043,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              106
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4041,
+            "animation_id": 4043,
+            "anchor_xy": [
+              280,
+              345
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                365,
+                305,
+                399,
+                361
+              ],
+              [
+                364,
+                305,
+                399,
+                361
+              ],
+              [
+                358,
+                305,
+                399,
+                361
+              ],
+              [
+                364,
+                305,
+                399,
+                361
+              ],
+              [
+                362,
+                305,
+                399,
+                361
+              ],
+              [
+                358,
+                305,
+                399,
+                361
+              ],
+              [
+                362,
+                305,
+                399,
+                361
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 8,
+          "sprite_id": 4053,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              24,
+              105
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 4041,
+            "animation_id": 4043,
+            "anchor_xy": [
+              280,
+              345
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                365,
+                305,
+                399,
+                361
+              ],
+              [
+                364,
+                305,
+                399,
+                361
+              ],
+              [
+                358,
+                305,
+                399,
+                361
+              ],
+              [
+                364,
+                305,
+                399,
+                361
+              ],
+              [
+                362,
+                305,
+                399,
+                361
+              ],
+              [
+                358,
+                305,
+                399,
+                361
+              ],
+              [
+                362,
+                305,
+                399,
+                361
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 9,
+          "sprite_id": 4033,
+          "condition_pairs": [
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 4031,
+            "animation_id": 4033,
+            "anchor_xy": [
+              442,
+              295
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                229,
+                404,
+                384,
+                489
+              ],
+              [
+                230,
+                404,
+                384,
+                489
+              ],
+              [
+                243,
+                405,
+                384,
+                489
+              ],
+              [
+                237,
+                402,
+                384,
+                489
+              ],
+              [
+                207,
+                405,
+                383,
+                489
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 10,
+          "sprite_id": 4013,
+          "condition_pairs": [
+            [
+              8,
+              1
+            ],
+            [
+              25,
+              5000
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 4011,
+            "animation_id": 4013,
+            "anchor_xy": [
+              120,
+              310
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                218,
+                86,
+                387,
+                158
+              ],
+              [
+                218,
+                82,
+                387,
+                158
+              ],
+              [
+                218,
+                80,
+                387,
+                159
+              ],
+              [
+                218,
+                80,
+                387,
+                162
+              ],
+              [
+                218,
+                80,
+                387,
+                163
+              ],
+              [
+                217,
+                84,
+                387,
+                158
+              ],
+              [
+                217,
+                84,
+                387,
+                158
+              ],
+              [
+                218,
+                84,
+                387,
+                158
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 11,
+          "sprite_id": 4023,
+          "condition_pairs": [
+            [
+              8,
+              1
+            ],
+            [
+              25,
+              9000
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": false,
+          "geometry": {
+            "bitmap_id": 4021,
+            "animation_id": 4023,
+            "anchor_xy": [
+              205,
+              300
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                207,
+                170,
+                389,
+                241
+              ],
+              [
+                207,
+                164,
+                389,
+                243
+              ],
+              [
+                207,
+                165,
+                389,
+                257
+              ],
+              [
+                208,
+                164,
+                389,
+                243
+              ],
+              [
+                207,
+                170,
+                389,
+                255
+              ],
+              [
+                207,
+                170,
+                389,
+                249
+              ]
+            ],
+            "zero_horizontal_motion": true,
+            "zero_vertical_motion": true,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 12,
+          "sprite_id": 103,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 100,
+            "animation_id": 100,
+            "anchor_xy": [
+              -11,
+              332
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                333,
+                -10,
+                451,
+                110
+              ],
+              [
+                335,
+                -11,
+                451,
+                111
+              ],
+              [
+                333,
+                -11,
+                451,
+                120
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 13,
+          "sprite_id": 203,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 200,
+            "animation_id": 200,
+            "anchor_xy": [
+              -10,
+              331
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                331,
+                -21,
+                450,
+                108
+              ],
+              [
+                332,
+                -18,
+                450,
+                104
+              ],
+              [
+                331,
+                -21,
+                450,
+                95
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 14,
+          "sprite_id": 303,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 300,
+            "animation_id": 300,
+            "anchor_xy": [
+              -2,
+              333
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                335,
+                -2,
+                452,
+                120
+              ],
+              [
+                338,
+                -2,
+                452,
+                113
+              ],
+              [
+                337,
+                -2,
+                452,
+                120
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        },
+        {
+          "ordinal": 15,
+          "sprite_id": 403,
+          "condition_pairs": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "excluded_for_partner_ffff": true,
+          "geometry": {
+            "bitmap_id": 400,
+            "animation_id": 400,
+            "anchor_xy": [
+              -2,
+              338
+            ],
+            "frame_rectangles_tlbr": [
+              [
+                345,
+                -7,
+                457,
+                114
+              ],
+              [
+                349,
+                -12,
+                457,
+                112
+              ],
+              [
+                345,
+                -12,
+                457,
+                112
+              ]
+            ],
+            "zero_horizontal_motion": false,
+            "zero_vertical_motion": false,
+            "flip_toggle_present": false,
+            "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+          }
+        }
+      ],
+      "hotspots": [
+        [
+          0,
+          500,
+          120,
+          270,
+          325,
+          0,
+          0
+        ],
+        [
+          484,
+          600,
+          313,
+          371,
+          1,
+          200,
+          1000
+        ],
+        [
+          532,
+          550,
+          303,
+          398,
+          1,
+          200,
+          1000
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "global_scene_sprites": [
+    {
+      "object_id": 37500,
+      "constructor": "NE3:5e22",
+      "geometry": {
+        "bitmap_id": 37500,
+        "animation_id": 37500,
+        "anchor_xy": [
+          110,
+          100
+        ],
+        "frame_rectangles_tlbr": [
+          [
+            78,
+            79,
+            86,
+            86
+          ],
+          [
+            36,
+            55,
+            100,
+            110
+          ],
+          [
+            36,
+            55,
+            100,
+            110
+          ],
+          [
+            36,
+            55,
+            100,
+            110
+          ],
+          [
+            36,
+            55,
+            100,
+            110
+          ],
+          [
+            22,
+            55,
+            100,
+            110
+          ],
+          [
+            15,
+            55,
+            100,
+            110
+          ],
+          [
+            24,
+            15,
+            100,
+            110
+          ],
+          [
+            30,
+            10,
+            100,
+            110
+          ],
+          [
+            20,
+            9,
+            100,
+            110
+          ],
+          [
+            20,
+            9,
+            100,
+            110
+          ],
+          [
+            20,
+            9,
+            100,
+            110
+          ],
+          [
+            100,
+            110,
+            108,
+            117
+          ]
+        ],
+        "zero_horizontal_motion": true,
+        "zero_vertical_motion": true,
+        "flip_toggle_present": false,
+        "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+      }
+    },
+    {
+      "object_id": 37501,
+      "constructor": "NE3:5f04",
+      "geometry": {
+        "bitmap_id": 37501,
+        "animation_id": 37501,
+        "anchor_xy": [
+          80,
+          122
+        ],
+        "frame_rectangles_tlbr": [
+          [
+            185,
+            46,
+            187,
+            115
+          ],
+          [
+            98,
+            56,
+            187,
+            105
+          ],
+          [
+            57,
+            56,
+            187,
+            108
+          ],
+          [
+            58,
+            56,
+            187,
+            105
+          ],
+          [
+            62,
+            52,
+            187,
+            109
+          ],
+          [
+            85,
+            47,
+            187,
+            114
+          ],
+          [
+            98,
+            47,
+            187,
+            115
+          ],
+          [
+            122,
+            80,
+            124,
+            149
+          ]
+        ],
+        "zero_horizontal_motion": true,
+        "zero_vertical_motion": true,
+        "flip_toggle_present": false,
+        "scope": "All frames and all physically stored step movement vectors; no successor/range/schedule interpretation"
+      }
+    }
+  ],
+  "clear_navigation_regions": [
+    {
+      "source_scene": 4000,
+      "destination_scene": 1000,
+      "open_rectangle_lrtb": [
+        489,
+        600,
+        313,
+        371
+      ],
+      "example_client_xy": [
+        580,
+        350
+      ],
+      "integer_points_with_selected_source_action": 6270
+    },
+    {
+      "source_scene": 1000,
+      "destination_scene": 4000,
+      "open_rectangle_lrtb": [
+        149,
+        188,
+        150,
+        178
+      ],
+      "example_client_xy": [
+        153,
+        160
+      ],
+      "integer_points_with_selected_source_action": 1026
+    },
+    {
+      "source_scene": 1000,
+      "destination_scene": 2000,
+      "open_rectangle_lrtb": [
+        500,
+        595,
+        150,
+        191
+      ],
+      "example_client_xy": [
+        550,
+        175
+      ],
+      "integer_points_with_selected_source_action": 3760
+    },
+    {
+      "source_scene": 1000,
+      "destination_scene": 3000,
+      "open_rectangle_lrtb": [
+        59,
+        84,
+        187,
+        191
+      ],
+      "example_client_xy": [
+        70,
+        189
+      ],
+      "integer_points_with_selected_source_action": 72
+    },
+    {
+      "source_scene": 2000,
+      "destination_scene": 1000,
+      "open_rectangle_lrtb": [
+        415,
+        520,
+        110,
+        180
+      ],
+      "example_client_xy": [
+        500,
+        150
+      ],
+      "integer_points_with_selected_source_action": 7176
+    },
+    {
+      "source_scene": 3000,
+      "destination_scene": 1000,
+      "open_rectangle_lrtb": [
+        149,
+        170,
+        187,
+        223
+      ],
+      "example_client_xy": [
+        160,
+        200
+      ],
+      "integer_points_with_selected_source_action": 700
+    }
+  ],
+  "fresh_reset_native_evidence": {
+    "path": "docs/initial-state-recovery-evidence.json",
+    "sha256": "db8061eda6c39cd88393b7bda8fef18fd31878204d2746ee901618fb09310593",
+    "state_word_offset": 786,
+    "original_value": 65535
+  },
+  "partner_condition_native_evidence": {
+    "path": "docs/linda-child-recovery-evidence.json",
+    "sha256": "674365b127547685b305b5664ddd349ee06de59c8a7348d8046cbff1b03ecad2",
+    "partner_word": 65535,
+    "condition": [
+      3,
+      1
+    ],
+    "original_result": 0,
+    "original_function": "NE3:5118 calling NE1:a632"
+  },
+  "state_scope": "Partnerwordffff, all controller conditions otherwise conservatively included; actual source sprite contexts, no dialogue/journal/modal overlays or shifted anchors. Source-handler-specific activation/busy/countdown/deferred-action handling remains outside this geometric census.",
+  "global_animation_wrappers": [
+    {
+      "ne_address": "NE6:7b0a",
+      "ghidra_address": "1028:7b0a",
+      "file_offset": 314058,
+      "raw_sha256": "c639a765054fa93988c415671960306d61a0922838e8720dbd3f33d5ed90f5c0",
+      "length": 25,
+      "observed": "Checks object+8a; calls NE2:d61e; no separate anchor mutation"
+    },
+    {
+      "ne_address": "NE6:7b24",
+      "ghidra_address": "1028:7b24",
+      "file_offset": 314084,
+      "raw_sha256": "86fc1246b3c2cdb17d93ad1443d4353a5ef3a2fa64a850b6a22d73e7246d45c3",
+      "length": 25,
+      "observed": "Checks object+8a; calls NE2:d61e; no separate anchor mutation"
+    }
+  ],
+  "source": "NE2:0002 loads SCNE+4 HSPT,+6SCRP; NE3:2394 creates kind3SPRT; NE3:274a sets anchor/ACEL0; NE2:d61e applies ASEQ step dx/dy. Global constructors5e22/5f04 anchor and zero-offset initial frame included.",
+  "scope": "Axis-disjoint conservative regions only; does not infer actual sprite visibility/frame/timing or prove whole scene/sprite order."
+}

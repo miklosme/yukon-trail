@@ -1,0 +1,16 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "resources": {
+    "TREE:2100": {
+      "cases": 112,
+      "matrix_sha256": "dcef15058065e42d281d2a07b36a4ef272759bbd79cdb81aa95e6c0169ca085c"
+    },
+    "TREE:3400": {
+      "cases": 64,
+      "matrix_sha256": "fa04f1fb91380868ce3ccef2dd74f8633e4fa1ad42bc0184f5d2fb70f36c377c"
+    }
+  },
+  "scope": "Original graph parser and2fec link/visited/text transitions; syntheticallocator and child-action observation callback; stopsbeforeUIrefresh35f8. Fresh/allvisitedcontexts for every rawchoice; actual actioneffects and GUIconditionfilter excluded."
+}

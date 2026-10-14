@@ -1,0 +1,23 @@
+{
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "ghidra_address": "1000:a0c2",
+  "matrix_sha256": "200f136c9eacefaf5a6ac686f4205fc01263854c3625055caf83bc20ca5e3485",
+  "mismatches": 0,
+  "month_lengths": [
+    31,
+    28,
+    31,
+    30,
+    31,
+    30,
+    31,
+    31,
+    30,
+    31,
+    30,
+    31
+  ],
+  "native_cases": 2190,
+  "native_ne": "0001:a0c2",
+  "scope": "All365 valid fixed-calendar dates times3 rawword contexts times gate0/1. Original routine and dirty notification execute without behavior stubs; no scene caller or live navigation binding."
+}

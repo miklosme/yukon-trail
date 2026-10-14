@@ -1,0 +1,20 @@
+{
+  "byte1_values": "all256",
+  "cases": 512,
+  "cursor_values": [
+    0,
+    12
+  ],
+  "mismatches": 0,
+  "payload_reads": 0,
+  "routine": {
+    "code_sha256": "dbdbe4f2d96a2b9594502564634eb7d67c4e76569456aa3e732d1387fb276604",
+    "file_offset": 186892,
+    "ghidra": "1018:0f4c",
+    "ne": "0004:0f4c"
+  },
+  "rows_sha256": "c1e98f72f7b21aee9126f8dc5a0cab30a8164cf4948ef47df60ed1819863dc9a",
+  "scope": "Original memory-stream raw pointer/remaining getter only; record processor byte1 omission checked statically. No file buffering or whole sound playback executed.",
+  "source_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "unicorn_version": "2.1.4"
+}

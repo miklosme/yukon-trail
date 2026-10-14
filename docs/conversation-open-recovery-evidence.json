@@ -1,0 +1,196 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "cases": [
+    {
+      "after220": 1,
+      "before220": 0,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 0,
+      "selected_offset": 552,
+      "voice": 3401
+    },
+    {
+      "after220": 0,
+      "before220": 0,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 0,
+      "selected_offset": 552,
+      "voice": 3401
+    },
+    {
+      "after220": 0,
+      "before220": 0,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 0,
+      "selected_offset": 552,
+      "voice": 3401
+    },
+    {
+      "after220": 1,
+      "before220": 1,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 1,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 1,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 2,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 2,
+      "before220": 2,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 2,
+      "before220": 2,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 32767,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 32767,
+      "before220": 32767,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 32767,
+      "before220": 32767,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 32768,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 32768,
+      "before220": 32768,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 32768,
+      "before220": 32768,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 1,
+      "before220": 65535,
+      "dirty54": 1,
+      "gate334": 0,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 65535,
+      "before220": 65535,
+      "dirty54": 0,
+      "gate334": 1,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    },
+    {
+      "after220": 65535,
+      "before220": 65535,
+      "dirty54": 0,
+      "gate334": 65535,
+      "initial_condition": 1,
+      "selected_offset": 4,
+      "voice": 3400
+    }
+  ],
+  "constructor_source_checks": [
+    {
+      "bytes": "e83c23",
+      "ne": "0001:0883"
+    },
+    {
+      "bytes": "26ff37",
+      "ne": "0001:092f"
+    },
+    {
+      "bytes": "9ae4a2",
+      "ne": "0001:0937"
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "resources": {
+    "CONV:3400": {
+      "length": 44,
+      "offset": 12443466,
+      "sha256": "fa7bf68e1568df7172bf2e3ea78890ff5f340d4708837f528740f7ce11ad4b8c"
+    },
+    "TREE:3400": {
+      "length": 14526,
+      "offset": 86563945,
+      "sha256": "948242aaa095b020ee47f6b6df71d8a4abaeedb14517ab85e6d8feb105b0e57a"
+    }
+  },
+  "scope": "Selected Linda initial condition then original conversation-array mark.\n\nExecutes original condition/getter and NE1:a2e4 unchanged. Constructor order\nis checked in source bytes. No OS or behavior stubs for these operations;\nwhole dialogue constructor/allocation/rendering remain outside this proof.\n"
+}

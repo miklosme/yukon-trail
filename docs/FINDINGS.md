@@ -120,10 +120,13 @@ Sample records located through the index:
 | --- | --- | ---: | --- |
 | `CSTR:500` | `0xbdfd55` | 2,302 | Readable advisor/journal text after initial binary bytes |
 | `SCRP:1000` | `0x51be0cd` | 164 | Structured binary data, not high-level source text |
-| `CBMP:1` | `0x74dd6` | 1,842 | Nonstandard binary payload; image decoding not implemented |
-| `PSND:1` | `0xbe2a4d` | 45,300 | Nonstandard binary payload; sound decoding not implemented |
+| `CBMP:1` | `0x74dd6` | 1,842 | Bounded speech-bubble decoding; see formats/CBMP.md |
+| `PSND:1` | `0xbe2a4d` | 45,300 | Bounded sequential PCM decoding; see formats/PSND.md |
 
-Names such as `CBMP`, `PSND`, `SCNE`, and `SCRP` suggest images, sound, scenes, and scripts. Those meanings and any cross-resource relationships must be established by tracing consumers in the executable. We have not recovered compression, palettes, sample rates, bytecode instructions, or a scene graph.
+CBMP and selected PSND semantics now have the consumer/decoder evidence below.
+Names such as `SCNE` and `SCRP` still do not establish scene or interpreter
+semantics; those meanings and cross-resource relationships require consumer
+traces. A general scene graph and bytecode instruction model remain unrecovered.
 
 ## Audio completeness
 
@@ -224,9 +227,11 @@ in [bitmap-recovery-evidence.json](bitmap-recovery-evidence.json).
 
 **Observed static postread scope:** NE `0001:8462` searches a tag/pattern registry
 and leaves missing tags unchanged. Startup registers17 types, excluding CBMP
-and PSND. The full interpreter remains unresolved for registered types; this
-does not establish byte preservation for all resources. Detailed addresses and
-source hashes are in [ARCHIVE-CONSUMERS.md](ARCHIVE-CONSUMERS.md).
+and PSND. All eight operations and seventeen startup patterns are now recovered;
+the bounded model matches full original execution for 1,274 registered buffers.
+Empty TREE39 and large WRLD far-buffer behavior remain unverified. This does not
+establish scene/dialogue semantics. Exact sources, patterns, checks and preserved
+annotations are in [formats/POSTREAD.md](formats/POSTREAD.md).
 
 **Observed:** sequential PSND1 conversion and source playback parameters are
 now recovered: mono 8-bit 22,050 Hz, second-order byte integration. All 1,278
@@ -236,6 +241,70 @@ and scope. **Unknown:** live resource-to-scene mapping/comparison, sound
 seek/loop semantics, other variants, and one recovered gameplay operation.
 M1 remains incomplete.
 
+**Observed follow-up, 2026-10-13:** all331 CBMP resources /1,523 frames pass the
+unchanged bounded decoder. An additional7,830 integer calls for CBMP3000/4001
+match original routines. CBMP4000's top600×200 pixels match a native Seattle
+Wharf capture except45 index0 pixels appearing black at source x0. No alpha or
+clipping rule is inferred into the decoder; the discrepancy remains open.
+Source identities, explicit alignment, scope, commands and report hashes are in
+[formats/CBMP.md](formats/CBMP.md) and
+[bitmap-census-evidence.json](bitmap-census-evidence.json).
+
+**Observed static follow-up:** TREE1's first response routes voice ID1 to
+PSND1 and displays an insufficient-funds response. The exact original trigger,
+speaker name and live playback still need observation. Segmented addresses,
+resource hashes and persisted annotations are in
+[formats/PSND.md](formats/PSND.md). [COVERAGE.md](COVERAGE.md) tracks original
+content observations separately from pending recovery and port comparisons.
+
+**Observed selected sound comparison, 2026-10-13:** TREE616's storm line appears
+in the preserved voyage at nominal70 seconds and selects PSND616. All1,284
+integer-reader calls and82,134 converted bytes match original routines.
+The recorded audio aligns at69.01675 seconds with correlation0.970498;
+fractional-sample refinement gives0.989638. Fitted RMS residuals24.11%/14.36%
+remain documented and unexplained; this is a bounded resource/capture comparison,
+not whole-audio fidelity. [formats/PSND.md](formats/PSND.md) records raw byte1
+semantics, selected order1/partial-block recovery, source hashes and limitations.
+
 ## Difference from earlier ports
 
 The owner’s Stickarcade and Monstersmash projects began with GameMaker project material. Their Karoshi projects recovered GameMaker content through existing tools and used recovered GML in a small interpreter. The inspected Yukon Windows files offer no equivalent recovered source-level starting point. Shared web presentation experience remains useful, but a Yukon importer and behavior model still need to be established.
+
+
+## Original save container follow-up,2026-10-13
+
+**Observed source and bounded native execution:** NE1:974a reads, NE1:97ec
+writes five fixed consecutive buffers of5/64/10/902/10240bytes, totaling11221.
+All five finalized preserved original saves pass original transfer instructions
+and byte-preserving Python/JavaScript container checks. Only file-open/dialog
+and actual KERNEL I/O are substituted; original buffer/count selection and
+successful read/write wrappers execute. Actual Seattle saved state independently
+matches observed day24/month8/$422/2400food/partner4/location(200,0,2000).
+Unknown state and post-NUL journal bytes are retained, not zeroed. Exact source
+ranges, offsets/hashes, evidence save identities and API substitutions are in
+formats/GAM.md and save-container-recovery-evidence.json.
+
+**Unknown:** full loader/header validation, damaged-file and cancellation rules,
+scene reconstruction, unsaved global/RNG dependencies and browser persistence.
+This container proof does not establish a browser save/load round trip or M2.
+
+
+**Observed save-header follow-up:**246 original-code comparisons now establish
+loaded-NUL-aware bounded title/version checks, signature first4bytes, and lexical
+version statuses. Corrected Python/JS reader's invented zero-padding restriction;
+original ignored bytes remain preserved. Header-source initializers/comparison
+and status branches execute without behavior stubs. Read buffers precede header
+validation; error UI, rollback, older-version restore and scene rebuild remain
+unknown. Exact cases/annotations are in save-header-recovery-evidence.json and
+formats/GAM.md; browser save/load is still unimplemented.
+
+**Observed dialogue corpus follow-up:** all510 TREE resources now have an
+explicit structural census.509 nonempty graphs parse; original NE1:1c56/1d88
+response construction matches all509/2,400 response nodes/10,479 allocations.
+EmptyTREE39 at archive offset86,677,215 has no graph and remains excluded.
+761 distinct nonzero voice IDs are referenced and all PSND keys exist. Exact
+resource offsets/hashes, raw opcode reference inventories and proof limits are
+in formats/TREE.md, tree-census-evidence.json and tree-census-native-evidence.json.
+Initial override loading, general conditions/actions and UI are not proven by
+this response-graph comparison; do not promote structural coverage to gameplay
+coverage.

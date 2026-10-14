@@ -1,0 +1,303 @@
+{
+  "cases": [
+    {
+      "next_seed": 2531011,
+      "pattern": "zero",
+      "random_word": 38,
+      "seed": 0,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2531011,
+      "pattern": "55",
+      "random_word": 38,
+      "seed": 0,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2531011,
+      "pattern": "ramp",
+      "random_word": 38,
+      "seed": 0,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 2745024,
+      "pattern": "zero",
+      "random_word": 41,
+      "seed": 1,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2745024,
+      "pattern": "55",
+      "random_word": 41,
+      "seed": 1,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2745024,
+      "pattern": "ramp",
+      "random_word": 41,
+      "seed": 1,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 2959037,
+      "pattern": "zero",
+      "random_word": 45,
+      "seed": 2,
+      "state_sha256": "067012f430846ab702cce360cd70ca90c996d8d98f159260a2cf1f9e53f72590"
+    },
+    {
+      "next_seed": 2959037,
+      "pattern": "55",
+      "random_word": 45,
+      "seed": 2,
+      "state_sha256": "6c356a980cc75da6f6b989b5258fe84d2e0934070de5a64c0b158393fa275dc5"
+    },
+    {
+      "next_seed": 2959037,
+      "pattern": "ramp",
+      "random_word": 45,
+      "seed": 2,
+      "state_sha256": "535fa9192761ad8e5a366da2c89751d2d506bc9ea3d00a281aca62f8493cfadd"
+    },
+    {
+      "next_seed": 3173050,
+      "pattern": "zero",
+      "random_word": 48,
+      "seed": 3,
+      "state_sha256": "067012f430846ab702cce360cd70ca90c996d8d98f159260a2cf1f9e53f72590"
+    },
+    {
+      "next_seed": 3173050,
+      "pattern": "55",
+      "random_word": 48,
+      "seed": 3,
+      "state_sha256": "6c356a980cc75da6f6b989b5258fe84d2e0934070de5a64c0b158393fa275dc5"
+    },
+    {
+      "next_seed": 3173050,
+      "pattern": "ramp",
+      "random_word": 48,
+      "seed": 3,
+      "state_sha256": "535fa9192761ad8e5a366da2c89751d2d506bc9ea3d00a281aca62f8493cfadd"
+    },
+    {
+      "next_seed": 2720127686,
+      "pattern": "zero",
+      "random_word": 8737,
+      "seed": 32767,
+      "state_sha256": "b0cfdbc8f4e1ba961b3650e244818bc5a88fb959318bf67168dd503014b7dfcc"
+    },
+    {
+      "next_seed": 2720127686,
+      "pattern": "55",
+      "random_word": 8737,
+      "seed": 32767,
+      "state_sha256": "a163bb1f9ceb0cc897f3b1fee97f9b123729ed408b111d6087229c901db2d251"
+    },
+    {
+      "next_seed": 2720127686,
+      "pattern": "ramp",
+      "random_word": 8737,
+      "seed": 32767,
+      "state_sha256": "d0e016b3b2909d368f4254ad4f762f183e821bb80cb754cb04b33a53e16bd14a"
+    },
+    {
+      "next_seed": 2720341699,
+      "pattern": "zero",
+      "random_word": 8741,
+      "seed": 32768,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2720341699,
+      "pattern": "55",
+      "random_word": 8741,
+      "seed": 32768,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2720341699,
+      "pattern": "ramp",
+      "random_word": 8741,
+      "seed": 32768,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 1142971078,
+      "pattern": "zero",
+      "random_word": 17440,
+      "seed": 65535,
+      "state_sha256": "b0cfdbc8f4e1ba961b3650e244818bc5a88fb959318bf67168dd503014b7dfcc"
+    },
+    {
+      "next_seed": 1142971078,
+      "pattern": "55",
+      "random_word": 17440,
+      "seed": 65535,
+      "state_sha256": "a163bb1f9ceb0cc897f3b1fee97f9b123729ed408b111d6087229c901db2d251"
+    },
+    {
+      "next_seed": 1142971078,
+      "pattern": "ramp",
+      "random_word": 17440,
+      "seed": 65535,
+      "state_sha256": "d0e016b3b2909d368f4254ad4f762f183e821bb80cb754cb04b33a53e16bd14a"
+    },
+    {
+      "next_seed": 1143185091,
+      "pattern": "zero",
+      "random_word": 17443,
+      "seed": 65536,
+      "state_sha256": "b0cfdbc8f4e1ba961b3650e244818bc5a88fb959318bf67168dd503014b7dfcc"
+    },
+    {
+      "next_seed": 1143185091,
+      "pattern": "55",
+      "random_word": 17443,
+      "seed": 65536,
+      "state_sha256": "a163bb1f9ceb0cc897f3b1fee97f9b123729ed408b111d6087229c901db2d251"
+    },
+    {
+      "next_seed": 1143185091,
+      "pattern": "ramp",
+      "random_word": 17443,
+      "seed": 65536,
+      "state_sha256": "d0e016b3b2909d368f4254ad4f762f183e821bb80cb754cb04b33a53e16bd14a"
+    },
+    {
+      "next_seed": 2149800646,
+      "pattern": "zero",
+      "random_word": 35,
+      "seed": 2147483647,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2149800646,
+      "pattern": "55",
+      "random_word": 35,
+      "seed": 2147483647,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2149800646,
+      "pattern": "ramp",
+      "random_word": 35,
+      "seed": 2147483647,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 2150014659,
+      "pattern": "zero",
+      "random_word": 38,
+      "seed": 2147483648,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2150014659,
+      "pattern": "55",
+      "random_word": 38,
+      "seed": 2147483648,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2150014659,
+      "pattern": "ramp",
+      "random_word": 38,
+      "seed": 2147483648,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 2102985,
+      "pattern": "zero",
+      "random_word": 32,
+      "seed": 4294967294,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2102985,
+      "pattern": "55",
+      "random_word": 32,
+      "seed": 4294967294,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2102985,
+      "pattern": "ramp",
+      "random_word": 32,
+      "seed": 4294967294,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    },
+    {
+      "next_seed": 2316998,
+      "pattern": "zero",
+      "random_word": 35,
+      "seed": 4294967295,
+      "state_sha256": "50cde022022e6475299f9142aaf8c470b754a4dd65f9076fb5848e2eca0693be"
+    },
+    {
+      "next_seed": 2316998,
+      "pattern": "55",
+      "random_word": 35,
+      "seed": 4294967295,
+      "state_sha256": "5c59486d7dce1e36755227495ac8adb82e2f2b0d473a3ccaff17c53b1b9ebb0f"
+    },
+    {
+      "next_seed": 2316998,
+      "pattern": "ramp",
+      "random_word": 35,
+      "seed": 4294967295,
+      "state_sha256": "6b5d6e74dfaab75f2fe5452a537b16318d3cc6d8f4e1236df46de365db30eba9"
+    }
+  ],
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "native_cases": 36,
+  "scope": "Execute original NE1:9900 reset, NE6:2a28 RNG/multiply and291e memset.\n\nOnly far selectors relocated; no allocation, random, memset or state behavior\nstubs. Explicit prior buffers/seeds test untouched byte preservation. Fresh\nscene activation, initial name/journal UI and OS startup seed remain excluded.\n",
+  "selected_reset_words": {
+    "028": 23,
+    "02a": 8,
+    "220": 0,
+    "2ac": 0,
+    "2b2": 0,
+    "2fa": 350,
+    "2fc": 0,
+    "2fe": 0,
+    "300": 0,
+    "302": 0,
+    "304": 0,
+    "306": 0,
+    "308": 0,
+    "30a": 0,
+    "30e": 1,
+    "310": 1,
+    "312": 65535,
+    "318": 0,
+    "334": 0,
+    "344": 0
+  },
+  "sentinel_sample_hex": "0055555555555555555555555555555555555555005555555555555555555555555555555555555517000800000000000000000055550000000000000000555500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000555555555555555500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005e0100000000000000000000000000000000000001000100ffff09000c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555",
+  "synthetic_far_relocations": [
+    [
+      4096,
+      39580,
+      8192,
+      10792
+    ],
+    [
+      4096,
+      39790,
+      8192,
+      10526
+    ],
+    [
+      8192,
+      10813,
+      8192,
+      11336
+    ]
+  ]
+}

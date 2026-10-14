@@ -1,0 +1,203 @@
+{
+  "archive_sha256": "438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6",
+  "executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "mismatches": 0,
+  "resources": {
+    "PSND:30003": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 794,
+      "length": 27685,
+      "native_pcm_sha256": "395591aaeee1828449ace8bcb13e9f6b8c95ef1a5e57a30d75f994e5515031c1",
+      "offset": 40567882,
+      "order": 3,
+      "raw_sha256": "7e548651f50a73bb4c832ec1d687016e1e76c4be0ee4b1e084fa0a94871aaafb",
+      "sample_bytes": 53575
+    },
+    "PSND:34001": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 748,
+      "length": 20734,
+      "native_pcm_sha256": "9af93f4c22cdc5f49d82e405552803d182938f1505dd2563b3fb0c597961bbf5",
+      "offset": 43319929,
+      "order": 3,
+      "raw_sha256": "6eac1633894bb3600eeae358eaa3a1ac98787df165405969649873f17bdd5cc0",
+      "sample_bytes": 48804
+    },
+    "PSND:35006": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 225,
+      "length": 8480,
+      "native_pcm_sha256": "59e90f70eca905b0677461d903433c6d8b2ae73c49128f6a6063233e0909f4a3",
+      "offset": 44121800,
+      "order": 3,
+      "raw_sha256": "30439dd700d20079887262e7dcba2817ae8f34206b7f12b5baf45d08493190f2",
+      "sample_bytes": 21634
+    },
+    "PSND:36000": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 743,
+      "length": 26470,
+      "native_pcm_sha256": "19b87d1cc8ba72c9c5c08763f2cc2aed6cc3c07177e8b26d43b55c42e4ac4e77",
+      "offset": 46403346,
+      "order": 3,
+      "raw_sha256": "db5d5d96e16cddf557772b54793b8f35bb0fdf253f030079ecbcdc7dc73e0f50",
+      "sample_bytes": 64312
+    },
+    "PSND:42001": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 345,
+      "length": 16688,
+      "native_pcm_sha256": "a8e086e7bb991d2d30beb8b6e06009efd0b824c83559faf203bdf81626fccfcf",
+      "offset": 51054390,
+      "order": 3,
+      "raw_sha256": "151d0b7e589823da74bfc821d2377124cc330a3fa1c236722db9e8f18f3df8b7",
+      "sample_bytes": 23608
+    },
+    "PSND:42005": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 815,
+      "length": 37404,
+      "native_pcm_sha256": "97ce5dc9d93876459907d4a8c9e32b92a67b994ae710164dffb3f63e92b50706",
+      "offset": 51162481,
+      "order": 0,
+      "raw_sha256": "2bf446466e32eab14d4b3d946c833ff70071353dcbafe7d11697e12b974af874",
+      "sample_bytes": 83136
+    },
+    "PSND:7003": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 168,
+      "length": 5194,
+      "native_pcm_sha256": "6ade005007ca2a5602129d3957945ff84cb9cb6906cb21e4be1316eb8a145ee6",
+      "offset": 78595617,
+      "order": 3,
+      "raw_sha256": "73cd01b4b23df1303727bc5e7d106df54c8e5834c1707c297b2dd4162ec3eb0a",
+      "sample_bytes": 12476
+    },
+    "PSND:7004": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 87,
+      "length": 2353,
+      "native_pcm_sha256": "e761c4b0f4e93dee56d4969f55fcf5234a55c4cf8901288f4056122361a0db6b",
+      "offset": 78600811,
+      "order": 3,
+      "raw_sha256": "5a9ab3981eda6a5c46dd8c0b4ee2b729d8e008425a7a6111c778818b21c5d85e",
+      "sample_bytes": 6476
+    },
+    "PSND:7006": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 374,
+      "length": 13010,
+      "native_pcm_sha256": "3056a481db8d92b78999e6078755873cfc5f97c818bc3f3d1b0f55324f891b5d",
+      "offset": 78635674,
+      "order": 3,
+      "raw_sha256": "270dd6cc98c4ee80dbde67183788d04c6215404540169f3772b71a04049d8dc3",
+      "sample_bytes": 25083
+    },
+    "PSND:7007": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 540,
+      "length": 22380,
+      "native_pcm_sha256": "1fae64cb6a516ae01312324a6d8764bddde718c5d8945bbc718058710babd378",
+      "offset": 78648684,
+      "order": 3,
+      "raw_sha256": "d060ff874ee7cdc359a37f414533c539be7d37460ed1a712e9b1f5765d058908",
+      "sample_bytes": 36667
+    },
+    "PSND:7008": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 86,
+      "length": 3270,
+      "native_pcm_sha256": "6b35ef4705af8fefd7c8d022749fafe41110f3f20d0d0f9957881e9ad61da250",
+      "offset": 78671064,
+      "order": 3,
+      "raw_sha256": "a579ee69633f43f8a002e4f073b1be63ebd9153b3eab321284a5b67346d7c597",
+      "sample_bytes": 17851
+    },
+    "PSND:7010": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 303,
+      "length": 13154,
+      "native_pcm_sha256": "3bacc0cfd80ad3d267b9741de44a73ab1974d9f0102157d77794631c1dae37d6",
+      "offset": 78683656,
+      "order": 4,
+      "raw_sha256": "fa6332517732088a66bd52107c3d8685faeb92525e25f976fbaeffbff99b5543",
+      "sample_bytes": 25851
+    },
+    "PSND:7021": {
+      "final_state": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "integer_calls": 803,
+      "length": 29069,
+      "native_pcm_sha256": "af015b2d31b96567860e4abf653f46d326d806c780e618f16f6550845b399db0",
+      "offset": 78814579,
+      "order": 3,
+      "raw_sha256": "f4986067d597c292733eaec52a7ae7ef5ebc3ed7a337b6d5088f04957828d147",
+      "sample_bytes": 58422
+    }
+  },
+  "scope": "Original integer readers and converter for every actual PSND order0/3/4.\n\nCompressed bytes are decoded separately from integration, avoiding an order\nparameter alteration in source data. Original order0 leaves bytes/state intact;\norders3/4 use original9b34. Header metadata proof is separate; no playback.\n"
+}

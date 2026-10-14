@@ -1,0 +1,48 @@
+{
+  "scope": "Independent inspection of finalized original saves; recovered container/word offsets and raw journal bytes only. WHITEB observed reload/native226+243 independently agrees on Dec28/food1971/cash122. WHITES retains last Dec28 journal despite day29/month5/phase10 state; active spring popup restored per original worker. No complete queue/session/port save validation.",
+  "source_executable_sha256": "9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06",
+  "word_provenance": [
+    "calendar-recovery-evidence.json",
+    "seattle-recovery-evidence.json",
+    "save-container-recovery-evidence.json"
+  ],
+  "cases": [
+    {
+      "path": "local/evidence/white-pass-reference-2026-10-13/WHITEB-LakeBennett.GAM",
+      "sha256": "c61ab159887693dddc7ecc5c95096d1f55b08e508ffe52ff2466be08f19b5761",
+      "bytes": 11221,
+      "byte_preserved": true,
+      "state_words": {
+        "0x28": 28,
+        "0x2a": 12,
+        "0x2fa": 122,
+        "0x2fc": 0,
+        "0x2fe": 1971,
+        "0x30e": 128,
+        "0x310": 5,
+        "0x312": 4
+      },
+      "journal_text_sha256": "14e32c58507d58a313f2f4174964171638bea6de9fef97e97fb4bb75547c95c1",
+      "journal_tail": "ail. We have:\r\n      2031 pounds of food\r\n      $122 in cash \r\n\r\nDecember 27, 1897. Arrived at Lake Bennett. \r\n\r\nDecember 28, 1897. Lake Bennett. We have:\r\n      1971 pounds of food\r\n      $122 in cash "
+    },
+    {
+      "path": "local/evidence/white-pass-reference-2026-10-13/WHITES-boat-fit-conversation.GAM",
+      "sha256": "64bb9ea6ef0018ce9101e17556c9e2a97e020a6e6bb06393631adad47b52c2b5",
+      "bytes": 11221,
+      "byte_preserved": true,
+      "state_words": {
+        "0x28": 29,
+        "0x2a": 5,
+        "0x2fa": 122,
+        "0x2fc": 0,
+        "0x2fe": 1971,
+        "0x30e": 280,
+        "0x310": 10,
+        "0x312": 4
+      },
+      "journal_text_sha256": "14e32c58507d58a313f2f4174964171638bea6de9fef97e97fb4bb75547c95c1",
+      "journal_tail": "ail. We have:\r\n      2031 pounds of food\r\n      $122 in cash \r\n\r\nDecember 27, 1897. Arrived at Lake Bennett. \r\n\r\nDecember 28, 1897. Lake Bennett. We have:\r\n      1971 pounds of food\r\n      $122 in cash "
+    }
+  ],
+  "mismatches": 0
+}
