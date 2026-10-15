@@ -6,7 +6,7 @@ Observed original instruction execution uses `YUKON.EXE` SHA256 `9ca8f0a12f4798e
 
 The harness executes original NE1:c474 event4, NE1:dbe2 formatter, date/place/getter and string routines. Only successful platform malloc is replaced with bounded local memory; it records8-byte entry-object and255-byte text allocations. It stops after journal append and before temporary-object destruction. Clean gate cases return through the original function normally. Game state bytes are checked unchanged. Allocation failure, journal overflow prompts/retention and actual Windows Edit execution remain unsupported.
 
-`web/rules/journal-status.mjs` matches all147 output buffers and snapshot words, plus all1,584 inventory selections. `tools/prepare_journal_status.py` imports only verified source strings and the complete inventory table; parent asset preparation can call `source_data(executable_bytes)` without replacing existing generated files. No new controls or main integration are included.
+`web/rules/journal-status.ts` matches all147 output buffers and snapshot words, plus all1,584 inventory selections. `tools/prepare_journal_status.py` imports only verified source strings and the complete inventory table; parent asset preparation can call `source_data(executable_bytes)` without replacing existing generated files. No new controls or main integration are included.
 
 ## Opening and dirty gate
 
@@ -62,7 +62,7 @@ Nondeleting destructor NE1:b1ca and deleting entry NE6:60fc copy Edit contents i
 
 ```sh
 PYTHONPATH=local/tools/unicorn-2.1.4-python:tools python3 tools/verify_journal_status_native.py original/extracted/windows/YUKON.EXE local/evidence/recovery-proof/journal-status-native-20261014.json
-node tests/test_browser_journal_status.mjs
+bun tests/test_browser_journal_status.ts
 python3 tools/prepare_journal_status.py original/extracted/windows/YUKON.EXE local/browser-assets/journal-status.json
 ```
 

@@ -58,7 +58,7 @@ RNG seed/global unsaved dependencies and journal tail significance remain unknow
 
 Python `tools/yukonsave.py` has five independent synthetic tests for fixed
 boundaries, unsupported edition/length, opaque-byte preservation and journal
-termination. `web/rules/save.mjs` matches actual native block/full-file hashes
+termination. `web/rules/save.ts` matches actual native block/full-file hashes
 for all five evidence saves in Node26.0.0, preserves caller buffers and rejects
 unsupported sizes/headers. Neither module allocates invented game defaults or
 provides a browser File menu action yet.
@@ -72,7 +72,7 @@ PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_save_native.py 
   local/evidence/white-pass-reference-2026-10-13/WHITEA-Skagway.GAM \
   local/evidence/white-pass-reference-2026-10-13/WHITETR-after-theft.GAM
 python3 -m unittest discover -s tests -p test_yukonsave.py
-node tests/test_browser_save.mjs
+bun tests/test_browser_save.ts
 ```
 
 Python3.14.5, pinned Unicorn2.1.4; no native arithmetic/state behavior stub is
@@ -127,7 +127,7 @@ because the subsequent original restore behavior is unknown.
 ```sh
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_save_header_native.py \
   original/extracted/windows/YUKON.EXE docs/save-header-recovery-evidence.json
-node tests/test_browser_save.mjs
+bun tests/test_browser_save.ts
 ```
 
 Next: trace load orchestration and scene restoration after the return status,

@@ -59,7 +59,7 @@ PYTHONPATH=local/tools/unicorn-2.1.4-python:tools python3 tools/verify_seattle_p
  local/evidence/recovery-proof/seattle-population-native-20261014.json
 python3 tools/prepare_seattle_population.py original/extracted/windows/YUKONRES \
  original/extracted/windows/YUKON.EXE generated/seattle-population-20261014.json
-node tests/test_browser_seattle_population.mjs generated/seattle-population-20261014.json
+bun tests/test_browser_seattle_population.ts generated/seattle-population-20261014.json
 ```
 
 The prepare destination must be fresh. To regenerate the versioned projection, rerun the native command with `--versioned-report docs/seattle-population-recovery-evidence.json --source-metadata generated/seattle-population-20261014.json`. This omits uninitialized snapshot bytes but retains all original reported poses and controller records. Node compares96 complete selected contexts/controller records against the versioned original execution oracle, not against Python pose calculations. It also checks reverse list conversion and rejection of partnered input.

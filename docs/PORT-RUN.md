@@ -1,28 +1,56 @@
 # Local opening build and reproduction
 
-Updated 2026-10-13. This is an implemented opening build, not the M2 playable
+Updated 2026-10-14. This is an implemented opening build, not the M2 playable
 Seattle milestone. Browser execution and presentation remain unverified.
-The separate JavaScript modules have original-instruction comparisons in Node;
-those results do not validate DOM, font loading, audio, browser events or saves.
+The separate TypeScript modules have original-instruction comparisons run under
+Bun/Node; those results do not validate DOM, font loading, audio, browser events
+or saves.
+
+## Toolchain
+
+The port source under `web/` is TypeScript served and bundled by Vite; the
+oracle scripts under `tests/` are TypeScript run directly by Bun (Node ≥23 type
+stripping also works). Asset conversion stays in Python. Versions used on
+2026-10-14: Bun 1.3.14, TypeScript 7.0.2, Vite 8.3.4, Node 26.0.0, Python 3.14.5.
+
+```sh
+bun install            # dev dependencies only: vite, typescript, @types/bun
+bun run typecheck      # tsc over web/, tools/*.ts, vite.config.ts and tests/
+bun run test           # every oracle check that needs only docs/ evidence
+bun run build          # dist/ (ignored); assets are never bundled
+```
+
+`tsconfig.json` is strict with `erasableSyntaxOnly` so the same files run
+unbundled under Bun/Node; `tests/tsconfig.json` relaxes strictness because the
+scripts read untyped evidence JSON and deliberately pass malformed inputs.
+The former `tools/serve_port.py` and its Python test were removed; the Vite
+dev/preview server plus `tools/selected-assets.ts` replace them (below).
 
 ## Prepare and serve
 
 From the repository root, with the verified Windows extraction installed as
 recorded in SOURCE-PROVENANCE.md and original/README.md, choose a fresh ignored
-asset directory. Python 3.14.5 and Node 26.0.0 were used. No npm dependencies or
-bundler are required.
+asset directory, then select it for the dev server through `YUKON_ASSETS`
+(environment variable or an ignored `.env`; see `.env.example`).
 
 ```sh
 python3 tools/prepare_seattle_opening.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   original/extracted/windows/YUF_____.TTF public/game-assets/local-opening \
   --journal-status --seattle-population
-python3 tools/serve_port.py --assets public/game-assets/local-opening
+YUKON_ASSETS=public/game-assets/local-opening bun run dev
 ```
 
-Open `http://127.0.0.1:8000/` when browser access is authorized. The server binds
-loopback and serves only `web/` plus the explicitly selected asset directory.
-It does not expose the original-media or guest directories. Source identities,
+Open `http://127.0.0.1:8000/` when browser access is authorized. The Vite dev
+server binds loopback on the same origin as before, serves only `web/`
+(`server.fs.allow`; `/@fs/` requests outside it return 403, unknown paths 404
+rather than an index fallback) plus the explicitly selected asset directory on
+`/game-assets/`. The mount in `tools/selected-assets.ts` fails closed on dot
+segments, empty segments, backslashes, absolute paths, bad percent-encoding and
+symlinks leaving the real directory, and it refuses to start without a selected
+directory containing `manifest.json`. It does not expose the original-media or
+guest directories. `bun run preview` serves the built `dist/` with the same
+mounts. Source identities,
 resource offsets, packed hashes, converted-index hashes and font identity are
 retained in the generated manifest. The explicit black palette entry zero is
 inferred from source/capture comparison; it is not a measured GDI return.
@@ -36,16 +64,16 @@ Its manifest SHA256 is
 journal-status.json SHA256 is
 `1ebcc992142eea5cdc912d579d3e39c01bf483d2e3fb1cf49c6e79c096e1b7da`.
 The v2 opening is historical and lacks the status vocabulary now required by
-main.mjs. Reproduce the current package in a fresh directory with:
+main.ts. Reproduce the current package in a fresh directory with:
 
 ```sh
 python3 tools/prepare_seattle_opening.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   original/extracted/windows/YUF_____.TTF public/game-assets/FRESH-ACTOR-OPENING \
   --journal-status --seattle-population
-python3 tools/serve_port.py --assets public/game-assets/FRESH-ACTOR-OPENING --port 8000
-node tests/test_opening_journal_projection.mjs public/game-assets/FRESH-ACTOR-OPENING
-node tests/test_browser_journal_status.mjs
+YUKON_ASSETS=public/game-assets/FRESH-ACTOR-OPENING bun run dev
+bun tests/test_opening_journal_projection.ts public/game-assets/FRESH-ACTOR-OPENING
+bun tests/test_browser_journal_status.ts
 ```
 
 The older `seattle-opening-20261013` package has superseded fragment offsets;
@@ -103,21 +131,23 @@ instruction-execution evidence. Run from the repository root:
 
 ```sh
 python3 -m unittest discover -s tests
-node tests/test_browser_seattle.mjs
-node tests/test_browser_indexed.mjs
-node tests/test_browser_initial.mjs
-node tests/test_browser_calendar.mjs
-node tests/test_browser_purchase.mjs
-node tests/test_browser_scene_resources.mjs
-node tests/test_browser_tree.mjs public/game-assets/local-opening
-node tests/test_browser_opening.mjs public/game-assets/local-opening/journal.json
+bun tests/test_browser_seattle.ts
+bun tests/test_browser_indexed.ts
+bun tests/test_browser_initial.ts
+bun tests/test_browser_calendar.ts
+bun tests/test_browser_purchase.ts
+bun tests/test_browser_scene_resources.ts
+bun tests/test_browser_tree.ts public/game-assets/local-opening
+bun tests/test_browser_opening.ts public/game-assets/local-opening/journal.json
 python3 tools/prepare_journal_assets.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   generated/local-opening-check/journal.json
-node tests/test_browser_journal.mjs generated/local-opening-check/journal.json
+bun tests/test_browser_journal.ts generated/local-opening-check/journal.json
 ```
 
-The latest full Python run passed183 tests. Nine Node commands pass with the current v2 assets:400 money/16 eligibility,
+`bun run test` runs the checks that need only versioned evidence; the commands
+above that take a path need the named ignored inputs. The latest full Python
+run passed183 tests. Nine Node commands pass with the current v2 assets:400 money/16 eligibility,
 243 copy,36 full reset/RNG,2190 calendar/192 scene-entry,112 purchase,
 645 hotspot/5 geometry/36 suspension,176 TREE link/18 dialogue-opening,
 576 journal/48 actual Seattle location/3 queue cases, plus manually observed
@@ -130,7 +160,7 @@ A tenth Node command checks the new original save container against the actual
 native read/write hashes for five preserved evidence saves:
 
 ```sh
-node tests/test_browser_save.mjs
+bun tests/test_browser_save.ts
 ```
 
 This requires those ignored original save files at the paths in
@@ -139,6 +169,14 @@ blocks, not the browser File menu, scene restoration or a save round trip while
 playing. See formats/GAM.md for source addresses and original API substitutions.
 
 ## Browser access and next review
+
+2026-10-14 update: the browser tool loaded the Vite origin for the first time.
+Name → journal → Done → Wharf completed with no console errors after fixing a
+pre-existing off-by-one in the actor geometry check (`main.ts` compared an
+inclusive extent against the exclusive source rectangle; see STATUS.md). That
+is a smoke check of load, module graph, font registration and the opening
+flow, not an original-versus-port presentation comparison; the rest of this
+section's unverified items stand.
 
 CUA browser access to the exact local URL was rejected by automatic approval
 review as user permission denied. The user subsequently authorized local preview and
@@ -167,7 +205,7 @@ Choose a fresh ignored directory:
 python3 tools/prepare_seattle_opening.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   original/extracted/windows/YUF_____.TTF public/game-assets/local-seattle-voices
-node tests/test_browser_voice.mjs public/game-assets/local-seattle-voices
+bun tests/test_browser_voice.ts public/game-assets/local-seattle-voices
 ```
 
 This prepares11 CBMP/34frames, seven TREE graphs and47 PSND conversions from
@@ -198,7 +236,7 @@ added; eventual playback must use the original conversation/menu affordances.
 The bounded navigation rule check is now available:
 
 ```sh
-node tests/test_browser_navigation.mjs
+bun tests/test_browser_navigation.ts
 ```
 
 It matches1,231 common and302 ticket-office original-instruction outputs, including cached-frame sprite
@@ -210,7 +248,7 @@ connect navigation; this check is a prerequisite, not a browser playtest.
 Ticket and boarding rule verification:
 
 ```sh
-node tests/ticket-oracle.mjs
+bun tests/ticket-oracle.ts
 ```
 
 This compares4,826 original contexts and seven original TREE graphs; UI, delayed

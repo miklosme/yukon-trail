@@ -43,9 +43,9 @@ Native execution requires the permitted local Unicorn runtime; sandbox executabl
 
 ## Bounded browser module
 
-`web/rules/scene-resources.mjs` reads source-normalized Uint8Array SPRT/ACEL/ASEQ/HSPT buffers, preserves unknown fields, and exports the selected strict hotspot fallback, explicit unflipped sequence completion, signed-word frame geometry and suspended-only visibility branch. It does not dispatch actions, intercept foreground sprites, project screen coordinates or advance clocks/successors. Suspension zero fails explicitly in the bounded suspension helper because it requires the unrecovered scheduling path.
+`web/rules/scene-resources.ts` reads source-normalized Uint8Array SPRT/ACEL/ASEQ/HSPT buffers, preserves unknown fields, and exports the selected strict hotspot fallback, explicit unflipped sequence completion, signed-word frame geometry and suspended-only visibility branch. It does not dispatch actions, intercept foreground sprites, project screen coordinates or advance clocks/successors. Suspension zero fails explicitly in the bounded suspension helper because it requires the unrecovered scheduling path.
 
-`tests/test_browser_scene_resources.mjs` matches all 645 recorded original hotspot outputs, all five original geometry calls and all 36 original suspension outputs. The original verifiers now retain actual outputs and matrix hashes; the test inputs reconstruct normalized selected field metadata and must match original normalized resource hashes before JS parsing. Expected results come from original instructions, not Python model output. [browser-scene-resource-evidence.json](browser-scene-resource-evidence.json) records inputs, actual native rows, hashes, source identity and scope. Node checks do not constitute supported-browser presentation verification; no browser access was attempted for this work.
+`tests/test_browser_scene_resources.ts` matches all 645 recorded original hotspot outputs, all five original geometry calls and all 36 original suspension outputs. The original verifiers now retain actual outputs and matrix hashes; the test inputs reconstruct normalized selected field metadata and must match original normalized resource hashes before JS parsing. Expected results come from original instructions, not Python model output. [browser-scene-resource-evidence.json](browser-scene-resource-evidence.json) records inputs, actual native rows, hashes, source identity and scope. Node checks do not constitute supported-browser presentation verification; no browser access was attempted for this work.
 
 `tools/prepare_scene_resources.py` generates a fresh ignored directory containing normalized selected buffers and a provenance manifest, leaving raw media intact. Its `prepare(archive, executable, output, hotspot_ids=(1000,4000))` helper can be called by the main asset importer. The manifest retains original IDs, offsets, raw/normalized hashes, explicit buffer filenames, CBMP400 frame sizes and selected sequence metadata. No original bytes are embedded in the JS module; media remains in local generated assets.
 
@@ -53,7 +53,7 @@ Native execution requires the permitted local Unicorn runtime; sandbox executabl
 python3 tools/prepare_scene_resources.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE generated/NEW-SCENE-ASSET-DIR
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_hotspots_native.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE local/evidence/recovery-proof/seattle-hotspots-native-browser.json --id 1000 --id 4000
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_sprite_geometry_native.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE local/evidence/recovery-proof/linda-sprite-geometry-native-browser.json
-node tests/test_browser_scene_resources.mjs
+bun tests/test_browser_scene_resources.ts
 ```
 
 The browser evidence JSON combines those native reports with source-normalized field metadata and the recorded Node run. These computations do not resolve the navigation/date timer context or create any UI.

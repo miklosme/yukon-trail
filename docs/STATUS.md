@@ -1,6 +1,6 @@
 # Execution checkpoint
 
-Updated: 2026-10-13. Current phase: verified source recovery, a running
+Updated: 2026-10-14. Current phase: verified source recovery, a running
 original-game reference, one completed blind playthrough, and selected image/sound recovery.
 The M0 source/reference checkpoint is reached;
 M1 now has its bounded recovery proof and runtime decision; M2 remains incomplete.
@@ -10,6 +10,36 @@ playable milestone or general gameplay fidelity claim. Historical bullets below
 retain earlier check counts; the latest checkpoint supersedes their pending work.
 
 ## Latest implementation checkpoint
+
+- 2026-10-14: converted the web port to TypeScript and Vite at the owner's
+  request. All `web/**/*.mjs` and `tests/*.mjs` are now `.ts` (git renames);
+  rule modules carry interfaces for recovered vocabularies/state/buffers and
+  keep every runtime guard. `package.json` scripts: `dev`/`build`/`preview`
+  (Vite 8.3.4), `typecheck` (TypeScript 7.0.2, strict for `web/`, relaxed for
+  tests), `test` (`tests/run-oracles.ts`). `tools/serve_port.py` and its test
+  were replaced by `tools/selected-assets.ts`, a Vite dev/preview mount for
+  `YUKON_ASSETS`/`YUKON_TRIAL_ASSETS` with the same fail-closed path rules and
+  a ported boundary test (`tests/test_selected_assets.ts`). Checks run: both
+  typechecks clean; 20/20 self-contained checks pass under Bun 1.3.14 and
+  Node 26.0.0; the eight local-input oracle checks and the pinned emulator
+  contract check pass; `vite build` succeeds; dev and preview servers on
+  127.0.0.1:8000 serve `/`, `/emulation-trial/`, `/game-assets/manifest.json`
+  (SHA e48de289…) and return 404/403 for traversal, unmounted and `/@fs/`
+  paths outside `web/` (curl checks).
+- 2026-10-14: first actual browser execution of the port. Chrome (via the
+  browser tool, previously denied on this origin) loaded the Vite dev origin,
+  rendered the Wharf background, name dialog, journal view with source font
+  and three inventory overlays, and then threw
+  `Source pose and imported actor frame geometry differ` on Done. Cause: a
+  pre-existing off-by-one in `web/main.mjs` (HEAD line85) that compared an
+  inclusive `+1` extent against `frameRectangle`'s exclusive bottom/right,
+  which the native population oracle confirms (`[218,86,387,158]` for a
+  72×169 frame). Fixed to compare `right-left`/`bottom-top`; after the fix the
+  Wharf paints the three recovered actors with no console errors. This is a
+  one-flow smoke check, not a presentation comparison against the original;
+  DPI, font metrics, scrollbars and Edit behavior remain unverified.
+  AGENTS.md still says no language is chosen and needs the owner's update.
+  Next: compare the rendered opening against original captures.
 
 - Inventoried all510 TREE resources;509 nonempty graphs structurally parse,
   emptyTREE39 is an explicit exclusion. Native original response graph/copy
@@ -72,7 +102,7 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
   TREE graphs: fares, clerk/Wharf selection, seen marks, ship conditions and exact
   immediate/delayed boarding queues. Main integration, countdown completion,
   voyage and schedule remain open. Eleven annotations survive fresh Ghidra
-  reopening. `node tests/ticket-oracle.mjs` independently rerun successfully.
+  reopening. `bun tests/ticket-oracle.ts` independently rerun successfully.
 - Navigation now also matches302 actual ticket-office handler contexts, in
   addition to1,231 common handler cases. The office handler has no common
   countdown gate; callers must choose the correct handler. Source annotations
@@ -140,7 +170,7 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
   initialized padding, active globals, countdown and activation context remain
   required. Do not silently supply an empty list for a real scene. Source actor
   population and defensible navigation integration are still worker-owned;
-  main.mjs has not yet connected this module. Navigation evidence/module/tests
+  main.ts has not yet connected this module. Navigation evidence/module/tests
   are ready; source annotations/doc handoff are being finalized.
 - Earlier ticket-clerk/fare/inventory/boarding exit recovery was assigned to the
   finished sound worker, using original observations and unchanged native code.
@@ -153,7 +183,7 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
   seven source TREE graphs and47 independently native-checked voices. Importer
   now checks optional original PCM evidence before output; a deliberately wrong
   PSND1 PCM hash fails and creates no output. Manifest retains source/PCM/WAV
-  hashes and declared/consumed lengths. `web/platform/voice.mjs` reads only
+  hashes and declared/consumed lengths. `web/platform/voice.ts` reads only
   canonical generated mono8-bit/22050Hz WAV and supplies an explicit AudioBuffer
   adapter; loader verifies WAV/PCM identity and returns independent samples.
   Node checks all47 voices/7,626,207 native sample bytes. No AudioContext output,
@@ -183,7 +213,7 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
   Exact evidence/reproduction: [formats/GAM.md](formats/GAM.md).
 
 - Latest full standard-library run: **183 tests passed**; twelve Node
-  original-oracle commands passed. `node --check web/main.mjs`, parsing all
+  original-oracle commands passed. `node --check web/main.ts`, parsing all
   documentation JSON files and `git diff --check` passed. Source ISO, generated
   asset manifest and native captures remain Git-ignored. Counts are checkpoints;
   active workers may add further cases before their finalized handoffs.
@@ -250,7 +280,7 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
   exactly matches visual transcription. Capture hashes/scope are retained in
   linda-live-comparison.json. Chose JavaScript modules/2D canvas after this bounded
   proof; alternatives and limitations are in RUNTIME-DECISION.md. First actual
-  browser-compatible rule module `web/rules/seattle.mjs` matches the400-case
+  browser-compatible rule module `web/rules/seattle.ts` matches the400-case
   original money matrix hash and16 original eligibility cases in Node26.0.0.
   This is a tested rule module, not a playable browser application or M2.
 
@@ -613,12 +643,12 @@ verified. Windows media and the booting guest are now provisioned separately;
 no Windows-media input is needed for the opening reference. Static consumer
 tracing and targeted original-versus-recovered comparisons can proceed.
 
-Browser rule handoff: `node tests/test_browser_seattle.mjs` checks the retained
+Browser rule handoff: `bun tests/test_browser_seattle.ts` checks the retained
 original money matrix/eligibility cases. Prepare fresh ignored vocabulary with
 `python3 tools/prepare_journal_assets.py original/extracted/windows/YUKONRES
 original/extracted/windows/YUKON.EXE generated/browser-proof-20261013/journal.json`
 (the output must not exist), then run
-`node tests/test_browser_journal.mjs generated/browser-proof-20261013/journal.json`.
+`bun tests/test_browser_journal.ts generated/browser-proof-20261013/journal.json`.
 Node26.0.0 matches400 money/16 eligibility/576 formatter/3 queue original cases.
 No browser UI, save or journey is tested by these commands. Original TrueType
 font identity/naming is in FONT-EVIDENCE.md and source font-size selection is in

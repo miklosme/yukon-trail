@@ -4,7 +4,7 @@
 
 Observed source execution, not a live UI playtest: `tools/verify_navigation_native.py` executes unchanged bytes from `YUKON.EXE` SHA256 `9ca8f0a12f4798e762fbf27634f99afcb5c0c1a3836604bf0a4049a73227dd06`. It uses Unicorn 2.1.4 with synthetic segmented objects and initialized resources. `docs/navigation-recovery-evidence.json` preserves 1,231 common-handler outputs plus302 actual ticket-office-handler outputs, source resource hashes/offsets, call routing and fixture inputs. Output rows SHA256 is `b5d0b5c7c796596066606176b3237876694eea07195952a1536bb7124010f386`. Archive SHA256 is `438d729386cdb2effb120ed7652d14af00fb8a0e78f4426c12b17c934c3db8b6`.
 
-`web/rules/seattle-navigation.mjs` matches all1,533 recorded outputs. This proves bounded event forwarding, sprite interception, HSPT fallback selection and opcode1–3 queue copying. It does not prove Windows message delivery, actual scene sprite state, scene teardown/construction, scheduling, deferred actions, dialogue or other opcode consumers. Browser access remains blocked; these are Node CLI comparisons, not browser presentation checks.
+`web/rules/seattle-navigation.ts` matches all1,533 recorded outputs. This proves bounded event forwarding, sprite interception, HSPT fallback selection and opcode1–3 queue copying. It does not prove Windows message delivery, actual scene sprite state, scene teardown/construction, scheduling, deferred actions, dialogue or other opcode consumers. Browser access remains blocked; these are Node CLI comparisons, not browser presentation checks.
 
 ## Original callers and coordinate contract
 
@@ -51,7 +51,7 @@ Six open navigation rectangles are separated from every admitted source sprite o
 ```sh
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_navigation_native.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE local/evidence/recovery-proof/navigation-native-20261013.json
 python3 tools/inspect_seattle_sprite_bounds.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE local/evidence/recovery-proof/seattle-sprite-bounds-20261013.json
-node tests/test_browser_navigation.mjs
+bun tests/test_browser_navigation.ts
 ```
 
 The first command needs the approved local Unicorn execution profile on this host; restricted memory mapping otherwise raises SIGILL. It invokes no UI or guest filesystem writes. Original binary/resource bytes are unchanged, and only far-call selectors are routed. The Node test reconstructs source HSPT bytes and checks normalized hashes before comparing original outputs. Generated resource files and captures remain ignored.

@@ -39,7 +39,7 @@ python3 tools/prepare_seattle_opening.py \
   --voice-evidence docs/ticket-sound-set-recovery-evidence.json
 python3 tools/verify_prepared_sound_assets.py public/game-assets/FRESH-TICKET-VOICES \
   docs/ticket-sound-set-recovery-evidence.json generated/FRESH-TICKET-EXPORT.json
-node tests/test_browser_voice.mjs public/game-assets/FRESH-TICKET-VOICES \
+bun tests/test_browser_voice.ts public/game-assets/FRESH-TICKET-VOICES \
   docs/ticket-sound-set-recovery-evidence.json
 ```
 
@@ -210,7 +210,7 @@ voyage random events or destination arrival is claimed complete here.
 
 ## Implementation and reproduction
 
-`tools/yukonticket.py` and `web/rules/ticket.mjs` require explicit original
+`tools/yukonticket.py` and `web/rules/ticket.ts` require explicit original
 words/buffers. They expose clerk selection/opening, six selected source fares,
 Wharf dispatch/RNG selection, ship-choice predicates and boarding queues.
 Whole state bytes are preserved, unsupported actions fail. The shared
@@ -221,7 +221,7 @@ the clerk opening API must retain source speaker16 and condition2/1.
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_ticket_native.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   docs/ticket-recovery-evidence.json
-/opt/homebrew/bin/node tests/ticket-oracle.mjs
+bun tests/ticket-oracle.ts
 python3 -m unittest tests.test_yukonticket -v
 ```
 

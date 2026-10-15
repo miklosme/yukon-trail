@@ -64,7 +64,7 @@ after selecting the end. Exact save hashes/text and limitations are retained in
 
 The port now applies this insertion at Edit construction and captures it on
 Done; it selects the end using the actual DOM value length after LF normalization.
-`node tests/test_journal_edit_text.mjs` matches the independently saved before/after
+`bun tests/test_journal_edit_text.ts` matches the independently saved before/after
 text. Capacity insertion and repeated opening while already editing fail explicitly
 because those original cases remain unverified. Browser caret/rendering comparison
 and fresh-opening Edit bytes are still pending.

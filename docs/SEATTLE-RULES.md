@@ -609,7 +609,7 @@ name tails, holes and any bytes after386. Maximum direct write is word384;
 therefore the supplied state buffer must contain at least0x386 bytes. Scene
 entry and name/journal editing are separate operations. Do not manufacture
 zero defaults for the preserved bytes or treat a reset as an entire fresh UI
-session. `tools/yukoninitial.py` and `web/rules/initial.mjs` preserve those bytes.
+session. `tools/yukoninitial.py` and `web/rules/initial.ts` preserve those bytes.
 
 The reset calls original `0006:2a28`, Ghidra1028:2a28/file0x479e8. It executes
 32-bit multiplication through6:2c48 and computes
@@ -644,7 +644,7 @@ whole-session and seed dependencies remain explicit.
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_initial_native.py \
   original/extracted/windows/YUKON.EXE docs/initial-state-recovery-evidence.json
 python3 -m unittest tests.test_yukoninitial
-node tests/test_browser_initial.mjs
+bun tests/test_browser_initial.ts
 ```
 
 Python3.14.5, pinned Unicorn2.1.4, Node26.0.0. `ProbeFreshState.java` exports
@@ -691,7 +691,7 @@ uses SECOND word as a32-byte place-table index atd1f2/d1f5. Thirdword is not
 used on this selected branch. Consequently the supported formatter bound is
 firstword200, secondword0, thirdword any explicit unsigned16-bit word. Other
 regions or second indices continue to fail; allowing arbitrary second words
-would be a material error. Both `tools/yukonjournal.py` and `web/rules/journal.mjs`
+would be a material error. Both `tools/yukonjournal.py` and `web/rules/journal.ts`
 now implement that bound, supporting actual `(200,0,3000/4000)` without replacing
 the scene ID with an invented0. The Python historical default remains the
 original fixture, not a fresh-state initializer; JS requires the explicit tuple.
@@ -714,7 +714,7 @@ PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_journal_native.
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   docs/journal-recovery-evidence.json
 python3 -m unittest tests.test_yukonjournal
-node tests/test_browser_journal.mjs generated/browser-proof-20261013/journal.json
+bun tests/test_browser_journal.ts generated/browser-proof-20261013/journal.json
 ```
 
 The Node fixture is reproducible with `prepare_journal_assets.py` into a fresh

@@ -20,7 +20,7 @@ instructions and callers before implementation.
 
 ## Explicit inputs and selected domains
 
-`tools/yukonseaday.py` and `web/rules/seaday.mjs` expose
+`tools/yukonseaday.py` and `web/rules/seaday.ts` expose
 `sea_event_update`/`seaEventUpdate`, `sea_weather_update`/`seaWeatherUpdate`,
 `advance_sea_day_before_journal`/`advanceSeaDayBeforeJournal`,
 `sea_message_update`/`seaMessageUpdate`, and composed
@@ -164,11 +164,11 @@ PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_seaweather_nati
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_seaday_block_native.py original/extracted/windows/YUKON.EXE docs/seaday-block-recovery-evidence.json
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_seamessage_native.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE docs/seamessage-recovery-evidence.json
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_seaday_combined_native.py original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE docs/seaday-combined-recovery-evidence.json
-/opt/homebrew/bin/node tests/seaday-oracle.mjs
-/opt/homebrew/bin/node tests/seaweather-oracle.mjs
-/opt/homebrew/bin/node tests/seaday-block-oracle.mjs
-/opt/homebrew/bin/node tests/seamessage-oracle.mjs
-/opt/homebrew/bin/node tests/seaday-combined-oracle.mjs
+bun tests/seaday-oracle.ts
+bun tests/seaweather-oracle.ts
+bun tests/seaday-block-oracle.ts
+bun tests/seamessage-oracle.ts
+bun tests/seaday-combined-oracle.ts
 python3 -m unittest tests.test_yukonseaday -v
 ```
 

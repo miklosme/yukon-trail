@@ -56,7 +56,9 @@ Verify source hashes; extract Windows files into a durable local location; inven
 implemented and locally served; nine Node original-oracle checks pass. Browser
 access was denied, so no browser rendering or port playtest result is claimed.
 Seattle interaction, exit, audio and save/load remain incomplete. See
-[PORT-RUN.md](PORT-RUN.md) for reproducible commands and exact limits. Static
+[PORT-RUN.md](PORT-RUN.md) for reproducible commands and exact limits. On
+2026-10-14 the port source became TypeScript served by Vite (RUNTIME-DECISION.md
+revision); the recovered rules and their oracle results are unchanged. Static
 browser-emulation feasibility is recorded in BROWSER-EMULATION-EVALUATION.md;
 it has not been executed or selected as a replacement runtime.
 

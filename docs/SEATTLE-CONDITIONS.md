@@ -55,7 +55,7 @@ and the full Management menu remain separate unknowns.
 
 ## Validation and limits
 
-Python `tools/yukonconditions.py` and JS `web/rules/seattle-conditions.mjs`
+Python `tools/yukonconditions.py` and JS `web/rules/seattle-conditions.ts`
 match all4,995 original returns and leave input state unchanged. The native
 harness verifies full0x386-byte state and explicit settings buffers unchanged.
 It uses zero/55/ramp synthetic backgrounds, unsigned/signed boundaries, indexed
@@ -87,7 +87,7 @@ need integration and original comparison. There is no default-true fallback.
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_seattle_conditions_native.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   docs/seattle-condition-recovery-evidence.json
-node tests/test_browser_seattle_conditions.mjs
+bun tests/test_browser_seattle_conditions.ts
 python3 -m unittest tests.test_yukonconditions
 ```
 

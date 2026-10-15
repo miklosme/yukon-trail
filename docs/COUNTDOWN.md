@@ -42,12 +42,12 @@ before0817, are outside these execution bounds and are not claimed validated.
 Node compares the same original oracle hashes. Five Python tests additionally
 check original month-end behavior, gated decrement, no early queue and explicit
 cleanup prerequisites. Models are in `tools/yukoncountdown.py` and
-`web/rules/countdown.mjs`; no browser integration is included.
+`web/rules/countdown.ts`; no browser integration is included.
 
 ```sh
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_countdown_native.py \
   original/extracted/windows/YUKON.EXE docs/countdown-block-recovery-evidence.json
-/opt/homebrew/bin/node tests/countdown-oracle.mjs
+bun tests/countdown-oracle.ts
 python3 -m unittest tests.test_yukoncountdown -v
 ```
 
@@ -114,7 +114,7 @@ from the model rather than accessing adjacent unknown memory; other negative
 signed IDs and IDs>5 preserve the table. This observed guard discrepancy is
 not interpreted as a sixth supported timer.
 
-`tools/yukontimers.py` and `web/rules/timers.mjs` provide these operations with
+`tools/yukontimers.py` and `web/rules/timers.ts` provide these operations with
 explicit byte buffers, allocator result/farpointer/record, clock values and
 forwarded-event callback. Polling callbacks can mutate the copied table and
 records. These models neither run nor assume a game scene callback. The
@@ -138,7 +138,7 @@ cancellation. Commands:
 ```sh
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_timers_native.py \
   original/extracted/windows/YUKON.EXE docs/timer-recovery-evidence.json
-/opt/homebrew/bin/node tests/timers-oracle.mjs
+bun tests/timers-oracle.ts
 python3 -m unittest tests.test_yukontimers -v
 ```
 

@@ -1,0 +1,11 @@
+{
+  // Oracle scripts compare recovered rules against original-instruction evidence.
+  // They read untyped JSON and deliberately pass malformed inputs, so they are
+  // checked for API compatibility only, not for strict null/any discipline.
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": false
+  },
+  "include": ["./**/*.ts"]
+}

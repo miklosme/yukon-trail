@@ -38,7 +38,7 @@ formats/CBMP.md, formats/PSND.md, IMAGE-COMPOSITING.md and SEATTLE-RULES.md.
 | Option | Benefit | Cost / uncertainty | Decision |
 | --- | --- | --- | --- |
 | JavaScript modules / canvas | Direct pixel buffers, browser input/audio/storage; explicit16-bit operations; no compile toolchain for local slice | Original segmented/virtual dispatch must be translated and checked; runtime types require input validation | Choose for initial port |
-| TypeScript / canvas | Static checks for resource/state structures | Adds compilation/toolchain before useful volume of runtime code exists; types do not prove fidelity | Revisit if runtime complexity warrants it |
+| TypeScript / canvas | Static checks for resource/state structures | Adds compilation/toolchain before useful volume of runtime code exists; types do not prove fidelity | Adopted 2026-10-14 (see revision below) |
 | C++ / WebAssembly | Fits substantial recovered native arithmetic and pointer-oriented code | No original source available; Windows GDI, messages, allocation and segmented pointers need adaptation; same recovery work with added integration | Do not choose for present bounded workload; isolate kernels if later measurements justify |
 | Browser DOSBox-X emulation | Could preserve original executable rules and alternate paths | Requires a browser-compatible Windows guest, bounded performance/audio/persistence tests and separately provisioned system media; browser UI must respect original controls | Retain as measurable fallback, not selected without tests |
 
@@ -70,7 +70,7 @@ consumer trace and the observed Seattle dialogue/purchase/exit sequence, then
 build that bounded interaction with explicit unsupported behavior. A rendered
 background or single recruitment demo is not the M2 milestone.
 
-Initial runtime rule handoff: `web/rules/seattle.mjs` and `journal.mjs` now
+Initial runtime rule handoff: `web/rules/seattle.ts` and `journal.ts` now
 implement bounded source-established money, Linda eligibility, selected journal
 formatting and queue writes. Node26.0.0 checks match original400 money cases,
 16 eligibility cases,576 journal cases and3 queue cases. See STATUS.md for
@@ -85,3 +85,28 @@ Preserving those original paths through a compatible backend is a concrete
 potential benefit, but source packaging does not prove compatibility. Measure
 the trial's viewport/input/sound, saves, complete/alternate journeys and supported
 browsers before choosing it or changing the native JavaScript architecture.
+
+## Revision 2026-10-14: TypeScript source, Vite serving, Bun tooling
+
+At the owner's direction the port moved from untyped `.mjs` modules served by a
+Python loopback server to TypeScript (`web/**/*.ts`) served and bundled by Vite,
+with Bun running the oracle scripts. The 2026-10-13 architecture is unchanged:
+2D canvas presentation, Python asset conversion, and import/rules/platform/
+presentation separation. Only the language and the serving toolchain changed.
+
+Reasons: the repository had already been initialised with Bun and a strict
+`tsconfig.json`, so continuing in plain JavaScript left the port without types
+or a dependency manifest; the rule modules now carry explicit interfaces for the
+recovered JSON vocabularies, state words and byte buffers that `main.ts`
+consumes; and Vite provides the module dev server and build that the Python
+static server could not for TypeScript. Costs accepted: a `node_modules`
+toolchain (vite, typescript, @types/bun), and `noUncheckedIndexedAccess` is off
+because the byte-level rules index typed arrays after explicit length checks.
+
+Fidelity evidence: every runtime guard and throw was preserved during the
+conversion, and the original-instruction oracle checks were rerun unchanged
+except for import paths: 19 self-contained checks pass under both Bun 1.3.14
+and Node 26.0.0, and the eight checks that take local prepared inputs (TREE
+graphs, opening journal, Linda journal, voices, cached frames, population,
+purchase, saves) plus the pinned-emulator contract check pass. Types do not add
+fidelity evidence; no browser execution was verified in this revision.

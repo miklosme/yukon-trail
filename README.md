@@ -77,9 +77,10 @@ Preserve the original game’s rules and content first. Keep intentional usabili
 
 The bounded recovery proof now includes selected images, source-mapped sound,
 and the independent immediate Linda contribution/journal comparison. The runtime
-decision is JavaScript modules with a2D canvas, with import, rules, platform
-services and presentation separated. [The decision](docs/RUNTIME-DECISION.md)
-records TypeScript, C++/WebAssembly and browser-emulation alternatives, reasons
+decision is TypeScript modules with a2D canvas, with import, rules, platform
+services and presentation separated; since 2026-10-14 the port is served and
+built by Vite with Bun running the checks. [The decision](docs/RUNTIME-DECISION.md)
+records the C++/WebAssembly and browser-emulation alternatives, reasons
 and remaining limits. Browser emulation remains untested as a fallback.
 The first rule modules have original-oracle checks; the actual Seattle slice,
 save round trip and browser presentation still need implementation/validation.
@@ -118,6 +119,8 @@ documents for complete extraction, HFS inventory, and analysis commands.
 A partial local opening build and exact asset preparation/run commands are in
 [PORT-RUN.md](docs/PORT-RUN.md). Browser execution, Seattle interaction, save/load
 and the playable milestone remain unverified/incomplete. Run the browser rule
-original-oracle check with `node tests/test_browser_seattle.mjs` (Node26.0.0 tested). Do not commit the disc or silently
+original-oracle check with `bun tests/test_browser_seattle.ts` after `bun install`
+(Bun 1.3.14; Node 26.0.0 also runs the scripts), or all self-contained checks
+with `bun run test`. Do not commit the disc or silently
 bundle its assets into a public build. Project-code licensing and the asset
 distribution approach are still undecided.

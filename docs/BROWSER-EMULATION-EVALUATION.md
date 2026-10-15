@@ -174,26 +174,26 @@ has been executed through this entry.
 Preparation checks, without executing any emulator:
 
 ```sh
-node tests/test_emulation_contracts.mjs \
+bun tests/test_emulation_contracts.ts \
   local/tools/browser-emulation-evaluation/source/emulators-6bbf0925d221a7304ea8e0dda1e89b8dc01569b2
-node --check web/emulation-trial/main.mjs
-python3 -m unittest discover -s tests -p test_serve_port.py
+bun run typecheck
+bun tests/test_selected_assets.ts
 ```
 
 The source comparison covers alphanumeric/function/selected special keys and
 all three button values; adapter checks cover RGB conversion, malformed buffers,
 scaled/clamped coordinates and altered/truncated/path-invalid staged assets.
-Five server tests cover bounded roots, explicit optional mount and escaped paths
-and symlinks. These checks do not demonstrate browser compatibility or game
+The asset-mount test covers the explicit optional mount, escaped paths and
+symlinks (since 2026-10-14 in `tools/selected-assets.ts`, replacing the Python
+server). These checks do not demonstrate browser compatibility or game
 fidelity. Full Python suite after this change:184 tests passed.
 
 Once the exact-origin browser restriction is resolved, stop the prior loopback
 server and use the same origin with the optional trial asset mount:
 
 ```sh
-python3 tools/serve_port.py \
-  --assets public/game-assets/seattle-opening-v2-20261013 \
-  --trial-assets public/game-assets/emulation-trial-20261014 --port 8000
+YUKON_ASSETS=public/game-assets/seattle-opening-v2-20261013 \
+YUKON_TRIAL_ASSETS=public/game-assets/emulation-trial-20261014 bun run dev
 ```
 
 The trial URL is `http://127.0.0.1:8000/emulation-trial/`; the native opening

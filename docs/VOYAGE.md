@@ -72,7 +72,7 @@ row even if the remainder is still>=25. It does not change date, cash, food,
 ship or destination. OpenScene and audio calls are observed consumer boundaries:
 their cutscene/dialogue/audio effects are not silently executed by the model.
 
-Models: `tools/yukonvoyage.py`, `web/rules/voyage.mjs`. Inputs require explicit
+Models: `tools/yukonvoyage.py`, `web/rules/voyage.ts`. Inputs require explicit
 state, scene and manager bytes, source rows, RNG seed and soundmode. The scene
 index must be within0..44; corrupt/out-of-range reads are excluded rather than
 emulating arbitrary memory. Speed is an explicit original scene word, not a
@@ -102,7 +102,7 @@ behaviors. Commands (Python3.14.5, Unicorn2.1.4, Node26.0.0):
 PYTHONPATH=local/tools/unicorn-2.1.4-python python3 tools/verify_voyage_native.py \
   original/extracted/windows/YUKONRES original/extracted/windows/YUKON.EXE \
   docs/voyage-waypoint-recovery-evidence.json
-/opt/homebrew/bin/node tests/voyage-oracle.mjs
+bun tests/voyage-oracle.ts
 python3 -m unittest tests.test_yukonvoyage -v
 ```
 

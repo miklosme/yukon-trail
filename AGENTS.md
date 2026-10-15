@@ -4,7 +4,7 @@
 
 Build a faithful, pleasant web version of The Yukon Trail from the supplied disc. The user’s current request takes precedence over this plan. Read `README.md`, `docs/STATUS.md`, and the relevant milestone in `docs/ROADMAP.md` before working. Read `docs/FINDINGS.md` before interpreting binaries and `docs/WORKFLOW.md` before implementing extraction or recovered behavior.
 
-The repository is at the investigation stage. There is no application or chosen language yet. When asked to continue implementation without a narrower task, take the earliest actionable item in `docs/STATUS.md`. Work toward a concrete, verifiable result; do not replace that work with another general plan. Do not treat a documentation-only request as authorization to implement the game.
+The repository has passed the M1 recovery proof and has a partial local opening build; M2 (a playable Seattle slice) is not reached. The port is TypeScript under `web/` (2D canvas; import, rules, platform and presentation separated), served and built by Vite, with Bun running the TypeScript oracle scripts in `tests/` and Python doing asset conversion in `tools/`. Use `bun run typecheck`, `bun run test` and `YUKON_ASSETS=... bun run dev`; see `docs/PORT-RUN.md` and `docs/RUNTIME-DECISION.md`. Keep new browser and tooling code typed; do not reintroduce untyped modules or an ad-hoc static server. When asked to continue implementation without a narrower task, take the earliest actionable item in `docs/STATUS.md`. Work toward a concrete, verifiable result; do not replace that work with another general plan. Do not treat a documentation-only request as authorization to implement the game.
 
 ## Evidence and fidelity
 
@@ -19,7 +19,7 @@ The repository is at the investigation stage. There is no application or chosen 
 
 - Preserve the ISO unchanged. Extract into a separate directory and verify source hashes. Never modify original files to simplify parsing.
 - Keep original media, extracted assets, saves, emulator disks, and bulky Ghidra projects in the ignored locations documented in `original/README.md`. Commit reproducible tools, format specifications, metadata, and small synthetic test fixtures.
-- Do not add a package manifest, framework, dependencies, or CI merely as placeholders. Make the runtime decision after the proof milestone and record its evidence and tradeoffs.
+- Do not add frameworks, dependencies, or CI merely as placeholders. The dev dependencies are vite, typescript and @types/bun; justify and record any addition in `docs/RUNTIME-DECISION.md`.
 - Separate asset import, recovered game state/rules, platform services, and presentation. Keep time and randomness controllable for comparisons.
 - Preserve original resource IDs and provenance through conversions. Fail explicitly on unsupported formats or opcodes; do not silently invent defaults or skip behavior.
 - Keep usability changes explicit. Do not alter rules, timing, dialogue, or progression as incidental refactoring.
