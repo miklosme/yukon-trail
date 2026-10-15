@@ -1,46 +1,61 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Yukon Trail</title>
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-<main id="stage" aria-label="The Yukon Trail">
-  <canvas id="game" width="640" height="480" aria-label="Game scene"></canvas>
-  <nav id="menus" aria-label="Game menus">
-    <button type="button" data-menu="File"><u>F</u>ile</button>
-    <button type="button" data-menu="Edit"><u>E</u>dit</button>
-    <button type="button" data-menu="Game"><u>G</u>ame</button>
-    <button type="button" data-menu="Management"><u>M</u>anagement</button>
-    <button type="button" data-menu="Help"><u>H</u>elp</button>
-  </nav>
-  <form id="nameDialog" role="dialog" aria-label="Enter Your Name" hidden>
-    <div class="dialogTitle"><span class="systemBox" aria-hidden="true"></span>Enter Your Name</div>
-    <label for="ownerName">This is the journal of:</label>
-    <input id="ownerName" name="ownerName" autocomplete="off" spellcheck="false" aria-label="Journal owner">
-    <button class="originalButton" type="submit">OK</button>
-  </form>
-  <section id="journalView" aria-label="Journal and outfit" hidden>
-    <textarea id="journalText" aria-label="Journal" spellcheck="false" maxlength="10239"></textarea>
-    <button id="journalDone" class="originalButton" type="button">Done</button>
-  </section>
-  <div id="gameMenu" role="menu" hidden>
-    <button role="menuitem" id="seeJournal">See Journal &amp; Outfit <span>Ctrl+J</span></button>
-    <hr>
-    <button role="menuitem" disabled>✓ Sound Effects</button>
-    <button role="menuitem" disabled>✓ Music</button>
-    <hr>
-    <button role="menuitem" disabled>Reading Speed...</button>
-    <button role="menuitem" disabled>✓ Speech</button>
-    <button role="menuitem" disabled>✓ Show Speech Balloons</button>
-    <hr>
-    <button role="menuitem" disabled>Time Out</button>
-    <hr>
-    <button role="menuitem" disabled>High Score List</button>
-  </div>
-</main>
-<script type="module" src="./main.ts"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Yukon Trail</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="stage" aria-label="The Yukon Trail">
+      <canvas id="game" width="640" height="480" aria-label="Game scene"></canvas>
+      <nav id="menus" aria-label="Game menus">
+        <button type="button" data-menu="File"><u>F</u>ile</button>
+        <button type="button" data-menu="Edit"><u>E</u>dit</button>
+        <button type="button" data-menu="Game"><u>G</u>ame</button>
+        <button type="button" data-menu="Management"><u>M</u>anagement</button>
+        <button type="button" data-menu="Help"><u>H</u>elp</button>
+      </nav>
+      <form id="nameDialog" role="dialog" aria-label="Enter Your Name" hidden>
+        <div class="dialogTitle">
+          <span class="systemBox" aria-hidden="true"></span>Enter Your Name
+        </div>
+        <label for="ownerName">This is the journal of:</label>
+        <input
+          id="ownerName"
+          name="ownerName"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Journal owner"
+        />
+        <button class="originalButton" type="submit">OK</button>
+      </form>
+      <section id="journalView" aria-label="Journal and outfit" hidden>
+        <textarea
+          id="journalText"
+          aria-label="Journal"
+          spellcheck="false"
+          maxlength="10239"
+        ></textarea>
+        <button id="journalDone" class="originalButton" type="button">Done</button>
+      </section>
+      <div id="gameMenu" role="menu" hidden>
+        <button role="menuitem" id="seeJournal">
+          See Journal &amp; Outfit <span>Ctrl+J</span>
+        </button>
+        <hr />
+        <button role="menuitem" disabled>✓ Sound Effects</button>
+        <button role="menuitem" disabled>✓ Music</button>
+        <hr />
+        <button role="menuitem" disabled>Reading Speed...</button>
+        <button role="menuitem" disabled>✓ Speech</button>
+        <button role="menuitem" disabled>✓ Show Speech Balloons</button>
+        <hr />
+        <button role="menuitem" disabled>Time Out</button>
+        <hr />
+        <button role="menuitem" disabled>High Score List</button>
+      </div>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
 </html>
