@@ -11,6 +11,11 @@ retain earlier check counts; the latest checkpoint supersedes their pending work
 
 ## Latest implementation checkpoint
 
+- 2026-10-14 tooling: Prettier formatting for `web/**/*.{ts,html,css}` with a
+  `pretty-quick --staged` pre-commit hook via `simple-git-hooks`; `.prettierignore`
+  limits it to `web/`. See RUNTIME-DECISION.md (formatting revision). Layout-only
+  change; `bun run typecheck` and `bun run test` rerun after the reformat.
+
 - 2026-10-14: converted the web port to TypeScript and Vite at the owner's
   request. All `web/**/*.mjs` and `tests/*.mjs` are now `.ts` (git renames);
   rule modules carry interfaces for recovered vocabularies/state/buffers and

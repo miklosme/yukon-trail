@@ -110,3 +110,21 @@ and Node 26.0.0, and the eight checks that take local prepared inputs (TREE
 graphs, opening journal, Linda journal, voices, cached frames, population,
 purchase, saves) plus the pinned-emulator contract check pass. Types do not add
 fidelity evidence; no browser execution was verified in this revision.
+
+## Revision 2026-10-14: automatic formatting for the web port
+
+At the owner's direction the repository adopts Prettier for `web/**/*.{ts,html,css}`,
+mirroring the owner's setup in another project: Prettier options live in
+`package.json` (print width 100, single quotes, trailing commas, no semicolons,
+`prettier-plugin-organize-imports` with destructive code actions disabled), `bun run
+format` rewrites the web port, `bun run format:check` verifies it, and
+`simple-git-hooks` installs a pre-commit hook that runs `pretty-quick --staged`.
+`.prettierignore` excludes everything outside `web/`, so the oracle scripts in
+`tests/`, the Python tooling, documentation and fixtures are never rewritten.
+
+Dev dependencies added: prettier, prettier-plugin-organize-imports, pretty-quick,
+simple-git-hooks. Reason: consistent layout for the growing typed port without a
+hand-maintained style guide. Cost accepted: four tooling packages and a `prepare`
+script that installs the hook on `bun install` (`SKIP_SIMPLE_GIT_HOOKS=1` bypasses
+it). Formatting is layout only; it does not change rules, timing or behaviour, and
+the typecheck and oracle checks were rerun after the initial reformat.

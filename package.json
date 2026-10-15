@@ -7,11 +7,32 @@
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json && tsc -p tests/tsconfig.json",
-    "test": "bun tests/run-oracles.ts"
+    "test": "bun tests/run-oracles.ts",
+    "format": "prettier --write \"web/**/*.{ts,html,css}\"",
+    "format:check": "prettier --check \"web/**/*.{ts,html,css}\"",
+    "prepare": "simple-git-hooks || true"
   },
   "devDependencies": {
     "@types/bun": "^1.4.3",
+    "prettier": "^3.9.10",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "pretty-quick": "^4.2.2",
+    "simple-git-hooks": "^2.14.0",
     "typescript": "^7.0.2",
     "vite": "^8.3.4"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bunx pretty-quick --staged"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "semi": false,
+    "organizeImportsSkipDestructiveCodeActions": true,
+    "plugins": [
+      "prettier-plugin-organize-imports"
+    ]
   }
 }

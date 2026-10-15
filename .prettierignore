@@ -1,0 +1,8 @@
+# Prettier scope guard: automatic formatting covers the web port only.
+#
+# `bun run format` and the pre-commit hook (`pretty-quick --staged`) both read
+# this file. Everything outside web/ is excluded so that the oracle scripts in
+# tests/, the Python tooling, documentation and recovered fixtures are never
+# rewritten by the formatter.
+/*
+!/web
